@@ -1,5 +1,5 @@
 site_name: GOKb - Global Open Knowledgebase
-copyright: Copyright &copy; GOKb 2014 - GOKb
+copyright: Copyright &copy; GOKb 2014 - 
 use_directory_urls: false
 theme:
   name: material
@@ -23,7 +23,9 @@ plugins:
           Contact: Kontakt
           Get involved: Beteiligen Sie sich
           Documentation: Dokumentation
+          Imprint: Impressum
           Presentations: Präsentationen
+          Privacy Policy: Datenschutzerklärung
           Publications: Publikationen
   - search
   - localsearch
@@ -39,7 +41,10 @@ nav:
   - Presentations: presentations.md
   - Publications: publications.md
   - Get involved: get-involved.md
-  - Contact: contact.md
+  - Contact: 
+    - Contact: contact/contact.md
+    - Imprint: contact/imprint.md
+    - Privacy Policy: contact/privacypolicy.md
 extra:
   generator: false
   social:
