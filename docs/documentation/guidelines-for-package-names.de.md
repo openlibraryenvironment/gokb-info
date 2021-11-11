@@ -1,4 +1,4 @@
-# Richtlinie für Paketnamen
+# Richtlinien für Paketnamen
 
 Paketnamen in der GOKb sollen einen eindeutigen Hinweis auf das Paket geben, sodass dieses von anderen oder ähnlichen Paketen unterschieden werden kann. Dazu orientiert sich das Namensschema am Schema für die Benennung von KBART-Dateien.
 

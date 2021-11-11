@@ -1,5 +1,5 @@
 site_name: GOKb - Global Open Knowledgebase
-copyright: Copyright &copy; GOKb 2014 - 
+copyright: Copyright &copy; GOKb 2014 -
 use_directory_urls: false
 theme:
   name: material
@@ -27,6 +27,11 @@ plugins:
           Presentations: Präsentationen
           Privacy Policy: Datenschutzerklärung
           Publications: Publikationen
+          KBART introduction: Einführung in KBART
+          Registration and login: Registrierung und Anmeldung
+          Create and edit provider: Anlegen und Pflege von Anbietern
+          Create and edit packages: Anlegen und Pflege von Paketen
+          Guidelines for package names: Richtlinien für Paketnamen
   - search
   - localsearch
 nav:
@@ -42,7 +47,7 @@ nav:
   - Publications: publications.md
   - Releases: releases.md
   - Get involved: get-involved.md
-  - Contact: 
+  - Contact:
     - Contact: contact/contact.md
     - Imprint: contact/imprint.md
     - Privacy Policy: contact/privacypolicy.md

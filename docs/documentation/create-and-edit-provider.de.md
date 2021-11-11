@@ -32,11 +32,14 @@ Tragen Sie hier folgende Daten ein:
 
 In den folgenden Bereichen "Weitere Namensformen", "Identifkatoren", "Plattformen" und "Kuratorengruppen" können Sie weitere Daten zum Anbieter eintragen. Diese Bereiche haben eine einheitliche Benutzung:
 
-+   Wählen Sie ggf. das "Winkel-Icon" neben dem Bereichsnamen an (z.B. "Weitere Namensformen"), um den Bereich ein- oder auszuklappen.
-+   Wählen Sie bei jedem folgenden Bereichen "Hinzufügen", um über einen Dialog die entsprechenden Daten einzutragen.
++   Wählen Sie ggf. das Winkel-Icon neben dem Bereichsnamen an (z.B. "Weitere Namensformen"), 
+um den Bereich ein- oder auszuklappen.
++   Wählen Sie bei jedem folgenden Bereichen "Hinzufügen", um über 
+einen Dialog die entsprechenden Daten einzutragen.
 +   Sie können Daten löschen, indem Sie
-    *   entweder einzelne Zeilen über die Checkbox zu Beginn der Zeile markieren und dann im Bereichskopf den Button "Löschen" betätigen.
-    *   oder am Ende jeder Zeile das "Papierkorb-Icon" anwählen.
+    *   entweder einzelne Zeilen über die Checkbox zu Beginn der Zeile 
+    markieren und dann im Bereichskopf den Button "Löschen" betätigen.
+    *   oder am Ende jeder Zeile das Papierkorb-Icon anwählen.
 
 Detailliert können Sie hier folgende Daten anlegen: 
 

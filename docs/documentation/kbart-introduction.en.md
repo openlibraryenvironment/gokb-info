@@ -9,7 +9,7 @@ KBART stands for "Knowledge Base And Related Tools".
     * Transmission of inventory information / holdings data from a provider for knowledge bases of link resolvers, ERM systems or discovery interfaces.
     * Data exchange: "KBART is on data exchange among and between knowledge bases" (see [KBART: Knowledge Bases and Related Tools](https://www.uksg.org/sites/uksg.org/files/KBART_Phase_I_Recommended_Practice.pdf))
 + Improvement of data quality exchanged between providers and knowledge bases.
-* Complement or replacement of existing metadata formats like ONIX-SOH.
+* Complement of existing metadata formats like ONIX-SOH.
 
 ## Links
 
@@ -28,7 +28,7 @@ KBART stands for "Knowledge Base And Related Tools".
 {ProviderName}_{Region/Consortia}_{PackageName}_{YYYY-MM-DD}.txt
 ```
 
-+ ProviderName: Short name of the provider, e.g. Herdt, Springer, Emerald
++ ProviderName: Short name of the provider, e.g. Herdt, Springer, Emerald.
 + Region/Consortium: Scope of the package.
     * Region: If the package is only offered in one country or other regionally definable area, the country or region should be noted here. Example: Springer_Asia-Pacific_Medicine_2013-01-28.txt
     * Consortia: If the package is tailored for a consortia, that should be noted here. Example: IOP_NESLi2_Option1-2011_2012-05-31.txt

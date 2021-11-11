@@ -1,14 +1,22 @@
 # GOKb - Global Open Knowledgebase
 
-The Global Open Knowledgebase (GOKb) is a community-managed, open data platform that provides information about electronic resources. We encourage anyone with an interest in the project to register and explore the service. Click [https://gokb.org/gokb-ui/](https://gokb.org/gokb-ui/ "Login / Register") to log in or register for a new account.
+The Global Open Knowledgebase (GOKb) is a community-managed, open data platform that provides 
+information about electronic resources. We encourage anyone with an interest in the project 
+to register and explore the service. Click [here](https://gokb.org/gokb-ui/ "Login / Register") to 
+log in or register for a new account.
 
 ## Open
 
-All of the data provided by GOKb is made available under the [CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/ "CC0 1.0 Public Domain Dedication"), making it free for reuse by anyone, for any purpose, without attribution. The data can be accessed via web application or API.
+All of the data provided by GOKb is made available under the 
+[CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/ "CC0 1.0 Public Domain Dedication"), 
+making it free for reuse by anyone, for any purpose, without attribution. 
+The data can be accessed via web application or API.
 
 ## Enhanced
 
-GOKb’s metadata includes core components such as titles, packages, holdings, platforms, and organizations. An enhanced data model supports changes over time and provides transparency regarding data provenance and currency.
+GOKb’s metadata includes core components such as titles, packages, 
+holdings, platforms, and organizations. An enhanced data model supports 
+changes over time and provides transparency regarding data provenance and currency.
 
 ## Community-Managed
 

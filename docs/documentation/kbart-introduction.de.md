@@ -5,11 +5,11 @@ Die Abkürzung KBART steht für "Knowledge Base And Related Tools".
 ## Ziele
 
 +  NISO-"Best Practice" für die
-    *   Übermittlung von Titellisten von vom Provider angebotenen Titel in einer Paketzusammenstellung
-    *   Übermittlung von Bestandsinformationen / Holdings Data vom Provider an Knowledge Bases zum Einsatz beispielsweise in Link Resolvern (OpenURL)
-    *   Austausch von KBs untereinander: "KBART is on data exchange among and between knowledge bases" 
-+   soll die Qualität der von Providern an Knowledge Bases gelieferten Daten verbessern
-+   Soll bisherige Metadatenformate von Providern wie ONIX-SOH ergänzen
+    *   Übermittlung von Titellisten von vom Provider angebotenen Titel in einer Paketzusammenstellung.
+    *   Übermittlung von Bestandsinformationen / Holdings Data vom Provider an Knowledge Bases zum Einsatz beispielsweise in Link Resolvern (OpenURL).
+    *   Austausch von KBs untereinander: "KBART is on data exchange among and between knowledge bases".
++   soll die Qualität der von Providern an Knowledge Bases gelieferten Daten verbessern.
++   Soll bisherige Metadatenformate von Providern wie ONIX-SOH ergänzen.
 
 ## Links
 
@@ -28,15 +28,15 @@ Die Abkürzung KBART steht für "Knowledge Base And Related Tools".
 {ProviderName}_{Region/Consortia}_{PackageName}_{YYYY-MM-DD}.txt
 ```
 
-+ **ProviderName:** Verständlicher Kurzname des Anbieters, z.B. Herdt, Springer, Emerald  
-+ **Region/Consortia:** Geltungsbereich des Pakets
-    * Region: Wenn das Paket nur in einem Land oder einem anderen regional abgrenzbaren Bereich angeboten wird, sollte das Land bzw. die Region hier vermerkt werden. Beispiel: `Springer_Asia-Pacific_Medicine_2013-01-28.txt`
++ **ProviderName:** Verständlicher Kurzname des Anbieters, z.B. Herdt, Springer, Emerald  .
++ **Region/Consortia:** Geltungsbereich des Pakets.
+    * Region: Wenn das Paket nur in einem Land oder einem anderen regional abgrenzbaren Bereich angeboten wird, sollte das Land bzw. die Region hier vermerkt werden. Beispiel: `Springer_Asia-Pacific_Medicine_2013-01-28.txt`.
     * Consortia: Wenn das Paket in dieser Zusammenstellung nur für ein Konsortium gilt, sollte das hier vermerkt werden. Beispiel: `IOP_NESLi2_Option1-2011_2012-05-31.txt`.
-    * enn das Paket universell angeboten wird, d.h. keiner vorher gemachten Einschränkung unterliegt, sollte "global" vermerkt werden. Beispiel: `TaylorandFrancis_Global_AllTitles_2012-08-30.txt`
-+ **PackageName:** Eindeutiger Name des Pakets  
-    *   Eindeutiger Name des Pakets bzw. anbieterseitig eindeutige Kurzbezeichnung des Pakets
-    *   Wenn es sich um keinen spezifischen Namen des Pakets handelt, sondern um eine Gesamttitelliste, sollte "AllTitles" vermerkt werden bzw. "AllJournals". Beispiel: `TaylorandFrancis_Global_AllTitles_2012-08-30.txt`
-+ **YYYY-MM-DD:** Datum der KBART-Datei im ISO-8601-Format
+    * enn das Paket universell angeboten wird, d.h. keiner vorher gemachten Einschränkung unterliegt, sollte "global" vermerkt werden. Beispiel: `TaylorandFrancis_Global_AllTitles_2012-08-30.txt`.
++ **PackageName:** Eindeutiger Name des Pakets.  
+    *   Eindeutiger Name des Pakets bzw. anbieterseitig eindeutige Kurzbezeichnung des Pakets.
+    *   Wenn es sich um keinen spezifischen Namen des Pakets handelt, sondern um eine Gesamttitelliste, sollte "AllTitles" vermerkt werden bzw. "AllJournals". Beispiel: `TaylorandFrancis_Global_AllTitles_2012-08-30.txt`.
++ **YYYY-MM-DD:** Datum der KBART-Datei im ISO-8601-Format.
 
 ## Dateiinhalt
 
@@ -84,7 +84,7 @@ See [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: KBA
 
 |Feldbezeichnung|Beschreibung|Serial/Monograph|
 |----------|-----------|----------------|
-|zdb_id|Titel-ID von der Zeitschriftendatenbank|S|
+|zdb_id|Titel-ID der Zeitschriftendatenbank|S|
 |last_changed|Datum der letzten Änderung des Datensatzes|S/M|  
 |access_start_date|Das Datum, an dem der Titel dem Paket beigetreten ist. Datum des frühestmöglichen Zugriffs im Rahmen des Pakets|S/M|
 |access_end_date|Das Datum, an dem der Titel das Paket verlassen hat. Datum des letztmöglichen Zugriffs im Rahmen des Pakets|S/M|

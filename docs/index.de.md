@@ -1,6 +1,9 @@
 # GOKb - Global Open Knowledgebase
 
-Die Global Open Knowledgebase (GOKb) ist eine kooperativ betriebene, offene Datenplattform, die Informationen über elektronische Ressourcen bereitstellt. Wir ermutigen jeden, der Interesse an dem Projekt hat, sich zu registrieren und den Dienst zu erkunden. Klicken Sie auf den unten stehenden Link, um sich anzumelden oder ein neues Konto zu erstellen.
+Die Global Open Knowledgebase (GOKb) ist eine kooperativ betriebene, offene Datenplattform, 
+die Informationen über elektronische Ressourcen bereitstellt. Wir ermutigen jeden, 
+der Interesse an dem Projekt hat, sich zu registrieren und den Dienst zu erkunden. Klicken Sie 
+[hier](https://gokb.org/gokb-ui/ "Login / Register"), um sich anzumelden oder ein neues Konto zu erstellen.
 
 ## Offen
 
