@@ -1,12 +1,33 @@
 # News
 
+## New Release 1.1
+
+*November 18, 2021*
+GOKb-version 1.1 was published. For this version the import routines were 
+significantly updated and optimised and now run much smoother. The colour 
+scheme of the graphic interface was also redesigned. Please find the release 
+notes [here](./releases.md "GOKb Release Notes").
+
 ## GOKb & Folio: data flow
 
 *October 6, 2021*
 
-In Germany the GOKb has central role for the management of electronic resource packages. It provides data to national union catalogues like EZB & ZDB, but also to local library systems like Folio:
+In Germany the GOKb has central role for the management of electronic resource packages. 
+It provides data to national union catalogues like EZB & ZDB, but also to local library systems like Folio:
 
 ![German Folio libraries data flow](assets/gokb-data-flow.png "German Folio libraries data flow")
+
+## New User Interface
+
+*September 1, 2020*
+The GOKb has a new user interface! Based on a concept jointly developed with our users 
+we have newly coded the interfacec using modern technologies (Vue.js). The main focus of 
+this redesign was improved user guidance and the reduction of complexity. The import of 
+package data is now realised in four easy steps. Redundant features were eliminated and 
+the management of provider and platform data was also streamlined.
+
+The GOKb system running in the background remains the same, so that legacy data will 
+be preserved. The old interfaces will from now on not be supported anymore.
 
 ## Enhanced Import Client
 
