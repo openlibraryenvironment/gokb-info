@@ -109,7 +109,7 @@ The creation and editing of packages is done via web forms.
 
 Add some general information for the package like name, provider and platform.
 
-![GOKb edit package](../assets/edit-package-1.png "GOKb edit package")
+![GOKb create package](../assets/create-package-1.png "GOKb create package")
 
 + **Name:** The official name of the package under which it is offered according to 
 the provider. If you want to add data to an existing package, enter the exact name 
@@ -130,7 +130,7 @@ Finish this step by selecting the "Next" button.
 
 Add information about the package, identifiers, name and variants.
 
-![GOKb edit package](../assets/edit-package-2.png "GOKb edit package")
+![GOKb create package](../assets/create-package-2.png "GOKb create package")
 
 + **Package type:** specify the package type
     * _Front File:_ a current package
@@ -161,7 +161,7 @@ Finish this step by selecting the "Next" button.
 
 Overview of titles within a package.
 
-![GOKb edit package](../assets/edit-package-3.png "GOKb edit package")
+![GOKb create package](../assets/create-package-3.png "GOKb create package")
 
 + You can search for titles using the search field in header.
 + You can filter titles using the "Status" selection drop-down menu, 
@@ -208,4 +208,4 @@ file. For updates of the package this is important, please specify the correct n
 
 Summary of the selected settings. Your selected curatory group will be added automatically. 
 
-![GOKb edit package](../assets/edit-package-4.png "GOKb edit package")
+![GOKb create package](../assets/create-package-4.png "GOKb create package")

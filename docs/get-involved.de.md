@@ -16,7 +16,7 @@ GOKb durch Beiträge oder finanzielle Unterstützung zu unterstützen.
 - Daten teilen und verbessern
 
 GOKb zielt darauf ab, die Metadaten elektronischer Ressourcen für die gesamte
-gesamten Bibliotheksgemeinschaft zugänglich zu machen. Zweimal finanziert von der Andrew W. Mellon
+gesamten Bibliotheksgemeinschaft zugänglich zu machen. Zweimal von der Andrew W. Mellon
 Foundation finanziert, ist GOKb Teil des Wandels der wissenschaftlichen
 Kommunikation zu einem offenen, kollaborativen Modell, das das Potenzial hat, einen
 einen effizienteren Datenfluss in der gesamten Wertschöpfungskette zu unterstützen. Als ein offenes
@@ -38,5 +38,5 @@ Interoperabilität zwischen den Diensten zu fördern.
 Wie kann ich mich beteiligen?
 
 - Werden Sie ein freiwilliger Datenmanager. Stellen Sie Ihre Zeit und Ihr Fachwissen zur Verfügung indem Sie an Datenlade- und Datenverbesserungsprojekten teilnehmen.
-- Eine kostenlose Partnerschaft ist für jede Organisation möglich, die bereit ist die bereit sind, sich an der Erstellung und Pflege von Daten in der GOKb zu beteiligen.
+- Eine kostenlose Partnerschaft ist für jede Organisation möglich, die bereit ist, sich an der Erstellung und Pflege von Daten in der GOKb zu beteiligen.
 - Für weitere Informationen über Freiwilligen- und Partnerschaftsmöglichkeiten kontaktieren Sie Johann Rolschewski unter [johann.rolschewski\_at\_sbb.spk-berlin.de](mailto:johann.rolschewski@sbb.spk-berlin.de).

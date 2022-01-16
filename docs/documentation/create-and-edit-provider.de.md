@@ -20,9 +20,9 @@ Sie legen einen Anbieter über den Menüpunkt "Anbieter anlegen" an. Prüfen Sie
 
 ### Bearbeiten eines Anbieters
 
-Sie gelangen über die Anbietersuche (siehe Anleitung) und Auswahl des entsprechenden Anbieters in der Ergebnisliste auf die Maske "Anbieter bearbeiten".
-
-![GOKB edit provider](../assets/create-provider.de.png "GOKB Anbieter anlegen")
+Sie gelangen über die Anbietersuche (siehe Anleitung) und Auswahl des entsprechenden Anbieters 
+in der Ergebnisliste auf die Maske "Anbieter bearbeiten". Diese Sicht entspricht der Sicht 
+"Anbieter anlegen"
 
 Tragen Sie hier folgende Daten ein:
 

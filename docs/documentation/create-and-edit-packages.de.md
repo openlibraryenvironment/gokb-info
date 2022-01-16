@@ -117,7 +117,7 @@ erscheint bei "Paket anlegen" als Schritt 1, bei "Paket bearbeiten" als letzter 
 
 Hier können Sie die allgemeinen Daten zum Paket wie den Namen, Anbieter und die Plattform eintragen.
 
-![GOKb edit package](../assets/edit-package-1.de.png "GOKb Paket bearbeiten")
+![GOKb create package](../assets/create-package-1.de.png "GOKb Paket erstellen")
 
 + **Name:** Der offizielle Name des Pakets, unter dem es laut Anbieter angeboten wird. Falls 
 Sie Daten auf ein schon existierendes Paket spielen wollen, müssen Sie hier den genau den Namen 
@@ -135,15 +135,15 @@ der Plattform-URL eingeben. Eine Anleitung zum Anlegen des Plattform finden Sie
 
 Beenden Sie die Eingabe mit Anwahl des Buttons "Weiter".
 
-## Step 2: Paketeigenschaften
+## Schritt 2: Paketeigenschaften
 
-In diesem Schritt können Sie Anbieter, Identifikatoren, Plattformen und Kuratorengruppen festlegen.
+In diesem Schritt können Sie weitere Paketeigenschaften sowie Identifikatoren und Namensvarianten festhalten.
 
-![GOKb edit package](../assets/edit-package-2.de.png "GOKb Paket bearbeiten")
+![GOKb create package](../assets/create-package-2.de.png "GOKb Paket erstellen")
 
 + **Pakettyp:** Hier können Sie festlegen, um was für ein Paket es sich handelt
     * _Laufendes Paket (Front File):_ Ein aktuelles Paket
-    * _Archipaket (Back File):_ Ein Archivpaket
+    * _Archivpaket (Back File):_ Ein Archivpaket
     * _Aggregator-Paket_
     * _Gesamttitelliste (Master File):_ Eine Gesamtliste aller angebotenen Ressourcen eines Anbieters
 + **Eingrenzung:** Hier können Sie festlegen, ob es sich um ein global angebotenes Paket handelt 
@@ -172,11 +172,11 @@ Namensform enthalten sind. Namensformen, die hier eingetragen werden, können be
 
 Beenden Sie die Eingabe mit Anwahl des Buttons "Weiter".
 
-## Step 3: Pakettitel
+## Schritt 3: Pakettitel
 
 Hier sehen Sie eine Übersicht der im Paket enthaltenen Titel.
 
-![GOKb edit package](../assets/edit-package-3.de.png "GOKb Paket bearbeiten")
+![GOKb create package](../assets/create-package-3.de.png "GOKb Paket erstellen")
 
 + Sie können über das Suchfeld im Tabellenkopf nach einzelnen Titeln suchen.
 + Sie können Pakettitel über die Auswahl "Status" filtern und sich beispielsweise nur 
@@ -246,5 +246,5 @@ Für spätere korrekte Aktualisierungen des Pakets ist es wichtig, dass diese Nu
 Hier finden Sie eine Zusammenfassung der gewählten Einstellungen. Ihre präferierte Kuratorengruppe 
 wird automatisch hinzugefügt.
 
-![GOKb edit package](../assets/edit-package-4.png "GOKb Paket bearbeiten")
+![GOKb create package](../assets/create-package-4.png "GOKb Paket erstellen")
 

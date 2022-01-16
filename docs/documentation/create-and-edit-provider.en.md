@@ -16,7 +16,7 @@ You can create and edit provider data via web forms.
 Create a provider via the menu item "Create provider". Before creating a new provider, 
 please check if it already exists, to avoid duplicate entries in the database.
 
-[[/images/create-provider.png|GOKB create provider]]
+![GOKB create provider](../assets/create-provider.png "GOKB create provider")
 
 ### Edit provider
 

@@ -1,3 +1,9 @@
+# Release 1.1.1
+_Veröffentlicht am 12. Januar 2022_
+
+Prüfanfragen können jetzt als Bulk geschlossen werden. Dadurch vereinfacht sich das Schließen rein
+informativer Prüfanfragen.
+
 # Release 1.1
 
 Released on _2021 November 11_

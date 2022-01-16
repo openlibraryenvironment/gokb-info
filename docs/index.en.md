@@ -4,7 +4,7 @@ The Global Open Knowledgebase (GOKb) is a community-managed, open data platform 
 information about electronic resources. We encourage anyone with an interest in the project 
 to register and explore the service. 
 
-[Go to GOKb](https://gokb.org/gokb-ui/ "GOKb").
+[Go to GOKb](https://gokb.org/gokb-ui/ "GOKb")
 
 ## Open
 

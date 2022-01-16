@@ -23,7 +23,9 @@ Die GOKb-Admins werden sich mit Ihnen in Verbindung setzen, sobald das Konto ein
 
 ## Anmelden
 
-Rufen Sie die GOKb über die URL [https://gokb.org/gokb-ui/](https://gokb.org/gokb-ui/ "Login") auf. Klicken Sie oben rechts auf das Personenicon und wählen Sie Login zum Anmelden. Geben Sie dort Benutzername und Passwort ein.
+Rufen Sie die GOKb über die URL [https://gokb.org/gokb-ui/](https://gokb.org/gokb-ui/ "Login") auf. 
+Klicken Sie oben rechts auf das Personenicon und wählen Sie "Login" zum Anmelden. 
+Geben Sie dort Benutzername und Passwort ein.
 
 ![GOKB login page](../assets/login.de.png "GOKB login page")
 

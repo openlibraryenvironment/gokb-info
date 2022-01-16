@@ -12,6 +12,8 @@ theme:
   custom_dir: theme
 extra_css:
   - stylesheets/extra.css
+markdown_extensions:
+  - toc:
 plugins:
   - i18n:
       default_language: en
@@ -31,6 +33,7 @@ plugins:
           Registration and login: Registrierung und Anmeldung
           Create and edit provider: Anlegen und Pflege von Anbietern
           Create and edit packages: Anlegen und Pflege von Paketen
+          Working with review requests: Arbeiten mit Prüfanfragen
           Guidelines for package names: Richtlinien für Paketnamen
   - search
   - localsearch
@@ -42,6 +45,7 @@ nav:
     - Registration and login: documentation/registration-and-login.md
     - Create and edit provider: documentation/create-and-edit-provider.md
     - Create and edit packages: documentation/create-and-edit-packages.md
+    - Working with review requests: documentation/review-requests.md
     - Guidelines for package names: documentation/guidelines-for-package-names.md
   - Presentations: presentations.md
   - Publications: publications.md
