@@ -211,12 +211,13 @@ muss die KBART-Datei überarbeitet und erneute hochgeladen werden.
 +   **URL:** Geben Sie hier die URL ein, unter der die KBART-Datei zu finden ist. Die URL muss direkt 
 auf die KBART-Datei verlinken, nicht ggf. auf eine vorgelagerte Auswahlseite. Ist die KBART-Datei 
 unter einer zeitlich veränderbaren URL zu finden (z.B. das fiktive Beispiel 
-_http://kbart/2020/10/MeinPaket_2020-10-01.txt_, müssen Sie die zeitlich variablen Felder in 
-folgender Form codieren (In unserem Beispiel: _http://kbart/{yyyy}/{mm}/MeinPaket\_{yyyy-mm-dd}.txt_):
+_http://kbart/MeinPaket_2020-10-01.txt_, müssen Sie die zeitlich variablen Felder in 
+folgender Form codieren (In unserem Beispiel: _http://kbart/MeinPaket\_{YYYY-MM-DD}.txt_). Achten Sie
+dabei darauf, die Platzhalter in Großbuchstaben zu setzen:
     *   Runde Klammern {} für den zeitlich variablen Teil
-    *   y für die Stellen der Jahreszahl
-    *   m für die Stellen der Monatszahl
-    *   d für die Stellen der Tageszahl
+    *   Y für die Stellen der Jahreszahl
+    *   M für die Stellen der Monatszahl
+    *   D für die Stellen der Tageszahl
 +   **Namensraum für `title_id`:** Wählen Sie bitte den Namensraum des Identifikators, der sich in 
 der Datei unter der Spalte `title_id` befindet.  
 +   **Aktualisierungszyklus:** Aktualisierungsturnus des Pakets. Geben Sie unter Turnus eine Zahl ein 
