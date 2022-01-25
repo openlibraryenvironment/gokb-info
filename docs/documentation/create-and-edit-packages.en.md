@@ -191,11 +191,12 @@ corrected manually and reloaded.
 #### 2. Automatic loading of a KBART file via URL
 
 + **URL:** URL of the KBART file. The URL must link directly to the KBART file. If the 
-URL contains dates (e.g., http://example.org/kbart/2020/10/examplepackage_2020-10-01.txt), 
-you must add the path parameter as variables (http://example.org/kbart/{yyyy}/{mm}/examplepackage_{yyyy-mm-dd}.txt):
-    * "y" for the digits of the year
-    * "m" for the digits of the month number
-    * "d" for the digits of the day number
+URL contains dates (e.g., http://example.org/kbart/examplepackage_2020-10-01.txt), 
+you must add the path parameter as variables (http://example.org/kbart/examplepackage_{YYYY-MM-DD}.txt). The variables 
+have to be capitals, lower case letters won't work:
+    * "Y" for the digits of the year
+    * "M" for the digits of the month number
+    * "D" for the digits of the day number
 + **Namespace:** Please select the namespace of the identifier, see [instruction](./create-and-edit-packages.md).
 + **Update cycle:** The timespan package for updates.
 
