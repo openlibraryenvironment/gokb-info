@@ -15,7 +15,7 @@ Ust-IdNr: DE815123124
 Rechtsform
 Landesbetrieb des Landes Niedersachsen § 26 LHO. Die VZG ist ein rechtlich unselbständiger nachgeordneter Teil der Landesverwaltung des Landes Niedersachsen mit Sitz in Göttingen. Die Dienst- und Rechtsaufsicht wird vom Niedersächsischen Ministerium für Wissenschaft und Kultur, Hannover ausgeübt.
 
-# Projekt-Partner
+## Projekt-Partner
 
 Maike Osters
 
