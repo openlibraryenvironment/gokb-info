@@ -1,3 +1,55 @@
+# Release 1.2
+_Veröffentlicht am 18. März 2022_
+
+## Differenzierung von Paketkuratierung und Titelredaktion
+Die GOkb schafft Mehrwerte für verschiedene Nutzungsszenarien: Für die Erwerbung einerseits und den Datenfluss in 
+Nachweissysteme andererseits. Um diesen unterschiedlichen Szenarien gerecht zu werden, sind Paket- und 
+Referenztitelebene in der GOKb getrennt, aber verknüpft. Um die Verwaltung der beiden Ebenen zu erleichtern, 
+können Kuratierungsgruppen jetzt entsprechend ihrer Möglichkeiten und Interessen als Paketkuratierung, als 
+Titelredaktion oder, wie bisher, beiden Bereichen zugeordnet werden. Beispielsweise kann die Erwerbungsabteilung 
+einer Einrichtung die Paketkuratierung übernehmen, während die Katalogisierungsabteilung die Titelredaktion 
+übernimmt. Eine Zuordnung erfolgt durch das GOKb-Team und kann über _info_at_gokb.org_ oder _gokb_at_hbz-nrw.de_ 
+angefragt werden. Es sollte zudem eine zugehörige Titelredaktionsgruppe genannt werden, da ansonsten eine Lücke 
+in der Korrektur und Verwaltung der zugehörigen Titel entsteht.
+
+## Eskalationsmöglichkeit für Prüfanfragen
+Die Kuratorengruppen für Paketkuratierung erhalten die Möglichkeit, Prüfanfragen über einen Buttonan eine ihnen zugeordnete
+Titelredaktionsgruppe zu eskalieren. So kann eine Frage, die über das Arbeitsgebiet von z.B. Erwerbungsabteilungen
+hinausreicht, die zuständige Titelredaktion diese klären. Für Titelredaktionen ist dieselbe Funktion für die Eskalation
+von Prüfanfragen zu Zeitschriften an die ZDB möglich. 
+
+## EZB-Anreicherung
+
+Zeitschriften als Referenztitel werden nun automatisiert dem Titelidentifikator EZB-ID der EZB (Elektronische 
+Zeitschriftenbibliothek) angereichert. Dadurch kann eine Referenzierung von Zeitschriftentiteln in anderen Systemen, 
+die mit der EZB arbeiten, eindeutiger und eiffizienter erfolgen. Sobald in der GOKb ein neuer 
+Zeitschriftentitel angelegt wird, beispielsweise durch die Einspielung eines Pakets, wird im 
+Hintergrund eine Anfrage an die EZB gesendet. Kann ein Zeitschriftentitel eindeutig gefunden werden, 
+wird die entsprechende ID aus der EZB angehängt. Die bisherige Anreicherung über das Anhaken von "EZB" 
+während der Paketeinspielung entfällt. 
+
+## Verbesserte KBART-Validierung
+Die Validierung hochgeladener KBART-Dateien wurde verbessert, sodass jetzt mehr Fehler der Datei abgefangen 
+werden und die Rückmeldung an die Nutzer*innen klarer verständlich ist. 
+
+## Entfernung der globalen Suche
+Die Kopfleiste für die globale Suche wurde entfernt. Es hat sich herausgestellt, dass bei zu vielen Treffern 
+auf eine Suche die Darstellung zu verkürzt und nutzerunfreundlich ist. Die Überarbeitung der globalen Suche ist
+ein Ziel des nächsten Releases 1.3. 
+
+## Update-Verhalten von KBART-Datensätzen in Paketen 
+Damit Paket-Updates durch KBART-Dateien sauberer und fehlerfreien durchlaufen, ist das Verfahren zum Abgleich 
+mit schon vorhandenen Pakettiteln verbessert worden. Wenn sich nur ein relevanter Identifikator unterscheidet, 
+wird ein neuer Pakettitel angelegt (Bei Zeitschriften: proprietäre Titel-ID im Feld _title_id_, ZDB-ID, eISSN, 
+DOI, Print-ISSN; bei Monographien: proprietäre Titel-ID im Feld _title_id_, ISBN der Online-Ausgabe, DOI). 
+Damit ist eine falsche Zuordnung praktisch ausgeschlossen. Leere Identifikatoren werden ignoriert, sodass diese
+nachträglich hinzugefügt werden können, ohne dass eine falsche Zuordnung stattfindet.
+
+## Vollständige Übersicht über Änderungen
+Eine Gesamtübersicht über alle Neuerungen finden Sie im
+[Github-Repo der GOKb](https://github.com/openlibraryenvironment/gokb/releases/tag/v8.21.0).
+
+
 # Release 1.1.1
 _Veröffentlicht am 12. Januar 2022_
 
