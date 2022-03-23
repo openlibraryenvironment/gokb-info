@@ -13,7 +13,7 @@ angefragt werden. Es sollte zudem eine zugehörige Titelredaktionsgruppe genannt
 in der Korrektur und Verwaltung der zugehörigen Titel entsteht.
 
 ## Eskalationsmöglichkeit für Prüfanfragen
-Die Kuratorengruppen für Paketkuratierung erhalten die Möglichkeit, Prüfanfragen über einen Buttonan eine ihnen zugeordnete
+Die Kuratorengruppen für Paketkuratierung erhalten die Möglichkeit, Prüfanfragen über einen Button an eine ihnen zugeordnete
 Titelredaktionsgruppe zu eskalieren. So kann eine Frage, die über das Arbeitsgebiet von z.B. Erwerbungsabteilungen
 hinausreicht, die zuständige Titelredaktion diese klären. Für Titelredaktionen ist dieselbe Funktion für die Eskalation
 von Prüfanfragen zu Zeitschriften an die ZDB möglich. 
@@ -38,8 +38,8 @@ auf eine Suche die Darstellung zu verkürzt und nutzerunfreundlich ist. Die Übe
 ein Ziel des nächsten Releases 1.3. 
 
 ## Update-Verhalten von KBART-Datensätzen in Paketen 
-Damit Paket-Updates durch KBART-Dateien sauberer und fehlerfreien durchlaufen, ist das Verfahren zum Abgleich 
-mit schon vorhandenen Pakettiteln verbessert worden. Wenn sich nur ein relevanter Identifikator unterscheidet, 
+Damit Paket-Updates durch KBART-Dateien sauberer und fehlerfreier durchlaufen, ist das Verfahren zum Abgleich 
+mit schon vorhandenen Pakettiteln verbessert worden. Unterscheidet sich nur ein relevanter Identifikator 
 wird ein neuer Pakettitel angelegt (Bei Zeitschriften: proprietäre Titel-ID im Feld _title_id_, ZDB-ID, eISSN, 
 DOI, Print-ISSN; bei Monographien: proprietäre Titel-ID im Feld _title_id_, ISBN der Online-Ausgabe, DOI). 
 Damit ist eine falsche Zuordnung praktisch ausgeschlossen. Leere Identifikatoren werden ignoriert, sodass diese
