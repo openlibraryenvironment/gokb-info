@@ -41,7 +41,7 @@ ein Ziel des nächsten Releases 1.3.
 Damit Paket-Updates durch KBART-Dateien sauberer und fehlerfreien durchlaufen, ist das Verfahren zum Abgleich
 mit schon vorhandenen Pakettiteln verbessert worden. Wenn sich nur ein relevanter Identifikator unterscheidet,
 wird ein neuer Pakettitel angelegt (Bei Zeitschriften: proprietäre Titel-ID im Feld _title_id_, ZDB-ID, eISSN,
-DOI, Print-ISSN; bei Monographien: proprietäre Titel-ID im Feld _title_id_, ISBN der Online-Ausgabe, DOI).
+DOI, Print-ISSN; bei Monographien: proprietäre Titel-ID im Feld _title_id_, ISBN der Online-Ausgabe, , ISBN der Print-Ausgabe, DOI).
 Damit ist eine falsche Zuordnung praktisch ausgeschlossen. Leere Identifikatoren werden ignoriert, sodass diese
 nachträglich hinzugefügt werden können, ohne dass eine falsche Zuordnung stattfindet.
 
