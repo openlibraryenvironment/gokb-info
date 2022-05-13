@@ -110,7 +110,7 @@ Das Anlegen und das Bearbeiten eines Pakets wird über ähnliche Eingabemasken g
 + Sie legen ein Paket an über den Menüpunkt "Paket anlegen".
 + Sie bearbeiten ein bestehendes Paket, indem sie über "Suchen eines Pakets" nach dem Paket suchen und auswählen.
 
-Beide Masken bestehen aus identischen Schritten. Lediglich der Schritt "Zusammenfassung" 
+Beide Masken bestehen aus weitgehend identischen Schritten. Lediglich der Schritt "Zusammenfassung" 
 erscheint bei "Paket anlegen" als Schritt 1, bei "Paket bearbeiten" als letzter Schritt 4.
 
 ## Schritt 1: Allgemeine Daten
@@ -169,6 +169,14 @@ entsprechenden Wert ein.
 + **Weitere Namensformen:** Hier können Sie Abkürzungen oder alternative Namensformen eintragen. 
 Das empfiehlt sich, um gängige und bekannte Namensformen aufzunehmen, die nicht in der offiziellen 
 Namensform enthalten sind. Namensformen, die hier eingetragen werden, können bei der Paketsuche gefunden werden.
++ **Bearbeitungs- und Listenstatus:** Wenn Sie das Paket bearbeiten (und nicht anlegen), haben Sie außerdem die Möglichkeit, den Bearbeitungs- und 
+Listenstatus des Pakets zu ändern.  
+    * _Bearbeitungsstatus:_ Hier bestätigen Sie, dass Sie die Metadaten des Pakets vollständig erfasst haben. 
+    Voreingestellt ist hier der Status _In Arbeit_. Wenn das Paket fertig bearbeitet ist, setzen Sie den Status 
+    auf _Bestätigt_
+    * _Listenstatus:_ Hier prüfen Sie, ob die Titelliste fertig bearbeitet wurde. Voreingestellt ist der Status 
+    _In Bearbeitung_. Ändern Sie diesen in _Geprüft_, sobald alle Pakettitel korrekt sind. Sie können den Status 
+    nicht ändern, wenn noch Prüfanfragen für das Paket offen sind. 
 
 Beenden Sie die Eingabe mit Anwahl des Buttons "Weiter".
 
@@ -245,7 +253,7 @@ Für spätere korrekte Aktualisierungen des Pakets ist es wichtig, dass diese Nu
 ## Schritt 4: Zusammenfassung
 
 Hier finden Sie eine Zusammenfassung der gewählten Einstellungen. Ihre präferierte Kuratorengruppe 
-wird automatisch hinzugefügt.
+wird automatisch hinzugefügt. 
 
 ![GOKb create package](../assets/create-package-4.png "GOKb Paket erstellen")
 

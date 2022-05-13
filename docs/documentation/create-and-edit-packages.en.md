@@ -154,6 +154,13 @@ identifier and enter the corresponding identifier.
     of alliance, national or consortia licenses. You should only add one ISIL referencing the packages.
 + **Name variants:** Abbreviations or alternative name variants. This is recommended for common 
 and well-known name variants that are not included in the official name. Name variants can be searched.
++ **Editing and List Statuss:** In editing mode (not in creating mode) you can change the editing and list 
+  status of the package. 
+  * _Editing Status:_ Here you can set the status to _Approved_ as soon as you have entered all necessary 
+    metadata of the package. The default value is _In progress_.
+  * _List  Status:_ Here you can set the status to _Checked_ as soon as the package title list is correct and checked.
+    The default value is _In progress_. You can't change the list status as long as there are open review 
+    requests appending to the package.
 
 Finish this step by selecting the "Next" button.
 

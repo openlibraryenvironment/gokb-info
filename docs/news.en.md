@@ -1,5 +1,14 @@
 # News
 
+## New Release 1.2 
+
+*March 18 2022*
+
+GOKb Release 1.2 has been published. Now you can choose your curatory group to specialize 
+in package import or in bibliographic title redaction. Review Request can be escalated to 
+another group. Further, KBART validation has been improved. Please find the release notes 
+[here](./releases.md "GOKb Release Notes").
+
 ## New Release 1.1
 
 *November 18, 2021*

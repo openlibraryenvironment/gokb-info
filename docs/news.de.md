@@ -1,5 +1,13 @@
 # News
 
+## Release 1.2 erschienen
+*18. März 2022*
+
+Das neue Release 1.2 der GOKb wurde am 18. März veröffentlicht. Neben der Differenzierung 
+von Kuratorengruppen in Paket- und Titelredaktion und der Möglichkeit, Prüfanfragen 
+zu eskalieren, wurde die KBART-Validierung und vor allem die Aktualisierung vorhandener 
+Pakete deutlich verbessert. Die genauen Release Notes finden Sie [hier](./releases.md "GOKb Release Notes").
+
 ## Neue Version
 *9. November 2021*
 
