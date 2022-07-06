@@ -1,5 +1,36 @@
 # News
 
+## GOKb auf der WOLFCon 2022
+*05. Juli 2022*
+
+Die WOLFCon 2022, die jährliche Tagung der [Open Library Foundation (OLF)](https://openlibraryfoundation.org/
+"Open Library Foundation (OLF)"), findet dieses Jahr vom 31. August - 2. September als hybride Veranstaltung 
+in Hamburg statt. Da die GOKb wie auch FOLIO ein Projekt unter dem Schirm der OLF ist, ist sie dort wieder mit
+mehreren Sessions vertreten:
+
+- The GOKb as a Bridge between Provider Data and FOLIO Agreements
+- Cross Project Talk (FOLIO & GOKb)
+- Closing Review Requests: The Process fo Cleaning up Provider Data with GOKb
+- Collect and Distribute: Utilizing the APIs of GOKb
+- Leveraging FOLIO with GOKb data
+
+Die Anmeldung für die WOLFCon ist noch offen und kann über die [Website der WOLFCon](https://openlibraryfoundation.org/about/wolfcon/upcoming/ "WOLFCon 2022") 
+erfolgen.  
+
+## GOKb auf dem BID2022
+*10. Juni 2022*
+
+Die GOKb war auf dem 8. Bibliothekskonkress in Leipzig vertreten. In der Session "New Generation Systems"
+hielt Daniel A. Rupp den Vortrag "Die Global Open Knowledgebase (GOKb) - Von der Anbieterdatei zum FOLIO-Paket" 
+über den Weg, den eine KBART-Datei von der Seite des Anbieters über die GOKb in nachgelagerte ERM-Systeme wie 
+FOLIO nimmt. Zentral ist dabei die Aufbereitung der Daten durch die GOKb für eine elektronische Weitergabe, die 
+Korrektur möglicher Fehler und die Anreicherung der Daten durch bibliographische Daten und Identifikatoren. 
+Abstract und Folien finden sich auf der Seite des [BIB OPUS Publikationsservers](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/18011 
+"Die GLobal Open Knowledgebase (GOKb) - Von der Anbieterdatei zum FOLIO-Paket"). Moritz Horn und Daniel A. Rupp
+hielten außerdem den gut besuchten Workshop [Paketanreicherung mit der Global Open Knowledgebase (GOKb)](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/18029 
+"Paketanreicherung mit der Global Open Knowledgebase (GOKb)") ab. Hier konnten Bibliothekar*innen am eigenen
+Laptop die Einspielung und Bearbeitung von Paketen in die GOKb testen. 
+
 ## Release 1.2 erschienen
 *18. März 2022*
 

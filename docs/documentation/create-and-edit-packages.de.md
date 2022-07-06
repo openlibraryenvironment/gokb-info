@@ -53,7 +53,7 @@ Dabei ist darauf zu achten, dass die KBART-Datei korrekt ist, d.h.
 |Direkte Zugriffs-URL|title_url|Pflicht||                 
 |Medienart des Titels|medium|Fakultativ||    
 
-### 3. Mandatory fields for monographs (e-books,audio and video streams)
+### 3. Pflichtfelder für Monographien (E-Books, audiovisuelle Medien)
 
 |Element|KBART-Feld|Pflicht/Fakultativ|Bemerkung|
 |-------|-----------|------------------|-----|

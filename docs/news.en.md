@@ -1,8 +1,23 @@
 # News
 
+## WOLFCon 2022
+*July 05, 2022*
+
+This year, WOLFCon 2022, the annual meeting of the [Open Library Foundation (OLF)](https://openlibraryfoundation.org/
+"Open Library Foundation (OLF)"), will take place as a hybrid event in Hamburg from August 31 to September 2. GOKb 
+will be present with several sessions: 
+
+- The GOKb as a Bridge between Provider Data and FOLIO Agreements.
+- Cross Project Talk (FOLIO & GOKb)
+- Closing Review Requests: The Process for Cleaning up Provider Data with GOKb
+- Collect and Distribute: Utilizing the APIs of GOKb
+- Leveraging FOLIO with GOKb data
+
+Registration for WOLFCon is still open and can be done via the [WOLFCon website](https://openlibraryfoundation.org/about/wolfcon/upcoming/ "WOLFCon 2022").
+
 ## New Release 1.2 
 
-*March 18 2022*
+*March 18, 2022*
 
 GOKb Release 1.2 has been published. Now you can choose your curatory group to specialize 
 in package import or in bibliographic title redaction. Review Request can be escalated to 
