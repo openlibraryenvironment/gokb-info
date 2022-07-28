@@ -12,7 +12,6 @@ mehreren Sessions vertreten:
 - Cross Project Talk (FOLIO & GOKb)
 - Closing Review Requests: The Process fo Cleaning up Provider Data with GOKb
 - Collect and Distribute: Utilizing the APIs of GOKb
-- Leveraging FOLIO with GOKb data
 
 Die Anmeldung für die WOLFCon ist noch offen und kann über die [Website der WOLFCon](https://openlibraryfoundation.org/about/wolfcon/upcoming/ "WOLFCon 2022") 
 erfolgen.  
