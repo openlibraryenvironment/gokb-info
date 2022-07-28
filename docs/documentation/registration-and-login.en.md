@@ -30,4 +30,5 @@ Access GOKb via the URL [https://gokb.org/gokb-ui/](https://gokb.org/gokb-ui/ "L
 ## Forgot password?
 
 If you have forgotten your password, you can restore it via
-[this page](https://gokbt.gbv.de/gokb/register/forgotPassword).
+[this page](https://gokb.org/gokb/register/forgotPassword). (Alternatively 
+[diese Seite](https://gokbt.gbv.de/gokb/register/forgotPassword) in the playground system). 

@@ -32,7 +32,8 @@ Geben Sie dort Benutzername und Passwort ein.
 ## Passwort vergessen? 
 
 Falls Sie Ihr Passwort vergessen haben, können Sie es über 
-[diese Seite](https://gokbt.gbv.de/gokb/register/forgotPassword)
+[diese Seite](https://gokb.org/gokb/register/forgotPassword) im Produktiv- und
+[diese Seite](https://gokbt.gbv.de/gokb/register/forgotPassword) im Testsystem 
 wieder herstellen.
 
  
