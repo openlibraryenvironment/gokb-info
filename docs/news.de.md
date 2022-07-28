@@ -8,9 +8,9 @@ Die WOLFCon 2022, die jährliche Tagung der [Open Library Foundation (OLF)](http
 in Hamburg statt. Da die GOKb wie auch FOLIO ein Projekt unter dem Schirm der OLF ist, ist sie dort wieder mit
 mehreren Sessions vertreten:
 
-- The GOKb as a Bridge between Provider Data and FOLIO Agreements
-- Cross Project Talk (FOLIO & GOKb)
-- Closing Review Requests: The Process fo Cleaning up Provider Data with GOKb
+- The GOKb as a Bridge between Provider Data and FOLIO Agreements.
+- Cross project: FOLIO ERM & GOKb - Presentation of a Service
+- Closing Review Requests: The Process for Cleaning up Provider Data with GOKb
 - Collect and Distribute: Utilizing the APIs of GOKb
 
 Die Anmeldung für die WOLFCon ist noch offen und kann über die [Website der WOLFCon](https://openlibraryfoundation.org/about/wolfcon/upcoming/ "WOLFCon 2022") 

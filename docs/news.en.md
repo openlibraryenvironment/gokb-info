@@ -8,7 +8,7 @@ This year, WOLFCon 2022, the annual meeting of the [Open Library Foundation (OLF
 will be present with several sessions: 
 
 - The GOKb as a Bridge between Provider Data and FOLIO Agreements.
-- Cross Project Talk (FOLIO & GOKb)
+- Cross project: FOLIO ERM & GOKb - Presentation of a Service
 - Closing Review Requests: The Process for Cleaning up Provider Data with GOKb
 - Collect and Distribute: Utilizing the APIs of GOKb
 
