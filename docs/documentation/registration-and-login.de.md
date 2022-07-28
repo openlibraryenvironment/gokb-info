@@ -29,5 +29,10 @@ Geben Sie dort Benutzername und Passwort ein.
 
 ![GOKB login page](../assets/login.de.png "GOKB login page")
 
+## Passwort vergessen? 
+
+Falls Sie Ihr Passwort vergessen haben, können Sie es über 
+[diese Seite](https://gokbt.gbv.de/gokb/register/forgotPassword)
+wieder herstellen.
 
  

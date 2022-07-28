@@ -26,3 +26,8 @@ The GOKb admins will contact you as soon as the account is set up and you can ge
 Access GOKb via the URL [https://gokb.org/gokb-ui/](https://gokb.org/gokb-ui/ "Login"). Click on the user icon at the top right and select "Login" to log in. Enter your username and password there.
 
 ![GOKB login page](../assets/login.png "GOKB login page")
+
+## Forgot password?
+
+If you have forgotten your password, you can restore it via
+[this page](https://gokbt.gbv.de/gokb/register/forgotPassword).
