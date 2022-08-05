@@ -1,5 +1,15 @@
 # News
 
+## New Release 1.3
+*August 04, 2022
+
+GOKb Release 1.3 has been published. The import process has been improved considerably
+both in the background as well as in the user interface, so that the import of packages less error-prone
+and gives better feedback. Search and filter views for packages, reference titles, etc. have also been improved
+and now support Boolean operators and advanced truncation.
+
+The detailed release notes can be found [here](./releases.md "GOKb Release Notes").
+
 ## WOLFCon 2022
 *July 05, 2022*
 
