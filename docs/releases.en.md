@@ -1,3 +1,69 @@
+# Release 1.3
+_Published on 04 August 2022_
+
+The core features of release 1.3 are a significant improvement of the import behavior and an optimization of the 
+search functionality.
+
+## New import process
+The import process has been significantly revised internally. The import tool YGOR has been removed. 
+Since the import process now takes place entirely within the GOKb system, it is much faster and provides
+better feedback. In addition, there are several improvements to the import:
+
+### Import progress bar in the package view.
+The progress of the import as well as the result report can now be viewed within the  package view so that
+you no longer need to return to the dashboard. After submitting a new import, the progress bar is displayed 
+in the views head section. After completion, the result can be viewed via a snack bar message at the bottom 
+of the view.
+
+### Revision of the job overview
+The new import list on the dashboard replaces the former job overview. Here, running and completed imports 
+are shown with the result (`Success' or `Failed`). The links take you to a detailed import report respectively 
+to the package itself. Clickable icons above the list allow you to switch between imports of your own curator 
+group or between personally initiated imports, as well as to switch on/off the automatic update of the view.
+
+### Test run for package import
+When uploading a KBART file, the `Test run` option can now be selected. If a KBART file is imported with the 
+'Test run' option, an import report is shown in the same way as in the productive import, but no changes to the 
+data have been done. Thus, the new function offers the possibility to check in advance in case of unsafe KBART 
+files whether the import is acceptable or the file should be edited beforehand.
+
+## New search and filter functionality
+The search and filter views for packages, reference titles, etc. have been revised. The search for the name of 
+a component now supports boolean operators like `AND`, `OR`, `NOT` (watch out for capitalization!). The default 
+search setting has been changed so that all search terms must occur (`AND` operator). To filter the data by one 
+of several search terms, these must be explicitly linked with `OR`. In addition, the search supports right and
+left truncation with asterisk (`*`).
+
+## System messages as snackbar
+System messages such as "Failed Import" or "Successful Import" now appear with a green or red background as a 
+snackbar, i.e. as an overlaying UI element at the bottom of the vuew. This makes it possible to perceive the 
+respective message without scrolling, even in extensive views.
+
+## Review requests of linked reference titles are visible in the package view
+In the package view, the "Review Requests" tab previously showed all review requests related to the package
+itself or individual package titles. This gives curator groups the ability to edit all open review requests. 
+As new addition a button allow to switch to the review requests of all reference titles associated with the 
+package titles. This allows users to see whether there are duplicates or unsuccessful enrichments for the 
+linked reference titles, for example, and to rectify these themselves or report them to the responsible curator group.
+
+## Creating and linking new platforms
+In the view for editing a provider, creating a platform has become much more powerful. Not only can you 
+create new platforms, but you can also search and add existing platforms if they are not already linked to 
+another provider. This makes creating platform duplicates much less likely.
+
+## "Cool URI" for components
+Each component such as providers, packages, platforms, titles, etc. is now accessible by a fixed URI based
+on the GOKb UUID. The URI can be found in the header field of each resource next to the UUID in the interface
+and can be copied to the clipboard via the corresponding button. The URI is also output via the APIs. This makes 
+it possible to jump back to the specific GOKb dataset from any system that makes use of the URI.
+
+## OpenSearch instead of Elastic Search
+Due to changes in licensing terms, ElasticSearch has been completely replaced by
+[OpenSearch](https://opensearch.org/), a fork that continues the software under the free Apache license.
+
+## Complete overview of changes
+For a complete overview of all changes, see the [Github repo of GOKb](https://github.com/openlibraryenvironment/gokb/releases/tag/v8.23.0).
+
 # Release 1.2
 _Veröffentlicht am 18. März 2022_
 

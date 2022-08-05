@@ -1,3 +1,73 @@
+# Release 1.3
+_Veröffentlicht am 04. August 2022_
+
+Die zentralen Neuerungen der Version 1.3 ist eine deutliche Verbesserung des Importverhaltens sowie eine Optimierung 
+der Suchfunktionen.
+
+## Neuer Importprozess 
+Der Importprozess wurde intern deutlich überarbeitet. So wird im Hintergrund nicht mehr das Import-Tool YGOR 
+aufgerufen, das - verborgen vor den Nutzer*innen - bisher den Import übernahm. Dadurch, dass der Importprozess 
+komplett innerhalb des GOKb-Systems stattfindet, ist er nun deutlich schneller und liefert früher bessere 
+Rückmeldungen. Darüber hinaus gibt es mehrere Verbesserungen des Imports:
+
+### Importfortschritt in der Paketsicht
+Den Fortschritt des Imports sowie den Ergebnisbericht kann man nun in der jeweiligen Paketsicht ansehen und muss 
+nicht mehr zum Dashboard zurückkehren. In der Kopfzeile der Seite wird nach `Abschicken` eines neuen Imports der 
+Fortschritt blau unterlegt dargestellt. Nach Abschluss ist über eine Snackbar am Fuß des Sichtbereichs das Ergebnis
+abrufbar. 
+
+### Überarbeitung der Job-Anzeige
+Die neue Import-Liste auf dem Dashboard ersetzt die ehemalige Jobanzeige. Hier werden laufende und abgeschlossene 
+Importe mit dem Ergebnis (`Erfolgreich` oder `Fehlerhaft`) angezeigt. Über die Links gelangt man zu einem 
+ausführlichen Import-Bericht bzw. zum Paket selbst. Über anklickbare Icons oberhalb der Liste kann man zwischen
+Importen der eigenen Kuratorengruppe bzw. zwischen persönlich angestoßenen Importen wechseln sowie die automatische
+Aktualisierung der Auszeige an- und ausschalten.
+
+### Testlauf für Paketimport
+Beim Hochladen einer KBART-Datei kann nun die Option `Testlauf` angewählt werden. Wird eine KBART-Datei mit der
+Option `Testlauf` importiert, wird wie im produktiven Import ein Importbericht ausgegeben, allerdings ändert sich 
+an den Daten nichts. So bietet die neue Funktion die Möglichkeit, bei unsicheren KBART-Dateien vorab zu prüfen, 
+ob der Import sinnvoll ist oder die Datei nachgebessert werden müsste.
+
+## Neue Such- und Filterfunktionalität
+Die Such- und Filtersichten für Pakete, Referenztitel etc. wurden überarbeitet. So unterstützt die Suche nach dem 
+Namen einer Komponente boolesche Operatoren wie `AND`, `OR`, `NOT` (auf die Großschreibung achten!). Die 
+Standardeinstellung der Suche ist dahingehend geändert worden, dass alle Suchbegriffe vorkommen müssen
+(`AND`-Verknüpfung). Für die Filterung der Daten nach einem von mehreren Suchbegriffen müssen diese explizit 
+mit `OR` verknüpft werden. Zudem unterstützt die Suche Rechts- und Linkstrunkierung mit Asterisk (`*`).
+
+## Systemmeldungen als Snackbar
+Systemmeldungen wie "Fehlerhafter Import" oder "Gelungener Import" erscheinen jetzt grün oder rot unterlegt 
+als Snackbar, d.h. als überlagerndes UI-Element am Fuß der Seite. So kann man auch bei umfangreichen Sichten
+ohne Scrollen die jeweilige Meldung wahrnehmen. 
+
+## Prüfanfragen verknüpfter Referenztitel sind im Paket sichtbar
+In der Paketsicht zeigte der Reiter "Prüfanfragen" bisher alle Prüfanfragen, die das Paket selbst oder einzelne 
+Pakettitel betreffen. So erhalten Kuratorengruppen die Möglichkeit, alle offenen Prüfanfragen zu bearbeiten. Neu 
+hinzugekommen ist ein Schalter, über den man eine Sicht auf die Prüfanfragen aller mit den Pakettiteln verknüpften
+Referenztiteln erhält. So können Nutzer*innen erkennen, ob bei den verknüpften Referenztiteln beispielsweise 
+Dubletten oder missglückte ZDB-Anreicherungen vorliegen und diese selbst beheben bzw. der zuständigen Kuratorengruppe
+melden. 
+
+## Anlegen und Verknüpfen neuer Plattformen
+In der Sicht zum Bearbeiten eines Anbieters wurde das Anlegen einer Plattform deutlich mächtiger. Man kann nicht nur
+neue Plattformen erstellen, sondern auch existierende Plattformen suchen und hinzufügen, sofern diese nicht schon
+mit einem anderen Anbieter verknüpft sind. Dadurch wird das Anlegen von Plattformdubletten deutlich unwahrscheinlicher.
+
+## "Cool URI" für Komponenten
+Jede Komponente wie Anbieter, Pakete, Plattformen, Titel etc. ist jetzt anhand der GOKb-UUID über eine feste URI 
+erreichbar. Die URI findet sich in der Oberfläche im Kopffeld jeder Ressource neben der UUID und kann über einen 
+Button in die Zwischenablage kopiert werden. Über die APIs wird die URI ebenfalls ausgegeben. Dadurch ist es 
+möglich, von jedem System, das die URI berücksichtigt, eindeutig auf den GOKb-Datensatz zurückzuspringen. 
+
+## OpenSearch statt Elastic Search
+Aufgrund von Änderungen der Lizenzbestimmungen wurde ElasticSearch als Suchmaschine vollständig durch [OpenSearch](https://opensearch.org/)
+ersetzt, eine Abspaltung, die die Software unter der freien Apache-Lizenz weiterführt. 
+
+## Vollständige Übersicht über Änderungen
+Eine Gesamtübersicht über alle Neuerungen finden Sie im
+[Github-Repo der GOKb](https://github.com/openlibraryenvironment/gokb/releases/tag/v8.23.0).
+
 # Release 1.2
 _Veröffentlicht am 18. März 2022_
 

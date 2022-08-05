@@ -1,5 +1,16 @@
 # News
 
+## Release 1.3 erschienen
+*04. August 2022*
+
+Heute erscheint mit Release 1.3 eine neue Version der GOKb mit zahlreichen Verbesserungen.  
+Insbesondere wurde der Importprozess für im Hintergrund deutlich überarbeitet, sowohl im 
+Hintergrund wie in den Oberfläche selbst, sodass das Einspielen von Paketen deutlich schneller, fehlerfreier 
+und übersichtlicher geschieht. Die Such- und Filtersichten für Pakete, Referenztitel etc. wurden außerdem 
+überarbeitet und unterstützen jetzt boolesche Operatoren und erweiterte Trunkierung. 
+
+Die genauen Release Notes finden Sie [hier](./releases.md "GOKb Release Notes").
+
 ## GOKb auf der WOLFCon 2022
 *05. Juli 2022*
 
