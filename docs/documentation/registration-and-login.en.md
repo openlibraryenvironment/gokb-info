@@ -14,7 +14,7 @@ You will now be redirected to the registration page. Please fill in the fields:
 
 Then confirm the password and answer the question (this question is used to prevent mass login by bot programs).
 
-Afterwards, your account must be activated and assigned to a curator group. Therefore, please send a mail to info@hbz-nrw.de with the request for activation. Please be sure to include in the mail:
+Afterwards, your account must be activated and assigned to a curator group. Therefore, please send a mail to gokb_at_hbz-nrw.de with the request for activation. Please be sure to include in the mail:
 
 + Your chosen username
 + Your institution (for the assignment or the creation of a curator group)
