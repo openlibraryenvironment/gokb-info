@@ -14,7 +14,7 @@ Sie landen nun auf der Registrierungsseite. Bitte füllen Sie die Felder aus:
 
 Bestätigen Sie anschließend das Passwort und beantworten Sie die Frage zur Erkennung, ob es sich um einen Bot handelt (Diese Frage dient dazu, Massenanmeldung durch Bot-Programme zu verhindern).
 
-Anschließend muss Ihr Konto aktiviert und einer Kuratorengruppe zugeordnet werden. Schicken Sie daher bitte eine Mail an gokb@hbz-nrw.de mit der Bitte um Freischaltung. Bitte fügen Sie in die Mail unbedingt ein:
+Anschließend muss Ihr Konto aktiviert und einer Kuratorengruppe zugeordnet werden. Schicken Sie daher bitte eine Mail an gokb_at_hbz-nrw.de mit der Bitte um Freischaltung. Bitte fügen Sie in die Mail unbedingt ein:
 
 +   Ihren gewählten Nutzernamen
 +   Ihre Institution (Für die Zuordnung bzw. das Anlegen einer Kuratorengruppe)
