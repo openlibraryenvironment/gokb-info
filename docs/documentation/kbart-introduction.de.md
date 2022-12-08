@@ -32,7 +32,7 @@ Die Abkürzung KBART steht für "Knowledge Base And Related Tools".
 + **Region/Consortia:** Geltungsbereich des Pakets.
     * Region: Wenn das Paket nur in einem Land oder einem anderen regional abgrenzbaren Bereich angeboten wird, sollte das Land bzw. die Region hier vermerkt werden. Beispiel: `Springer_Asia-Pacific_Medicine_2013-01-28.txt`.
     * Consortia: Wenn das Paket in dieser Zusammenstellung nur für ein Konsortium gilt, sollte das hier vermerkt werden. Beispiel: `IOP_NESLi2_Option1-2011_2012-05-31.txt`.
-    * enn das Paket universell angeboten wird, d.h. keiner vorher gemachten Einschränkung unterliegt, sollte "global" vermerkt werden. Beispiel: `TaylorandFrancis_Global_AllTitles_2012-08-30.txt`.
+    * wenn das Paket universell angeboten wird, d.h. keiner vorher gemachten Einschränkung unterliegt, sollte "global" vermerkt werden. Beispiel: `TaylorandFrancis_Global_AllTitles_2012-08-30.txt`.
 + **PackageName:** Eindeutiger Name des Pakets.  
     *   Eindeutiger Name des Pakets bzw. anbieterseitig eindeutige Kurzbezeichnung des Pakets.
     *   Wenn es sich um keinen spezifischen Namen des Pakets handelt, sondern um eine Gesamttitelliste, sollte "AllTitles" vermerkt werden bzw. "AllJournals". Beispiel: `TaylorandFrancis_Global_AllTitles_2012-08-30.txt`.
