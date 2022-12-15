@@ -111,7 +111,7 @@ Das Anlegen und das Bearbeiten eines Pakets wird über ähnliche Eingabemasken g
 + Sie bearbeiten ein bestehendes Paket, indem sie über "Suchen eines Pakets" nach dem Paket suchen und auswählen.
 
 Beide Masken bestehen aus weitgehend identischen Schritten. Lediglich der Schritt "Zusammenfassung" 
-erscheint bei "Paket anlegen" als Schritt 1, bei "Paket bearbeiten" als letzter Schritt 4.
+erscheint bei "Paket bearbeiten" als Schritt 1, bei "Paket anlegen" als letzter Schritt 4.
 
 ## Schritt 1: Allgemeine Daten
 
