@@ -45,10 +45,12 @@ You can add:
 name forms that are not included in the official name form. Name variants can be searched.
 + **Identifiers:** Identifiers that describe the provider. Select the "Namespace" 
 of the identifier system and enter the identifier value.
-+ **Platforms:** Here you can add the platform or platforms offered 
-by a provider. The platform is defined by:
-    * **Name:** The platform name. If the provider's platform does not have an official name, you can enter the provider's name or the URL itself here.
-    * **URL:** The URL of the platform.
++ **Platforms:** Here you can add the platform or platforms offered
+  by a provider. Via the button "Add" an existing platform is suggested on the basis of the input
+  which you can link to the provider. If none is found on the basis of the name or the URL, a new one will be created and
+  linked to the provider.The platform is defined by:
+  * **Name:** The platform name. If the provider's platform does not have an official name, you can enter the provider's name or the URL itself here.
+  * **URL:** The URL of the platform.
 + **Curatory groups:** Your selected curator group that will be responsible for maintaining the package 
 will be added automatically
 + **Contacts:**  E-Mail address of a provider contact such as technical support. 

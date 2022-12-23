@@ -1,7 +1,15 @@
 # News
 
+## Release 1.4 published
+*December 15, 2022*
+
+Release 1.4 of GOKb improves in particular the KBART validation. In addition to a meaningful feedback
+when uploading KBART files, there is now also a stand-alone KBART validator which can check
+the correctness of KBART files without logging into GOKb. Numerous other improvements can be found in the
+Release Notes [here](./releases.md "GOKb Release Notes").
+
 ## New Release 1.3
-*August 04, 2022
+*August 04, 2022*
 
 GOKb Release 1.3 has been published. The import process has been improved considerably
 both in the background as well as in the user interface, so that the import of packages less error-prone
