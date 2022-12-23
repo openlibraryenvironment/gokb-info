@@ -45,9 +45,13 @@ Detailliert können Sie hier folgende Daten anlegen:
 
 + **Weitere Namensformen:** Hier können Sie Abkürzungen oder alternative Namensformen eintragen. Das empfiehlt sich, um gängige und bekannte Namensformen aufzunehmen, die nicht in der offiziellen Namensform enthalten sind. Namensformen, die hier eingetragen werden, können bei der Anbietersuche gefunden werden.
 + **Identifikatoren:** Wenn es Identifikatoren gibt, die den Anbieter beschreiben, können Sie diese hier eintragen. Wählen Sie hier unter "Namensraum" den Typ des Identifikators (z.B. die GND-Nummer) und tragen Sie im folgenden Feld den entsprechenden Wert ein.
-+ **Plattform:** Hier können Sie die Plattform oder die Plattformen des Anbieters anlegen. Näheres zu Plattformen finden Sie unten. Die Plattform wird definiert durch:  
-    *   **Name:** Der Plattformname. Wenn die Plattform des Anbieters keinen offiziellen Namen hat, können Sie hier alternativ den Namen des Anbieters oder die URL selbst eintragen.
-    *   **URL:** Die Plattform-URL. Geben Sie die URL der Plattform in entsprechenden Feld ein.
++ **Plattform:** Hier können Sie die Plattform oder die Plattformen des Anbieters anlegen oder eine bestehende hinzufügen.
+  Näheres zu Plattformen finden Sie unten. Über den Button "Hinzufügen" wird anhand der Eingabe eine bestehende Plattform
+  vorgeschlagen, die Sie mit dem Anbieter verknüpfen können. Wird anhand des Namens oder der URL keine gefunden, wird eine
+  neue angelegt und mit dem Anbieter verknüpft.
+  Die Plattform wird definiert durch:
+    * **Name:** Der Plattformname. Wenn die Plattform des Anbieters keinen offiziellen Namen hat, können Sie hier alternativ den Namen des Anbieters oder die URL selbst eintragen.
+    * **URL:** Die Plattform-URL. Geben Sie die URL der Plattform in entsprechenden Feld ein.
 * **Kuratorengruppe:** Ihre Kuratorengruppe wird anhand der präferierten Kuratorengruppe automatisch gesetzt.
 * **Kontakte:** Hier können Sie die Mailadresse z.B. des technischen Supports der Plattform anlegen. 
     

@@ -1,3 +1,45 @@
+# Release 1.4
+_Published on 15 December 2022_
+
+The main innovations of the version 1.4 are better KBART validation and a public KBART Validator
+
+## Improved KBART validation
+The validation of KBART files has been revised and is significantly more expressive. Errors in the KBART file
+are given out with the line number and the erroneous value. This makes it much easier to correct corrupt
+KBART values.
+
+## Public KBART validator
+Based on the improved KBART validation, a [public KBART validator](https://gokb.org/gokb-ui/#/kbart-validator) has
+been added. The KBART validator can be used without logging into the GOKb and offers the possibility
+to validate arbitrary KBART files regarding their correctness and to display errors. Thus it represents a tool both
+for libraries as well as for providers who want to check their own files. Thereby the Validator validates the KBART
+records in a stricter way than the validation during the package upload, since it strictly adheres to the KBART
+standard of the NISO. Thus it throws out errors for values which are accepted by the GOKb but are not included
+in the KBART standard (like *publication_type* "Database").
+
+## Package list on provider view
+On the provider detail view there is now a new tab for the packages of this particular provider. This
+gives a faster overview of the portfolio of a provider. Furthermore, the package search can still be used to
+filter for a provider to get an identical overview.
+
+## KBART export in the package view
+Until now, packages could only be exported as KBART files via the package search. In the new release you will find
+an export button in the package title view of each package. As usual, you can choose the options "Raw" or "Processed".
+options. "Raw" outputs the KBART file based on the package titles - just as the curator has imported the file.
+the file. "Processed" exports additional information of the reference titles in its output (e.g. the biblographical
+correct title version by the ZDB or further identifiers like the ZDB-ID).
+
+## Linking of external resources
+One primary goal of the GOKb is that it provides identifiers from different sources. Via a link symbol next to the #
+identifiers of a resource, it is now possible to jump directly to the corresponding resource in the third-party system,
+e.g. to the ZDB Opac, to the ISIL agency or to the portal of the ISSN agency. This makes it much easier to search for
+and, if necessary, correct data. A prerequisite for successful linking is that the third-party system supports direct
+linking via the identifier.
+
+## Complete overview of changes
+A complete overview of all changes can be found in the
+[Github repo of GOKb](https://github.com/openlibraryenvironment/gokb/releases/tag/v8.24.0).
+
 # Release 1.3
 _Published on 04 August 2022_
 
