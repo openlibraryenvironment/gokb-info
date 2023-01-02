@@ -22,7 +22,7 @@ Sie legen einen Anbieter über den Menüpunkt "Anbieter anlegen" an. Prüfen Sie
 
 Sie gelangen über die Anbietersuche (siehe Anleitung) und Auswahl des entsprechenden Anbieters 
 in der Ergebnisliste auf die Maske "Anbieter bearbeiten". Diese Sicht entspricht der Sicht 
-"Anbieter anlegen"
+"Anbieter anlegen".
 
 Tragen Sie hier folgende Daten ein:
 
@@ -30,7 +30,7 @@ Tragen Sie hier folgende Daten ein:
 + **Homepage:** Die allgemeine URL zur Homepage des Providers.
 + **Status:** Setzen Sie den Status des Anbieters.
 
-In den folgenden Bereichen "Weitere Namensformen", "Identifkatoren", "Plattformen" und "Kuratorengruppen" können Sie weitere Daten zum Anbieter eintragen. Diese Bereiche haben eine einheitliche Benutzung:
+In den folgenden Bereichen "Namensvarianten", "Identifkatoren", "Plattformen" und "Kuratorengruppen" können Sie weitere Daten zum Anbieter eintragen. Diese Bereiche haben eine einheitliche Benutzung:
 
 +   Wählen Sie ggf. das Winkel-Icon neben dem Bereichsnamen an (z.B. "Weitere Namensformen"), 
 um den Bereich ein- oder auszuklappen.
@@ -43,7 +43,7 @@ einen Dialog die entsprechenden Daten einzutragen.
 
 Detailliert können Sie hier folgende Daten anlegen: 
 
-+ **Weitere Namensformen:** Hier können Sie Abkürzungen oder alternative Namensformen eintragen. Das empfiehlt sich, um gängige und bekannte Namensformen aufzunehmen, die nicht in der offiziellen Namensform enthalten sind. Namensformen, die hier eingetragen werden, können bei der Anbietersuche gefunden werden.
++ **Namensvarianten:** Hier können Sie Abkürzungen oder alternative Namensformen eintragen. Das empfiehlt sich, um gängige und bekannte Namensformen aufzunehmen, die nicht in der offiziellen Namensform enthalten sind. Namensformen, die hier eingetragen werden, können bei der Anbietersuche gefunden werden.
 + **Identifikatoren:** Wenn es Identifikatoren gibt, die den Anbieter beschreiben, können Sie diese hier eintragen. Wählen Sie hier unter "Namensraum" den Typ des Identifikators (z.B. die GND-Nummer) und tragen Sie im folgenden Feld den entsprechenden Wert ein.
 + **Plattform:** Hier können Sie die Plattform oder die Plattformen des Anbieters anlegen oder eine bestehende hinzufügen.
   Näheres zu Plattformen finden Sie unten. Über den Button "Hinzufügen" wird anhand der Eingabe eine bestehende Plattform
