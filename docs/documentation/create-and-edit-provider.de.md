@@ -10,56 +10,51 @@ Suchen Sie einen Anbieter über den Menüpunkt "Anbieter" auf der linken Menüle
 
 ## Anlegen und Bearbeiten eines Anbieters
 
-Anlegen und das Bearbeiten eines Anbieters wird über Eingabemasken gesteuert. 
-
-### Anlegen eines Anbieters
-
-Sie legen einen Anbieter über den Menüpunkt "Anbieter anlegen" an. Prüfen Sie vor dem Anlegen eines neuen Anbieters, ob dieser schon existiert, damit keine Dublette entsteht.
-
-![GOKB edit provider](../assets/create-provider.de.png "GOKB Anbieter anlegen")
+Das Anlegen und Bearbeiten eines Anbieters wird über Eingabemasken gesteuert. 
 
 ### Bearbeiten eines Anbieters
 
 Sie gelangen über die Anbietersuche (siehe Anleitung) und Auswahl des entsprechenden Anbieters 
-in der Ergebnisliste auf die Maske "Anbieter bearbeiten". Diese Sicht entspricht der Sicht 
+in der Ergebnisliste auf die Maske "Anbieter bearbeiten". Diese Ansicht entspricht der Ansicht 
 "Anbieter anlegen".
+
+### Anlegen eines Anbieters
+
+Bevor Sie über den Menüpunkt „Anbieter anlegen“ einen neuen Eintrag erstellen, prüfen Sie über die Anbietersuche (siehe oben), ob dieser schon existiert, damit keine Dublette entsteht.
+
+![GOKB edit provider](../assets/create-provider.de.png "GOKB Anbieter anlegen")
 
 Tragen Sie hier folgende Daten ein:
 
 + **Name:** Offizieller Name des Anbieters. Wählen Sie hierzu den Button "Bearbeiten" an.
-+ **Homepage:** Die allgemeine URL zur Homepage des Providers.
 + **Status:** Setzen Sie den Status des Anbieters.
++ **Website:** Die allgemeine URL zur Website des Providers.
 
-In den folgenden Bereichen "Namensvarianten", "Identifkatoren", "Plattformen" und "Kuratorengruppen" können Sie weitere Daten zum Anbieter eintragen. Diese Bereiche haben eine einheitliche Benutzung:
+In den folgenden Bereichen "Namensvarianten", "Identifikatoren", "Plattformen", "Pakete" und "Kuratorengruppen" können Sie weitere Daten zum Anbieter eintragen. Diese Bereiche haben eine einheitliche Benutzung:
 
-+   Wählen Sie ggf. das Winkel-Icon neben dem Bereichsnamen an (z.B. "Weitere Namensformen"), 
-um den Bereich ein- oder auszuklappen.
-+   Wählen Sie bei jedem folgenden Bereichen "Hinzufügen", um über 
-einen Dialog die entsprechenden Daten einzutragen.
-+   Sie können Daten löschen, indem Sie
-    *   entweder einzelne Zeilen über die Checkbox zu Beginn der Zeile 
-    markieren und dann im Bereichskopf den Button "Löschen" betätigen.
-    *   oder am Ende jeder Zeile das Papierkorb-Icon anwählen.
++   Wählen Sie bei jedem Bereich "Hinzufügen", um über 
+ein Dialogfenster die entsprechenden Daten einzutragen.
++   Über die Checkboxen am Zeilenanfang können Sie Daten löschen, indem Sie entweder einzelne Zeilen markieren oder über die oberste Checkbox alles auswählen und dann im Bereichskopf den Button "Löschen" betätigen.
 
 Detailliert können Sie hier folgende Daten anlegen: 
 
 + **Namensvarianten:** Hier können Sie Abkürzungen oder alternative Namensformen eintragen. Das empfiehlt sich, um gängige und bekannte Namensformen aufzunehmen, die nicht in der offiziellen Namensform enthalten sind. Namensformen, die hier eingetragen werden, können bei der Anbietersuche gefunden werden.
-+ **Identifikatoren:** Wenn es Identifikatoren gibt, die den Anbieter beschreiben, können Sie diese hier eintragen. Wählen Sie hier unter "Namensraum" den Typ des Identifikators (z.B. die GND-Nummer) und tragen Sie im folgenden Feld den entsprechenden Wert ein.
++ **Identifikatoren:** Wenn es Identifikatoren gibt, die den Anbieter beschreiben, können Sie diese hier eintragen. Wählen Sie hier unter "Namensraum" den Typ des Identifikators (z. B. die GND-Nummer) und tragen Sie im folgenden Feld den entsprechenden Wert ein.
 + **Plattform:** Hier können Sie die Plattform oder die Plattformen des Anbieters anlegen oder eine bestehende hinzufügen.
   Näheres zu Plattformen finden Sie unten. Über den Button "Hinzufügen" wird anhand der Eingabe eine bestehende Plattform
   vorgeschlagen, die Sie mit dem Anbieter verknüpfen können. Wird anhand des Namens oder der URL keine gefunden, wird eine
   neue angelegt und mit dem Anbieter verknüpft.
   Die Plattform wird definiert durch:
     * **Name:** Der Plattformname. Wenn die Plattform des Anbieters keinen offiziellen Namen hat, können Sie hier alternativ den Namen des Anbieters oder die URL selbst eintragen.
-    * **URL:** Die Plattform-URL. Geben Sie die URL der Plattform in entsprechenden Feld ein.
+    * **URL:** Die Plattform-URL. Geben Sie die URL der Plattform im entsprechenden Feld ein.
 * **Kuratorengruppe:** Ihre Kuratorengruppe wird anhand der präferierten Kuratorengruppe automatisch gesetzt.
 * **Kontakte:** Hier können Sie die Mailadresse z.B. des technischen Supports der Plattform anlegen. 
     
-Wenn Sie den Anbieter erstellt haben, wählen Sie unten rechts den Button "Erstellen" an. Wenn Sie einen vorhandenen Anbieter bearbeitet haben, wählen Sie unen rechts den Button "Aktualisieren" an.
+Wenn Sie den Anbieter erstellt haben, wählen Sie unten rechts den Button "Erstellen" an. Wenn Sie einen vorhandenen Anbieter bearbeitet haben, wählen Sie unten rechts den Button "Aktualisieren" an.
 
 ## Was ist eine Plattform?
 
-Eine Plattform ist die Softwareumgebung eines Anbieters, über die man auf die Inhalte zugreifen kann, z.B. auf Journals, E-Books oder Datenbanken. Die Plattform zeichnet sich aus durch:
+Eine Plattform ist die Softwareumgebung eines Anbieters, über die man auf die Inhalte zugreifen kann, z. B. auf Journals, E-Books oder Datenbanken. Die Plattform zeichnet sich aus durch:
 
-+ Eine URL-Domäne wie z.B. _http://www.thieme-connect.de_ (Es kann zusätzliche Subdomänen geben wie z.B _http://incites.clarivate.com)_.
-+ Einen optionalen Namen (z.B. SpringerLink). Bei kleinen Anbietern gibt es keinen Namen, da es nur eine Plattform gibt - hier kann man als Namen frei z.B. den Anbieternamen nutzen. Wichtig ist die Auffindbarkeit.
++ Eine URL-Domäne wie z. B. _http://www.thieme-connect.de_ (Es kann zusätzliche Subdomänen geben wie z. B _http://incites.clarivate.com)_.
++ Einen optionalen Namen (z. B. SpringerLink). Bei kleinen Anbietern gibt es keinen Namen, da es nur eine Plattform gibt – hier kann man als Namen frei z.B. den Anbieternamen nutzen. Wichtig ist die Auffindbarkeit.
