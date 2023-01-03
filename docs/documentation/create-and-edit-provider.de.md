@@ -34,7 +34,7 @@ In den folgenden Bereichen "Namensvarianten", "Identifikatoren", "Plattformen", 
 
 +   Wählen Sie bei jedem Bereich "Hinzufügen", um über 
 ein Dialogfenster die entsprechenden Daten einzutragen.
-+   Über die Checkboxen am Zeilenanfang können Sie Daten löschen, indem Sie entweder einzelne Zeilen markieren oder über die oberste Checkbox alles auswählen und dann im Bereichskopf den Button "Löschen" betätigen.
++   Über die Checkboxen am Zeilenanfang können Sie Daten löschen, indem Sie entweder einzelne Zeilen markieren oder über die oberste Checkbox alles auswählen und dann im Bereichskopf den Button "Löschen" betätigen. Bei den Identifikatoren stehen Ihnen als Löschoption zusätzlich Papierkorb-Icons zur Verfügung.
 
 Detailliert können Sie hier folgende Daten anlegen: 
 
