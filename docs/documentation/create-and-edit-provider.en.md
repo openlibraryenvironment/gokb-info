@@ -5,7 +5,7 @@
 Search for a provider using the "Provider" menu item on the left menu bar. 
 You can search or filter provider by name, identifier or curatory group.
 
-![GOKB search provider](../assets/search-provider.png "GOKB search provider")
+![GOKB search provider](../assets/search-provider-V1.4.png "GOKB search provider")
 
 After selecting a provider name in the results list you get a detailed view of the provider. If the provider is assigned to your curator group, you can edit it.
 
@@ -21,7 +21,7 @@ You can edit providers by searching for a provider (see instructions above), sel
 
 Create a provider via the menu item "Create Provider". Enter the official provider name (by clicking on the Button „Edit“) and the general URL that leads to the provider`s website (by clicking on „Website“).
 
-![GOKB edit provider](../assets/edit-provider.png "GOKB edit provider")
+![GOKB edit provider](../assets/edit-provider-V1.4.png "GOKB edit provider")
 
 In the lower section you can add further information about a provider by clicking on „Name Variants“, „Identifiers“, „Platforms“, „Curatory Groups“ and „Contacts“. These data fields have a uniform usage:
 
