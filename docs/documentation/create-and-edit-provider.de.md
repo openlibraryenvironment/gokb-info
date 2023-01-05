@@ -2,7 +2,7 @@
 
 ## Suchen eines Anbieters
 
-Suchen Sie einen Anbieter über den Menüpunkt "Anbieter" auf der linken Menüleiste. Sie können in der Maske über den Namen des Anbieters, über einen Identifikator des Anbieters oder eine Kuratorengruppe suchen bzw. filtern.
+Suchen Sie einen Anbieter über den Menüpunkt "Anbieter" in der linken Menüleiste. Sie können in der Maske über den Namen des Anbieters, über einen Identifikator des Anbieters oder eine Kuratorengruppe suchen bzw. filtern.
 
 ![GOKB search provider](../assets/search-provider-V1.4.de.png "GOKB Anbieter suchen")
 
@@ -10,30 +10,22 @@ Suchen Sie einen Anbieter über den Menüpunkt "Anbieter" auf der linken Menüle
 
 ## Anlegen und Bearbeiten eines Anbieters
 
-Das Anlegen und Bearbeiten eines Anbieters wird über Eingabemasken gesteuert. 
+Das Anlegen und Bearbeiten eines Anbieters wird über Eingabemasken gesteuert.
+Bevor Sie über den Menüpunkt „Anbieter anlegen“ einen neuen Eintrag erstellen, prüfen Sie über die Anbietersuche (siehe oben), ob dieser schon existiert, damit keine Dublette entsteht. 
 
 ### Bearbeiten eines Anbieters
 
-Sie gelangen über die Anbietersuche (siehe Anleitung) und Auswahl des entsprechenden Anbieters 
-in der Ergebnisliste auf die Maske "Anbieter bearbeiten". Diese Ansicht entspricht der Ansicht 
-"Anbieter anlegen".
+Über die Anbietersuche (siehe oben) und Auswahl des entsprechenden Anbieters in der Ergebnisliste gelangen Sie zur Maske "Anbieter bearbeiten". Diese Ansicht entspricht der Ansicht "Anbieter anlegen".
 
 ### Anlegen eines Anbieters
 
-Bevor Sie über den Menüpunkt „Anbieter anlegen“ einen neuen Eintrag erstellen, prüfen Sie über die Anbietersuche (siehe oben), ob dieser schon existiert, damit keine Dublette entsteht.
+Klicken Sie links im Menü auf „Anbieter anlegen“ und tragen Sie unter „Name“ den offiziellen Anbieternamen (über den Button „Bearbeiten“) sowie unter „Website“ die allgemeine URL, die zur Website des Anbieters führt, ein.
 
 ![GOKB edit provider](../assets/create-provider-V1.4.de.png "GOKB Anbieter anlegen")
 
-Tragen Sie hier folgende Daten ein:
+Im unteren Bereich der Eingabemaske können Sie mit Klick auf "Namensvarianten", "Identifikatoren", "Plattformen", "Kuratorengruppen" und „Kontakte“ weitere Daten zum Anbieter eintragen. Diese Bereiche haben eine einheitliche Benutzung:
 
-+ **Name:** Offizieller Name des Anbieters. Wählen Sie hierzu den Button "Bearbeiten" an.
-+ **Status:** Setzen Sie den Status des Anbieters.
-+ **Website:** Die allgemeine URL zur Website des Providers.
-
-In den folgenden Bereichen "Namensvarianten", "Identifikatoren", "Plattformen", "Pakete" und "Kuratorengruppen" können Sie weitere Daten zum Anbieter eintragen. Diese Bereiche haben eine einheitliche Benutzung:
-
-+   Wählen Sie bei jedem Bereich "Hinzufügen", um über 
-ein Dialogfenster die entsprechenden Daten einzutragen.
++   Wählen Sie bei jedem Bereich "Hinzufügen", um über ein Dialogfenster die entsprechenden Daten einzutragen.
 +   Über die Checkboxen am Zeilenanfang können Sie Daten löschen, indem Sie entweder einzelne Zeilen markieren oder über die oberste Checkbox alles auswählen und dann im Bereichskopf den Button "Löschen" betätigen. Bei den Identifikatoren stehen Ihnen als Löschoption zusätzlich Papierkorb-Icons zur Verfügung.
 
 Detailliert können Sie hier folgende Daten anlegen: 
@@ -50,7 +42,7 @@ Detailliert können Sie hier folgende Daten anlegen:
 * **Kuratorengruppe:** Ihre Kuratorengruppe wird anhand der präferierten Kuratorengruppe automatisch gesetzt.
 * **Kontakte:** Hier können Sie die Mailadresse z.B. des technischen Supports der Plattform anlegen. 
     
-Wenn Sie den Anbieter erstellt haben, wählen Sie unten rechts den Button "Erstellen" an. Wenn Sie einen vorhandenen Anbieter bearbeitet haben, wählen Sie unten rechts den Button "Aktualisieren" an.
+Wenn Sie mit den Eingaben fertig sind, klicken Sie unten rechts auf den Button "Erstellen". Wenn Sie einen vorhandenen Anbieter bearbeitet haben, wählen Sie unten rechts den Button "Aktualisieren" an.
 
 ## Was ist eine Plattform?
 
