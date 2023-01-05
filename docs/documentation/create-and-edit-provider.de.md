@@ -4,7 +4,7 @@
 
 Suchen Sie einen Anbieter über den Menüpunkt "Anbieter" auf der linken Menüleiste. Sie können in der Maske über den Namen des Anbieters, über einen Identifikator des Anbieters oder eine Kuratorengruppe suchen bzw. filtern.
 
-![GOKB search provider](../assets/search-provider_V1.4.de.png "GOKB Anbieter suchen")
+![GOKB search provider](../assets/search-provider-V1.4.de.png "GOKB Anbieter suchen")
 
 Über die Anwahl des Anbieternamens in der Ergebnisliste gelangen Sie auf die Detailsicht des Anbieters. Wenn dieser Anbieter Ihrer Kuratorengruppe zugeordnet ist, können Sie diesen bearbeiten.
 
@@ -22,7 +22,7 @@ in der Ergebnisliste auf die Maske "Anbieter bearbeiten". Diese Ansicht entspric
 
 Bevor Sie über den Menüpunkt „Anbieter anlegen“ einen neuen Eintrag erstellen, prüfen Sie über die Anbietersuche (siehe oben), ob dieser schon existiert, damit keine Dublette entsteht.
 
-![GOKB edit provider](../assets/create-provider_V1.4.de.png "GOKB Anbieter anlegen")
+![GOKB edit provider](../assets/create-provider-V1.4.de.png "GOKB Anbieter anlegen")
 
 Tragen Sie hier folgende Daten ein:
 
