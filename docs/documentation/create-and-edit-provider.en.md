@@ -17,8 +17,6 @@ You can create and edit provider data via web forms. Before creating a new provi
 
 You can edit providers by searching for a provider (see instructions above), selecting the corresponding provider from the results list and clicking the button "Edit". This view corresponds to the view „Create Provider“.
 
-![GOKB create provider](../assets/create-provider.png "GOKB create provider")
-
 ### Create Provider
 
 Create a provider via the menu item "Create Provider". Enter the official provider name (by clicking on the Button „Edit“) and the general URL that leads tot he provider`s website (by clicking on the Button „Website“).
