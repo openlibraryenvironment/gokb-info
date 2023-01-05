@@ -1,48 +1,39 @@
-# Create and edit provider
+# Create and Edit Provider
 
-## Search provider
+## Search Provider
 
 Search for a provider using the "Provider" menu item on the left menu bar. 
 You can search or filter provider by name, identifier or curator group.
 
 ![GOKB search provider](../assets/search-provider.png "GOKB search provider")
 
-## Create and edit provider
+After selecting a provider name in the results list you get a detailed view of the provider. If the provider is assigned to your curator group, you can edit it.
 
-You can create and edit provider data via web forms.
+## Create and Edit Provider
 
-### Create provider
+You can create and edit provider data via web forms. Before creating a new provider, please check (see Search Provider) if it already exists to avoid duplicate entries in the database.
 
-Create a provider via the menu item "Create provider". Before creating a new provider, 
-please check if it already exists, to avoid duplicate entries in the database.
+### Edit Provider
+
+You can edit providers by searching for a provider (see instructions above), selecting the corresponding provider from the results list and clicking the button "Edit". This view corresponds to the view „Create Provider“.
 
 ![GOKB create provider](../assets/create-provider.png "GOKB create provider")
 
-### Edit provider
+### Create Provider
 
-You can edit providers by searching for a provider (see instructions),  selecting the corresponding provider from the results list and clicking the menu item "Edit".
+Create a provider via the menu item "Create Provider". Enter the official provider name (by clicking on the Button „Edit“) and the general URL that leads tot he provider`s website (by clicking on the Button „Website“).
 
 ![GOKB edit provider](../assets/edit-provider.png "GOKB edit provider")
 
-Enter the following data here:
+In the lower section you can add further information about a provider by clicking on „Name Variants“, „Identifiers“, „Platforms“, „Curatory Groups“ and „Contacts“. These data fields have a uniform usage:
 
-+ **Name:** Official name of the provider.
-+ **Homepage:** The general URL to the provider's homepage.
-+ **Status:** Select the status of the provider.
++ Select "Add" to enter data via a pop-up dialog.
++ You can use the checkboxes at the beginning of the lines to delete data, either by selecting individual lines or by selecting everything via the top checkbox and then pressing the "Delete" button. In the case of the identifiers, trash can icons are also available as a deletion option.
 
-
-You can add further information about a provider below the main field. 
-These data fields have a uniform usage:
-
-+ If necessary, select the angle icon next to the area name to expand or collapse the area.
-+ Select "Add" enter data via a pop-up dialog.
-+ Delete several values by selecting the check boxes and then pressing the "Delete" button or selecting 
-the trash icon for single values.
-
-You can add:
+In detail, you can add the following data:
 
 + **Name variants:** Abbreviations or alternative name forms. Add common and well-known 
-name forms that are not included in the official name form. Name variants can be searched.
+name forms that are not included in the official name form. Name variants that are entered here can be found in the Provider Search.
 + **Identifiers:** Identifiers that describe the provider. Select the "Namespace" 
 of the identifier system and enter the identifier value.
 + **Platforms:** Here you can add the platform or platforms offered
@@ -51,8 +42,7 @@ of the identifier system and enter the identifier value.
   linked to the provider.The platform is defined by:
   * **Name:** The platform name. If the provider's platform does not have an official name, you can enter the provider's name or the URL itself here.
   * **URL:** The URL of the platform.
-+ **Curatory groups:** Your selected curator group that will be responsible for maintaining the package 
-will be added automatically
++ **Curatory groups:** Your selected curatory group that will be responsible for maintaining the package will be added automatically.
 + **Contacts:**  E-Mail address of a provider contact such as technical support. 
 
 Once you have added all provider data, select the "Create" or "Update" button at the bottom right.
