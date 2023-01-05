@@ -39,8 +39,8 @@ Detailliert können Sie hier folgende Daten anlegen:
   Die Plattform wird definiert durch:
     * **Name:** Der Plattformname. Wenn die Plattform des Anbieters keinen offiziellen Namen hat, können Sie hier alternativ den Namen des Anbieters oder die URL selbst eintragen.
     * **URL:** Die Plattform-URL. Geben Sie die URL der Plattform im entsprechenden Feld ein.
-* **Kuratorengruppe:** Ihre Kuratorengruppe wird anhand der präferierten Kuratorengruppe automatisch gesetzt.
-* **Kontakte:** Hier können Sie die Mailadresse z.B. des technischen Supports der Plattform anlegen. 
++ **Kuratorengruppe:** Ihre Kuratorengruppe wird anhand der präferierten Kuratorengruppe automatisch gesetzt.
++ **Kontakte:** Hier können Sie die Mailadresse z. B. des technischen Supports der Plattform anlegen. 
     
 Wenn Sie mit den Eingaben fertig sind, klicken Sie unten rechts auf den Button "Erstellen". Wenn Sie einen vorhandenen Anbieter bearbeitet haben, wählen Sie unten rechts den Button "Aktualisieren" an.
 
