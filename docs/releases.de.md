@@ -1,7 +1,7 @@
 # Release 1.4
 _Veröffentlicht am 15. Dezember 2022_
 
-Die zentralen Neuerungen der Version 1.4 ist die aussagekräftigere KBART-Validierung und der öffentliche KBART-Validator.
+Die zentralen Neuerungen der Version 1.4 sind die aussagekräftigere KBART-Validierung und der öffentliche KBART-Validator.
 
 ## Aussagekräftige KBART-Validierung
 Die Validierung der KBART-Dateien wurde überarbeitet und ist deutlich aussagekräftiger. Fehler in der KBART-Datei
@@ -10,7 +10,7 @@ KBART-Werte deutlich erleichtert.
 
 ## Öffentlicher KBART-Validator
 Auf der Basis der verbesserten KBART-Validierung gibt es nun einen [öffentlichen KBART-Validator](https://gokb.org/gokb-ui/#/kbart-validator).
-Der KBART-Validator kann auch ohne einloggen in die GOKb genutzt werden und bietet die Möglichkeit, beliebige
+Der KBART-Validator kann auch ohne Einloggen in die GOKb genutzt werden und bietet die Möglichkeit, beliebige
 KBART-Dateien auf ihre Korrektheit zu überprüfen und sich Fehler ausgeben zu lassen. Damit stellt er ein Tool sowohl
 für Bibliotheken wie für Anbieter dar, die ihre eigenen Dateien überprüfen wollen. Dabei ist der Validator
 strenger als die Validierung während des Paket-Uploads, da er sich strikt an den KBART-Standard der NISO hält.
@@ -26,13 +26,13 @@ einem Anbieter gefiltert werden, um dieselbe Übersicht zu erhalten.
 Bisher konnten Pakete nur über die Paketsuche als KBART exportiert werden. Im neuen Release findet sich ein Export-Button
 in der Pakettitel-Sicht jedes einzelnen Pakets. Wie gewohnt kann man hier die Optionen "Original" oder "Angereichert"
 wählen. "Original" gibt dabei die KBART-Datei auf Basis der Pakettitel aus - so, wie man die Datei auch schon eingespielt
-hat. "Angereichert" bedeutet, das zusätzlich Informationen der Referenztitel ausgegeben werden (z.B. der von der ZDB
+hat. "Angereichert" bedeutet, dass zusätzlich Informationen der Referenztitel ausgegeben werden (z. B. der von der ZDB
 angesetzte Titel oder weitere Identifikatoren wie die ZDB-ID).
 
 ## Verlinkung von externen Ressourcen
 Die GOKb zeichnet sich dadurch aus, dass die enthaltenenen Daten mit Identifikatoren aus verschiedensten Quellen
 angereichert werden. Im neuen Release ist es über ein Linksymbol neben den Identifikatoren möglich, direkt zur
-Ressource im Drittsystem zu springen, so z.B. zum ZDB-Opac, zur ISIL-Agentur oder zum Portal der ISSN-Agentur.
+Ressource im Drittsystem zu springen, so z. B. zum ZDB-Opac, zur ISIL-Agentur oder zum Portal der ISSN-Agentur.
 Dadurch wird die Recherche und ggf. Korrektur von Daten deutlich erleichtert. Voraussetzung für eine erfolgreiche
 Verlinkung ist, dass das Drittsystem eine direkte Verlinkung über den Identifikator unterstützt.
 
