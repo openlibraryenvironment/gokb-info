@@ -3,7 +3,7 @@
 ## Search Provider
 
 Search for a provider using the "Provider" menu item on the left menu bar. 
-You can search or filter provider by name, identifier or curator group.
+You can search or filter provider by name, identifier or curatory group.
 
 ![GOKB search provider](../assets/search-provider.png "GOKB search provider")
 
