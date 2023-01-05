@@ -24,10 +24,7 @@ filter for a provider to get an identical overview.
 
 ## KBART export in the package view
 Until now, packages could only be exported as KBART files via the package search. In the new release you will find
-an export button in the package title view of each package. As usual, you can choose the options "Raw" or "Processed".
-options. "Raw" outputs the KBART file based on the package titles - just as the curator has imported the file.
-the file. "Processed" exports additional information of the reference titles in its output (e.g. the biblographical
-correct title version by the ZDB or further identifiers like the ZDB-ID).
+an export button in the package title view of each package. As usual, you can choose the options "Raw" or "Processed". "Raw" outputs the KBART file based on the package titles - just as the curator has imported the file. "Processed" exports additional information of the reference titles in its output (e.g. the biblographical correct title version by the ZDB or further identifiers like the ZDB-ID).
 
 ## Linking of external resources
 One primary goal of the GOKb is that it provides identifiers from different sources. Via a link symbol next to the #
