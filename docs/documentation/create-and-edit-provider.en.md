@@ -21,7 +21,7 @@ You can edit providers by searching for a provider (see instructions above), sel
 
 Create a provider via the menu item "Create Provider". Enter the official provider name (by clicking on the Button „Edit“) and the general URL that leads to the provider`s website (by clicking on „Website“).
 
-![GOKB edit provider](../assets/edit-provider-V1.4.png "GOKB edit provider")
+![GOKB create provider](../assets/create-provider-V1.4.png "GOKB create provider")
 
 In the lower section you can add further information about a provider by clicking on „Name Variants“, „Identifiers“, „Platforms“, „Curatory Groups“ and „Contacts“. These data fields have a uniform usage:
 
