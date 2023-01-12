@@ -39,7 +39,9 @@ wieder herstellen.
  ## Passwort ändern
  
 Loggen Sie sich ein, klicken Sie oben rechts auf den runden Button und wählen Sie „Profil“ aus.
+
 Füllen Sie nun die Felder unter „Kennwort“ aus, um ein neues Passwort anzulegen.
+
 Klicken Sie unten rechts auf „Aktualisieren“. Anschließend erscheint ein Banner, dass das Profil erfolgreich bearbeitet wurde. Ihr neues Passwort ist nun aktiv.
 
 ![GOKB change password page](../assets/change-password.de.png "GOKB change password")
