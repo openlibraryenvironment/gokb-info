@@ -5,10 +5,10 @@ Die Abkürzung KBART steht für "Knowledge Base And Related Tools".
 ## Ziele
 
 +  NISO-"Best Practice" für die
-    *   Übermittlung von Titellisten von vom Provider angebotenen Titeln in einer Paketzusammenstellung.
-    *   Übermittlung von Bestandsinformationen / Holdings Data vom Provider an Knowledge Bases zum Einsatz beispielsweise in Link Resolvern (OpenURL).
-    *   Austausch von KBs untereinander: "KBART is on data exchange among and between knowledge bases".
-+   soll die Qualität der von Providern an Knowledge Bases gelieferten Daten verbessern.
+    *   Übermittlung von Titellisten von vom Provider angebotenen Titeln in einer Paketzusammenstellung
+    *   Übermittlung von Bestandsinformationen / Holdings Data vom Provider an Knowledge Bases zum Einsatz beispielsweise in Link Resolvern (OpenURL)
+    *   Austausch von KBs untereinander: "KBART is on data exchange among and between knowledge bases"
++   Soll die Qualität der von Providern an Knowledge Bases gelieferten Daten verbessern.
 +   Soll bisherige Metadatenformate von Providern wie ONIX-SOH ergänzen.
 
 ## Links
@@ -28,13 +28,13 @@ Die Abkürzung KBART steht für "Knowledge Base And Related Tools".
 {ProviderName}_{Region/Consortia}_{PackageName}_{YYYY-MM-DD}.txt
 ```
 
-+ **ProviderName:** Verständlicher Kurzname des Anbieters, z.B. Herdt, Springer, Emerald  .
-+ **Region/Consortia:** Geltungsbereich des Pakets.
++ **ProviderName:** Verständlicher Kurzname des Anbieters, z. B. Herdt, Springer, Emerald
++ **Region/Consortia:** Geltungsbereich des Pakets
     * Region: Wenn das Paket nur in einem Land oder einem anderen regional abgrenzbaren Bereich angeboten wird, sollte das Land bzw. die Region hier vermerkt werden. Beispiel: `Springer_Asia-Pacific_Medicine_2013-01-28.txt`.
     * Consortia: Wenn das Paket in dieser Zusammenstellung nur für ein Konsortium gilt, sollte das hier vermerkt werden. Beispiel: `IOP_NESLi2_Option1-2011_2012-05-31.txt`.
-    * wenn das Paket universell angeboten wird, d.h. keiner vorher gemachten Einschränkung unterliegt, sollte "global" vermerkt werden. Beispiel: `TaylorandFrancis_Global_AllTitles_2012-08-30.txt`.
-+ **PackageName:** Eindeutiger Name des Pakets.  
-    *   Eindeutiger Name des Pakets bzw. anbieterseitig eindeutige Kurzbezeichnung des Pakets.
+    * Wenn das Paket universell angeboten wird, d.h. keiner vorher gemachten Einschränkung unterliegt, sollte "global" vermerkt werden. Beispiel: `TaylorandFrancis_Global_AllTitles_2012-08-30.txt`.
++ **PackageName:** Eindeutiger Name des Pakets  
+    *   Eindeutiger Name des Pakets bzw. anbieterseitig eindeutige Kurzbezeichnung des Pakets
     *   Wenn es sich um keinen spezifischen Namen des Pakets handelt, sondern um eine Gesamttitelliste, sollte "AllTitles" vermerkt werden bzw. "AllJournals". Beispiel: `TaylorandFrancis_Global_AllTitles_2012-08-30.txt`.
 + **YYYY-MM-DD:** Datum der KBART-Datei im ISO-8601-Format.
 
@@ -44,13 +44,13 @@ Die Abkürzung KBART steht für "Knowledge Base And Related Tools".
 +   UTF-8 kodiert
 +   Datumsangaben nach ISO 8601
 +   Keine leere Zeile zwischen Kopfzeile und Inhalt
-+   Titel sollen alphabetisch sortiert sein
-+   Ein Titel soll mehrfach gelistet werden, falls ein "coverage gap" von mindestens 12 Monaten besteht
++   Titel sollen alphabetisch sortiert sein.
++   Ein Titel soll mehrfach gelistet werden, falls ein "coverage gap" von mindestens 12 Monaten besteht.
 
 
 ## KBART-Felder
 
-See [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: KBART data fields](https://groups.niso.org/apps/group_public/download.php/16900/RP-9-2014_KBART.pdf) 
+Siehe [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: KBART data fields](https://groups.niso.org/apps/group_public/download.php/16900/RP-9-2014_KBART.pdf) 
 
 |Feldbezeichnung|Beschreibung|Serial/Monograph|
 |----------|-----------|----------------|
@@ -93,6 +93,6 @@ See [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: KBA
 |ezb_id|Titel-ID aus der Elektronischen Zeitschriftenbibliothek (EZB)|S| 
 |monograph_parent_collection_title|Erweiterung für Reihentitel|S/M|
 |subject_area|Vorbehalten für Themenklassen. Idealerweise DDC-Klassen.|S/M|
-|listprice_eur|Listenpreis in Euro (Ohne Währenzeichen) als Zahlwert|S/M|
-|listprice_gbp|Listenpreis in Britischen Pfund (Ohne Währenzeichen) als Zahlwert|S/M|
-|listprice_usd|Listenpreis in US Dollar (Ohne Währenzeichen) als Zahlwert|S/M|
+|listprice_eur|Listenpreis in Euro (ohne Währungssymbol) als Zahlwert|S/M|
+|listprice_gbp|Listenpreis in Britischen Pfund (ohne Währungssymbol) als Zahlwert|S/M|
+|listprice_usd|Listenpreis in US Dollar (ohne Währungssymbol) als Zahlwert|S/M|
