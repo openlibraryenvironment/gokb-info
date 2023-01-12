@@ -5,7 +5,7 @@ Die Abkürzung KBART steht für "Knowledge Base And Related Tools".
 ## Ziele
 
 +  NISO-"Best Practice" für die
-    *   Übermittlung von Titellisten von vom Provider angebotenen Titel in einer Paketzusammenstellung.
+    *   Übermittlung von Titellisten von vom Provider angebotenen Titeln in einer Paketzusammenstellung.
     *   Übermittlung von Bestandsinformationen / Holdings Data vom Provider an Knowledge Bases zum Einsatz beispielsweise in Link Resolvern (OpenURL).
     *   Austausch von KBs untereinander: "KBART is on data exchange among and between knowledge bases".
 +   soll die Qualität der von Providern an Knowledge Bases gelieferten Daten verbessern.
