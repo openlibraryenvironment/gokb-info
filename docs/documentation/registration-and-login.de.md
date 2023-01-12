@@ -38,7 +38,7 @@ wieder herstellen.
 
  ## Passwort ändern
  
-Loggen Sie sich ein, klicken Sie oben rechts auf den runden Button und wählen Sie „Profil“ aus.
+Loggen Sie sich ein, klicken Sie oben rechts auf den runden Profil-Button und wählen Sie „Profil“ aus.
 
 Füllen Sie nun die Felder unter „Kennwort“ aus, um ein neues Passwort anzulegen.
 
