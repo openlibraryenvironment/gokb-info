@@ -36,4 +36,12 @@ Falls Sie Ihr Passwort vergessen haben, können Sie es über
 [diese Seite](https://gokbt.gbv.de/gokb/register/forgotPassword) im Testsystem 
 wieder herstellen.
 
+ ## Passwort ändern
  
+Loggen Sie sich ein, klicken Sie oben rechts auf den runden Button und wählen Sie „Profil“ aus.
+Füllen Sie nun die Felder unter „Kennwort“ aus, um ein neues Passwort anzulegen.
+Klicken Sie unten rechts auf „Aktualisieren“. Anschließend erscheint ein Banner, dass das Profil erfolgreich bearbeitet wurde. Ihr neues Passwort ist nun aktiv.
+
+![GOKB change password page](../assets/change-password.de.png "GOKB change password")
+
+Wichtiger Hinweis: Sie können Ihr Passwort nicht zurücksetzen, wenn Sie sich ohne E-Mail-Adresse registriert haben.
