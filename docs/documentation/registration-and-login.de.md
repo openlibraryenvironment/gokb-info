@@ -4,7 +4,7 @@
 
 Wenn Sie ein Konto in der GOKb anlegen wollen, gehen Sie wie folgt vor:
 
-Rufen Sie die Global Open Knowledge Base (GOKb) über die URL [https://gokb.org/gokb-ui/](https://gokb.org/gokb-ui/) oder das Testsystem über die URL [https://gokbt.gbv.de/gokb-ui/](https://gokbt.gbv.de/gokb-ui/) auf. Wählen Sie die Registrierungsseite an, indem Sie oben rechts auf das Personenicon klicken und "Registrierung" anwählen.
+Rufen Sie die Global Open Knowledge Base (GOKb) über die URL [https://gokb.org/gokb-ui/](https://gokb.org/gokb-ui/) oder das Testsystem über die URL [https://gokbt.gbv.de/gokb-ui/](https://gokbt.gbv.de/gokb-ui/) auf. Wählen Sie die Registrierungsseite an, indem Sie oben rechts auf das Personen-Icon klicken und "Registrierung" anwählen.
 
 Es öffnet sich ein Dialogfenster mit den Feldern zu Registrierung. Bitte füllen Sie Folgendes aus:
 
