@@ -78,19 +78,19 @@ Journals in der ZDB") im Feld `zdb_id` verwendet.
 +  Die Paketbeitritts- und -austrittsdaten für einzelne Titel werden in den 
 Datumsfeldern `access_start_date` und  `access_end_date` festgehalten. Diese sind hilfreich, 
 um den historischen Stand eines Pakets zu einem bestimmten Zeitpunkt zu erhalten, also wann 
-ein Titel innerhalb eines Pakets hinzugekommen bzw. wann dieser das Paket verlassen hat.
+ein Titel innerhalb eines Pakets hinzugekommen ist bzw. wann dieser das Paket verlassen hat.
 +   Für Monographien der Reihentitel: `monograph_parent_collection_title`.
 +   Für verschiedene Medienarten das Feld: `medium`.
 
 ### 4. Hinweise
 
-* Achten Sie darauf pro Paket möglichst globale Gesamttitellisten via KBART-Format in die 
+* Achten Sie darauf, pro Paket möglichst globale Gesamttitellisten via KBART-Format in die 
 GOKb einzuspielen. Spezielle Titelzuschnitte, die sich ggf. für verschiedene Bibliotheken 
 aus diesem Gesamtpaket ergeben, werden erst in von der GOKb abhängigen Systemen wie z.B. 
 in ERM-Systemen definiert. 
 * Achten Sie bei Journal-Listen darauf, dass jeder Titel über entweder eine ZDB-ID, eine 
-e-ISSNs oder zumindest eine korrespondierende Print-ISSN verfügt.
-* Insbesondere bei Titeln aus E-Book-Paketen muss für jedes E-Book eine interne Titel ID 
+e-ISSN oder zumindest eine korrespondierende Print-ISSN verfügt.
+* Insbesondere bei Titeln aus E-Book-Paketen muss für jedes E-Book eine interne Titel-ID 
 (`title_id`) des Anbieters in der KBART-Liste angefügt sein, da andere Identifikatoren 
 wie ISBN häufig nicht eindeutig sind.
 
@@ -98,7 +98,7 @@ wie ISBN häufig nicht eindeutig sind.
 
 Suchen Sie ein Paket über den Menüpunkt "Pakete" auf der linken Menüleiste. Sie können in 
 der Maske über den Namen des Pakets, über den Anbieter des Pakets, über einen Identifikator, 
-über den Status des Pakets eine Kuratorengruppe suchen bzw. filtern.
+über den Status des Pakets oder über eine Kuratorengruppe suchen bzw. filtern.
 
 ![GOKb search package](../assets/search-package.de.png "GOKb Paketsuche")
 
@@ -119,7 +119,7 @@ Hier können Sie die allgemeinen Daten zum Paket wie den Namen, Anbieter und die
 ![GOKb create package](../assets/create-package-1.de.png "GOKb Paket erstellen")
 
 + **Name:** Der offizielle Name des Pakets, unter dem es laut Anbieter angeboten wird. Falls 
-Sie Daten auf ein schon existierendes Paket spielen wollen, müssen Sie hier den genau den Namen 
+Sie Daten auf ein schon existierendes Paket spielen wollen, müssen Sie hier den genauen Namen 
 des Pakets in der GOKb eingeben (idealerweise mit Copy & Paste). Die Richtlinien zur Benennung 
 von Paketen finden Sie [hier](./guidelines-for-package-names.md).
 + **URL:** Hier können Sie eine Informations-URL zum Paket hinterlegen, die auf die entsprechende 
@@ -129,7 +129,7 @@ Vorschlagsliste, wenn Sie in das Textfeld den Namen oder einen Teil des Anbieter
 Eine Anleitung zum Anlegen des Anbieters finden Sie [hier](./create-and-edit-provider.md).
 + **Plattform:** Wählen Sie hier die Plattform des Pakets aus. Sie finden die Plattform über eine 
 Vorschlagsliste, wenn Sie in das Textfeld den Namen oder einen Teil des Plattformnames oder 
-der Plattform-URL eingeben. Eine Anleitung zum Anlegen des Plattform finden Sie 
+der Plattform-URL eingeben. Eine Anleitung zum Anlegen der Plattform finden Sie 
 [hier](./create-and-edit-provider.md).
 
 Beenden Sie die Eingabe mit Anwahl des Buttons "Weiter".
@@ -141,18 +141,17 @@ In diesem Schritt können Sie weitere Paketeigenschaften sowie Identifikatoren u
 ![GOKb create package](../assets/create-package-2.de.png "GOKb Paket erstellen")
 
 + **Pakettyp:** Hier können Sie festlegen, um was für ein Paket es sich handelt
-    * _Laufendes Paket (Front File):_ Ein aktuelles Paket
-    * _Archivpaket (Back File):_ Ein Archivpaket
+    * _Laufendes Paket (Front File):_ ein aktuelles Paket
+    * _Archivpaket (Back File):_ ein Archivpaket
     * _Aggregator-Paket_
-    * _Gesamttitelliste (Master File):_ Eine Gesamtliste aller angebotenen Ressourcen eines Anbieters
-+ **Eingrenzung:** Hier können Sie festlegen, ob es sich um ein global angebotenes Paket handelt 
-(_Global_), ob es sich um ein regional/national angebotenes Paket (_Regional_) handelt oder ob es 
-sich um ein spezifisch auf ein Konsortium oder eine Einrichtung zugeschnittenes Paket handelt 
+    * _Gesamttitelliste (Master File):_ eine Gesamtliste aller angebotenen Ressourcen eines Anbieters
++ **Eingrenzung:** Hier können Sie festlegen, ob es sich um ein global angebotenes Paket 
+(_Global_), ein regional/national angebotenes Paket (_Regional_) oder ob ein spezifisch auf ein Konsortium oder eine Einrichtung zugeschnittenes Paket handelt 
 (_Konsortial_, _Lokal_). Falls eine Eingrenzung wie Regional, Konsortial oder Lokal vorliegt, können 
 Sie diese Eingrenzung im Textfeld spezifizieren.  
 + **Identifikatoren:** Hier können Sie die Identifikatoren für das Paket hinterlegen. Diese dienen 
 dazu, das Paket eindeutig aufzufinden. Wählen Sie hier unter _**Namensraum**_ den Typ des Identifikators 
-(z.B. das ISIL oder den Namensraum des internen Identifikator) und tragen Sie im folgenden Feld den 
+(z. B. das ISIL oder den Namensraum des internen Identifikators) und tragen Sie im folgenden Feld den 
 entsprechenden Wert ein.  
     * _Interner Identifikator:_  Wenn das Paket einen Identifikator des Anbieters selbst besitzt, 
     wählen Sie im Dropdown bitte den Namensraum des Anbieters aus, z.B. _emerald_. Im zweiten Feld 
@@ -172,7 +171,7 @@ Namensform enthalten sind. Namensformen, die hier eingetragen werden, können be
 Listenstatus des Pakets zu ändern.  
     * _Bearbeitungsstatus:_ Hier bestätigen Sie, dass Sie die Metadaten des Pakets vollständig erfasst haben. 
     Voreingestellt ist hier der Status _In Arbeit_. Wenn das Paket fertig bearbeitet ist, setzen Sie den Status 
-    auf _Bestätigt_
+    auf _Bestätigt_.
     * _Listenstatus:_ Hier prüfen Sie, ob die Titelliste fertig bearbeitet wurde. Voreingestellt ist der Status 
     _In Bearbeitung_. Ändern Sie diesen in _Geprüft_, sobald alle Pakettitel korrekt sind. Sie können den Status 
     nicht ändern, wenn noch Prüfanfragen für das Paket offen sind. 
@@ -187,7 +186,7 @@ Hier sehen Sie eine Übersicht der im Paket enthaltenen Titel.
 
 + Sie können über das Suchfeld im Tabellenkopf nach einzelnen Titeln suchen.
 + Sie können Pakettitel über die Auswahl "Status" filtern und sich beispielsweise nur 
-ktuelle, ehemalige (_archiviert_) oder künftig erwartete Titel anzeigen lassen.
+aktuelle, ehemalige (_archiviert_) oder künftig erwartete Titel anzeigen lassen.
 
 Über eine Anwahl eines Titels gelangen Sie in eine Detailsicht.
 
@@ -209,15 +208,16 @@ Dialog. Geben Sie hier bitte folgende Daten an.
 der Datei unter der Spalte `title_id` befindet.  
 +   **Teil-Update:** Wählen Sie dieses Feld an, wird der Inhalt der hochzuladenden KBART-Datei nicht 
 komplett aktualisiert, sondern nur um die hochzuladenden Titel ergänzt.
++   **Testdurchlauf:** Wählen Sie dieses Feld an, wird die KBART-Datei lediglich als Testdurchlauf verarbeitet.
 
 Sie bekommen nach dem Hochladen eine Übersicht über mögliche Fehler in der KBART-Datei. In dem Fall 
-muss die KBART-Datei überarbeitet und erneute hochgeladen werden.
+muss die KBART-Datei überarbeitet und erneut hochgeladen werden.
 
 #### 2. Automatisches Laden einer KBART-Datei per URL
 
-+   **URL:** Geben Sie hier die URL ein, unter der die KBART-Datei zu finden ist. Die URL muss direkt 
++   **URL:** Geben Sie unter "Automatischer Import und Update" die URL ein, unter der die KBART-Datei zu finden ist. Die URL muss direkt 
 auf die KBART-Datei verlinken, nicht ggf. auf eine vorgelagerte Auswahlseite. Ist die KBART-Datei 
-unter einer zeitlich veränderbaren URL zu finden (z.B. das fiktive Beispiel 
+unter einer zeitlich veränderbaren URL zu finden (z. B. das fiktive Beispiel 
 _http://kbart/MeinPaket_2020-10-01.txt_, müssen Sie die zeitlich variablen Felder in 
 folgender Form codieren (In unserem Beispiel: _http://kbart/MeinPaket\_{YYYY-MM-DD}.txt_). Achten Sie
 dabei darauf, die Platzhalter in Großbuchstaben zu setzen:
@@ -225,16 +225,13 @@ dabei darauf, die Platzhalter in Großbuchstaben zu setzen:
     *   Y für die Stellen der Jahreszahl
     *   M für die Stellen der Monatszahl
     *   D für die Stellen der Tageszahl
++   **Update-Zyklus:** Sie können hier wählen, wie häufig das Paket per URL aktualisiert werden soll: täglich, wöchentlich, monatlich, quartalsweise oder jährlich.
 +   **Namensraum für `title_id`:** Wählen Sie bitte den Namensraum des Identifikators, der sich in 
 der Datei unter der Spalte `title_id` befindet.  
-+   **Aktualisierungszyklus:** Aktualisierungsturnus des Pakets. Geben Sie unter Turnus eine Zahl ein 
-und wählen Sie unter Einheit eine Zeiteinheit aus, um den Aktualisierungszyklus festzulegen. Wählen 
-Sie beispielsweise  "2" und "Monat(e)", wird alle zwei Monate das Paket per URL aktualisiert. Die 
-Standardeinstellung ist "1 Tag", also täglich.
 
 #### Namensraum für `title_id` 
 
-KBART-Dateien erlauben unterschiedliche Namensräume in der KBART-Spalte `title_id` angegeben ist. 
+KBART-Dateien erlauben unterschiedliche Namensräume in der KBART-Spalte `title_id`. 
 Typischerweise kommen vor: 
 
 + Eine interne Nummer des Anbieters (Beispielhaft kann hier eine Zahl oder eine Buchstabenkombination 
