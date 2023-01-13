@@ -4,8 +4,7 @@
 
 Paket- und Titeldaten werden in Form von KBART-Dateien in die GOKb eingespielt.
 
-KBART ist ein [NISO-Standard](https://groups.niso.org/apps/group_public/download.php/16900/RP-9-2014_KBART.pdf) z
-ur Darstellung von Titeln in einem Paket. Eine entsprechende Beispiel KBART-Datei, 
+KBART ist ein [NISO-Standard](https://groups.niso.org/apps/group_public/download.php/16900/RP-9-2014_KBART.pdf) zur Darstellung von Titeln in einem Paket. Eine entsprechende Beispiel-KBART-Datei, 
 die auch GOKb-relevante Erweiterungen des Standards sowie Erklärungen zu den einzelnen 
 KBART-Felder beinhaltet, findet sich hier:  [Einführung in KBART](./kbart-introduction.md)
 
@@ -20,8 +19,8 @@ Dabei ist darauf zu achten, dass die KBART-Datei korrekt ist, d.h.
     finden Sie [hier](./kbart-introduction.md).
     +   Alle Spaltenüberschriften müssen existieren - auch, wenn sie in der Tabelle keine Werte haben.
     +   Die Zeichenkodierung der Datei muss UTF-8 sein.
-    +   Tabulator als Trennzeichen.
-    +   Vorzugsweise alphabetische Reihenfolge der Titel.
+    +   Tabulator als Trennzeichen
+    +   Vorzugsweise alphabetische Reihenfolge der Titel
     +   Der Dateiname muss dem Standard entsprechen.
 +   Die Datei muss hinsichtlich ihres Inhalts dem tatsächlich vom Anbieter angebotenen Pakets entsprechen. d.h.
     +   Der Titelumfang und -inhalt muss dem verhandelten Paket entsprechen.
