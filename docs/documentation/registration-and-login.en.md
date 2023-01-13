@@ -32,3 +32,11 @@ Access GOKb via the URL [https://gokb.org/gokb-ui/](https://gokb.org/gokb-ui/ "L
 If you have forgotten your password, you can restore it via
 [this page](https://gokb.org/gokb/register/forgotPassword) (alternatively 
 [this page](https://gokbt.gbv.de/gokb/register/forgotPassword) in the playground system). 
+
+## Change password
+
+Log in, click on the round button in the upper right corner and select "Profile".
+Now fill in the fields under "Password" to create a new password.
+Click on "Update" at the bottom right. A banner will then appear indicating that the profile has been successfully edited. Your new password is now active.
+
+Important notice: You cannot reset your password if you registered without an email address.
