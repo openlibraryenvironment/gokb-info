@@ -48,7 +48,7 @@ finden und nach folgenden Kriterien filtern:
   * **Komponente** - Ein Auswahlfeld, in dem alle Komponenten (Anbieter, Pakete, Titel etc.) suchbar sind
   * **Kategorie** - Eine Auswahl der Kategorien der Prüfanfragen. Eine Übersicht der Kategorien finden 
   Sie weiter unten.
-  * **Status** - Eine Auswahl des Status der Prüfnafrage (Offen, Geschlossen)
+  * **Status** - Eine Auswahl des Status der Prüfnafrage (Offen, Geschlossen, Gelöscht)
   
 ![GOKb review request search view](../assets/review-requests-search.de.png "GOKb Prüfanfragensicht")
   
