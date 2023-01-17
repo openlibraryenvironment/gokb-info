@@ -166,9 +166,13 @@ Finish this step by selecting the "Next" button.
 
 ## Step 3: Package titles
 
-Overview of titles within a package.
+You can import a KBART file (see "Uploading a KBART file") here and add individual package titles.
 
 ![GOKb create package](../assets/create-package-3.png "GOKb create package")
+
+If you have already uploaded package titles, you will see an overview of all titles included in the package at this point.
+
+![GOKb create package](../assets/create-package-5.png "GOKb create package")
 
 + You can search for titles using the search field in header.
 + You can filter titles using the "Status" selection drop-down menu, 
