@@ -166,11 +166,11 @@ Finish this step by selecting the "Next" button.
 
 ## Step 3: Package titles
 
-You can import a KBART file (see "Uploading a KBART file") here and add individual package titles.
+You can import a KBART file (see "Uploading a KBART file") here and add individual package titles. This view corresponds to the view of step 4 in "Edit package".
 
 ![GOKb create package](../assets/create-package-3.png "GOKb create package")
 
-If you have already uploaded package titles, you will see an overview of all titles included in the package at this point.
+If you have already uploaded package titles (so if you are now in step 4 of "Edit package"), you will see an overview of all titles included in the package at this point.
 
 ![GOKb create package](../assets/create-package-5.png "GOKb create package")
 
