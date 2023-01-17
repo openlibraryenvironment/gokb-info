@@ -178,11 +178,15 @@ Listenstatus des Pakets zu ändern.
 
 Beenden Sie die Eingabe mit Anwahl des Buttons "Weiter".
 
-## Schritt 3: Pakettitel
+## Schritt 3: Titel im Paket
 
-Hier sehen Sie eine Übersicht der im Paket enthaltenen Titel.
+Hier können Sie eine KBART-Datei importieren (siehe „Hochladen einer KBART-Datei“) und einzelne Pakettitel hinzufügen.
 
 ![GOKb create package](../assets/create-package-3.de.png "GOKb Paket erstellen")
+
+Falls Sie bereits Pakettitel hochgeladen haben, sehen Sie an dieser Stelle eine Übersicht aller im Paket enthaltenen Titel.
+
+![GOKb create package](../assets/create-package-5.de.png "GOKb Paket erstellen")
 
 + Sie können über das Suchfeld im Tabellenkopf nach einzelnen Titeln suchen.
 + Sie können Pakettitel über die Auswahl "Status" filtern und sich beispielsweise nur 
