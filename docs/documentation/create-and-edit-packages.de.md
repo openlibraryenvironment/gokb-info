@@ -180,11 +180,11 @@ Beenden Sie die Eingabe mit Anwahl des Buttons "Weiter".
 
 ## Schritt 3: Titel im Paket
 
-Hier können Sie eine KBART-Datei importieren (siehe „Hochladen einer KBART-Datei“) und einzelne Pakettitel hinzufügen. Dabei entspricht diese Ansicht der Ansicht von Schritt 4 bei "Paket bearbeiten.
+Hier können Sie eine KBART-Datei importieren (siehe „Hochladen einer KBART-Datei“) und einzelne Pakettitel hinzufügen. Dabei entspricht diese Ansicht der Ansicht von Schritt 4 bei "Paket bearbeiten".
 
 ![GOKb create package](../assets/create-package-3.de.png "GOKb Paket erstellen")
 
-Falls Sie bereits Pakettitel hochgeladen haben (sich also im Schritt 4 von "Paket bearbeiten befinden"), sehen Sie an dieser Stelle eine Übersicht aller im Paket enthaltenen Titel.
+Falls Sie bereits Pakettitel hochgeladen haben (sich also im Schritt 4 von "Paket bearbeiten" befinden), sehen Sie an dieser Stelle eine Übersicht aller im Paket enthaltenen Titel.
 
 ![GOKb create package](../assets/create-package-5.de.png "GOKb Paket erstellen")
 
