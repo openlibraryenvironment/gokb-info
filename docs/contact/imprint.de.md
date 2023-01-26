@@ -17,15 +17,15 @@ Landesbetrieb des Landes Niedersachsen § 26 LHO. Die VZG ist ein rechtlich unse
 
 ## Projekt-Partner
 
-Maike Osters
+Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen
 
-Abteilungsleitung Bibliotheksmanagementsysteme hbz – Nordrhein-Westfälisches Bibliotheksservicezentrum Jülicher Str. 6
+Gruppe Bibliotheksmanagementsysteme 
+
+Jülicher Str. 6
 
 50674 Köln
 
-Tel.: +49(0) 221 40075-124
-
-E-Mail: osters@hbz-nrw.de 
+E-Mail: bms@hbz-nrw.de 
 
 <br/>
 
