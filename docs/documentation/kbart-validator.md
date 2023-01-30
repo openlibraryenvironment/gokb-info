@@ -14,6 +14,8 @@ Click in the grayed out "File" field, select a file from your saved files and up
 
 Use the slider to select whether you want to have the data validated in strict or non-strict mode. In strict mode, the validation process strictly follows the NISO standard. Non-strict mode corresponds to validation during package upload – this means that this mode accepts also non-standard values that are accepted and (if necessary) automatically adjusted by the GOKb
 
+![GOKB kbart validator mode](../assets/KBART-Validator-mode.png "GOKB KBART Validator mode")
+
 To start the process, click the "Validate" button. If the result does not appear immediately, a loading icon will show you that the validation process is still active.
 
 ## Results
