@@ -1,6 +1,6 @@
 # KBART-Validator
 
-Der KBART-Validator ist ein Tool, mit dem Sie KBART-Dateien auf ihre Konformität zum NISO-Standard überprüfen können.
+Der KBART-Validator ist ein Tool, mit dem Sie KBART-Dateien auf ihre Konformität zum [NISO-Standard](https://www.niso.org/standards-committees/kbart) überprüfen können.
 
 ## Datei hochladen
 
