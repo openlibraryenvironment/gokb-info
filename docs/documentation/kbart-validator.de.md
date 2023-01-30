@@ -12,7 +12,9 @@ Klicken Sie in das grau hinterlegte „Datei“-Feld, wählen Sie aus Ihren gesp
 
 ## Datei validieren
 
-Wählen Sie anhand des Sliders aus, ob Sie die Daten im strikten oder nicht strikten Modus validieren lassen möchten. Im strikten Modus erfolgt der Validierungsvorgang streng nach dem NISO-Standard. Der nicht strikte Modus entspricht der Validierung beim Paket-Upload und es werden auch nicht standardkonforme Werte akzeptiert, die die GOKb akzeptiert und ggf. automatisch anpasst. 
+Wählen Sie anhand der Checkbox aus, ob Sie die Daten im strikten oder nicht strikten Modus validieren lassen möchten. Im strikten Modus erfolgt der Validierungsvorgang streng nach dem NISO-Standard. Der nicht strikte Modus entspricht der Validierung beim Paket-Upload und es werden auch nicht standardkonforme Werte akzeptiert, die die GOKb akzeptiert und ggf. automatisch anpasst. 
+
+![GOKB kbart validator modus](../assets/KBART-Validator-mode.de.png "GOKB KBART Validator Modus")
 
 Um den Vorgang zu starten, klicken Sie auf den Button „Validieren“. Sollte das Ergebnis nicht sofort erscheinen, zeigt Ihnen ein Ladesymbol an, dass der Validierungsvorgang noch aktiv ist. 
 
