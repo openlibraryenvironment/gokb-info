@@ -26,7 +26,7 @@ Klicken Sie links im Menü auf „Anbieter anlegen“ und tragen Sie unter „Na
 Im unteren Bereich der Eingabemaske können Sie mit Klick auf "Namensvarianten", "Identifikatoren", "Plattformen", "Kuratorengruppen" und „Kontakte“ weitere Daten zum Anbieter eintragen. Diese Bereiche haben eine einheitliche Benutzung:
 
 +   Wählen Sie bei jedem Bereich "Hinzufügen", um über ein Dialogfenster die entsprechenden Daten einzutragen.
-+   Über die Checkboxen am Zeilenanfang können Sie Daten löschen, indem Sie entweder einzelne Zeilen markieren oder über die oberste Checkbox alles auswählen und dann im Bereichskopf den Button "Löschen" betätigen. Bei den Identifikatoren stehen Ihnen als Löschoption zusätzlich Papierkorb-Icons zur Verfügung.
++   Über die Checkboxen am Zeilenanfang können Sie Daten löschen, indem Sie entweder einzelne Zeilen markieren oder über die oberste Checkbox alles auswählen und dann im Bereichskopf den Button "Löschen" betätigen.
 
 Detailliert können Sie hier folgende Daten anlegen: 
 
