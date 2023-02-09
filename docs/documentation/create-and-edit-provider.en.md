@@ -26,7 +26,7 @@ Create a provider via the menu item "Create Provider". Enter the official provid
 In the lower section you can add further information about a provider by clicking on „Name Variants“, „Identifiers“, „Platforms“, „Curatory Groups“ and „Contacts“. These data fields have a uniform usage:
 
 + Select "Add" to enter data via a pop-up dialog.
-+ You can use the checkboxes at the beginning of the lines to delete data, either by selecting individual lines or by selecting everything via the top checkbox and then pressing the "Delete" button. In the case of the identifiers, trash can icons are also available as a deletion option.
++ You can use the checkboxes at the beginning of the lines to delete data, either by selecting individual lines or by selecting everything via the top checkbox and then pressing the "Delete" button.
 
 In detail, you can add the following data:
 
