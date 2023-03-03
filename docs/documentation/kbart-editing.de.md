@@ -145,11 +145,11 @@ werden:
   * Umlaute wie ä, ö, ü
   * Weitere Buchstaben und Zeichen außerhalb des lateinischen Standardalphabets (Akzente etc.)
 
-![Notepad++ Kodierung](../assets/notepad_code.de.png "Kodierungsanzeige in Notepad++")
+![Notepad++ Kodierung](../assets/notepad_code.png "Kodierungsanzeige in Notepad++")
 
 Sie können über den Menüpunkt _Codierung_ die korrekte Zeichenkodierung der Datei auswählen, sodass
 die genannten Zeichen korrekt dargestellt werden. Über denselben Menüpunkt _Codierung_ > _Konvertiere
 zu UTF-8_ können Sie die Kodierung auf die korrekte, vom KBART-Standard empfohlene Zeichenkodierung
 UTF-8 umstellen und anschließend abspeichern.
 
-![Notepad++ Kodierungsänderung](../assets/notepad_code_change.de.png "Kodierungsänderung in Notepad++")
+![Notepad++ Kodierungsänderung](../assets/notepad_code_change.png "Kodierungsänderung in Notepad++")
