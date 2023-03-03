@@ -37,6 +37,7 @@ plugins:
           Working with review requests: Arbeiten mit Prüfanfragen
           Guidelines for package names: Richtlinien für Paketnamen
           KBART validator: KBART-Validator
+          KBART editing: Bearbeitung von KBART-Dateien
   - search
   - localsearch
 nav:
@@ -50,6 +51,7 @@ nav:
     - Working with review requests: documentation/review-requests.md
     - Guidelines for package names: documentation/guidelines-for-package-names.md
     - KBART validator: documentation/kbart-validator.md
+    - KBART editing: documentation/kbart-editing.md
   - Presentations: presentations.md
   - Publications: publications.md
   - Releases: releases.md
