@@ -148,7 +148,14 @@ In diesem Schritt können Sie weitere Paketeigenschaften sowie Identifikatoren u
 + **Eingrenzung:** Hier können Sie festlegen, ob es sich um ein global angebotenes Paket 
 (_Global_), ein regional/national angebotenes Paket (_Regional_) oder ob ein spezifisch auf ein Konsortium oder eine Einrichtung zugeschnittenes Paket handelt 
 (_Konsortial_, _Lokal_). Falls eine Eingrenzung wie Regional, Konsortial oder Lokal vorliegt, können 
-Sie diese Eingrenzung im Textfeld spezifizieren.  
+Sie diese Eingrenzung im Textfeld spezifizieren.
++ **Paketmerkmale:** Hier können Sie Merkmale des Pakets angeben.
+    * _Paketinhalt ist einheitlich:_ Besitzt das Paket für alle lizensierenden Bibliotheken den gleichen Inhalt? –
+      _Ja_, wenn der Inhalt für alle gleich ist. _Nein_ (Standardwert), wenn sich der Inhalt von Bibliothek zu Bibliothek unterscheidet.
+    * _Einzeltitelauswahl möglich:_ Kann aus dem Paket eine Einzeltitelauswahl getroffen werden z.B. auf Basis von Pick and Choose? –
+      _Ja_, wenn Einzeltitelauswahl möglich ist. _Nein_ (Standardwert), wenn Einzeltitelauswahl nicht möglich ist.
+    * _Paket ist unveränderbar:_ Kann sich der Inhalt des Pakets verändern, d.h. können im Laufe der Zeit Titel hinzukommen bzw. wegfallen? –
+      _Ja_, wenn der Inhalt unverändert bleibt. _Nein_ (Standardwert), wenn sich der Inhalt ändert. 
 + **Identifikatoren:** Hier können Sie die Identifikatoren für das Paket hinterlegen. Diese dienen 
 dazu, das Paket eindeutig aufzufinden. Wählen Sie hier unter _**Namensraum**_ den Typ des Identifikators 
 (z. B. das ISIL oder den Namensraum des internen Identifikators) und tragen Sie im folgenden Feld den 
