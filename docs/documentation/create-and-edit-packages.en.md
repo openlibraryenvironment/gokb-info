@@ -142,6 +142,13 @@ or is specifically tailored to a consortia (Consortial) or a single institution 
 If there is a restriction like "Regional", "Consortial" or "Local", you can specify 
 this restriction in the text field. Please follow the [guidelines](./guidelines-for-package-names.md) 
 for package titles. 
++ **Package characteristics:** Here you can specify characteristics of a package.
+   * _Content is consistent:_ Does the package have the same content for all licensing libraries? – _Yes_ if the content is the same for every library.
+     _No_ (default) if the content differs from library to library.
+   * _Content may be split:_ Can an individual title selection be made from the package, e.g. on the basis of pick and choose? – 
+     _Yes_ if single title selection is possible. _No_ (default) if single title selection is not possible.
+   * _Content is fixed:_ Can the content of the package change, i.e. can titles be added or removed over time? – 
+     _Yes_ if the content remains fixed. _No_ (default) if the content changes.
 + **Identifiers:** Add unique identifiers for the package. Select a "Namespace" for the 
 identifier and enter the corresponding identifier.
     * _Internal identifier:_ If the package has an identifier of the provider itself, 
