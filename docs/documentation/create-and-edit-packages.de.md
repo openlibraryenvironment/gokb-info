@@ -11,7 +11,7 @@ KBART-Felder beinhaltet, findet sich hier:  [Einführung in KBART](./kbart-intro
 
 ### 1. Korrektheit der KBART-Datei
 
-Dabei ist darauf zu achten, dass die KBART-Datei korrekt ist, d.h.
+Dabei ist darauf zu achten, dass die KBART-Datei korrekt ist, d. h.
 
 +   Die Datei muss formal korrekt sein.
     +   Die Feldbezeichnungen und -inhalte müssen dem KBART-Standard sowie dem 
@@ -22,7 +22,7 @@ Dabei ist darauf zu achten, dass die KBART-Datei korrekt ist, d.h.
     +   Tabulator als Trennzeichen
     +   Vorzugsweise alphabetische Reihenfolge der Titel
     +   Der Dateiname muss dem Standard entsprechen.
-+   Die Datei muss hinsichtlich ihres Inhalts dem tatsächlich vom Anbieter angebotenen Pakets entsprechen. d.h.
++   Die Datei muss hinsichtlich ihres Inhalts dem tatsächlich vom Anbieter angebotenen Pakets entsprechen. d. h.
     +   Der Titelumfang und -inhalt muss dem verhandelten Paket entsprechen.
     +   Die Zugangs-URLs für einzelne Titel müssen korrekt sein. Es müssen außerdem allgemeingültige 
     URLs sein, keine einrichtungsspezifischen URLs.
@@ -86,7 +86,7 @@ ein Titel innerhalb eines Pakets hinzugekommen ist bzw. wann dieser das Paket ve
 
 * Achten Sie darauf, pro Paket möglichst globale Gesamttitellisten via KBART-Format in die 
 GOKb einzuspielen. Spezielle Titelzuschnitte, die sich ggf. für verschiedene Bibliotheken 
-aus diesem Gesamtpaket ergeben, werden erst in von der GOKb abhängigen Systemen wie z.B. 
+aus diesem Gesamtpaket ergeben, werden erst in von der GOKb abhängigen Systemen wie z. B. 
 in ERM-Systemen definiert. 
 * Achten Sie bei Journal-Listen darauf, dass jeder Titel über entweder eine ZDB-ID, eine 
 e-ISSN oder zumindest eine korrespondierende Print-ISSN verfügt.
@@ -150,18 +150,18 @@ In diesem Schritt können Sie weitere Paketeigenschaften sowie Identifikatoren u
 (_Konsortial_, _Lokal_). Falls eine Eingrenzung wie Regional, Konsortial oder Lokal vorliegt, können 
 Sie diese Eingrenzung im Textfeld spezifizieren.
 + **Paketmerkmale:** Hier können Sie Merkmale des Pakets angeben.
-    * _Paketinhalt ist einheitlich:_ Besitzt das Paket für alle lizensierenden Bibliotheken den gleichen Inhalt? –
+    * _Paketinhalt ist einheitlich:_ Besitzt das Paket für alle lizenzierenden Bibliotheken den gleichen Inhalt? –
       _Ja_, wenn der Inhalt für alle gleich ist. _Nein_ (Standardwert), wenn sich der Inhalt von Bibliothek zu Bibliothek unterscheidet.
-    * _Einzeltitelauswahl möglich:_ Kann aus dem Paket eine Einzeltitelauswahl getroffen werden z.B. auf Basis von Pick and Choose? –
+    * _Einzeltitelauswahl möglich:_ Kann aus dem Paket eine Einzeltitelauswahl getroffen werden z. B. auf Basis von Pick and Choose? –
       _Ja_, wenn Einzeltitelauswahl möglich ist. _Nein_ (Standardwert), wenn Einzeltitelauswahl nicht möglich ist.
-    * _Paket ist unveränderbar:_ Kann sich der Inhalt des Pakets verändern, d.h. können im Laufe der Zeit Titel hinzukommen bzw. wegfallen? –
+    * _Paket ist unveränderbar:_ Kann sich der Inhalt des Pakets verändern, d. h. können im Laufe der Zeit Titel hinzukommen bzw. wegfallen? –
       _Ja_, wenn der Inhalt unverändert bleibt. _Nein_ (Standardwert), wenn sich der Inhalt ändert. 
 + **Identifikatoren:** Hier können Sie die Identifikatoren für das Paket hinterlegen. Diese dienen 
 dazu, das Paket eindeutig aufzufinden. Wählen Sie hier unter _**Namensraum**_ den Typ des Identifikators 
 (z. B. das ISIL oder den Namensraum des internen Identifikators) und tragen Sie im folgenden Feld den 
 entsprechenden Wert ein.  
     * _Interner Identifikator:_  Wenn das Paket einen Identifikator des Anbieters selbst besitzt, 
-    wählen Sie im Dropdown bitte den Namensraum des Anbieters aus, z.B. _emerald_. Im zweiten Feld 
+    wählen Sie im Dropdown bitte den Namensraum des Anbieters aus, z. B. _emerald_. Im zweiten Feld 
     geben Sie den internen Paketidentifikator ein, z.B. _EMX120_. Dieser ist für spätere Referenzierung wichtig. 
     * _ISIL/Paketsigel:_ Falls Ihr Paket ein offizielles Produktkennzeichen der 
     "[ISIL-Agentur](https://sigel.staatsbibliothek-berlin.de/startseite/)" besitzt, geben Sie dieses 
