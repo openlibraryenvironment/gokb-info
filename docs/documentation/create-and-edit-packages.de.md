@@ -162,7 +162,7 @@ dazu, das Paket eindeutig aufzufinden. Wählen Sie hier unter _**Namensraum**_ d
 entsprechenden Wert ein.  
     * _Interner Identifikator:_  Wenn das Paket einen Identifikator des Anbieters selbst besitzt, 
     wählen Sie im Dropdown bitte den Namensraum des Anbieters aus, z. B. _emerald_. Im zweiten Feld 
-    geben Sie den internen Paketidentifikator ein, z.B. _EMX120_. Dieser ist für spätere Referenzierung wichtig. 
+    geben Sie den internen Paketidentifikator ein, z. B. _EMX120_. Dieser ist für spätere Referenzierung wichtig. 
     * _ISIL/Paketsigel:_ Falls Ihr Paket ein offizielles Produktkennzeichen der 
     "[ISIL-Agentur](https://sigel.staatsbibliothek-berlin.de/startseite/)" besitzt, geben Sie dieses 
     hier an. Sie finden es ggf. unter 
