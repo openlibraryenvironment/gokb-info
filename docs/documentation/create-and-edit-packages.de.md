@@ -181,7 +181,7 @@ Listenstatus des Pakets zu ändern.
     auf _Bestätigt_.
     * _Listenstatus:_ Hier prüfen Sie, ob die Titelliste fertig bearbeitet wurde. Voreingestellt ist der Status 
     _In Bearbeitung_. Ändern Sie diesen in _Geprüft_, sobald alle Pakettitel korrekt sind. Sie können den Status 
-    nicht ändern, wenn noch Prüfanfragen für das Paket offen sind. 
+    nicht ändern, wenn noch Prüfanfragen für das Paket offen sind. Der Listenstatus ist wichtig für den Import in Drittsysteme wie FOLIO, denn Pakete ohne den Status       _Geprüft_ werden nicht übernommen. Ferner wird, wenn Sie den Listenstatus auf _Geprüft_ gesetzt haben, das jeweilige Datum automatisch im Feld "Zuletzt                 verifiziert am" angezeigt. Dadurch können Nutzende des Pakets erkennen, wann es zuletzt intellektuell bearbeitet wurde.
 
 Beenden Sie die Eingabe mit Anwahl des Buttons "Weiter".
 
@@ -191,7 +191,7 @@ Hier können Sie eine KBART-Datei importieren (siehe „Hochladen einer KBART-Da
 
 ![GOKb create package](../assets/create-package-3.de.png "GOKb Paket erstellen")
 
-Falls Sie bereits Pakettitel hochgeladen haben (sich also im Schritt 4 von "Paket bearbeiten" befinden), sehen Sie an dieser Stelle eine Übersicht aller im Paket enthaltenen Titel.
+Falls Sie bereits Pakettitel hochgeladen haben (sich also im Schritt 4 von "Paket bearbeiten" befinden), sehen Sie an dieser Stelle eine Übersicht aller im Paket enthaltenen Titel mit dem Datum der letzten Änderung.
 
 ![GOKb create package](../assets/create-package-5.de.png "GOKb Paket erstellen")
 
@@ -200,6 +200,8 @@ Falls Sie bereits Pakettitel hochgeladen haben (sich also im Schritt 4 von "Pake
 aktuelle, ehemalige (_archiviert_) oder künftig erwartete Titel anzeigen lassen.
 
 Über eine Anwahl eines Titels gelangen Sie in eine Detailsicht.
+
+In der Titelübersicht sowie auf jedem Schritt im Modus "Paket bearbeiten" werden Ihnen am Fuß der Seite jeweils das Datum der Erstellung des Paketes und der letzten Änderung an den Paketdaten angezeigt. Das Datum der Änderung ist für Drittsysteme wichtig, die Daten anhand der letzten Änderung abrufen (wie z. B. über die OAI-PMH-Schnittstelle).
 
 ### Hochladen einer KBART-Datei
 
