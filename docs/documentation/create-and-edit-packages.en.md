@@ -177,7 +177,7 @@ You can import a KBART file (see "Uploading a KBART file") here and add individu
 
 ![GOKb create package](../assets/create-package-3.png "GOKb create package")
 
-If you have already uploaded package titles (so if you are now in step 4 of "Edit package"), you will see an overview of all titles included in the package included in the package with the date of the last update at this point.
+If you have already uploaded package titles (so if you are now in step 4 of "Edit package"), you will see an overview of all titles included in the package with the date of the last update at this point.
 
 ![GOKb create package](../assets/create-package-5.png "GOKb create package")
 
