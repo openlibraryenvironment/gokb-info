@@ -167,7 +167,7 @@ and well-known name variants that are not included in the official name. Name va
     metadata of the package. The default value is _In progress_.
   * _List  Status:_ Here you can set the status to _Checked_ as soon as the package title list is correct and checked.
     The default value is _In progress_. You can't change the list status as long as there are open review 
-    requests appending to the package.
+    requests appending to the package. The list status is important for importing into third-party systems such as FOLIO, because packages without the status _Checked_     will not be taken over. Furthermore, after the status is changed to _Checked_, the respective date is automatically displayed in "Last list verification". This           allows users of the package to see when it was last intellectually processed.
 
 Finish this step by selecting the "Next" button.
 
@@ -177,7 +177,7 @@ You can import a KBART file (see "Uploading a KBART file") here and add individu
 
 ![GOKb create package](../assets/create-package-3.png "GOKb create package")
 
-If you have already uploaded package titles (so if you are now in step 4 of "Edit package"), you will see an overview of all titles included in the package at this point.
+If you have already uploaded package titles (so if you are now in step 4 of "Edit package"), you will see an overview of all titles included in the package included in the package with the date of the last update at this point.
 
 ![GOKb create package](../assets/create-package-5.png "GOKb create package")
 
@@ -186,6 +186,8 @@ If you have already uploaded package titles (so if you are now in step 4 of "Edi
 e.g. only current, retired or deleted titles.
 
 Select a title from the list to get detailed information for it.
+
+In the title overview as well as on each step in the "Edit package" mode, the date of the creation of the package and the date of the last update to the package data are displayed at the bottom of the page. The date of the update is important for third-party systems that retrieve data based on the last update (such as via the OAI-PMH interface).
 
 ### Uploading a KBART file
 
