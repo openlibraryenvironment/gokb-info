@@ -172,8 +172,8 @@ entsprechenden Wert ein.
     Sigel eines dieser Pakete sollten Sie nur dann übernehmen, wenn Sie das entsprechende Allianz-,  
     National- oder Konsortiallizenzpaket einspielen.
 + **Weitere Namensformen:** Hier können Sie Abkürzungen oder alternative Namensformen eintragen. 
-Das empfiehlt sich, um gängige und bekannte Namensformen aufzunehmen, die nicht in der offiziellen 
-Namensform enthalten sind. Namensformen, die hier eingetragen werden, können bei der Paketsuche gefunden werden.
+Das empfiehlt sich, um gängige und bekannte Varianten aufzunehmen, die nicht in der offiziellen 
+Namensform enthalten sind. Namensvarianten, die hier eingetragen werden, können bei der Paketsuche gefunden werden. Bitte beachten Sie, dass die alternative Namensform eine Variante des Paketnamens ist und keine Variante des Anbieternamens.
 + **Bearbeitungs- und Listenstatus:** Wenn Sie das Paket bearbeiten (und nicht anlegen), haben Sie außerdem die Möglichkeit, den Bearbeitungs- und 
 Listenstatus des Pakets zu ändern.  
     * _Bearbeitungsstatus:_ Hier bestätigen Sie, dass Sie die Metadaten des Pakets vollständig erfasst haben. 
