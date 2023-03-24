@@ -160,7 +160,7 @@ identifier and enter the corresponding identifier.
     the correct vendor package ISIL. The German ISIL Agency also issues ISIL for packages 
     of alliance, national or consortia licenses. You should only add one ISIL referencing the packages.
 + **Name variants:** Abbreviations or alternative name variants. This is recommended for common 
-and well-known name variants that are not included in the official name. Name variants can be searched.
+and well-known name variants that are not included in the official name. Name variants can be searched. Please note that the alternative name is a variant of the package name and not a variant of the provider name.
 + **Editing and List Statuss:** In editing mode (not in creating mode) you can change the editing and list 
   status of the package. 
   * _Editing Status:_ Here you can set the status to _Approved_ as soon as you have entered all necessary 
