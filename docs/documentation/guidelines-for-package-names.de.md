@@ -6,7 +6,7 @@ werden kann.
 
 Der Paketname setzt sich zusammen aus:
 
-+ einer Kurzform des Anbieternamens, sofern dieser nicht eindeutig aus dem Paketnamen hervorgeht (wie z.B. `Emerald Management 120`). 
++ einer Kurzform des Plattform-Anbieters, sofern dieser nicht eindeutig aus dem Paketnamen hervorgeht (wie z.B. `Emerald Management 120`). 
 + dem vom Anbieter vergebenen Paketnamen. Stellt das Paket kein reales Paket, sondern eine Gesamtliste eines Anbieters dar, sollte die Bezeichnung "All Titles" oder "Journals: All Titles" gewählt werden.
 + gegebenenfalls einer geografischen Einschränkung (z.B. auf ein Land). Eine Angabe wie _Global_ ist nicht erforderlich, wenn keine Einschränkung vorliegt.
 + gegebenenfalls einer Einschränkung auf ein Konsortium.
