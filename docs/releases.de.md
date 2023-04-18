@@ -1,3 +1,17 @@
+# Release 1.5
+_Veröffentlicht am 17. April 2023_
+
+Die zentralen Neuerungen der Version 1.5 sind eine verbesserte Darstellung der Prüfanfragen sowie Optimierungen bei der Validierung und beim Import von KBART-Dateien.
+
+## Verbesserte Darstellung der Prüfanfragen
+Im Sinne einer besseren Usability steht eine neue Workflow-Oberfläche zur Bearbeitung der Prüfanfragen zur Verfügung. Die Darstellung ist nun übersichtlicher, wodurch sich Titel- und Identifikator-Inkonsistenzen sowie Dubletten intuitiver bereinigen lassen. Aussagekräftige Anweisungen und Hinweistexte sowie farbliche Hervorhebungen wichtiger Informationen sorgen ebenfalls für eine bessere Bedienbarkeit. Auch die einzelnen Aktionsbuttons, über die sich unter anderem Titeländerungen vornehmen, Titel auswählen und Dubletten zusammenführen lassen, sind nun aussagekräftiger gestaltet und tragen somit dazu bei, dass Prüfanfragen einfacher bearbeitet werden können.
+
+## Optimierungen bei Validierung und Import von KBART-Dateien
+Bei der Validierung von KBART-Dateien erscheint nun eine Warnung bei fehlender title_id. Außerdem werden Konflikte in der Abdeckung von Journals identifiziert und es finden mehr Überprüfungen auf fehlerhafte Zeichensätze statt. Auch beim Import von KBART-Dateien erfolgt eine detailreichere Rückmeldung seitens des Systems, sodass Nutzer*innen die Fehlerquellen besser nachvollziehen können. Eine weitere Neuerung ist schließlich, dass fehlerhafte Zeilen in einer KBART-Datei zur Ablehnung dieser Datei und somit zum Scheitern des Imports führen. Hierdurch wird sichergestellt, dass Pakete kontrolliert in ihrer Gesamtheit in die GOKb eingespielt werden können (und nicht ungewollt ohne wichtige Pakettitel).
+
+## Vollständige Übersicht der Änderungen
+Eine Gesamtübersicht aller Neuerungen finden Sie im [Github-Repo der GOKb](https://github.com/openlibraryenvironment/gokb/releases).
+
 # Release 1.4
 _Veröffentlicht am 15. Dezember 2022_
 
