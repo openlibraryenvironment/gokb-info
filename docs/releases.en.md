@@ -1,3 +1,17 @@
+# Release 1.5
+_Published on 17 April 2023_
+
+The central innovations of version 1.5 are an improved display of the review requests as well as optimizations in the validation and the import of KBART files.
+
+## Improved display of review requests
+In order to improve usability, a new workflow interface is available for processing review requests. The display is now clearer, allowing title and identifier inconsistencies as well as duplicates to be cleaned up more intuitively. Meaningful instructions and hint texts, as well as color highlighting of important information, also ensure better usability. The buttons, which can be used to make title changes, select titles, and merge duplicates, among other things, are now also more informative and thus help to make it easier to process review requests.
+
+## Optimizations for validation and import of KBART files
+When validating KBART files, a warning now appears if title_id is missing. In addition, conflicts regarding the coverage of journals are identified. Also, more checks are made for incorrect character sets. The system also provides more detailed feedback when importing KBART files, so that users can better understand the sources of errors. Finally, another new feature is that incorrect lines in a KBART file will cause that file to be rejected and thus cause the import to fail. This ensures that packages can be imported into the GOKb in a controlled manner in their entirety (and not unintentionally without important package titles).
+
+## Complete overview of changes
+A complete overview of all changes can be found in the [Github repo of GOKb](https://github.com/openlibraryenvironment/gokb/releases).
+
 # Release 1.4
 _Published on 15 December 2022_
 
