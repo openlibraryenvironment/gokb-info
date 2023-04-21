@@ -7,7 +7,7 @@ Mit dem Release 1.5 wurde in der GOKb vor allem die Darstellung der Prüfanfrage
 
 Des Weiteren gibt es eine Termin-Ankündigung: Das Team der GOKb ist auf der BiblioCON 2023 in Hannover mit folgenden Veranstaltungen vertreten:
 
-•	24. Mai von 14 bis 16 Uhr: Vortrag zum Thema [„GOKb & FOLIO – neue Möglichkeiten für die Verwaltung elektronischer Ressourcen“](https://dbt2023.abstractserver.com/program/#/details/presentations/388)
+•	24. Mai von 14 bis 16 Uhr: Vortrag zum Thema [„GOKb & FOLIO – neue Möglichkeiten für die Verwaltung elektronischer Ressourcen“](https://dbt2023.abstractserver.com/program/#/details/presentations/199)
 
 •	26. Mai von 9 bis 11 Uhr: Workshop [„Workflows für die Paketverwaltung mit der Global Open Knowledgebase (GOKb)“](https://dbt2023.abstractserver.com/program/#/details/sessions/84)
 
