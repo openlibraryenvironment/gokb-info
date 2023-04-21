@@ -1,5 +1,18 @@
 # News
 
+## Release 1.5 published & GOKb at the BiblioCON 2023
+*April 17, 2023*
+
+With the release 1.5, the display of check requests in the GOKb has been optimized. It now offers a better overview as well as adapted hint texts, which contributes to an increased usability. In addition, there is now improved feedback during validation and when importing KBART files. More information about Release 1.5 can be found [here](https://gokb.org/de/releases.html).
+
+Furthermore there is a date announcement: The GOKb team will be at the BiblioCON 2023 in Hannover with the following events:
+
+•	May 24 from 2 to 4 p.m.: Presentation on [„GOKb & FOLIO – new possibilities for managing electronic resources“](https://dbt2023.abstractserver.com/program/#/details/presentations/199)
+
+•	May 26 from 9 to 11 a.m.: Workshop [„Workflows for package management with the Global Open Knowledgebase (GOKb)“](https://dbt2023.abstractserver.com/program/#/details/sessions/84)
+
+Registrations for the workshop are possible in advance by mail (the e-mail address can be found under the link to the event).
+
 ## Release 1.4 published
 *December 15, 2022*
 
