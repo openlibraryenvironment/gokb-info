@@ -341,3 +341,34 @@ Für die gegebenen ISSNs wurde keine EZB-/ZDB-Aufnahme gefunden.
 EZB-/ZDB-Anreicherung übersprungen
           
 #### toDo
+
+## Anleitung zur Bearbeitung von Prüfanfragen
+### Im Folgenden zeigen wir Ihnen in einzelnen Schritten, wie Sie bestimmte Typen von Prüfanfragen bearbeiten können.
+
+### ISSN Konflikt
+
+Der Konflikt ist entstanden, weil der Pakettitel eine e-ISSN enthält, die einer bestehenden p-ISSN des Referenztitels entspricht, oder umgekehrt.
+
+![Screenshot_ISSN_Konflikt_052023](https://user-images.githubusercontent.com/127318583/236470236-f3174403-6222-454a-9fea-49a4b22af37c.png)
+
+1. In der Kachel wird der zu korrigierende Title mit den enthaltenen Identifikatoren angezeigt. Durch anklicken des Kästchens in der Tabelle wählen Sie die zu löschende ISSN aus.
+2. Die Löschung aktivieren Sie, in dem Sie auf den Button "Titeländerung Abschicken" klicken.
+3. Um einen neuen Identifikator hinzuzufügen, klicken Sie auf den Titel. Dadurch öffnet sich in einem neuen Fenster die Detailansicht.
+4. Im Anschluss klicken Sie auf den Button "Prüfanfrage Abschliessen".
+
+**Hinweis:** Print- und Onlineversion einer Zeitschrift müssen mit eigenen ISSNs ausgezeichnet werden. Verschiedene Nachweissysteme benutzen jedoch eine ISSN fälschlich für beide Versionen. Die autorisierten ISSNs finden Sie unter https://portal.issn.org/.
+
+
+### Fehlerhafter Name
+
+Der Konflikt ist entstanden, weil der Name des Titels ein fehlerhaftes Zeichen enthält.
+
+![Screenshot__Invalid_Name2_052023](https://user-images.githubusercontent.com/127318583/236488296-4b365f00-ebc8-492b-ae42-02d644e076be.png)
+
+1. In der angezeigten Kachel klicken Sie auf das Stift-Icon, das direkt hinter dem zu prüfenden Titel. Sie können so direkt im Feld die fehlerhaften Zeichen im Titelnamen korrigieren. Um die Änderung zu speichern, aktivieren Sie den Haken am Ende des Feldes.
+2. Die Änderung des Titels wird gespeichert mit der Aktivierung des Buttons "Titeländerung Abschicken".
+3. Überprüfen Sie ebenfalls die auch in der Kachel angezeigten Paket- bzw. Referenztitel. Mit einem Klick auf den Namen öffnet sich die Detailansicht in einem neuen Fenster. 
+4. Die Prüfanfrage beenden Sie, in dem Sie auf den Button "Prüfunanfrage Abschliessen" klicken.
+
+**Hinweis:** Fehlerhafte Zeichen im Titel tauchen immer dann auf, wenn KBART-Dateien eingespielt werden, die nicht UTF-8-konform sind. In der Dokumentation finden Sie eine [Anleitung](https://gokb.org/de/documentation/kbart-editing.html), wie man mit einem Tabellenkalkulationsprogramm Dateien in UTF-8 umwandelt und speichert. Für die korrekte Titelaufnahme kann die Verzeichnung in externen Quellen helfen.
+
