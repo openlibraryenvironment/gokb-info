@@ -1,6 +1,6 @@
 # Arbeiten mit Prüfanfragen
 
-Prüfanfragen sind eine zentrale Workflow-Komponenten der GOKb. Über Prüfanfragen wird Ihnen 
+Prüfanfragen sind zentrale Workflow-Komponenten der GOKb. Über Prüfanfragen wird Ihnen 
 mitgeteilt, ob bei der Bearbeitung oder dem Einspielen von Komponenten Fehler aufgetreten sind oder 
 mögliche Ungereimtheiten entdeckt wurden. Auch einfache Informationen und Rückmeldungen werden 
 Ihnen in Form von Prüfanfragen zurückgemeldet. 
@@ -8,7 +8,7 @@ Ihnen in Form von Prüfanfragen zurückgemeldet.
 Das Ziel jeder Kuratorengruppe sollte sein, alle Prüfanfragen zu einer Paketeinspielung anzusehen, 
 ggf. zu bearbeiten und zu schließen. Dabei ist zu beachten:
   
-  * Die Bearbeitung einer Prüfanfrage erfordert - abhängig vom der Art der Prüfanfrage - eine 
+  * Die Bearbeitung einer Prüfanfrage erfordert - abhängig von der Art der Prüfanfrage - eine 
   Bearbeitung der jeweiligen Komponente. Die Prüfanfrage muss danach manuell geschlossen werden.
   * Viele Prüfanfragen dienen nur zur Information und können ohne Bearbeitung geschlossen werden.
   * Die GOkb reagiert sehr sensibel auf mögliche Ungereimtheiten in den Daten. Gegebenenfalls 
@@ -40,7 +40,7 @@ Pakettiteln sowie den zugehörigen Referenztiteln.
 
 ### In der Prüfanfragen-Sicht
 
-Zur Prüfanfragen-Sicht gelangen Sie über die über das Menü. Hier können Sie alle Prüfanfragen der GOKb
+Zur Prüfanfragen-Sicht gelangen Sie über das Menü. Hier können Sie alle Prüfanfragen der GOKb
 finden und nach folgenden Kriterien filtern:
 
   * **Ursache** - Ein Freitextfeld
@@ -54,7 +54,7 @@ finden und nach folgenden Kriterien filtern:
   
 ## Prüfanfragen einsehen und bearbeiten
 
-In der jeweiligen Ergebnislsite finden Sie eine Übersicht über die Komponente, den Komponententyp (wie 
+In der jeweiligen Ergebnisliste finden Sie eine Übersicht über die Komponente, den Komponententyp (wie 
 Journal, Paket etc.), die Kategorie der Prüfanfragen und das Erstellungsdatum. 
 
 Über die Checkbox zu Beginn jeder Zeile können Sie eine oder mehrere Prüfanfragen anwählen und über den Button 
@@ -71,7 +71,7 @@ In der Detailsicht erhalten Sie verschiedene Informationen und Optionen:
   Prüfanfrage bearbeitet ist, d.h. die geprüfte Komponente von Ihnen als korrekt angesehen wird (nach 
   einer Korrektur oder weil die Prüfanfrage keine weitere Bearbeitung erfordert), können Sie den Status 
   auf "Geschlossen" setzen.
-  * **Komponente:** Diese Feld gibt die genaue Komponente an, d.h. welches Paket, welche Plattform oder 
+  * **Komponente:** Dieses Feld gibt die genaue Komponente an, d.h. welches Paket, welche Plattform oder 
   welcher Anbieter für die Prüfanfrage ursächlich ist. 
   * **Durchgeführte Aktion:** Dieses Feld gibt an, wie die GOKb automatisiert mit dem festgestellten 
   Problem verfahren ist.
@@ -113,7 +113,7 @@ richtigen Eintrag springen.
 
 Jeder Eintrag ist wie folgt aufgebaut:
  
-  * **Info:** Eine Erklärung, was es mit der Prüfanfrage auf sich hat
+  * **Info:** Eine Erklärung, was es mit der Prüfanfrage auf sich hat.
   * **Aktion:** Ein Hinweis darauf, wie das GOKb-System automatisiert auf die Ursache der Prüfanfrage 
   reagiert hat. Ist der Eintrag leer, hat die GOKb nichts unternehmen können.
   * **toDo:** Hier ist erläutert, wie Sie als Kurator*in den möglichen Konflikt prüfen und lösen können. 
@@ -343,7 +343,7 @@ EZB-/ZDB-Anreicherung übersprungen
 #### toDo
 
 ## Anleitung zur Bearbeitung von Prüfanfragen
-### Im Folgenden zeigen wir Ihnen in einzelnen Schritten, wie Sie bestimmte Typen von Prüfanfragen bearbeiten können.
+### Im Folgenden erklären wir Ihnen in einzelnen Schritten, wie Sie bestimmte Typen von Prüfanfragen bearbeiten können.
 
 ### ISSN Konflikt
 
@@ -351,9 +351,9 @@ Der Konflikt ist entstanden, weil der Pakettitel eine e-ISSN enthält, die einer
 
 ![Screenshot_ISSN_Konflikt_052023](https://user-images.githubusercontent.com/127318583/236470236-f3174403-6222-454a-9fea-49a4b22af37c.png)
 
-1. In der Kachel wird der zu korrigierende Title mit den enthaltenen Identifikatoren angezeigt. Durch anklicken des Kästchens in der Tabelle wählen Sie die zu löschende ISSN aus.
-2. Die Löschung aktivieren Sie, in dem Sie auf den Button "Titeländerung Abschicken" klicken.
-3. Um einen neuen Identifikator hinzuzufügen, klicken Sie auf den Titel. Dadurch öffnet sich in einem neuen Fenster die Detailansicht.
+1. In der Kachel wird der zu korrigierende Titel mit den enthaltenen Identifikatoren angezeigt. Durch anklicken des Kästchens in der Tabelle wählen Sie die zu löschende ISSN aus.
+2. Die Löschung aktivieren Sie überden Button "Titeländerungen Abschicken".
+3. Um einen neuen Identifikator hinzuzufügen, klicken Sie auf den Titel. Es öffnet sich dann in einem neuen Fenster die Detailansicht.
 4. Im Anschluss klicken Sie auf den Button "Prüfanfrage Abschliessen".
 
 **Hinweis:** Print- und Onlineversion einer Zeitschrift müssen mit eigenen ISSNs ausgezeichnet werden. Verschiedene Nachweissysteme benutzen jedoch eine ISSN fälschlich für beide Versionen. Die autorisierten ISSNs finden Sie unter https://portal.issn.org/.
@@ -363,12 +363,12 @@ Der Konflikt ist entstanden, weil der Pakettitel eine e-ISSN enthält, die einer
 
 Der Konflikt ist entstanden, weil der Name des Titels ein fehlerhaftes Zeichen enthält.
 
-![Screenshot__Invalid_Name2_052023](https://user-images.githubusercontent.com/127318583/236488296-4b365f00-ebc8-492b-ae42-02d644e076be.png)
+![Screenshot_invalid_name3_052023](https://user-images.githubusercontent.com/127318583/236760551-481b36d7-b309-40f6-ab86-56dfb827c092.png)
 
-1. In der angezeigten Kachel klicken Sie auf das Stift-Icon, das direkt hinter dem zu prüfenden Titel. Sie können so direkt im Feld die fehlerhaften Zeichen im Titelnamen korrigieren. Um die Änderung zu speichern, aktivieren Sie den Haken am Ende des Feldes.
-2. Die Änderung des Titels wird gespeichert mit der Aktivierung des Buttons "Titeländerung Abschicken".
-3. Überprüfen Sie ebenfalls die auch in der Kachel angezeigten Paket- bzw. Referenztitel. Mit einem Klick auf den Namen öffnet sich die Detailansicht in einem neuen Fenster. 
-4. Die Prüfanfrage beenden Sie, in dem Sie auf den Button "Prüfunanfrage Abschliessen" klicken.
+1. Klicken Sie auf das Stift-Icon in der Kachel, das hinter dem zu prüfenden Titel angezeigt wird. Sie können so direkt im Feld die fehlerhaften Zeichen im Titelnamen anpassen. Die Korrektur wird übernommen, indem Sie den Haken am Ende des Feldes aktivieren.
+2. Speichern Sie die Änderung des Titels über den Button "Titeländerungen Abschicken".
+3. Überprüfen Sie ebenfalls die in der Kachel angezeigten Paket- bzw. Referenztitel. Mit einem Klick auf den Namen öffnet sich die Detailansicht in einem neuen Fenster. 
+4. Die Prüfanfrage beenden Sie über den Button "Prüfunanfrage Abschliessen".
 
 **Hinweis:** Fehlerhafte Zeichen im Titel tauchen immer dann auf, wenn KBART-Dateien eingespielt werden, die nicht UTF-8-konform sind. In der Dokumentation finden Sie eine [Anleitung](https://gokb.org/de/documentation/kbart-editing.html), wie man mit einem Tabellenkalkulationsprogramm Dateien in UTF-8 umwandelt und speichert. Für die korrekte Titelaufnahme kann die Verzeichnung in externen Quellen helfen.
 
