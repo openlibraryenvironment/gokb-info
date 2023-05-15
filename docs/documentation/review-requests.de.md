@@ -71,14 +71,15 @@ In der Detailsicht erhalten Sie verschiedene Informationen und Optionen:
   Prüfanfrage bearbeitet ist, d.h. die geprüfte Komponente von Ihnen als korrekt angesehen wird (nach 
   einer Korrektur oder weil die Prüfanfrage keine weitere Bearbeitung erfordert), können Sie den Status 
   auf "Geschlossen" setzen.
-  * **Komponente:** Dieses Feld gibt die genaue Komponente an, d.h. welches Paket, welche Plattform oder 
-  welcher Anbieter für die Prüfanfrage ursächlich ist. 
+  * **Kuratorengruppe:** Es wird die verantwortliche Kuratorenrgruppe in diesem Feld angezeigt.
   * **Durchgeführte Aktion:** Dieses Feld gibt an, wie die GOKb automatisiert mit dem festgestellten 
   Problem verfahren ist.
-  * **Ursache:** Dieses Feld gibt die Ursache an, die zum Öffnen der Prüfanfrage geführt hat. 
+  * **Ursache:** Dieses Feld gibt die Ursache an, die zum Öffnen der Prüfanfrage geführt hat.
+  * **Info-Box (To Do):** Falls eine Handlung von Ihnen als Nutzer*in erforderlich ist, erhalten Sie hier eine Anleitung.
+  * **Komponente:** Dieses Feld gibt die genaue Komponente an, d. h. welches Paket, welche Plattform oder 
+  welcher Anbieter für die Prüfanfrage ursächlich ist. 
   * **Weitere Komponenten:** Gibt es weitere Komponenten neben der zuvor angegebenen, die für die Prüfanfrage 
   ursächlich ist, so werden diese hier angezeigt. Sie können weitere Komponenten selbständig verknüpfen.
-  * **To Do**: Falls eine Handlung von Ihnen als Nutzer*in erforderlich ist, erhalten Sie hier eine Anleitung.
   
 Sie können die Prüfanfragen an dieser Stelle schließen und die Detailsicht über den Button "Aktualisieren" 
 wieder verlassen. 
@@ -162,3 +163,44 @@ Der Konflikt ist entstanden, weil die GOKb zwar den KBART-Datensatz einem besteh
 3. Importieren Sie anschließend die korrigierte KBART-Datei neu im angelegten Paket, um den Fehler zu beheben. Alternativ markieren Sie den falschen Identifikator in der betreffenden Kachel aus und löschen ihn mit „Titeländerung Abschicken“. 
 4. Klicken Sie dann den Referenztitel an, um in die Detailansicht zu gelangen und dort den korrekten Identifikator zu ergänzen.
 5. Schließen Sie die Prüfanfrage über den Button „Prüfanfrage Abschließen“.
+
+### Referenztitelkonflikt
+
+Der Konflikt ist entstanden, weil aufgrund eines Identifikatorenkonflikts ein neuer Referenztitel erzeugt wurde.
+
+![Screenshot_identifier_conflict_1_20230515](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/0d8b3523-ba55-4e50-b6e5-6bd48d3dc549)
+
+1. Gleichen Sie die Daten der beiden Referenztitel ab, um festzustellen, ob es sich um Dubletten handelt.
+2. Liegt eine Dublette vor, klicken Sie auf den Button „Ziel Auswählen“, um die beiden übereinstimmenden Titel zusammenzuführen.
+
+![Screenshot_identifier_conflict_2_20230515](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/cd3c9eb6-8be6-46b4-bd9a-31bbb9543e25)
+
+3. Der verbleibende Titel wird grün angezeigt, die Dublette in Rot. Ihnen wird in der rot markierten Kachel angezeigt, welche Identifikatoren „bereits verknüpft sind“ (grüner Haken) und welche „nicht verknüpft sind“ (rotes X). Sie können die nicht verknüpften Identifikatoren hinzufügen, indem Sie diese anklicken.
+4. Über den Button „Dublette Zusammenführen“ schließen Sie die Prüfanfrage ab.
+
+**Hinweis:** Anstelle von Dubletten kann es sich bei ähnlichen Titeln auch um Vor- und Nachfolgetitel handeln, die dann nicht zusammengeführt werden dürfen. Auch können Identifikatoren falsch sein. Hier kann eine Überprüfung der Identifikatoren sowie des Erscheinungs- und Titelverlaufs helfen. Bei der Auswahl des korrekten Titels können die Abdeckung des Pakettitels und der Erscheinungsverlauf des Referenztitels hilfreich sein.
+Korrekte Identifikatoren können Sie nachtragen, wenn Sie über den Namen in die Bearbeitungssicht des Titels springen.
+
+### Uneindeutige Titelübereinstimmung
+
+Der Konflikt ist entstanden, weil die GOKb anhand der vorliegenden Identifikatoren keinen Referenztitel verknüpfen konnte.
+
+Schritt 1:
+
+![Screenshot_ambiguous_title_matches_1_20230515](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/e109b5f7-cffc-4513-bb79-6e4fb81a0210)
+
+1. Überprüfen Sie zunächst, ob es sich bei den beiden Titeln um Dubletten handelt. Achten Sie dabei auf mögliche Titelsplits.
+2. Falls es sich um eine Dublette handelt, wählen Sie den Referenztitel aus, der übernommen werden soll über „Ziel Auswählen“ und klicken dann auf „Dublette Zusammenführen“, um die Titel zu verknüpfen.
+3. Handelt es sich nicht um eine Dublette, bereinigen Sie eventuelle fehlerhafte Identifikatoren, indem Sie ein Haken in der jeweiligen Kachel setzen und die Titeländerung abschicken.
+4. Über den Button „Weiter“ gelangen Sie zum 2. Schritt.
+
+Schritt 2:
+
+![Screenshot_ambiguous_title_matches_2_20230515](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/90fa3d7e-44f1-4507-9154-f7afe4ee5f48)
+
+5.	Gleichen Sie den zu prüfenden Titel mit den angezeigten Referenztiteln ab. Markieren Sie anschließend denjenigen Titel über „Ziel Auswählen“, den Sie verknüpfen wollen und bestätigen das. Fehlerhafte Identifikatoren können Sie auch nachträglich im Titel noch korrigieren.
+6.	Gibt es mit keinem der aufgeführten Referenztitel eine Übereinstimmung, können Sie über die letzte Kachel nach einem bestehenden Titel suchen oder einen neuen erzeugen.
+7.	Über den Button „Prüfanfrage Abschliessen“ beenden Sie die Bearbeitung.
+
+**Hinweis:** Anstelle von Dubletten kann es sich bei ähnlichen Titeln auch um Vor- und Nachfolgetitel handeln, die dann nicht zusammengeführt werden dürfen. Auch können Identifikatoren falsch sein. Hier kann eine Überprüfung der Identifikatoren sowie des Erscheinungs- und Titelverlaufs helfen. Bei der Auswahl des korrekten Titels können die Abdeckung des Pakettitels und der Erscheinungsverlauf des Referenztitels hilfreich sein.
+Korrekte Identifikatoren können Sie nachtragen, wenn Sie über den Namen in die Bearbeitungssicht des Titels springen. Diese Sicht öffnet sich in einem neuen Reiter des Browsers, wenn Sie auf den Titel klicken.
