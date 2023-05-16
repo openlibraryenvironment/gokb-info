@@ -44,14 +44,13 @@ Zur Prüfanfragen-Sicht gelangen Sie über das Menü. Hier können Sie alle Prü
 finden und nach folgenden Kriterien filtern:
 
   * **Ursache** - Ein Freitextfeld
-  * **Kuratorengruppe** - Auswahl der Kuratorengruppe, der die Prüfanfrage zugeordnet ist
-  * **Komponente** - Ein Auswahlfeld, in dem alle Komponenten (Anbieter, Pakete, Titel etc.) suchbar sind
-  * **Kategorie** - Eine Auswahl der Kategorien der Prüfanfragen. Eine Übersicht der Kategorien finden 
-  Sie weiter unten.
-  * **Status** - Eine Auswahl des Status der Prüfnafrage (Offen, Geschlossen, Gelöscht)
-  
-![GOKb review request search view](../assets/review-requests-search.de.png "GOKb Prüfanfragensicht")
-  
+  * **Kuratorengruppe** - Auswahl der Kuratorengruppe, der die Prüfanfrage zugeordnet ist.
+  * **Betroffene Komponente** - Ein Auswahlfeld, in dem alle Komponenten (Anbieter, Pakete, Titel etc.) suchbar sind.
+  * **Kategorie** - Eine Auswahl der Kategorien der Prüfanfragen. Eine Übersicht der Kategorien finden Sie weiter unten.
+  * **Status** - Eine Auswahl des Status der Prüfnafrage (Offen, Geschlossen, Gelöscht). 
+
+  ![Screenshot_review_request_view](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/54787ea9-f41d-456e-b6a2-7e3ca75f4729)
+
 ## Prüfanfragen einsehen und bearbeiten
 
 In der jeweiligen Ergebnisliste finden Sie eine Übersicht über die Komponente, den Komponententyp (wie 
@@ -72,17 +71,13 @@ In der Detailsicht erhalten Sie verschiedene Informationen und Optionen:
   einer Korrektur oder weil die Prüfanfrage keine weitere Bearbeitung erfordert), können Sie den Status 
   auf "Geschlossen" setzen.
   * **Kuratorengruppe:** Es wird die verantwortliche Kuratorenrgruppe in diesem Feld angezeigt.
-  * **Durchgeführte Aktion:** Dieses Feld gibt an, wie die GOKb automatisiert mit dem festgestellten 
-  Problem verfahren ist. Ist der Eintrag leer, hat die GOKb nichts unternehmen können.
+  * **Durchgeführte Aktion:** Dieses Feld gibt an, wie die GOKb automatisiert mit dem festgestellten Problem verfahren ist. Ist der Eintrag leer, hat die GOKb nichts unternehmen können.
   * **Ursache:** Dieses Feld gibt die Ursache an, die zum Öffnen der Prüfanfrage geführt hat.
-  * **Info-Box (To Do):** Falls eine Handlung von Ihnen als Nutzer*in erforderlich ist, erhalten Sie hier eine Anleitung. Ist der Eintrag leer, diente die Prüfanfrage lediglich zu Ihrer Information. Sie können sie dann über "Anfrage Abschliessen"         beenden.
-  * **Komponente:** Dieses Feld gibt die genaue Komponente an, d. h. welches Paket, welche Plattform oder 
-  welcher Anbieter für die Prüfanfrage ursächlich ist. 
-  * **Weitere Komponenten:** Gibt es weitere Komponenten neben der zuvor angegebenen, die für die Prüfanfrage 
-  ursächlich ist, so werden diese hier angezeigt. Sie können weitere Komponenten selbständig verknüpfen.
+  * **Info-Box (To Do):** Falls eine Handlung von Ihnen als Nutzer*in erforderlich ist, erhalten Sie hier eine Anleitung. Ist der Eintrag leer, diente die Prüfanfrage lediglich zu Ihrer Information. Sie können sie dann über "Anfrage Abschliessen" beenden.
+  * **Betroffene Komponente:** Dieses Feld gibt die genaue Komponente an, d. h. welches Paket, welche Plattform oder welcher Anbieter für die Prüfanfrage ursächlich ist. 
+  * **Weitere betroffene Komponenten:** Gibt es weitere Komponenten neben der zuvor angegebenen, die für die Prüfanfrage ursächlich ist, so werden diese hier angezeigt. Sie können weitere Komponenten selbständig verknüpfen.
   
-Sie können die Prüfanfragen an dieser Stelle schließen und die Detailsicht über den Button "Aktualisieren" 
-wieder verlassen. 
+Sie können die Prüfanfragen an dieser Stelle schließen und die Detailsicht über den Button "Aktualisieren" wieder verlassen. 
   
 ![Screenshot_review-request_detailview](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/7a85ea48-8df6-48c6-bf01-7caec4d2f1b6)
 
