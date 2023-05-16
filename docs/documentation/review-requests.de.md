@@ -84,43 +84,21 @@ In der Detailsicht erhalten Sie verschiedene Informationen und Optionen:
 Sie können die Prüfanfragen an dieser Stelle schließen und die Detailsicht über den Button "Aktualisieren" 
 wieder verlassen. 
   
-![GOKb review requests details](../assets/review-requests-details.de.png "GOKb Prüfanfragen Detailsicht")
+![Screenshot_review-request_detailview](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/7a85ea48-8df6-48c6-bf01-7caec4d2f1b6)
+
 
 # Typen von Prüfanfragen
 
-Hier finden Sie eine Auflistung von Prüfanfragen. Sie können über den Titel der Prüfanfrage direkt zum 
+Hier finden Sie eine Auflistung von aktuellen Prüfanfragen. Sie können über den Titel der Prüfanfrage direkt zum 
 richtigen Eintrag springen.
 
-  * Prüfanfragen für die Paketkuratierung
-    * [Ungültige Pakettitel](#ungultige-pakettitel)
-    * [Unterschiedliche Namensräume](#unterschiedliche-namensraume)
-    * [Ungültiger KBART-Datensatz](#ungultiger-kbart-datensatz)
-    * [Uneindeutiger KBART-Datensatz](#uneindeutiger-kbart-datensatz)
+    * [ISSN Konflikt](#issn-konflikt)
+    * [Fehlerhafter Name](#fehlerhafter-name)
     * [Identifikatoren-Konflikt beim KBART-Import](#identifikatoren-konflikt-beim-kbart-import)
-    * [Ergebnisbericht einer KBART-Einspielung](#ergebnisbericht-einer-kbart-einspielung)
-  * Prüfanfragen für die Titelredaktion
+    * [Referenztitelkonflikt](#referenztitelkonflikt)
     * [Uneindeutige Titelübereinstimmung](#uneindeutige-titelubereinstimmung)
     * [Unterschiedliche Namensräume](#unterschiedliche-namensraume)
-    * [Identifikatoren-Konflikt (Neuer Titel)](#identifikatoren-konflikt-neuer-titel)
-    * [Identifikatoren-Konflikt (ID ergänzt)](#identifikatoren-konflikt-id-erganzt)
-    * [Generischer Matchingkonflikt](#generischer-matchingkonflikt)
-    * [Abdeckungskonflikt](#abdeckungskonflikt)
-  * Prüfanfragen für die Zentralredaktion
-    * [Mehrere EZB-/ZDB-Kandidaten](#mehrere-ezb-zdb-kandidaten)
-    * [EZB-ID/ZDB-ID bereits verwendet](#ezb-idzdb-id-bereits-verwendet)
-    * [Keine EZB-/ZDB-Aufnahme gefunden](#keine-ezb-zdb-aufnahme-gefunden)
     
-    
-
-Jeder Eintrag ist wie folgt aufgebaut:
- 
-  * **Info:** Eine Erklärung, was es mit der Prüfanfrage auf sich hat.
-  * **Aktion:** Ein Hinweis darauf, wie das GOKb-System automatisiert auf die Ursache der Prüfanfrage 
-  reagiert hat. Ist der Eintrag leer, hat die GOKb nichts unternehmen können.
-  * **toDo:** Hier ist erläutert, wie Sie als Kurator*in den möglichen Konflikt prüfen und lösen können. 
-  Ist der Eintrag leer, diente die Prüfanfrage lediglich zu Ihrer Information und Sie müssen nichts 
-  weiter tun.
-
 
 ## Anleitung zur Bearbeitung von Prüfanfragen
 ### Im Folgenden erklären wir Ihnen in einzelnen Schritten, wie Sie bestimmte Typen von Prüfanfragen bearbeiten können.
@@ -136,7 +114,7 @@ Der Konflikt ist entstanden, weil der Pakettitel eine e-ISSN enthält, die einer
 3. Um einen neuen Identifikator hinzuzufügen, klicken Sie auf den Titel. Es öffnet sich dann in einem neuen Fenster die Detailansicht.
 4. Im Anschluss klicken Sie auf den Button "Prüfanfrage Abschliessen".
 
-**Hinweis:** Print- und Onlineversion einer Zeitschrift müssen mit eigenen ISSNs ausgezeichnet werden. Verschiedene Nachweissysteme benutzen jedoch eine ISSN fälschlich für beide Versionen. Die autorisierten ISSNs finden Sie unter https://portal.issn.org/.
+**Hinweis:** Print- und Onlineversion einer Zeitschrift müssen mit eigenen ISSNs ausgezeichnet werden. Verschiedene Nachweissysteme benutzen jedoch eine ISSN fälschlich für beide Versionen. Die autorisierten ISSNs finden Sie unter [https://portal.issn.org/](https://portal.issn.org/).
 
 
 ### Fehlerhafter Name
@@ -204,3 +182,13 @@ Schritt 2:
 
 **Hinweis:** Anstelle von Dubletten kann es sich bei ähnlichen Titeln auch um Vor- und Nachfolgetitel handeln, die dann nicht zusammengeführt werden dürfen. Auch können Identifikatoren falsch sein. Hier kann eine Überprüfung der Identifikatoren sowie des Erscheinungs- und Titelverlaufs helfen. Bei der Auswahl des korrekten Titels können die Abdeckung des Pakettitels und der Erscheinungsverlauf des Referenztitels hilfreich sein.
 Korrekte Identifikatoren können Sie nachtragen, wenn Sie über den Namen in die Bearbeitungssicht des Titels springen. Diese Sicht öffnet sich in einem neuen Reiter des Browsers, wenn Sie auf den Titel klicken.
+
+### Identifikatoren-Konflikt (ID ergänzt)
+
+Der Konflikt ist entstanden, wenn beim Abgleich im Referenztitel ein Identifikator ergänzt wurde, der von den vorhandenen Identifikatoren abweicht.
+
+1. Prüfen Sie die angezeigten Identifikaren des Referenztitels auf ihre Richtigkeit.
+2. Löschen Sie falsche Identifikatoren, indem Sie die Stelle mit einem Haken markieren und dann den Button "Titeländerungen Abschicken" klicken.
+3. Schließen Sie die Prüfanfrage ab.
+
+**Hinweis:** Bei einem Identifikatorenkonflikt wird in der Regel ein neuer Titel angelegt. Dass wie hier lediglich eine ID ergänzt wird, tritt bei Identifikatoren auf, die nicht der eindeutigen Identifizierung der Ressource helfen, z. B. bei ISBNs der parallelen Druckausgabe.
