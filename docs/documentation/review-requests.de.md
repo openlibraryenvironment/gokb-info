@@ -59,7 +59,7 @@ Journal, Paket etc.), die Kategorie der Prüfanfragen und das Erstellungsdatum.
 Über die Checkbox zu Beginn jeder Zeile können Sie eine oder mehrere Prüfanfragen anwählen und über den Button 
 "Schließen" den Status auf "Geschlossen" setzen. 
 
-Für eine Detailsicht der Prüfanfrage wählen Sie den Link unter der Spalte "Komponente" an
+Für eine Detailsicht der Prüfanfrage wählen Sie den Link unter der Spalte "Betroffene Komponente" an
 
 ### Detailsicht
 
@@ -73,7 +73,7 @@ In der Detailsicht erhalten Sie verschiedene Informationen und Optionen:
   * **Kuratorengruppe:** Es wird die verantwortliche Kuratorenrgruppe in diesem Feld angezeigt.
   * **Durchgeführte Aktion:** Dieses Feld gibt an, wie die GOKb automatisiert mit dem festgestellten Problem verfahren ist. Ist der Eintrag leer, hat die GOKb nichts unternehmen können.
   * **Ursache:** Dieses Feld gibt die Ursache an, die zum Öffnen der Prüfanfrage geführt hat.
-  * **Info-Box (To Do):** Falls eine Handlung von Ihnen als Nutzer*in erforderlich ist, erhalten Sie hier eine Anleitung. Ist der Eintrag leer, diente die Prüfanfrage lediglich zu Ihrer Information. Sie können sie dann über "Anfrage Abschliessen" beenden.
+  * **Info-Box (To Do):** Falls eine Handlung von Ihnen als Nutzer*in erforderlich ist, erhalten Sie hier eine Anleitung. Ist der Eintrag leer, diente die Prüfanfrage lediglich zu Ihrer Information. Sie können sie dann über "Anfrage abschließen" beenden.
   * **Betroffene Komponente:** Dieses Feld gibt die genaue Komponente an, d. h. welches Paket, welche Plattform oder welcher Anbieter für die Prüfanfrage ursächlich ist. 
   * **Weitere betroffene Komponenten:** Gibt es weitere Komponenten neben der zuvor angegebenen, die für die Prüfanfrage ursächlich ist, so werden diese hier angezeigt. Sie können weitere Komponenten selbständig verknüpfen.
   
@@ -85,7 +85,7 @@ Sie können die Prüfanfragen an dieser Stelle schließen und die Detailsicht ü
 # Typen von Prüfanfragen
 
 Hier finden Sie eine Auflistung von aktuellen Prüfanfragen. Sie können über den Titel der Prüfanfrage direkt zum 
-richtigen Eintrag springen.
+passenden Eintrag springen.
 
     * [ISSN Konflikt](#issn-konflikt)
     * [Fehlerhafter Name](#fehlerhafter-name)
