@@ -34,7 +34,7 @@ Im Dashboard werden alle Prüfanfragen angezeigt, die der ausgewählten Kuratore
 
 In der Paketsicht sind alle Prüfanfragen aufgeführt, die zum augenblicklich ausgewählten Paket gehören. 
 Das umfasst sowohl Prüfanfragen, die das Paket insgesamt betreffen sowie Prüfanfragen zu den enhaltenen 
-Pakettiteln sowie den zugehörigen Referenztiteln.
+Pakettiteln und den zugehörigen Referenztiteln.
 
 ![GOKb review requests package view](../assets/review-requests-package-view.de.png "GOKb Prüfanfragen in Paketsicht")
 
@@ -47,7 +47,7 @@ finden und nach folgenden Kriterien filtern:
   * **Kuratorengruppe** - Auswahl der Kuratorengruppe, der die Prüfanfrage zugeordnet ist.
   * **Betroffene Komponente** - Ein Auswahlfeld, in dem alle Komponenten (Anbieter, Pakete, Titel etc.) suchbar sind.
   * **Kategorie** - Eine Auswahl der Kategorien der Prüfanfragen. Eine Übersicht der Kategorien finden Sie weiter unten.
-  * **Status** - Eine Auswahl des Status der Prüfnafrage (Offen, Geschlossen, Gelöscht). 
+  * **Status** - Eine Auswahl des Status der Prüfanfrage (Offen, Geschlossen, Gelöscht). 
 
   ![Screenshot_review_request_view](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/54787ea9-f41d-456e-b6a2-7e3ca75f4729)
 
@@ -59,7 +59,7 @@ Journal, Paket etc.), die Kategorie der Prüfanfragen und das Erstellungsdatum.
 Über die Checkbox zu Beginn jeder Zeile können Sie eine oder mehrere Prüfanfragen anwählen und über den Button 
 "Schließen" den Status auf "Geschlossen" setzen. 
 
-Für eine Detailsicht der Prüfanfrage wählen Sie den Link unter der Spalte "Betroffene Komponente" an
+Für eine Detailsicht der Prüfanfrage wählen Sie den Link unter der Spalte "Betroffene Komponente" an.
 
 ### Detailsicht
 
@@ -67,7 +67,7 @@ In der Detailsicht erhalten Sie verschiedene Informationen und Optionen:
 
   * **Erstellt am:** Das Feld zeigt das Datum der Erstellung der Prüfanfrage.
   * **Status:** Der Status ("Offen" oder "Geschlossen") gibt den Status der Prüfanfrage an. Wenn eine 
-  Prüfanfrage bearbeitet ist, d.h. die geprüfte Komponente von Ihnen als korrekt angesehen wird (nach 
+  Prüfanfrage bearbeitet ist, d. h. die geprüfte Komponente von Ihnen als korrekt angesehen wird (nach 
   einer Korrektur oder weil die Prüfanfrage keine weitere Bearbeitung erfordert), können Sie den Status 
   auf "Geschlossen" setzen.
   * **Kuratorengruppe:** Es wird die verantwortliche Kuratorenrgruppe in diesem Feld angezeigt.
