@@ -11,7 +11,7 @@ ggf. zu bearbeiten und zu schließen. Dabei ist zu beachten:
   * Die Bearbeitung einer Prüfanfrage erfordert - abhängig von der Art der Prüfanfrage - eine 
   Bearbeitung der jeweiligen Komponente. Die Prüfanfrage muss danach manuell geschlossen werden.
   * Viele Prüfanfragen dienen nur zur Information und können ohne Bearbeitung geschlossen werden.
-  * Die GOkb reagiert sehr sensibel auf mögliche Ungereimtheiten in den Daten. Gegebenenfalls 
+  * Die GOKb reagiert sehr sensibel auf mögliche Ungereimtheiten in den Daten. Gegebenenfalls 
   können so von dem System Prüfanfragen geöffnet werden, die nur vermeintlich einen Fehler 
   beschreiben, obwohl alles korrekt ist. Diese können nach Prüfung geschlossen werden. 
 
