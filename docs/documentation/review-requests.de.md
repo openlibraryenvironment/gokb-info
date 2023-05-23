@@ -81,22 +81,22 @@ Sie können die Prüfanfragen an dieser Stelle schließen und die Detailsicht ü
   
 ![Screenshot_review-request_detailview](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/7a85ea48-8df6-48c6-bf01-7caec4d2f1b6)
 
-
-# Typen von Prüfanfragen
+## Typen von Prüfanfragen
 
 Hier finden Sie eine Auflistung von aktuellen Prüfanfragen. Sie können über den Titel der Prüfanfrage direkt zum 
 passenden Eintrag springen.
 
-    * [ISSN Konflikt](#issn-konflikt)
-    * [Fehlerhafter Name](#fehlerhafter-name)
-    * [Identifikatoren-Konflikt beim KBART-Import](#identifikatoren-konflikt-beim-kbart-import)
-    * [Referenztitelkonflikt](#referenztitelkonflikt)
-    * [Uneindeutige Titelübereinstimmung](#uneindeutige-titelubereinstimmung)
-    * [Unterschiedliche Namensräume](#unterschiedliche-namensraume)
-    
+* [ISSN Konflikt](#issn-konflikt)
+* [Fehlerhafter Name](#fehlerhafter-name)
+* [Idendifikatoren-Konflikt beim KBART-Import](#identifikatoren-konflikt-beim-kbart-import)
+* [Referenztitelkonflikt](#referenztitelkonflikt)
+* [Uneindeutige Titelübereinstimmung](#uneindeutige-titelübereinstimmung)
+* [Identifikatoren-Konflikt (ID ergänzt)](#identifikatoren-konflikt-id-ergänzt)
+
 
 ## Anleitung zur Bearbeitung von Prüfanfragen
-### Im Folgenden erklären wir Ihnen in einzelnen Schritten, wie Sie bestimmte Typen von Prüfanfragen bearbeiten können.
+
+Im Folgenden erklären wir Ihnen in einzelnen Schritten, wie Sie bestimmte Typen von Prüfanfragen bearbeiten können.
 
 ### ISSN Konflikt
 
