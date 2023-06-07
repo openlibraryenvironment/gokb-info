@@ -1,5 +1,10 @@
 # News
 
+## Ankündigung GOKb Prüfanfragen-Schulung
+*07. Juni 2023*
+
+Am 27. Juni 2023 von 10 bis 12 Uhr wird es eine Prüfanfragen-Schulung geben. Alle sind herzlich eingeladen. Bei Interesse senden Sie bitte eine Mail an [info@gokb.org](info@gokb.org).
+
 ## GOKb auf der BiblioCON 2023
 *23. Mai 2023*
 
