@@ -33,7 +33,7 @@ Im Dashboard werden alle Prüfanfragen angezeigt, die der ausgewählten Kuratore
 ### In der Paketsicht
 
 In der Paketsicht sind alle Prüfanfragen aufgeführt, die zum augenblicklich ausgewählten Paket gehören. 
-Das umfasst sowohl Prüfanfragen, die das Paket insgesamt betreffen sowie Prüfanfragen zu den enhaltenen 
+Das umfasst sowohl Prüfanfragen, die das Paket insgesamt betreffen sowie Prüfanfragen zu den enthaltenen 
 Pakettiteln und den zugehörigen Referenztiteln.
 
 ![GOKb review requests package view](../assets/review-requests-package-view.de.png "GOKb Prüfanfragen in Paketsicht")
@@ -70,7 +70,7 @@ In der Detailsicht erhalten Sie verschiedene Informationen und Optionen:
   Prüfanfrage bearbeitet ist, d. h. die geprüfte Komponente von Ihnen als korrekt angesehen wird (nach 
   einer Korrektur oder weil die Prüfanfrage keine weitere Bearbeitung erfordert), können Sie den Status 
   auf "Geschlossen" setzen.
-  * **Kuratorengruppe:** Es wird die verantwortliche Kuratorenrgruppe in diesem Feld angezeigt.
+  * **Kuratorengruppe:** Es wird die verantwortliche Kuratorengruppe in diesem Feld angezeigt.
   * **Durchgeführte Aktion:** Dieses Feld gibt an, wie die GOKb automatisiert mit dem festgestellten Problem verfahren ist. Ist der Eintrag leer, hat die GOKb nichts unternehmen können.
   * **Ursache:** Dieses Feld gibt die Ursache an, die zum Öffnen der Prüfanfrage geführt hat.
   * **Info-Box (To Do):** Falls eine Handlung von Ihnen als Nutzer*in erforderlich ist, erhalten Sie hier eine Anleitung. Ist der Eintrag leer, diente die Prüfanfrage lediglich zu Ihrer Information. Sie können sie dann über "Anfrage abschließen" beenden.
