@@ -143,11 +143,10 @@ Der Konflikt ist entstanden, weil aufgrund eines Identifikatorenkonflikts ein ne
 
 ![Screenshot_identifier_conflict_1_20230515](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/0d8b3523-ba55-4e50-b6e5-6bd48d3dc549)
 
-1. Gleichen Sie die Daten der beiden Referenztitel ab, um festzustellen, ob es sich um Dubletten handelt.
-2. Liegt eine Dublette vor, klicken Sie auf den Button „Ziel auswählen“, um die beiden übereinstimmenden Titel zusammenzuführen.
-
 ![Screenshot_identifier_conflict_2_20230515](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/cd3c9eb6-8be6-46b4-bd9a-31bbb9543e25)
 
+1. Gleichen Sie die Daten der beiden Referenztitel ab, um festzustellen, ob es sich um Dubletten handelt.
+2. Liegt eine Dublette vor, klicken Sie auf den Button „Ziel auswählen“, um die beiden übereinstimmenden Titel zusammenzuführen.
 3. Der verbleibende Titel wird grün angezeigt, die Dublette in Rot. Ihnen wird in der rot markierten Kachel angezeigt, welche Identifikatoren „bereits verknüpft“ sind (grüner Haken) und welche „nicht verknüpft“ sind (rotes X). Sie können die nicht verknüpften Identifikatoren hinzufügen, indem Sie diese anklicken.
 4. Über den Button „Dublette zusammenführen“ schließen Sie die Prüfanfrage ab.
 
@@ -171,9 +170,9 @@ Schritt 2:
 
 ![Screenshot_ambiguous_title_matches_2_20230515](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/90fa3d7e-44f1-4507-9154-f7afe4ee5f48)
 
-5.	Gleichen Sie den zu prüfenden Titel mit den angezeigten Referenztiteln ab. Markieren Sie anschließend denjenigen Titel über „Ziel auswählen“, den Sie verknüpfen wollen und bestätigen das. Fehlerhafte Identifikatoren können Sie auch nachträglich im Titel noch korrigieren.
-6.	Gibt es mit keinem der aufgeführten Referenztitel eine Übereinstimmung, können Sie über die letzte Kachel nach einem bestehenden Titel suchen oder einen neuen erzeugen.
-7.	Über den Button „Prüfanfrage abschliessen“ beenden Sie die Bearbeitung.
+1. Gleichen Sie den zu prüfenden Titel mit den angezeigten Referenztiteln ab. Markieren Sie anschließend denjenigen Titel über „Ziel auswählen“, den Sie verknüpfen wollen und bestätigen das. Fehlerhafte Identifikatoren können Sie auch nachträglich im Titel noch korrigieren.
+2. Gibt es mit keinem der aufgeführten Referenztitel eine Übereinstimmung, können Sie über die letzte Kachel nach einem bestehenden Titel suchen oder einen neuen erzeugen.
+3. Über den Button „Prüfanfrage abschliessen“ beenden Sie die Bearbeitung.
 
 **Hinweis:** Anstelle von Dubletten kann es sich bei ähnlichen Titeln auch um Vor- und Nachfolgetitel handeln, die dann nicht zusammengeführt werden dürfen. Auch können Identifikatoren falsch sein. Hier kann eine Überprüfung der Identifikatoren sowie des Erscheinungs- und Titelverlaufs helfen. Bei der Auswahl des korrekten Titels können die Abdeckung des Pakettitels und der Erscheinungsverlauf des Referenztitels hilfreich sein.
 Korrekte Identifikatoren können Sie nachtragen, wenn Sie über den Namen in die Bearbeitungssicht des Titels springen. Diese Sicht öffnet sich in einem neuen Reiter des Browsers, wenn Sie auf den Titel klicken.
