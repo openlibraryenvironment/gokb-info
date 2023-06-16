@@ -90,8 +90,6 @@ The conflict has arisen because the package title contains an e-ISSN that corres
 
 ![Screenshot_ISSN_Konflikt_en_062023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/495a950b-6fa6-43da-9537-ba2f3f5ab33a)
 
-Procedure:
-
 1. The tiles display the components to be corrected with the identifiers they contain. By clicking on the box in the table, you select the ISSN(s) to be deleted.
 2. You activate the deletion via the button "Confirm Title Changes".
 3. To add a new identifier, click on the relevant title. The detailed view will then open in a new window.
