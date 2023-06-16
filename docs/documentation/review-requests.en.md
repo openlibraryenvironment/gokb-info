@@ -106,8 +106,6 @@ The conflict arose because the name of the title contains incorrect characters.
 
 ![Screenshot_invalid_name_en_062023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/13998e40-c440-4fc2-87e5-bea15a408130)
 
-Procedure:
-
 1. Click on the pencil icon in the tile that is displayed behind the title to be checked. This allows you to adjust the incorrect characters in the title name directly in the field. The correction is applied by activating the check mark at the end of the field.
 2. Save the change of the title via the button "Confirm title changes".
 3. Also check the package or reference titles displayed in the tile. Click on the name to open the detailed view in a new window.
@@ -120,8 +118,6 @@ Procedure:
 The conflict arose because although the GOKb was able to match the KBART record to an existing package title, one or more other identifiers differed.
 
 ![Screenshot_import_identifier_mismatch_en_62023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/2796d68e-ef99-4288-be72-7e29e6b3baff)
-
-Procedure:
 
 1.	Next to the package title to be checked, you will see existing package titles that could be assigned on the basis of matching identifiers. Match the package titles with each other and pay attention to possible title splits.
 2.	Then check which identifier is incorrect and correct it in the corresponding record in the KBART file. Delete the incorrect package title in the detail view.
@@ -137,8 +133,6 @@ The conflict arose because a new reference title was created due to an identifie
 
 ![Screenshot_reference_title_conflict_2_en_062023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/4610c39a-c5a9-44ca-8bb9-9cba313d540e)
 
-Procedure:
-
 1.	Match the data of the two reference titles to see if they are duplicates.
 2.	If there is a duplicate, click the "Select Target" button to merge the two matching titles.
 3.	The remaining title is displayed in green, the duplicate in red. You are shown in the tile marked in red which identifiers are "already linked" (green tick) and which are "not linked" (red x). You can add the unlinked identifiers by clicking on them.
@@ -149,8 +143,6 @@ Procedure:
 ### Ambiguous Title Matches
 
 The conflict arose because the GOKb could not link a reference title based on the available identifiers.
-
-To Do:
 
 Step 1:
 
@@ -175,7 +167,6 @@ Step 2:
 
 The conflict arose when an identifier was added to the reference title during matching that differed from the existing identifiers.
 
-Procedure:
 1.	Check the displayed identifiers of the reference title for correctness.
 2.	Delete incorrect identifiers by marking them with a check mark and then clicking the "Confirm title changes" button.
 3.	Then close the review request.
