@@ -2,7 +2,7 @@
 
 Review requests are central workflow components of the GOKb. Review requests inform you whether errors occurred during processing or import of components or whether possible inconsistencies were discovered. Simple information and feedback is also reported back to you in the form of review requests.
 
-The aim of each curation group should be to view, edit if necessary, and close all review requests related to a package submission. In doing so, it should be noted:
+The aim of each curatory group should be to view, edit if necessary, and close all review requests related to a package submission. In doing so, it should be noted:
 
 * Processing a review request requires - depending on the type - processing of the respective component. The review request must then be closed manually.
 * Many review requests are for information only and can be closed without processing.
@@ -18,7 +18,7 @@ There are three ways to find review requests in the GOKb.
 
 ### Dashboard
 
-The dashboard displays all review requests associated with the selected curator group.
+The dashboard displays all review requests associated with the selected curatory group.
 
 ![Screenshot_view_dashboard_en_062023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/b0aa713c-9c56-4983-89a3-78d33507660f)
 
@@ -44,7 +44,7 @@ You can access the review request view via the menu. Here you can find all revie
 
 ## View and edit review requests
 
-In the respective result list you will find an overview of the component to review, the component type (such as journal, package, etc.), the review request category and the creation date.
+In the respective result list you will find an overview of the component to review, the component type (such as journal, package, etc.), the category and the creation date.
 
 You can use the checkbox at the beginning of each line to select one or more review requests and use the "Close" button to set the status to "Closed".
 
@@ -70,7 +70,7 @@ You can close the review requests at this point and exit the detail view by clic
 
 ## Types of review requests
 
-Here you will find a list of current review requests. You can jump directly to the appropriate entry via the review request name.
+Here you will find a list of current review requests. You can jump directly to the appropriate entry via the review request type.
 
 * [ISSN Conflict](#issn-conflict)
 * [Invalid Name](#invalid-name)
@@ -91,9 +91,10 @@ The conflict has arisen because the package title contains an e-ISSN that corres
 ![Screenshot_ISSN_Konflikt_en_062023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/495a950b-6fa6-43da-9537-ba2f3f5ab33a)
 
 Procedure:
-1. The tile displays the title to be corrected with the identifiers it contains. By clicking on the box in the table, you select the ISSN(s) to be deleted.
+
+1. The tiles display the components to be corrected with the identifiers they contain. By clicking on the box in the table, you select the ISSN(s) to be deleted.
 2. You activate the deletion via the button "Confirm Title Changes".
-3. To add a new identifier, click on the title. The detailed view will then open in a new window.
+3. To add a new identifier, click on the relevant title. The detailed view will then open in a new window.
 4. Afterwards, click on the button "Mark Finished".
 
 **Notes:** Print and online versions of a journal must be labelled with their own ISSNs. However, various reference systems use one ISSN incorrectly for both versions. The authorised ISSNs can be found at [https://portal.issn.org/](https://portal.issn.org/).
@@ -106,6 +107,7 @@ The conflict arose because the name of the title contains incorrect characters.
 ![Screenshot_invalid_name_en_062023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/13998e40-c440-4fc2-87e5-bea15a408130)
 
 Procedure:
+
 1. Click on the pencil icon in the tile that is displayed behind the title to be checked. This allows you to adjust the incorrect characters in the title name directly in the field. The correction is applied by activating the check mark at the end of the field.
 2. Save the change of the title via the button "Confirm title changes".
 3. Also check the package or reference titles displayed in the tile. Click on the name to open the detailed view in a new window.
@@ -120,6 +122,7 @@ The conflict arose because although the GOKb was able to match the KBART record 
 ![Screenshot_import_identifier_mismatch_en_62023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/2796d68e-ef99-4288-be72-7e29e6b3baff)
 
 Procedure:
+
 1.	Next to the package title to be checked, you will see existing package titles that could be assigned on the basis of matching identifiers. Match the package titles with each other and pay attention to possible title splits.
 2.	Then check which identifier is incorrect and correct it in the corresponding record in the KBART file. Delete the incorrect package title in the detail view.
 3.	Then re-import the corrected KBART file in the created package to correct the error. Alternatively, mark the wrong identifier in the relevant tile and delete it with "Confirm title change".
@@ -132,15 +135,12 @@ The conflict arose because a new reference title was created due to an identifie
 
 ![Screenshot_reference_title_conflict_1_en_20230515](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/15cd91e6-9f25-4748-8574-1cce625d7746)
 
-Procedure:
-1.	Match the data of the two reference titles to see if they are duplicates.
-2.	If there is a duplicate, click the "Select Target" button to merge the two matching titles.
-
-
-
 ![Screenshot_reference_title_conflict_2_en_062023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/4610c39a-c5a9-44ca-8bb9-9cba313d540e)
 
+Procedure:
 
+1.	Match the data of the two reference titles to see if they are duplicates.
+2.	If there is a duplicate, click the "Select Target" button to merge the two matching titles.
 3.	The remaining title is displayed in green, the duplicate in red. You are shown in the tile marked in red which identifiers are "already linked" (green tick) and which are "not linked" (red x). You can add the unlinked identifiers by clicking on them.
 4.	Use the "Merge duplicate" button to complete the check request.
 
@@ -165,9 +165,9 @@ Step 2:
 
 ![Screenshot_ambiguous_title_matches_2_en_062023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/d3c9de2f-eef9-4487-a4cf-5aa9a73f77d5)
 
-5. Match the title to be checked with the displayed reference titles. Then select the title you want to link via "Select target" and confirm this. Incorrect identifiers can also be corrected later in the title.
-6. If there is no match with any of the listed reference titles, you can search for an existing title or create a new one via the last tile.
-7. Use the "Close check request" button to end the processing.
+1. Match the title to be checked with the displayed reference titles. Then select the title you want to link via "Select target" and confirm this. Incorrect identifiers can also be corrected later in the title.
+2. If there is no match with any of the listed reference titles, you can search for an existing title or create a new one via the last tile.
+3. Use the "Close check request" button to end the processing.
 
 **Notes:** Instead of duplicates, similar titles may also be previous and subsequent titles, which may then not be merged. Identifiers can also be incorrect. In this case, a check of the identifiers as well as the publication and title history can help. When selecting the correct title, the coverage of the package title and the publication history of the reference title can be helpful. Correct identifiers can be added if you jump to the editing view of the title via the name. This view opens in a new tab of the browser when you click on the title.
 
