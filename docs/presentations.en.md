@@ -17,3 +17,4 @@
     communication](http://www.slideshare.net/gokb/150331-uksg-antelmanwilson)
 -   [Come One, Come All: Building a Community for the Global Open
     Knowledgebase](http://www.slideshare.net/gokb/20150223-erl15-wilsonbuildingcommunity)
+-   [GOKb - Review Requests Training](assets/GOKb-Review-Requests-Training.pdf)
