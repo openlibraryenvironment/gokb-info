@@ -1,3 +1,30 @@
+# Release 1.6
+_Veröffentlicht am 26. Juli 2023_
+
+Die zentralen Neuerungen der Version 1.6 sind die Erweiterung der Such- und Filterfunktion sowie die visuelle Aufteilung der Bearbeitungsansicht zum Hinzufügen von Plattformen.
+
+## Neue Such- und Filterfunktion
+In den Suchansichten wurde für die Identifikatoren die Filterfunktion „Namensraum“ ergänzt. Es kann nun gezielt nach diesen gefiltert werden.
+
+Als weiteres Feature können die Suchergebnisse als CSV exportiert werden.
+
+## Anlegen/Bearbeiten von Anbietern und Plattformen
+Für Anbieter kann nun eine empfohlene Kurzform hinterlegt werden. Dies ist sowohl beim Anlegen als auch in der Bearbeitungssicht möglich.
+
+Das Fenster unter dem Reiter „Plattformen“ zum Hinzufügen von Plattformen wurden visuell aufgeteilt, um die Neuerstellung oder Bearbeitung einer bestehenden Plattform zu erleichtern. Es gibt nun zum einen die Möglichkeit „Auswählen“, um eine existierende Plattform zu suchen und zu bearbeiten. Kann keine Plattform gefunden werden, gibt es die Möglichkeit über den Punkt „Neu“, eine neue Plattform anzulegen. 
+
+## Pflege von Paketen und Pakettiteln
+Es werden fehlerhafte Identifikatoren markiert, wenn sie einen Validierungsfehler verursachen. Zudem ist nun die Bearbeitung von Identifikatoren in neuen Titeln deaktiviert, bis ein Titeltyp ausgewählt wurde. Eine weitere Neuerung ist, dass bei der manuellen Erstellung eines neuen Pakettitels bei der Auswahl des Referenztitels der bestehende Name und die IDs als Standard übernommen werden.
+
+## KBART-Import
+Für den KBART-Import wurde eine Option hinzugefügt, die neuhinzugekommene Titel als gelöscht statt archiviert markiert, um Fehler zu bereinigen.
+
+## Login-Verfahren
+Das Login-Verfahren wurde überarbeitet. Sie bleiben innerhalb eines Browsers eingeloggt. Dies gilt auch für das Öffnen neuer Tabs. Nicht-dauerhafte Anmeldungen werden automatisch nach einer bestimmten Zeit abgemeldet und nicht mehr beim Schließen des Browser-Tabs.
+
+## Vollständige Übersicht der Änderungen
+Eine Gesamtübersicht aller Neuerungen finden Sie im [Github-Repo der GOKb](https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v1.6.0).
+
 # Release 1.5
 _Veröffentlicht am 17. April 2023_
 
