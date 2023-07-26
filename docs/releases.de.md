@@ -17,7 +17,7 @@ Das Fenster unter dem Reiter „Plattformen“ zum Hinzufügen von Plattformen w
 Es werden fehlerhafte Identifikatoren markiert, wenn sie einen Validierungsfehler verursachen. Zudem ist nun die Bearbeitung von Identifikatoren in neuen Titeln deaktiviert, bis ein Titeltyp ausgewählt wurde. Eine weitere Neuerung ist, dass bei der manuellen Erstellung eines neuen Pakettitels bei der Auswahl des Referenztitels der bestehende Name und die IDs als Standard übernommen werden.
 
 ## KBART-Import
-Für den KBART-Import wurde eine Option hinzugefügt, die neuhinzugekommene Titel als gelöscht statt archiviert markiert, um Fehler zu bereinigen.
+Für den KBART-Import wurde eine Option hinzugefügt, die neu hinzugekommene Titel als gelöscht statt archiviert markiert, um Fehler zu bereinigen.
 
 ## Login-Verfahren
 Das Login-Verfahren wurde überarbeitet. Sie bleiben innerhalb eines Browsers eingeloggt. Dies gilt auch für das Öffnen neuer Tabs. Nicht-dauerhafte Anmeldungen werden automatisch nach einer bestimmten Zeit abgemeldet und nicht mehr beim Schließen des Browser-Tabs.
