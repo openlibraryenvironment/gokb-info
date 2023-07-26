@@ -1,7 +1,7 @@
 # Release 1.6
 _Published on 26 July 2023_
 
-The central innovations of version 1.6 are the extension search and filter functionality as well as the visual division of the edit view for adding platforms.
+The central innovations of version 1.6 are the extension of the search and filter functionality as well as the visual division of the edit view for adding platforms.
 
 ## New search and filter functionality
 In the search views, the "Namespace" filter function has been added for the identifiers. It is now possible to filter specifically for these.
