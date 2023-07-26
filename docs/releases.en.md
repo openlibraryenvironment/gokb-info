@@ -1,3 +1,30 @@
+# Release 1.6
+_Published on 26 July 2023_
+
+The central innovations of version 1.6 are the extension search and filter functionality as well as the visual division of the edit view for adding platforms.
+
+## New search and filter functionality
+In the search views, the "Namespace" filter function has been added for the identifiers. It is now possible to filter specifically for these.
+
+As a further feature, the search results can be exported as CSV.
+
+## Create/edit providers and platforms
+A recommended short form can now be stored for providers. This is possible both when creating and in the editing view.
+
+The view under the "Platforms" tab for adding platforms have been visually split to make it easier to create or edit an existing platform. On the one hand, there is now the option "Select" to search for and edit an existing platform. If no platform can be found, there is the option to create a new platform via the "Add new" item.
+
+## Create and edit packages and package title
+Incorrect identifiers are marked if they cause a validation error. In addition, editing of identifiers in new titles is now disabled until a title type is selected. Another new feature is that when manually creating a new package title, the existing name and IDs are taken as default when selecting the reference title.
+
+## KBART import
+For KBART import, an option has been added to mark newly added titles as deleted instead of retired to clean up errors.
+
+## New Login process
+The login process has been revised. You remain logged in within a browser. This also applies to opening new tabs. Non-permanent logins are automatically logged out after a certain time and no longer when closing the browser tab.
+
+## Complete overview of changes
+A complete overview of all changes can be found in the [Github repo of GOKb](https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v1.6.0).
+
 # Release 1.5
 _Published on 17 April 2023_
 
