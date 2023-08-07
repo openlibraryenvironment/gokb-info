@@ -1,5 +1,10 @@
 # News
 
+## Release 1.6 published
+*July 26, 2023*
+
+The current release 1.6 offers, among other things, extended search and filter functions. Identifiers can be filtered in the search view by namespace. In addition, it is possible to enter a preferred shortname for the provider. The search results can now be exported as csv. Another innovation is the visual split of the view for editing/adding platforms. The detailed release notes can be found [here](https://gokb.org/releases.html).
+
 ## GOKb at the BiblioCON 2023
 *May 23, 2023*
 
