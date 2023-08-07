@@ -1,5 +1,10 @@
 # News
 
+## Release 1.6 erschienen
+*26. Juli 2023*
+
+Das aktuelle Release 1.6 bietet u. a. erweiterte Such- und Filterfunktionen. Identifikatoren können in der Suche nach Namensraum gefiltert werden. Zudem ist es beim Anbieter möglich, eine Kurzform des Namens einzutragen. Die Suchergebnisse können nun als csv exportiert werden. Eine weitere Neuerung ist die visuelle Aufteilung der Ansicht für das Bearbeiten von Plattformen. Näheres zum Release 1.6 finden Sie [hier](https://gokb.org/de/releases.html).
+
 ## Ankündigung GOKb Prüfanfragen-Schulung
 *07. Juni 2023*
 
