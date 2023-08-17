@@ -1,5 +1,15 @@
 # News
 
+## WOLFcon 2023
+*August 18, 2023*
+
+This year, WOLFCon 2023, the annual meeting of the [Open Library Foundation (OLF)](https://openlibraryfoundation.org/about/wolfcon/upcoming/), will take place as a hybrid event in Chicago from August 22 to August 24. GOKb will be represented with the following sessions:
+
+- New Workflows & Features in GOKb
+- Global Open Knowledgebase: Open Data, Open Source, Open API, Open Community
+
+These presentations will be available online after the event.
+
 ## Release 1.6 published
 *July 26, 2023*
 
