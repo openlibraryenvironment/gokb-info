@@ -5,7 +5,7 @@ Bei der Bearbeitung von KBART-Dateien treten manche Fehler gehäuft auf, die unb
 werden müssen.
 
   * **Falscher Zeichensatz:** KBART-Dateien müssen im Zeichensatz UTF-8 vorliegen. Manche Anbieter
-    weichen von dieser Norm ab, aber der Zeichensatz kann sich auch unbeanbsichtigt im Rahmen 
+    weichen von dieser Norm ab, aber der Zeichensatz kann sich auch unbeabsichtigt im Rahmen 
     der Bearbeitung von KBART-Dateien ändern. Daher muss der Zeichensatz immer überprüft werden.
   * **Umformatierung von Datumsangaben:** Datumsangaben wie Veröffentlichungsdatum, Abdeckungsdaten
     etc. müssen im Format YYYY-MM-DD vorliegen. Tabellenkalkulationsprogramme ändern dieses Format 
@@ -18,7 +18,7 @@ werden müssen.
 
 ## Microsoft Excel
 
-KBART-Dateien können mit Excel nicht über das "Öffnen"-Menü geladen werden. Sie 
+KBART-Dateien können mit Excel nicht über das "Öffnen"-Menü geladen werden.
 Sie müssen in einer leeren Arbeitsmappe über den Menüpunkt _Datei_ > _Aus Text/CSV_ 
 importiert werden.
 
