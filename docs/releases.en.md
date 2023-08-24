@@ -17,7 +17,7 @@ The view under the "Platforms" tab for adding platforms have been visually split
 Incorrect identifiers are marked if they cause a validation error. In addition, editing of identifiers in new titles is now disabled until a title type is selected. Another new feature is that when manually creating a new package title, the existing name and IDs are taken as default when selecting the reference title.
 
 ## KBART import
-An option has been added for the KBART. Newly missing titles are now marked as "deleted" instead of "retired" for error cleanup.
+New options have been added for the KBART import. Firstly, package titles that are no longer included in an updated list are marked as "deleted" and no longer as "archived". On the other hand, titles whose date in the KBART column "published online" is in the future receive the status "expected".
 
 ## New Login process
 The login process has been revised. You remain logged in within a browser. This also applies to opening new tabs. Non-permanent logins are automatically logged out after a certain time and no longer when closing the browser tab.
