@@ -122,7 +122,7 @@ Einstellungen vor:
 
   * _Zeichensatz_: "Unicode (UTF-8)"
   * _Feldtrennzeichen_: "{Tabulator}"
-  * Textrennzeichen: " " " (Hochgestellte doppelte Anführungszeichen)
+  * Texttrennzeichen: " " " (Hochgestellte doppelte Anführungszeichen)
   * _Zellinhalte wie angezeigt speichern_: Anwählen bzw. Haken setzen
   * Alle anderen Optionen: Abwählen bzw. Haken entfernen
 
