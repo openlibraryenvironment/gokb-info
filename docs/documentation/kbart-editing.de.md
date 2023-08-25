@@ -36,9 +36,9 @@ Einstellungen korrekt vorzunehmen:
     vorliegt. Diese wird nicht automatisch von Excel erkannt. Excel schlägt die Kodierung
     "1252: Westeuropäisch (Windows)" vor, die in den meisten Fällen falsch ist. Laut NISO-
     Standard muss eine Kodierung als "65001: Unicode (UTF-8)" vorliegen. Wählen Sie diese 
-    Kodierung aus dem Dropdown aus. _Hinweis:_ Es kann sein, dass Anbieter sich nicht an den NISO-)
+    Kodierung aus dem Dropdown aus. _Hinweis:_ Es kann sein, dass Anbieter sich nicht an den NISO-
     Standard halten und eine andere Kodierung wählen. Wählen Sie dann hier die vom Anbieter 
-    genutze Kodierung aus. Zum Erkennen der Kodierung lesen Sie den Abschnitt "Zeichenkodierung
+    genutzte Kodierung aus. Zum Erkennen der Kodierung lesen Sie den Abschnitt "Zeichenkodierung
     erkennen und korrigieren".
   * _Trennzeichen:_ Für KBART-Dateien sind Tabstopps als Trennzeichen vorgegeben. Wählen Sie 
     daher Tabstopps aus. In der Regel ist diese Auswahl schon vorab eingestellt.
@@ -46,15 +46,14 @@ Einstellungen korrekt vorzunehmen:
     fehlerhafte Datentyperkennung die Daten korrumpieren kann.
 
 ### Korrektur der Header-Zeile
-Excel erkennt die Spaltenüberschriften-Zeile der KBART-Datei nicht als Überschriften an und fügt  
-eine weitere Zeile hinzu. 
+Excel erkennt die Spaltenüberschriften-Zeile der KBART-Datei nicht als Überschriften an und fügt eine weitere Zeile hinzu. 
 
 ![Excel Editing](../assets/excel_import_3.de.png "Excel Entfernen der Spaltenüberschriften")
 
   * Entfernen Sie die Markierung dieser Zeile als Überschriftenzeile. Entfernen Sie dazu den  
-    Haken unter _Entwurf_ > _Kopfzeile_
+    Haken unter _Entwurf_ > _Kopfzeile_.
   * Löschen Sie die nun leere Zeile mit Rechtsklick auf die Zeilennummer "1" und Auswahl von 
-    _Zellen löschen_ aus dem Kontextmenü
+    _Zellen löschen_ aus dem Kontextmenü.
 
 ### Bearbeitung der KBART-Datei
 Sie können die Datei nun beliebig bearbeiten. Beachten Sie bitte die Standards des KBART-Formats,
@@ -88,15 +87,15 @@ Einstellungen korrekt vorzunehmen:
 
   * _Importieren:_ Hier können Sie die Zeichenkodierung auswählen, in der die KBART-Datei
     vorliegt. Diese wird nicht automatisch von LibreOffice Calc erkannt. LibreOffice Calc 
-    schlägt die Kodierung "Unicode (UTF-8)" vor, die in den meisten Fällen kirrekt ist. Laut NISO-
+    schlägt die Kodierung "Unicode (UTF-8)" vor, die in den meisten Fällen korrekt ist. Laut NISO-
     Standard muss eine Kodierung als "Unicode (UTF-8)" vorliegen. _Hinweis:_ Es kann sein, 
     dass Anbieter sich nicht an den NISO-Standard halten und eine andere Kodierung wählen. 
-    Wählen Sie dann hier die vom Anbieter genutze Kodierung aus. Zum Erkennen der Kodierung 
+    Wählen Sie dann hier die vom Anbieter genutzte Kodierung aus. Zum Erkennen der Kodierung 
     lesen Sie den Abschnitt "Zeichenkodierung erkennen und korrigieren".
   * _Trennoptionen:_ Für KBART-Dateien sind Tabstopps als Trennzeichen vorgegeben. Wählen Sie
     daher Tabstopps aus. In der Regel ist diese Auswahl schon vorab eingestellt.
   * _Weitere Optionen:_ Wählen Sie hier alle Optionen ab. Insbesondere die "Erweiterte 
-    Zahlenerkennung muss ausgeschaltet sein, da eine fehlerhafte Zahlenerkennung 
+    Zahlenerkennung" muss ausgeschaltet sein, da eine fehlerhafte Zahlenerkennung 
     die Daten korrumpieren kann.
 
 
@@ -107,11 +106,11 @@ die [hier](./kbart-introduction.md) zusammengefasst sind.
 ### Speichern der KBART-Datei
 Speichern sie die KBART-Datei über _Datei_ > _Speichern unter_. Hier müssen Sie folgende Einstellungen auswählen:
 
-  * _Dateiname_: Geben Sie den Dateiname mit dem Suffix ".txt" oder ".tsv" an. Die GOKb 
+  * _Dateiname_: Geben Sie den Dateiname mit dem Suffix ".txt" oder ".tsv" an. Die GOKb akzeptiert
     beide Endungen.
   * _Dateityp_: "CSV (*.csv)"
-  * _Automatische Dateiendung_: Entfernen Sie den Haken an dieser Option
-  * _Filtereinstellungen bearbeite_: Wählen Sie diese Option an.
+  * _Automatische Dateiendung_: Entfernen Sie den Haken an dieser Option.
+  * _Filtereinstellungen bearbeiten_: Wählen Sie diese Option an.
 
 ![Libreoffice Export](../assets/libreofficecalc_export_2.de.png "LibreOffice Calc Export")
 
