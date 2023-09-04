@@ -14,7 +14,7 @@ Für Anbieter kann nun eine empfohlene Kurzform hinterlegt werden. Dies ist sowo
 Das Fenster unter dem Reiter „Plattformen“ zum Hinzufügen von Plattformen wurden visuell aufgeteilt, um die Neuerstellung oder Bearbeitung einer bestehenden Plattform zu erleichtern. Es gibt nun zum einen die Möglichkeit „Auswählen“, um eine existierende Plattform zu suchen und zu bearbeiten. Kann keine Plattform gefunden werden, gibt es die Möglichkeit über den Punkt „Neu“, eine neue Plattform anzulegen. 
 
 ## Pflege von Paketen und Pakettiteln
-Es werden fehlerhafte Identifikatoren markiert, wenn sie einen Validierungsfehler verursachen. Zudem ist nun die Bearbeitung von Identifikatoren in neuen Titeln deaktiviert, bis ein Titeltyp ausgewählt wurde. Eine weitere Neuerung ist, dass bei der manuellen Erstellung eines neuen Pakettitels bei der Auswahl des Referenztitels der bestehende Name und die IDs als Standard übernommen werden.
+Es werden nun fehlerhafte Identifikatoren markiert, wenn sie einen Validierungsfehler verursachen. Ein manuell erstellter Referenztitel kann erst gespeichert werden, wenn ein Titeltyp ausgewählt wurde. Eine weitere Neuerung ist, dass bei der manuellen Erstellung eines neuen Pakettitels bei der Auswahl des Referenztitels der bestehende Name und die IDs als Standard übernommen werden.
 
 ## KBART-Import
 Für den KBART-Import wurden neue Optionen hinzugefügt. Zum einen werden Pakettitel, die in einer aktualisierten Liste nicht mehr enthalten sind, als "gelöscht" und nicht mehr als "archiviert" markiert. Zum anderen werden Monographien mit einem zukünftigen Datum in der Spalte "date_monograph_published_online" in der Titelliste mit dem Status "erwartet" angezeigt.
