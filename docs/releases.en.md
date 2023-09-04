@@ -14,7 +14,7 @@ A recommended short form can now be stored for providers. This is possible both 
 The view under the "Platforms" tab for adding platforms have been visually split to make it easier to create or edit an existing platform. On the one hand, there is now the option "Select" to search for and edit an existing platform. If no platform can be found, there is the option to create a new platform via the "Add new" item.
 
 ## Create and edit packages and package title
-Incorrect identifiers are marked if they cause a validation error. In addition, editing of identifiers in new titles is now disabled until a title type is selected. Another new feature is that when manually creating a new package title, the existing name and IDs are taken as default when selecting the reference title.
+Incorrect identifiers are now marked if they cause a validation error. A manually created reference title cannot be saved until a title _type_ has been selected. Another new feature is that when manually creating a new package title, the existing name and IDs are taken as default when selecting the reference title.
 
 ## KBART import
 New options have been added for the KBART import. Firstly, package titles that are no longer included in an updated list are marked as "deleted" and no longer as "archived". Moreover, monographs with a future date in the column "date_monograph_published_online" are displayed with the status "expected" in the title list.
