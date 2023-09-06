@@ -12,7 +12,7 @@ Die 5. FOLIO-Tage Stuttgart finden vom 10. bis zum 11. Oktober als Präsenzveran
 - von 9 bis 10:30 Uhr: GOKb Anwender*innen-Treffen
 - von 10:45 bis 11:45 Uhr: ERM Workflow Demo (inkl. GOKb)
 
-Eine Anmeldung für die FOLIO-Tage ist bis zum *26. Oktober 2023* möglich über die Website der [BSZ](https://www.bsz-bw.de/Folio2023/anmeldung-mit-formular.html). Dort kann auch das vorläufige Programm eingesehen werden.
+Eine Anmeldung für die FOLIO-Tage ist bis zum *26. Oktober 2023* möglich über die Website des [BSZ](https://www.bsz-bw.de/Folio2023/anmeldung-mit-formular.html). Dort kann auch das vorläufige Programm eingesehen werden.
 
 ## GOKb auf der WOLFcon 2023
 *18. August 2023*
