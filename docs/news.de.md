@@ -22,10 +22,8 @@ Eine Anmeldung für die FOLIO-Tage ist bis zum *26. Oktober 2023* möglich über
 
 Die WOLFcon 2023, die jährliche Tagung der [Open Library Foundation (OLF)](https://openlibraryfoundation.org/about/wolfcon/upcoming/), findet in diesem Jahr vom 22. - 24. August als hybride Veranstaltung in Chicago statt. Die GOKb wird dort mit folgenden Themen vertreten sein:
 
-- New Workflows & Features in GOKb
-- Global Open Knowledgebase: Open Data, Open Source, Open API, Open Community
-
-Diese Vorträge werden nach der Veranstaltung online zur Verfügung stehen.
+- [New Workflows & Features in GOKb](https://static.sched.com/hosted_files/wolfcon2023/08/GOKb%20WOLFcon%202023%20-%20New%20workflows%20and%20features.pdf?_gl=1*1fvbq79*_ga*MTkzNzI1NTM3OC4xNjkzMjI3NTIy*_ga_XH5XM35VHB*MTY5NDA2NzYxMC40LjEuMTY5NDA2Nzc5Ni41OC4wLjA.)
+- [Global Open Knowledgebase: Open Data, Open Source, Open API, Open Community](https://static.sched.com/hosted_files/wolfcon2023/0b/GOKb%20Wolfcon%202023%20Open.pdf?_gl=1*1o7w0xw*_ga*MTkzNzI1NTM3OC4xNjkzMjI3NTIy*_ga_XH5XM35VHB*MTY5NDA2NzYxMC40LjEuMTY5NDA2NzY1Ni4xNC4wLjA.)
 
 ## Release 1.6 erschienen
 *26. Juli 2023*
