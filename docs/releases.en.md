@@ -17,7 +17,7 @@ The view under the "Platforms" tab for adding platforms have been visually split
 Incorrect identifiers are now marked if they cause a validation error. A manually created reference title cannot be saved until a title _type_ has been selected. Another new feature is that when manually creating a new package title, the existing name and IDs are taken as default when selecting the reference title.
 
 ## KBART import
-New options have been added for the KBART import. Firstly, package titles that are no longer included in an updated list are marked as "deleted" and no longer as "archived". Moreover, monographs with a future date in the column "date_monograph_published_online" are displayed with the status "expected" in the title list.
+New options have been added for the KBART import. Firstly, package titles that are no longer included in an updated list can optionally be marked as "deleted" instead of "archived". Moreover, monographs with a future date in the column "date_monograph_published_online" are displayed with the status "expected" in the title list.
 
 ## New Login process
 The login process has been revised. You remain logged in within a browser. This also applies to opening new tabs. Non-permanent logins are automatically logged out after a certain time and no longer when closing the browser tab.
