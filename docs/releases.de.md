@@ -17,7 +17,7 @@ Das Fenster unter dem Reiter „Plattformen“ zum Hinzufügen von Plattformen w
 Es werden nun fehlerhafte Identifikatoren markiert, wenn sie einen Validierungsfehler verursachen. Ein manuell erstellter Referenztitel kann erst gespeichert werden, wenn der _Typ_ des Titels ausgewählt wurde. Eine weitere Neuerung ist, dass bei der manuellen Erstellung eines neuen Pakettitels bei der Auswahl des Referenztitels der bestehende Name und die IDs als Standard übernommen werden.
 
 ## KBART-Import
-Für den KBART-Import wurden neue Optionen hinzugefügt. Zum einen werden Pakettitel, die in einer aktualisierten Liste nicht mehr enthalten sind, als "gelöscht" und nicht mehr als "archiviert" markiert. Zum anderen werden Monographien mit einem zukünftigen Datum in der Spalte "date_monograph_published_online" in der Titelliste mit dem Status "erwartet" angezeigt.
+Für den KBART-Import wurden neue Optionen hinzugefügt. Zum einen können Pakettitel, die in einer aktualisierten Liste nicht mehr enthalten sind, optional als "gelöscht" statt "archiviert" markiert werden. Zum anderen werden Monographien mit einem zukünftigen Datum in der Spalte "date_monograph_published_online" in der Titelliste mit dem Status "erwartet" angezeigt.
 
 ## Login-Verfahren
 Das Login-Verfahren wurde überarbeitet. Sie bleiben innerhalb eines Browsers eingeloggt. Dies gilt auch für das Öffnen neuer Tabs. Nicht-dauerhafte Anmeldungen werden automatisch nach einer bestimmten Zeit abgemeldet und nicht mehr beim Schließen des Browser-Tabs.
