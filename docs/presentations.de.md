@@ -1,5 +1,6 @@
 # Präsentationen
 
+- [Die Global Open Knowledgebase (GOKb) - Aktuelles (im Rahmen des ZDB-Anwendertreffens 2023](https://zeitschriftendatenbank.de/fileadmin/user_upload/ZDB/pdf/anwendertreffen/ZDB-Anwendertreffen_Virtuell_2023.pdf)
 - [GOKb & FOLIO - Neue Möglichkeiten für die Verwaltung elektronischer Ressourcen](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/18479)
 - [Die Global Open Knowledgebase (GOKb) - Von der Anbieterdatei zum 
 FOLIO-Paket](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/18011)
