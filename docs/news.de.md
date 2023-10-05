@@ -6,13 +6,13 @@
 Die nächste Infostunde findet am *06. November 2023 von 15 bis 16 Uhr* statt. Das Thema ist "Neues FOLIO-Release „Poppy“: Was ist wichtig für GOKb-Nutzende?".
 
 ## GOKb bei den FOLIO-Tagen 2023 in Stuttgart
-*06. September 2023*
+*05. Oktober 2023*
 
 Die 5. FOLIO-Tage Stuttgart finden vom 10. bis zum 11. Oktober als Präsenzveranstaltung statt. Hinweisen möchten wir auf folgende Veranstaltungen:
 
 *10. Oktober*:
 
-• 15:45 bis 16:45 Uhr: GOKb-Vortrag
+• 15:45 bis 16:45 Uhr: Die GOKb stellt sich vor
   
 *11. Oktober*:
 
@@ -20,7 +20,7 @@ Die 5. FOLIO-Tage Stuttgart finden vom 10. bis zum 11. Oktober als Präsenzveran
 
 • 10:45 bis 11:45 Uhr: ERM Workflow Demo (inkl. GOKb)
 
-Eine Anmeldung für die FOLIO-Tage ist bis zum *26. September 2023* möglich über die Website des [BSZ](https://www.bsz-bw.de/Folio2023/anmeldung-mit-formular.html). Dort kann auch das vorläufige Programm eingesehen werden.
+Das offizielle [Programm](https://www.bsz-bw.de/files/Bilder/Dokumente/FOLIO-Tage_Programm_2023_10_05_WWW.pdf) für die FOLIO-Tage ist online verfügbar.
 
 ## GOKb auf der WOLFcon 2023
 *18. August 2023*
