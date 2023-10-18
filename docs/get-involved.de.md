@@ -39,4 +39,4 @@ Wie kann ich mich beteiligen?
 
 - Werden Sie ein freiwilliger Datenmanager. Stellen Sie Ihre Zeit und Ihr Fachwissen zur Verfügung indem Sie an Datenlade- und Datenverbesserungsprojekten teilnehmen.
 - Eine kostenlose Partnerschaft ist für jede Organisation möglich, die bereit ist, sich an der Erstellung und Pflege von Daten in der GOKb zu beteiligen.
-- Für weitere Informationen über Freiwilligen- und Partnerschaftsmöglichkeiten kontaktieren Sie Johann Rolschewski unter [johann.rolschewski\_at\_sbb.spk-berlin.de](mailto:johann.rolschewski@sbb.spk-berlin.de).
+- Für weitere Informationen über Freiwilligen- und Partnerschaftsmöglichkeiten kontaktieren Sie die GOKb Projekt Gruppe unter [info_at_gokb.org](mailto:info@gokb.org).
