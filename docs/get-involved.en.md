@@ -42,5 +42,5 @@ How do I get involved?
 -   Free Partnership is available to any organization willing to
     contribute effort toward creating and maintaining data in GOKb.
 -   For more information about volunteer and partnership opportunities,
-    contact Johann Rolschewski at
-    [johann.rolschewski\_at\_sbb.spk-berlin.de](mailto:johann.rolschewski@sbb.spk-berlin.de).
+    contact GOKb project group at
+    [info_at_gokb.org](mailto:info@gokb.org).
