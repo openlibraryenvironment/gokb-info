@@ -1,9 +1,9 @@
 # News
 
-## Ankündigung Infostunde im November
-*04. Oktober 2023*
+## Ankündigung Infostunde im Dezember
+*15. November 2023*
 
-Die nächste Infostunde findet am *06. November 2023 von 15 bis 16 Uhr* statt. Das Thema ist *Neues FOLIO-Release „Poppy“: Was ist wichtig für GOKb-Nutzende?*.
+Die nächste Infostunde findet am *04. Dezember 2023 von 15 bis 16 Uhr* statt. Das Thema ist "Dubletten von Referenztiteln bei Monographien".
 
 ## GOKb bei den FOLIO-Tagen 2023 in Stuttgart
 *05. Oktober 2023*
