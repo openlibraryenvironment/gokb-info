@@ -32,11 +32,11 @@ Excel does not recognize the column heading row of the KBART file as headings an
 ![Screenshot_Documentation_Excel_Header_correction](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/4996e542-6c90-4157-a300-d05070b49a84)
 
 * Deselect this line as a heading line. To do this, remove the check mark under _Design_ > _Header Row_.
-* Now delete the empty row by right-clicking on the row number "1" and selecting Delete from the context menu.
+* Now delete the empty row by right-clicking on the row number "1" and selecting _Delete_ from the context menu.
 
 ### Editing the KBART file
 
-You can now edit the file as you wish. Please note the standards of the KBART format, which are summarized here.
+You can now edit the file as you wish. Please note the standards of the KBART format, which are summarized [here](https://github.com/openlibraryenvironment/gokb-info/blob/master/docs/documentation/kbart-introduction.en.md).
 
 ### Saving the KBART file
 
@@ -64,7 +64,7 @@ An import window will open. In this window it is extremely important to make the
 
 ### Editing the KBART file
 
-You can now edit the file as you wish. Please note the standards of the KBART format, which are summarized here.
+You can now edit the file as you wish. Please note the standards of the KBART format, which are summarized [here](https://github.com/openlibraryenvironment/gokb-info/blob/master/docs/documentation/kbart-introduction.en.md).
 
 ### Saving the KBART file
 
