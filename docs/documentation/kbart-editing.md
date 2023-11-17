@@ -36,7 +36,7 @@ Excel does not recognize the column heading row of the KBART file as headings an
 
 ### Editing the KBART file
 
-You can now edit the file as you wish. Please note the standards of the KBART format, which are summarized [here](https://github.com/openlibraryenvironment/gokb-info/blob/master/docs/documentation/kbart-introduction.en.md).
+You can now edit the file as you wish. Please note the standards of the KBART format, which are summarized [here](https://gokb.org/documentation/kbart-introduction.html).
 
 ### Saving the KBART file
 
@@ -64,7 +64,7 @@ An import window will open. In this window it is extremely important to make the
 
 ### Editing the KBART file
 
-You can now edit the file as you wish. Please note the standards of the KBART format, which are summarized [here](https://github.com/openlibraryenvironment/gokb-info/blob/master/docs/documentation/kbart-introduction.en.md).
+You can now edit the file as you wish. Please note the standards of the KBART format, which are summarized [here](https://gokb.org/documentation/kbart-introduction.html).
 
 ### Saving the KBART file
 
