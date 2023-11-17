@@ -101,8 +101,10 @@ Open the KBART file in Notepad++. Normally Notepad++ recognizes the character en
   * Umlauts like ä, ö, ü
   * Other letters and characters outside the standard Latin alphabet (accents etc.)
 
-![Screenshot_Notepad_file_encoding](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/03d8f6f0-fef9-485d-92dd-2a702947c248)
+![Screenshot_Notepad_file_encoding](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/3233c51a-d33d-4e6c-8303-13c2f53e6af7)
+
 
 You can use the menu item _Encoding_ to select the correct character encoding of the file so that the characters mentioned are displayed correctly. Using the same menu item _Encoding_ > _Convert to UTF-8_ you can change the encoding to the correct character encoding UTF-8 recommended by the KBART standard and then save it.
 
-![Screenshot_Notepad_file_encoding_convert](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/4e84dcec-4a66-4a0f-ad85-97940f3c56c6)
+![Screenshot_Notepad_file_encoding_convert](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/516635f7-46db-49e0-b5c1-118e42f88333)
+
