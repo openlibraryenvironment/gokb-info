@@ -6,7 +6,7 @@
 When editing KBART files, some errors occur very frequently and should be avoided.
 
 * **Incorrect character encoding:** The character encoding of the KBART file must be UTF-8. Some providers differ from this standard, but the character encoding can also change unintentionally in the course of editing KBART files. Therefore, you should always check it.
-* **Reformatting dates:** Dates such as publication dates, coverage dates, etc. must be given in the format YYYY-MM-DD. Spreadsheet programmes sometimes automatically change this formatting to other formats such as DD.MM.YYYY. This reformatting must be avoided.
+* **Reformatting dates:** Dates such as publication dates, coverage dates, etc. must be given in the format YYYY-MM-DD. Spreadsheet programs sometimes automatically change this formatting to other formats such as DD.MM.YYYY. This reformatting must be avoided.
 * **Reformatting ISBNs:** Sometimes the ISBN-13 in particular is present without hyphens. Spreadsheet programs then misinterpret it as a numerical value and display it in exponential notation (e.g. 9.78179E+12). This causes the last digits to be lost and the ISBN becomes unusable.
 
 ## Microsoft Excel
