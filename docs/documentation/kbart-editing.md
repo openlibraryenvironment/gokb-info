@@ -60,9 +60,9 @@ An import window will open. In this window it is extremely important to make the
 
 ![Screenshot_LibreOffice_Calc_text_import_settings](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/1365ba48-87b9-4358-ac64-5e8334161bae)
 
-* _Import:_ Here you can select the Character set in which the KBART file is available. This is not automatically recognized by LibreOffice Calc. LibreOffice Calc suggests the encoding "Unicode (UTF-8)" which is correct in most cases. According to the NISO standard, the encoding must be "Unicode (UTF-8)". _Note:_ It is possible that providers do not follow the NISO standard and choose a different encoding. In this case, please select the encoding used by the provider. To learn how to identify the encoding, see the section "Recognize and correct character encoding".
-* _Separator options:_ For KBART files, tab stops are default separators. Therefore, select tab stops. Usually this selection is already preset.
-* _Other options:_ Deselect all options here. In particular, the "Detect special numbers" must be switched off, because an incorrect number detection can corrupt the data.
+* _Import:_ Here you can select the _Character set_ in which the KBART file is available. This is not automatically recognized by LibreOffice Calc. LibreOffice Calc suggests the encoding "Unicode (UTF-8)" which is correct in most cases. According to the NISO standard, the encoding must be "Unicode (UTF-8)". _Note:_ It is possible that providers do not follow the NISO standard and choose a different encoding. In this case, please select the encoding used by the provider. To learn how to identify the encoding, see the section "Recognize and correct character encoding".
+* _Separator Options:_ For KBART files, tab stops are default separators. Therefore, select _Tab_. Usually this selection is already preset.
+* _Other Options:_ Deselect all options here. In particular, the "Detect special numbers" must be switched off, because an incorrect number detection can corrupt the data.
 
 ### Editing the KBART file
 
