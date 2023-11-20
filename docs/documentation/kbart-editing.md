@@ -86,7 +86,7 @@ A new Export text file dialogue then opens. Make the following settings here:
   * _Character set:_ Unicode (UTF-8)
   * _Field delimiter:_ {Tabulator}
   * _String delimiter:_ " (Superscript double quotes)
-  * _Save cell formulae instead fo calculated values:_ Select or check the box
+  * _Save cell content as shown:_ Select or check the box
   * All other options: Deselect or uncheck
 
 ![Screenshot_LibreOffice_Calc_settings](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/40c1844b-0c1d-4e2f-9082-8cf78e0a1fbe)
