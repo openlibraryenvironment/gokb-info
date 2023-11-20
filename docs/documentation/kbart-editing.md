@@ -45,6 +45,8 @@ Save the KBART file via _File_ > _Save as_. After you have selected a storage lo
   * _File type:_ Text (tab-delimited) (*.txt)
   * _Tools_ > _Web Options_ > _Encoding_ tab > _Save document as_: "Unicode (UTF-8)"
 
+You confirm the selection via "OK". The following note that the file type does not support workbooks with multiple sheets, you also confirm with "OK".
+
 *Important note:* Excel often saves in an incorrect character encoding despite correct procedures. Therefore, check the file for its character encoding as indicated in the section "Recognize and correct character encoding".
 
 
