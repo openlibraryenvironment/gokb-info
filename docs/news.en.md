@@ -2,7 +2,7 @@
 
 ## Obituary for Hans-Jörg Lieder
 
-![Hans_Jörg Lieder](../assets/hans_joerg_lieder.jpg "Hans_Jörg Lieder")
+![Hans-Jörg Lieder](../assets/hans_joerg_lieder.jpg "Hans-Jörg Lieder")
 
 We were shocked to learn of the sudden death of our highly esteemed colleague Hans-Jörg Lieder. 
 As head of the ZDB he was a key member of the GOKb team and represented us in various contexts 

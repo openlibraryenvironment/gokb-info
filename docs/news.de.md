@@ -2,7 +2,7 @@
 
 ## Wir trauern um Hans-Jörg Lieder
 
-![Hans_Jörg Lieder](../assets/hans_joerg_lieder.jpg "Hans_Jörg Lieder")
+![Hans-Jörg Lieder](../assets/hans_joerg_lieder.jpg "Hans-Jörg Lieder")
 
 Mit großer Bestürzung haben wir vom plötzlichen Tod unseres sehr geschätzten Kollegen 
 Hans-Jörg Lieder erfahren. Als Leiter der ZDB war er ein tragender Bestandteil des GOKb-Teams 
