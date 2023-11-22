@@ -1,6 +1,6 @@
 # News
 
-## Obituary for Hans-Jörg Lieder
+## We mourn the loss of Hans-Jörg Lieder
 
 ![Hans-Jörg Lieder](../assets/hans_joerg_lieder.jpg "Hans-Jörg Lieder")
 
