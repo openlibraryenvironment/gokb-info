@@ -1,5 +1,32 @@
 # News
 
+## Obituary for Hans-Jörg Lieder
+
+![Hans_Jörg Lieder](../assets/hans_joerg_lieder.jpg "Hans_Jörg Lieder")
+
+We were shocked to learn of the sudden death of our highly esteemed colleague Hans-Jörg Lieder. 
+As head of the ZDB he was a key member of the GOKb team and represented us in various contexts 
+over the years with great friendliness, humor, competence and serenity. He also provided help 
+and advice to his colleagues and was always motivating and supportive.
+
+One memorable event highlighting his thoughtfulness as well as his improvisational skills 
+was his participation in the opening event of the WOLFcon 2022 in Hamburg, where he represented 
+the GOKb. Thanks to his presence, his many years of experience with overarching issues and 
+his engaging personality, he succeeded in turning this panel into a formative exchange on 
+the positioning of libraries in a crisis-ridden world.
+
+Just a few weeks ago, Hans-Jörg Lieder was elected to the Board of Directors of the
+Open Library Foundation on behalf of the GOKb, a role in which he was looking 
+forward to strengthening our project and the German community. We are sure that he would 
+have succeeded in doing so.
+
+We will remember him as an outstanding colleague and above all as a warm-hearted 
+person and miss him very much. Our special sympathy goes out to his family.
+
+With condolences from his colleagues of the GOKb Moritz Horn, Kirstin Kemner-Heek, 
+Maike Osters, Johann Rolschewski, Daniel Rupp, Martina Schildt, Christin Seegert, 
+Andrea Stei, Gerald Steilen
+
 ## WOLFcon 2023
 *August 18, 2023*
 

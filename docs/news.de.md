@@ -1,5 +1,33 @@
 # News
 
+## Wir trauern um Hans-Jörg Lieder
+
+![Hans_Jörg Lieder](../assets/hans_joerg_lieder.jpg "Hans_Jörg Lieder")
+
+Mit großer Bestürzung haben wir vom plötzlichen Tod unseres sehr geschätzten Kollegen 
+Hans-Jörg Lieder erfahren. Als Leiter der ZDB war er ein tragender Bestandteil des GOKb-Teams 
+und hat uns über die Jahre stets mit viel Freundlichkeit, Humor, Kompetenz und Souveränität 
+in verschiedenen Zusammenhängen vertreten. Auch in der täglichen Arbeit stand er mit 
+Rat und Tat zur Seite und war dabei stets motivierend und unterstützend.
+
+Charakteristisch für Hans-Jörg Lieder war sein Mitwirken auf der WolfCon 2022 in Hamburg, 
+wo er die GOKb auf der Eröffnungsveranstaltung vertrat. Durch seine Präsenz, seine 
+langjährige Erfahrung mit übergreifenden Fragestellungen und seine einnehmende Persönlichkeit
+gelang es ihm, dieses Panel zu einem prägenden Austausch über die Positionierung der 
+Bibliotheken in einer krisengeschüttelten Welt zu machen.
+
+Erst vor wenigen Wochen wurde Hans-Jörg Lieder für die GOKb in das Board of Directors 
+der Open Library Foundation gewählt, eine Rolle, in der er sich darauf freute, unser 
+Projekt und die deutsche Community zu stärken. Wir sind uns sicher, dass ihm dies 
+auch gelungen wäre.
+
+Wir werden ihn als hervorragenden Kollegen und vor allem als warmherzigen Menschen
+in Erinnerung behalten und vermissen ihn sehr. Unser besonderes Mitgefühl gilt seinen Angehörigen.
+
+In Anteilnahme seine Kolleginnen und Kollegen der GOKb Moritz Horn, Kirstin Kemner-Heek,
+Maike Osters, Johann Rolschewski, Daniel Rupp, Martina Schildt, Christin Seegert, 
+Andrea Stei, Gerald Steilen
+
 ## Ankündigung Infostunde im Dezember
 *15. November 2023*
 
