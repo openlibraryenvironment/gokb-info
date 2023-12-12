@@ -28,10 +28,10 @@ In Anteilnahme seine Kolleginnen und Kollegen der GOKb Moritz Horn, Kirstin Kemn
 Maike Osters, Johann Rolschewski, Daniel Rupp, Martina Schildt, Christin Seegert, 
 Andrea Stei, Gerald Steilen
 
-## Ankündigung Infostunde im Dezember
-*15. November 2023*
+## Ankündigung Infostunde im Januar 2024
+*12. Dezember 2023*
 
-Die nächste Infostunde findet am *04. Dezember 2023 von 15 bis 16 Uhr* statt. Das Thema ist "Dubletten von Referenztiteln bei Monographien".
+Die Infostunde im Januar enfällt. Im Februar geht es dann weiter. Infos dazu folgen.
 
 ## GOKb bei den FOLIO-Tagen 2023 in Stuttgart
 *05. Oktober 2023*
