@@ -201,9 +201,16 @@ import status via the "Dashboard".
 You can load a KBART file by selecting the "KBART Import" button. A pop-up window opens, 
 please enter:
 
-+ **File:** Select a KBART file from your hard disk
-+ **Namespace:** Please select the namespace of the identifier, see [instruction](./create-and-edit-packages.md).
+![KBART_Import_Dialogue_Box_EN](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/0cd7e688-dcce-43c8-bc4e-fd6a3c637f34)
+
+
++ **File:** Select a KBART file from your hard disk.
++ **Namespace for `title_id`:** Please select the namespace of the identifier, see [instruction](./create-and-edit-packages.md).
+
+In addition, you can choose between various import options:
 + **Partial update:** If you check this box only titles from the new KBART file will be added to the existing package.
++ **Delete removed titles:** If you check this box package titles that are no longer included in the new KBART file will be marked as "deleted" in the existing package.
++ **Dry Run:** If you check this box, the KBART file will only be processed as a test run.
 
 After uploading the file you will get statistics on validation errors. If necessary the KBART file has to be 
 corrected manually and reloaded.
