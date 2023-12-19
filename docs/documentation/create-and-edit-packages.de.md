@@ -214,11 +214,15 @@ Stand des Einspielens der Titel informiert.
 #### 1. Manuelles Laden einer KBART Datei
 
 Über den Button "KBART-Import" können Sie eine KBART-Datei laden. Es öffnet sich ein modaler 
-Dialog. Geben Sie hier bitte folgende Daten an.
+Dialog. Geben Sie hier bitte folgende Daten an:
 
-+   **Datei:** Wählen Sie eine KBART-Datei von Ihrer Festplatte
+![KBART_Import_Dialog_Box_de](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/59ed58f5-72b2-4036-9224-4724b6337860)
+
++   **Datei:** Wählen Sie eine KBART-Datei von Ihrer Festplatte.
 +   **Namensraum für `title_id`:** Wählen Sie bitte den Namensraum des Identifikators, der sich in 
-der Datei unter der Spalte `title_id` befindet.  
+der Datei unter der Spalte `title_id` befindet.
+
+Ergänzend können Sie zwischen verschiedenen Import-Optionen wählen:
 +   **Teil-Update:** Wählen Sie dieses Feld an, wird der Inhalt der hochzuladenden KBART-Datei nicht 
 komplett aktualisiert, sondern nur um die hochzuladenden Titel ergänzt.
 +   **Fehlende Titel als gelöscht markieren:** Wählen Sie dieses Feld an, wird der Status der aktuell vorhandenen Pakettitel, die nicht in der KBART-Datei enthalten sind, auf "gelöscht" gesetzt.
