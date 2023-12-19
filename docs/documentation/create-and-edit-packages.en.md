@@ -208,9 +208,9 @@ please enter:
 + **Namespace for `title_id`:** Please select the namespace of the identifier, see [instruction](./create-and-edit-packages.md).
 
 In addition, you can choose between various import options:
-+   **Partial update:** If you check this box only titles from the new KBART file will be added to the existing package.
-+   **Delete removed titles:** If you check this box package titles that are no longer included in the new KBART file will be marked as "deleted" in the existing package.
-+   **Dry Run:** If you check this box, the KBART file will only be processed as a test run.
++ **Partial update:** If you check this box only titles from the new KBART file will be added to the existing package.
++ **Delete removed titles:** If you check this box package titles that are no longer included in the new KBART file will be marked as "deleted" in the existing package.
++ **Dry Run:** If you check this box, the KBART file will only be processed as a test run.
 
 After uploading the file you will get statistics on validation errors. If necessary the KBART file has to be 
 corrected manually and reloaded.
