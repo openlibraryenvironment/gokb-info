@@ -17,29 +17,37 @@ markdown_extensions:
   - toc:
 plugins:
   - i18n:
-      default_language: en
+      docs_structure: suffix
+      fallback_to_default: true
       languages:
-        en: EN
-        de: DE
-      nav_translations:
-        de:
-          Contact: Kontakt
-          Get involved: Beteiligen Sie sich
-          Documentation: Dokumentation
-          Imprint: Impressum
-          Presentations: Präsentationen
-          Privacy Policy: Datenschutzerklärung
-          Publications: Publikationen
-          KBART introduction: Einführung in KBART
-          Registration and login: Registrierung und Anmeldung
-          Create and edit provider: Anlegen und Pflege von Anbietern
-          Create and edit packages: Anlegen und Pflege von Paketen
-          Working with review requests: Arbeiten mit Prüfanfragen
-          Guidelines for package names: Richtlinien für Paketnamen
-          KBART validator: KBART-Validator
-          KBART editing: Bearbeitung von KBART-Dateien
+        - build: true
+          default: true
+          locale: en
+          name: EN
+        - build: true
+          default: false
+          locale: de
+          name: DE
+          nav_translations:
+            Contact: Kontakt
+            Create and edit packages: Anlegen und Pflege von Paketen
+            Create and edit provider: Anlegen und Pflege von Anbietern
+            Documentation: Dokumentation
+            Get involved: Beteiligen Sie sich
+            Guidelines for package names: Richtlinien für Paketnamen
+            Imprint: Impressum
+            KBART editing: Bearbeitung von KBART-Dateien
+            KBART introduction: Einführung in KBART
+            KBART validator: KBART-Validator
+            Presentations: Präsentationen
+            Privacy Policy: Datenschutzerklärung
+            Publications: Publikationen
+            Registration and login: Registrierung und Anmeldung
+            Working with review requests: Arbeiten mit Prüfanfragen
+      reconfigure_material: true
+      reconfigure_search: true
   - search
-  - localsearch
+  - offline
 nav:
   - Home: index.md
   - News: news.md

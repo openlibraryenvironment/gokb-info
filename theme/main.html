@@ -1,13 +1,5 @@
 {% extends "base.html" %}
 
-{% block config %}
-{{ super() }}
-{% if "localsearch" in config["plugins"] %}
-<script src="{{ 'js/iframe-worker.js' | url }}"></script>
-<script src="{{ 'search/search_index.js' | url }}"></script>
-{% endif %}
-{% endblock %}
-
 {% set extracopyright %}
 {% if page.url %}
 {% set path = page.url.split('/',1) %}
