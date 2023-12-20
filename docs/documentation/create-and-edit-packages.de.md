@@ -223,6 +223,7 @@ Dialog. Geben Sie hier bitte folgende Daten an:
 der Datei unter der Spalte `title_id` befindet.
 
 Ergänzend können Sie zwischen verschiedenen Import-Optionen wählen:
+
 +   **Teil-Update:** Wählen Sie dieses Feld an, wird der Inhalt der hochzuladenden KBART-Datei nicht 
 komplett aktualisiert, sondern nur um die hochzuladenden Titel ergänzt.
 +   **Fehlende Titel als gelöscht markieren:** Wählen Sie dieses Feld an, wird der Status der aktuell vorhandenen Pakettitel, die nicht in der KBART-Datei enthalten sind, auf "gelöscht" gesetzt.
