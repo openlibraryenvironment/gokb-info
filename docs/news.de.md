@@ -28,6 +28,14 @@ In Anteilnahme seine Kolleginnen und Kollegen der GOKb Moritz Horn, Kirstin Kemn
 Maike Osters, Johann Rolschewski, Daniel Rupp, Martina Schildt, Christin Seegert, 
 Andrea Stei, Gerald Steilen
 
+
+## Es weihnachtet sehr
+*21. Dezember 2023*
+
+Das GOKb-Team bedankt sich herzlich für Ihre Unterstützung und die gute Zusammenarbeit! Wir wünschen Ihnen und Ihren Angehörigen schöne, besinnliche Feiertage und ein gesundes, glückliches neues Jahr.
+
+![Weihnachtsbild_V4](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/c9792650-6960-4c4e-9d68-765c1952ea26)
+
 ## Ankündigung Infostunde im Januar 2024
 *12. Dezember 2023*
 
