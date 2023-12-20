@@ -27,6 +27,13 @@ With condolences from his colleagues of the GOKb Moritz Horn, Kirstin Kemner-Hee
 Maike Osters, Johann Rolschewski, Daniel Rupp, Martina Schildt, Christin Seegert, 
 Andrea Stei, Gerald Steilen
 
+## It's Christmas time
+*December 21, 2023*
+
+The GOKb team would like to thank you for your support and the great cooperation. We wish you and your loved ones happy and peaceful holidays and a healthy, happy new year.
+
+![Weihnachtsbild_V4](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/8d8acbde-b1d6-46e5-b933-5290b32eb1a4)
+
 ## WOLFcon 2023
 *August 18, 2023*
 
