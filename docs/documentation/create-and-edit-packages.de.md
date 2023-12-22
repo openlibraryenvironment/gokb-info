@@ -231,13 +231,13 @@ komplett aktualisiert, sondern nur um die hochzuladenden Titel ergänzt.
 
 Die beiden Optionen **Teil-Update** und **Fehlende Titel als gelöscht markieren** stehen wie folgt zueinander in Beziehung:
 
-* **Teil-Update** = _nein_, **Fehlende Titel als gelöscht markieren** = _nein_ --> Der Status der aktuell vorhandenen Pakettitel, die nicht in der KBART-Datei enthalten sind, wird auf _archiviert_ gesetzt.
-* **Teil-Update** = _nein_, **Fehlende Titel als gelöscht markieren** = _ja_ --> Der Status der aktuell vorhandenen Pakettitel, die nicht in der KBART-Datei enthalten sind, wird auf _gelöscht_ gesetzt.
+* **Teil-Update** = _nein_, **Fehlende Titel als gelöscht markieren** = _nein_ > Der Status der aktuell vorhandenen Pakettitel, die nicht in der KBART-Datei enthalten sind, wird auf _archiviert_ gesetzt.
+* **Teil-Update** = _nein_, **Fehlende Titel als gelöscht markieren** = _ja_ > Der Status der aktuell vorhandenen Pakettitel, die nicht in der KBART-Datei enthalten sind, wird auf _gelöscht_ gesetzt.
 
 Wenn Sie **Teil-Update** auswählen, wird die Option **Fehlende Titel als gelöscht markieren** ignoriert. Daher ist eine Verknüpfung beider Optionen nicht sinnvoll:
 
-* **Teil-Update** = _ja_, **Fehlende Titel als gelöscht markieren** = _nein_ --> Der Status der aktuell vorhandenen Pakettitel wird nicht verändert. Es werden nur die Titel aus der KBART-Datei hinzugefügt.
-* **Teil-Update** = _ja_, **Fehlende Titel als gelöscht markieren** = _ja_ --> Der Status der aktuell vorhandenen Pakettitel wird nicht verändert. Es werden nur die Titel aus der KBART-Datei hinzugefügt.
+* **Teil-Update** = _ja_, **Fehlende Titel als gelöscht markieren** = _nein_ > Der Status der aktuell vorhandenen Pakettitel wird nicht verändert. Es werden nur die Titel aus der KBART-Datei hinzugefügt.
+* **Teil-Update** = _ja_, **Fehlende Titel als gelöscht markieren** = _ja_ > Der Status der aktuell vorhandenen Pakettitel wird nicht verändert. Es werden nur die Titel aus der KBART-Datei hinzugefügt.
 
 
 Sie bekommen nach dem Hochladen eine Übersicht über mögliche Fehler in der KBART-Datei. In dem Fall 
