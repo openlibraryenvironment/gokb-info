@@ -214,6 +214,16 @@ In addition, you can choose between various import options:
   "deleted" in the existing package.
 + **Dry Run:** If you check this box, the KBART file will only be processed as a test run.
 
+The two options Partial Update and Delete removed titles are related to each other as follows:
+
++ **Partial Update** = _no_, **Delete removed titles** = _no_ > The status of the currently available package titles that are not contained in the KBART file is set to "retired".
++ **Partial Update** = _no_, **Delete removed titles** = _yes_ > The status of the currently existing package titles that are not contained in the KBART file is set to "deleted".
+
+If you select **Partial Update**, the option **Delete removed titles** is ignored. It therefore makes no sense to link the two options:
+
++ **Partial Update** = _yes_, **Delete removed titles** = _no_ > The status of the currently existing package titles is not changed. Only the titles from the KBART file are added.
++ **Partial Update** = _yes_, **Delete removed titles** = _yes_ > The status of the currently existing package titles is not changed. Only the titles from the KBART file are added.
+
 After uploading the file you will get statistics on validation errors. If necessary the KBART file has to be 
 corrected manually and reloaded.
 
