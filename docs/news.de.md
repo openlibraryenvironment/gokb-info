@@ -29,12 +29,10 @@ Maike Osters, Johann Rolschewski, Daniel Rupp, Martina Schildt, Christin Seegert
 Andrea Stei, Gerald Steilen
 
 
-## Es weihnachtet sehr
-*21. Dezember 2023*
+## Ankündigung Infostunde im Februar 2024
+*12. Januar 2024*
 
-Das GOKb-Team bedankt sich herzlich für Ihre Unterstützung und die gute Zusammenarbeit! Wir wünschen Ihnen und Ihren Angehörigen schöne, besinnliche Feiertage und ein gesundes, glückliches neues Jahr.
-
-![Weihnachtsbild_V4](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/c9792650-6960-4c4e-9d68-765c1952ea26)
+Die nächste Infostunde wird am _05. Februar_ stattfinden von 15 bis 16 Uhr. Wir werden die Neuerungen aus dem Release 1.7 vorstellen.
 
 ## Ankündigung Infostunde im Januar 2024
 *12. Dezember 2023*
