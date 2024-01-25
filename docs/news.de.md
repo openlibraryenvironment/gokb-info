@@ -28,6 +28,10 @@ In Anteilnahme seine Kolleginnen und Kollegen der GOKb Moritz Horn, Kirstin Kemn
 Maike Osters, Johann Rolschewski, Daniel Rupp, Martina Schildt, Christin Seegert, 
 Andrea Stei, Gerald Steilen
 
+## Release 1.7 erschienen
+*25. Januar 2024*
+
+Das aktuelle Release 1.7 integriert die DDC-Klassifikation auf Titel- und Paketebene. Für Journals wird die DDC-Klassifikation automatisiert aus der ZDB in die Referenztitel übernommen. Außerdem sind mehr Sichten der GOKb durch eindeutige URLs ansteuerbar, sodass URLs zu einzelnen Reitern, konkreten Suchen und Pakettiteln gespeichert werden können. Näheres zum Release 1.7 finden Sie [hier](https://gokb.org/de/releases.html).
 
 ## Ankündigung Infostunde im Februar 2024
 *12. Januar 2024*
