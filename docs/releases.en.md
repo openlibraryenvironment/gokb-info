@@ -9,7 +9,7 @@ As an innovative and important new feature, the DDC subject categories are now i
 ## Unique URLs
 As a further supporting innovation, more views of the GOKb can be accessed using unique URLs, so that you can save the links to specific searches, tabs of the detailed views and package titles as bookmarks or copy and pass them on. When switching between the tabs of a detailed view, a separate URL is generated for each tab so that users can be directed directly to a tab. In the package, reference title and provider detail view, a code is added to the URL for the individual tab views. The detailed view of a package title is displayed using the "Open full view" button. A new tab will open in the browser window. This generated URL also leads directly to the title being accessed. Search queries in the packages, reference titles, review requests, providers and users components also generate a unique URL. The specified parameters are appended in the URL during the search query.
 
-_We will provide you with a link to the overall overview of all innovations as soon as possible._
+_We will provide you with a link to the complete overview of all innovations as soon as possible._
 
 # Release 1.6
 _Published on 26 July 2023_
