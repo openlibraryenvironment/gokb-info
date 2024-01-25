@@ -27,6 +27,11 @@ With condolences from his colleagues of the GOKb Moritz Horn, Kirstin Kemner-Hee
 Maike Osters, Johann Rolschewski, Daniel Rupp, Martina Schildt, Christin Seegert, 
 Andrea Stei, Gerald Steilen
 
+## Release 1.7 published
+*January 25, 2024*
+
+The current release 1.7 integrates the DDC classification at title and package level. For journals, the DDC classification is automatically enriched via the German Union Catalogue of Serials (ZDB). In addition, more views of the GOKb can be accessed via unique URLs, so that URLs for individual tabs, specific searches and package titles can be saved. You can find out more about Release 1.7 [here](https://gokb.org/de/releases.html).
+
 ## It's Christmas time
 *December 21, 2023*
 
