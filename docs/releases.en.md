@@ -1,7 +1,7 @@
 # Release 1.7
 _Published on 26 January 2024_
 
-Release 1.7 offers the following options:
+The central innovations of version 1.7 are the integration of the DDC classification at title and package level and the fact that more views of the GOKb can now be accessed via unique URLs.
 
 ## Implementation of DDC subject categories
 As an innovative and important new feature, the DDC subject categories are now integrated into the GOKb. On the one hand, this is made possible by an automated enrichment of the reference titles of journals and periodicals via the ZDB. On the other hand, the DDC notations can be added manually via a drop-down menu at the package and package title level as well as for the reference titles. Two new fields have been integrated for this data. The options "Subject" (Type) and "Value" can be used to filter the search for DDC subject categories. In edit mode, the subject categories can be added under the tab of the same name. With the "Edit package title" option, the data is selected and saved via the "Add" button in the field. Multiple assignments are accepted.
@@ -9,7 +9,8 @@ As an innovative and important new feature, the DDC subject categories are now i
 ## Unique URLs
 As a further supporting innovation, more views of the GOKb can be accessed via unique URLs, so that you can save the links to specific searches, tabs of the detailed views and package titles as bookmarks or copy and share them. When switching between the tabs of a detailed view, a separate URL is generated for each tab so that users can be taken directly to a tab. In the package, reference title and provider detail view, a code is added to the URL for the individual tab views. The detailed view of a package title is displayed via the "Open full view" button. A new tab opens in the browser window. This generated URL also leads directly to the title called up. Search queries in the packages, reference titles, review requests, providers and users components also generate a unique URL. The specified parameters are appended in the URL during the search query.
 
-_We will provide you with a link to the complete overview of all new features as soon as possible._
+## Complete overview of changes
+A complete overview of all changes can be found in the [Github repo of GOKb](https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v1.7.0).
 
 # Release 1.6
 _Published on 26 July 2023_
