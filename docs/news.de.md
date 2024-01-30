@@ -1,5 +1,15 @@
 # News
 
+## Release 1.7 erschienen
+*25. Januar 2024*
+
+Das aktuelle Release 1.7 integriert die DDC-Klassifikation auf Titel- und Paketebene. Für Journals wird die DDC-Klassifikation automatisiert aus der ZDB in die Referenztitel übernommen. Außerdem sind mehr Sichten der GOKb durch eindeutige URLs ansteuerbar, sodass URLs zu einzelnen Reitern, konkreten Suchen und Pakettiteln gespeichert werden können. Näheres zum Release 1.7 finden Sie [hier](https://gokb.org/de/releases.html).
+
+## Ankündigung Infostunde im Februar 2024
+*12. Januar 2024*
+
+Die nächste Infostunde wird am _05. Februar_ stattfinden von 15 bis 16 Uhr. Wir werden die Neuerungen aus dem Release 1.7 vorstellen.
+
 ## Wir trauern um Hans-Jörg Lieder
 
 ![Hans-Jörg Lieder](../assets/hans_joerg_lieder.jpg "Hans-Jörg Lieder")
@@ -27,16 +37,6 @@ in Erinnerung behalten und vermissen ihn sehr. Unser besonderes Mitgefühl gilt 
 In Anteilnahme seine Kolleginnen und Kollegen der GOKb Moritz Horn, Kirstin Kemner-Heek,
 Maike Osters, Johann Rolschewski, Daniel Rupp, Martina Schildt, Christin Seegert, 
 Andrea Stei, Gerald Steilen
-
-## Release 1.7 erschienen
-*25. Januar 2024*
-
-Das aktuelle Release 1.7 integriert die DDC-Klassifikation auf Titel- und Paketebene. Für Journals wird die DDC-Klassifikation automatisiert aus der ZDB in die Referenztitel übernommen. Außerdem sind mehr Sichten der GOKb durch eindeutige URLs ansteuerbar, sodass URLs zu einzelnen Reitern, konkreten Suchen und Pakettiteln gespeichert werden können. Näheres zum Release 1.7 finden Sie [hier](https://gokb.org/de/releases.html).
-
-## Ankündigung Infostunde im Februar 2024
-*12. Januar 2024*
-
-Die nächste Infostunde wird am _05. Februar_ stattfinden von 15 bis 16 Uhr. Wir werden die Neuerungen aus dem Release 1.7 vorstellen.
 
 ## Ankündigung Infostunde im Januar 2024
 *12. Dezember 2023*
