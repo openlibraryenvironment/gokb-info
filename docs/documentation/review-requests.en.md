@@ -24,10 +24,11 @@ The dashboard displays all review requests associated with the selected curatory
 
 ### Package view
 
-The Package view lists all review requests that belong to the currently selected package. This includes review requests concerning the package as a whole as well as review requests concerning the included package titles and the associated reference titles.
+The "Summary" tab in the package view lists all reviews that belong to the currently selected package. This includes reviews that relate to the package as a whole or individual package titles, as well as reviews for the linked reference titles. You can switch the display of the respective reviews using the button. A list of results then appears, from which you can access the full view for processing or close selected reviews directly.
 
-![Screenshot_view_package_en_062023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/37640f03-0ef5-4092-b83e-3ad13c3fbdcb)
+![Screenshot_package_view_review_quest_referencetitles_2024_en](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/9985cfd1-0cfb-4f93-8114-96b5e1cc17e8)
 
+By processing the linked reference titles, you can directly recognize whether these titles contain duplicates or incorrect identifiers, for example, and correct them yourself or report them to the relevant curatory group. This has the advantage that correct reference data is processed in the ERM systems in addition to the corrected package data.
 
 ### Review view
 
