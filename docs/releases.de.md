@@ -268,7 +268,7 @@ Prüfanfragen ausgegeben, ohne dass der Pakettitel selbst falsch ist
 
 ## Neue Typen von Prüfanfragen
 
-Die Umgestaltung des Einspielprozesses füjrt auch zu neuen Prüfanfragen. 
+Die Umgestaltung des Einspielprozesses führt auch zu neuen Prüfanfragen. 
 Genauere Informationen dazu werden zurzeit in der Dokumentation aufbereitet.
 
 ## Auswahl der aktiven Kuratorengruppe
