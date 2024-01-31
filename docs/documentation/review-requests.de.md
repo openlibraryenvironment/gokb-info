@@ -32,11 +32,12 @@ Im Dashboard werden alle Prüfanfragen angezeigt, die der ausgewählten Kuratore
 
 ### In der Paketsicht
 
-In der Paketsicht sind alle Prüfanfragen aufgeführt, die zum augenblicklich ausgewählten Paket gehören. 
-Das umfasst sowohl Prüfanfragen, die das Paket insgesamt betreffen sowie Prüfanfragen zu den enthaltenen 
-Pakettiteln und den zugehörigen Referenztiteln.
+Im Reiter "Zusammenfassung" in der Paketsicht sind alle Prüfanfragen aufgeführt, die zum augenblicklich ausgewählten Paket gehören. Das umfasst einerseits Prüfanfragen, die das Paket insgesamt oder einzelne Pakettitel betreffen, andererseits Prüfanfragen der verknüpften Referenztitel. Die Anzeige der jeweiligen Prüfanfragen können Sie durch den Schalter wechseln. Es erscheint dann eine Ergebnisliste, von der aus Sie in die Vollansicht zur Bearbeitung gelangen oder auch ausgewählte Anfragen direkt schließen können.
 
-![GOKb review requests package view](../assets/review-requests-package-view.de.png "GOKb Prüfanfragen in Paketsicht")
+![Screenshot_package_view_review_quest_referencetitles_2024_de](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/6dfa2505-01bf-40c8-80fc-fc636d78ee77)
+
+Durch die Bearbeitung der verknüpften Referenztitel können Sie direkt erkennen, ob bei diesen Titeln beispielsweise Dubletten oder fehlerhafte Identifikatoren vorliegen und diese selbst beheben bzw. der zuständigen Kuratorengruppe melden. Das hat den Vorteil, dass neben den korrigierten Paketdaten auch korrekte Referenzdaten in den ERM-Systemen verarbeitet werden.
+
 
 ### In der Prüfanfragen-Sicht
 
