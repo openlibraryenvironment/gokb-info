@@ -80,14 +80,15 @@ In der Detailsicht erhalten Sie verschiedene Informationen und Optionen:
   
 Sie können die Prüfanfragen an dieser Stelle schließen und die Detailsicht über den Button "Aktualisieren" wieder verlassen. 
   
-![Screenshot_review-request_detailview](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/7a85ea48-8df6-48c6-bf01-7caec4d2f1b6)
+![Detail_view_Pruefanfragen_2024_de](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/beb162ee-ae7d-407a-be09-519e401e28a9)
+
 
 ## Typen von Prüfanfragen
 
 Hier finden Sie eine Auflistung von aktuellen Prüfanfragen. Sie können über den Titel der Prüfanfrage direkt zum 
 passenden Eintrag springen.
 
-* [ISSN Konflikt](#issn-konflikt)
+* [Namensraumkonflikt](#namensraumkonflikt)
 * [Fehlerhafter Name](#fehlerhafter-name)
 * [Idendifikatoren-Konflikt beim KBART-Import](#identifikatoren-konflikt-beim-kbart-import)
 * [Referenztitelkonflikt](#referenztitelkonflikt)
@@ -99,11 +100,12 @@ passenden Eintrag springen.
 
 Im Folgenden erklären wir Ihnen in einzelnen Schritten, wie Sie bestimmte Typen von Prüfanfragen bearbeiten können.
 
-### ISSN Konflikt
+### Namensraumkonflikt
 
 Der Konflikt ist entstanden, weil der Pakettitel eine e-ISSN enthält, die einer bestehenden p-ISSN des Referenztitels entspricht, oder umgekehrt.
 
-![Screenshot_ISSN_Konflikt_052023](https://user-images.githubusercontent.com/127318583/236470236-f3174403-6222-454a-9fea-49a4b22af37c.png)
+![Namensraumkonflikt_Pruefanfrage_2024_de](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/a966e8c5-326a-4fab-9ee7-d673a3059759)
+
 
 1. In der Kachel wird der zu korrigierende Titel mit den enthaltenen Identifikatoren angezeigt. Durch anklicken des Kästchens in der Tabelle wählen Sie die zu löschende(n) ISSN(s) aus.
 2. Die Löschung aktivieren Sie über den Button "Titeländerungen abschicken".
