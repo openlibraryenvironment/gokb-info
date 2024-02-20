@@ -1,0 +1,27 @@
+<ul class="footer-list md-copyright">
+  <li class="md-copyright__highlight">{{ config.copyright }}</li>
+{% if page.url %}
+{% set path = page.url.split('/',1) %}
+{% if path.0 == 'de' %}
+<li>
+  <a href="{{ base_url }}/de/contact/imprint.html">Impressum</a>
+</li>
+<li>
+  <a href="{{ base_url }}/de/contact/privacypolicy.html">Datenschutzerklärung</a>
+</li>
+<li>
+  <a href="{{ base_url }}/de/accessibility.html">Barrierfreiheit</a>
+</li>
+{% else %}
+<li>
+  <a href="{{ base_url }}/en/contact/imprint.html">Imprint</a>
+</li>
+<li>
+  <a href="{{ base_url }}/en/contact/privacypolicy.html">Privacy Policy</a>
+</li>
+<li>
+  <a href="{{ base_url }}/en/accessibility.html">Accessibility</a>
+</li>
+{% endif %}
+{% endif %}
+</ul>

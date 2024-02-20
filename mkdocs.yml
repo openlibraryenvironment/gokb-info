@@ -9,7 +9,7 @@ theme:
     - navigation.top
   favicon: assets/favicon-16x16.png
   logo: assets/favicon-32x32.png
-  custom_dir: theme
+  custom_dir: theme/
   font: false
 extra_css:
   - stylesheets/extra.css
@@ -68,6 +68,9 @@ nav:
     - Contact: contact/contact.md
     - Imprint: contact/imprint.md
     - Privacy Policy: contact/privacypolicy.md
+not_in_nav: |
+    /accessibility.de.md
+    /accessibility.en.md
 extra:
   generator: false
   social:
