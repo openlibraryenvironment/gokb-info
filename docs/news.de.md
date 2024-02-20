@@ -1,5 +1,10 @@
 # News
 
+## Ankündigung Infostunde im März 2024
+*21. Februar 2024*
+
+Die nächste Infostunde wird am _04. März_ stattfinden von 15 bis 16 Uhr. Das Thema wird noch bekanntgegeben.
+
 ## Release 1.7 erschienen
 *25. Januar 2024*
 
