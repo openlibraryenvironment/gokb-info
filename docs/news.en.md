@@ -1,5 +1,12 @@
 # News
 
+## Register for mailing lists
+*March 5, 2024*
+
+There are now mailing lists to which you can subscribe to receive future updates and news. We would like to ask you to register by April 8 2024 at the latest. You can find the lists on the page [ole-lists.openlibraryfoundation.org](https://ole-lists.openlibraryfoundation.org/). You can choose between the two list names gokb-updates-dach (German-language) and gokb-updates (international). Fill in the first two fields under "Subcribe" and then click on the name of the desired mailing list in the last field. We recommend leaving the box below blank.
+
+![News_Mailinglist_subcribe_en_20240304](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/f167e67a-d899-44c2-9dc9-e5fba5484404)
+
 ## Release 1.7 published
 *January 25, 2024*
 
