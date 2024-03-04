@@ -1,5 +1,13 @@
 # News
 
+## Anmeldung für Mailinglisten
+*05. März 2024*
+
+Es gibt nun Mailinglisten, in denen Sie sich anmelden können, um zukünftig Updates und News sowie auch die Einladung zur Infostunde zu erhalten. Wir möchten Sie bitten, sich spätestens bis zum 08. April 2024 einzutragen.
+Die Listen finden Sie auf der Seite [ole-lists.openlibraryfoundation.org](https://ole-lists.openlibraryfoundation.org/). Auswählen können Sie zwischen den beiden Listnamen _gokb-updates-dach (deutschsprachig)_ und _gokb-updates (international)_. Füllen Sie die ersten beiden Felder unter dem Punkt "Subcribe" aus und klicken Sie anschließend im Feld _List_ den Namen der gewünschten Mailingliste an. Das Kästchen unter den Feldern empfehlen wir frei zu lassen.
+
+![News_Mailinglist_subscribe_de_20240304](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/47473fb7-d1d7-4e0a-bf3f-9de793f9bc1a)
+
 ## Ankündigung Infostunde im März 2024
 *21. Februar 2024*
 
