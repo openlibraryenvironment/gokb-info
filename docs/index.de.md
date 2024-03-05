@@ -6,6 +6,8 @@ der Interesse an dem Projekt hat, sich zu registrieren und den Dienst zu erkunde
 
 [Hier gelangen Sie zur GOKb](https://gokb.org/gokb-ui/ "GOKb")
 
+Sie möchten auf dem Laufenden gehalten werden? Dann tragen Sie sich gern auf der Seite [ole-lists.openlibraryfoundation.org](https://ole-lists.openlibraryfoundation.org/) in eine der beiden Mailinglisten ein für Updates und News zur GOKb sowie Einladungen zur Infostunde, die monatlich stattfindet. Es gibt zwei Mailinglisten zur Auswahl – _gokb-updates-dach (deutschsprachig)_ und _gokb-updates (international)_.
+
 ## Offen
 
 Alle GOKb-Daten stehen unter der [CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/ "CC0 1.0 Public Domain Dedication") zur Verfügung, so dass sie von jedermann, zu jedem Zweck, ohne Namensnennung weiterverwendet werden können. Der Zugriff auf die Daten kann über eine Webanwendung oder eine API erfolgen.
