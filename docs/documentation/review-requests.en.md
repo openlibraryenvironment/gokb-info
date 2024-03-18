@@ -120,9 +120,9 @@ The conflict arose because although the GOKb was able to match the KBART record 
 
 1.	Next to the package title to be checked, you will see existing package titles that could be assigned on the basis of matching identifiers. Match the package titles with each other and pay attention to possible title splits.
 2.	Then check which identifier is incorrect and correct it in the corresponding record in the KBART file. Delete the incorrect package title in the detail view.
-3.	Then re-import the corrected KBART file in the created package to correct the error. Alternatively, mark the wrong identifier in the relevant tile and delete it with "Confirm title change".
+3.	Then re-import the corrected KBART file in the created package to correct the error. Alternatively, mark the wrong identifier in the relevant tile and delete it with "Confirm title change". Please note that the data from the KBART file will be overwritten by the data enrichment from the ZDB. It is therefore important to inform the ZDB about conflicts before a new KBART import and to have them corrected.
 4.	Then click on the reference title to go to the detail view and add the correct identifier there.
-5.	Close the check request via the button " Mark Finished ".
+5.	Close the check request via the button "Mark Finished".
 
 ### Reference Title Conflict
 
