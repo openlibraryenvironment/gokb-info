@@ -1,5 +1,20 @@
 # News
 
+## Safe the date(s) - die GOKb auf der BiblioCon 2024
+*20.03.2024
+
+Das Team der GOKb wird auch in diesem Jahr auf der BiblioCon in Hamburg vor Ort sein mit folgenden Veranstaltungen:
+- *Mittwoch, 05.06. 09:00-10:30 Uhr* Vortrag in "Transformation braucht Daten": Aktuelle Nutzungsszenarien der GOKb in der Verbundlandschaft
+- *Mittwoch, 05.06. 09:00-10:30 Uhr* ZDB-Anwendertreffen: Die Global Open Knowledegbase (GOKb) – Aktuelles
+- *Mittwoch, 05.06. 14:00-15:00 Uhr* #Freiraum24: Global Open Knowledebase (GOKb): Austausch, Information, Diskussion
+- *Donnerstag, 06.06. 16:30-18:30 Uhr* Hands-on Lab: Prüfanfragen und Paket-Metadaten: Datenoptimierung in der Global Open Knowledgebase (GOKb)
+
+Sprechstunden am Stand der Verbünde werden noch bekannt gegeben.  
+  
+Abseits dieser Termine können Sie uns natürlich jederzeit ansprechen. Wir freuen uns auf Sie!
+  
+Mehr Infos finden Sie unter dem Punkt [Programm](https://bibliocon2024.abstractserver.com/program/) auf der offiziellen Website.
+
 ## Anmeldung für Mailinglisten
 *05. März 2024*
 
