@@ -17,7 +17,7 @@ Dabei werden die Namensbestandteile durch einen Doppelpunkt gefolgt von einem Le
 Zusätzlich sollten die im Namen angegebenen Merkmale bei den Paketeigenschaften unter dem Reiter "Allgemein" strukturiert aufgenommen werden, z. B. ob ein Paket "regional" ist mit Angabe der Region oder "lokal" mit Angabe der Einrichtung.
 
 Durch den Plattformwechsel des Inhaltsanbieters Kohlhammer von "Preselect" zu "Kohlhammer eLibrary" haben sich auch die Paketzuschnitte geändert. Die Pakete mit den alten Preselect-Zuschnitten sind nach wie vor zugänglich. Diese Pakete können in der GOKb wie folgt eingespielt oder geändert werden:  
-Für eine eindeutige Unterscheidung der alten und neuen Pakete von Kohlhammer gilt folgende Namensform _Paketname_ mit Zusatz _[alter Preselect-Paketzuschnitt]_ (in eckigen Klammern) - Beispiel: Kohlhammer: [Pädagogik 2021_2 [alter Preselect-Paketzuschnitt]](https://gokb.org/gokb-ui/#/package/56333627).
+Für eine eindeutige Unterscheidung der alten und neuen Pakete von Kohlhammer gilt die Namensform _Paketname_ mit Zusatz _[alter Preselect-Paketzuschnitt]_ (in eckigen Klammern) - Beispiel: Kohlhammer: [Pädagogik 2021_2 [alter Preselect-Paketzuschnitt]](https://gokb.org/gokb-ui/#/package/56333627).
 
 ## Beispiele
 
