@@ -1,7 +1,7 @@
 # News
 
 ## Save the date(s) - die GOKb auf der BiblioCon 2024
-*20.03.2024
+*20. März 2024*
 
 Das Team der GOKb wird auch in diesem Jahr auf der BiblioCon in Hamburg vor Ort sein mit folgenden Veranstaltungen:
 
