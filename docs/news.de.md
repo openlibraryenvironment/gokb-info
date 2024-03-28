@@ -3,7 +3,7 @@
 ## Ankündigung Infostunde im April 2024
 *28. März 2024*
 
-Die nächste Infostunde wird am _08. März_ stattfinden von 15 bis 16 Uhr. Wir werden Ihnen die geplante Umfrage zu "Identifikatoren von E-Ressourcen" vorstellen.
+Die nächste Infostunde wird am _08. April_ stattfinden von 15 bis 16 Uhr. Wir werden Ihnen die geplante Umfrage zu "Identifikatoren von E-Ressourcen" vorstellen.
 
 ## Save the date(s) - die GOKb auf der BiblioCon 2024
 *20. März 2024*
