@@ -1,5 +1,10 @@
 # News
 
+## Ankündigung Infostunde im Mai 2024
+*30. April 2024*
+
+Die nächste Infostunde wird am _06. Mai_ stattfinden von 15 bis 16 Uhr. Der Schwerpunkt wird das Thema Provider-Daten sein.
+
 ## Ankündigung Infostunde im April 2024
 *28. März 2024*
 
