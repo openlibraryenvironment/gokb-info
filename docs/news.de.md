@@ -3,7 +3,9 @@
 ## Save the date - GOKB Anwendertreffen im November 2024 in Göttingen
 *06. Mai 2024*
 
-Wir laden unsere Anwender*innen herzlich zu unserem ersten GOKB Anwendertreffen in Göttingen in der Alten Mensa ein. Reservieren Sie sich den **06. und 07. November 2024**. 
+Wir laden unsere Anwender*innen herzlich zu unserem ersten GOKB Anwendertreffen in Göttingen in der Alten Mensa ein. 
+
+Reservieren Sie sich den **06. und 07. November 2024**. 
 
 Weitere Informationen finden Sie in unserem **[Flyer](assets/Einladung_Anwendertreffen_Goettingen_112024.pdf)**.
 
