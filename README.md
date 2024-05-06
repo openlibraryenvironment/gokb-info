@@ -1,21 +1,21 @@
-# Publish website on Github Pages with MKDocs
+# Publish website on GitHub Pages with MKDocs
 
-1. Create Github repository, for example `gokb-website`.
+1. Create GitHub repository, for example `gokb-website`.
 2. Create a branch `gh-pages`
 3. Enable "GitHub Pages" under "Settings".
 
-    Source: 
+    Source:
     - Branch: `github-pages`
     - Folder: `(root)`
 
 4. Add content, see [MKDocs](https://www.mkdocs.org/user-guide/writing-your-docs/).
-5. Add "Github Action" to `.github/workflows/ci.yml`, see [MKDocs-Material](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#github-pages). Add `pip install ...` for custom plugins:
+5. Add "GitHub Action" to `.github/workflows/ci.yml`, see [MKDocs-Material](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#github-pages). Add `pip install ...` for custom plugins:
 
     ```yml
-    name: ci 
+    name: ci
     on:
     push:
-        branches: 
+        branches:
         - master
         - main
     jobs:
@@ -26,11 +26,11 @@
         - uses: actions/setup-python@v2
             with:
             python-version: 3.x
-        - run: pip install mkdocs 
+        - run: pip install mkdocs
         - run: pip install mkdocs[i18n]
         - run: pip install mkdocs-static-i18n
-        - run: pip install mkdocs-material 
-        - run: pip install mkdocs-localsearch 
+        - run: pip install mkdocs-material
+        - run: pip install mkdocs-localsearch
         - run: mkdocs gh-deploy --force
     ```
 
@@ -56,7 +56,7 @@ nav:
   - Contact: contact.md
 ```
 
-To edit files you can use the ["Gihub Web Editor"](https://github.dev/github/dev) and/or the Chrome browser extension ["Github Web IDE"](https://chrome.google.com/webstore/detail/github-web-ide/adjiklnjodbiaioggfpbpkhbfcnhgkfe/related).
+To edit files you can use the ["GitHub Web Editor"](https://github.dev/github/dev) and/or the Chrome browser extension ["GitHub Web IDE"](https://chrome.google.com/webstore/detail/github-web-ide/adjiklnjodbiaioggfpbpkhbfcnhgkfe/related).
 
 Store images in `docs/assets/`.
 
@@ -90,9 +90,9 @@ Add the language names, like `en` or `de` to the file names of your Markdown fil
 │   └── publications.en.md
 ```
 
-## Local search plugin
+## Embedding Alerts
 
-See https://github.com/wilhelmer/mkdocs-localsearch#installation-material-v5
+For usage, see https://python-markdown.github.io/extensions/admonition/.
 
 ## To Do
 - Translate EN content to DE
