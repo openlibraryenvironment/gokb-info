@@ -9,18 +9,8 @@ Reservieren Sie sich den **06. und 07. November 2024**.
 
 Weitere Informationen finden Sie in unserem **[Flyer](assets/Einladung_Anwendertreffen_Goettingen_112024.pdf)**.
 
-## Ankündigung Infostunde im Mai 2024
-*30. April 2024*
-
-Die nächste Infostunde wird am _06. Mai_ stattfinden von 15 bis 16 Uhr. Der Schwerpunkt der Sitzung wird das Thema Anbieter sein.
-
-## Ankündigung Infostunde im April 2024
-*28. März 2024*
-
-Die nächste Infostunde wird am _08. April_ stattfinden von 15 bis 16 Uhr. Wir werden Ihnen die geplante Umfrage zu "Identifikatoren von E-Ressourcen" vorstellen.
-
 ## Save the date(s) - die GOKb auf der BiblioCon 2024
-*20. März 2024*
+*07. Mai 2024*
 
 Das Team der GOKb wird auch in diesem Jahr auf der BiblioCon in Hamburg vor Ort sein mit folgenden Veranstaltungen:
 
@@ -32,11 +22,21 @@ Das Team der GOKb wird auch in diesem Jahr auf der BiblioCon in Hamburg vor Ort 
 
 • **Donnerstag, 06.06. 16:30-18:30 Uhr** Hands-on Lab: Prüfanfragen und Paket-Metadaten: Datenoptimierung in der Global Open Knowledgebase (GOKb)
 
-Sprechstunden am Stand der Verbünde werden noch bekannt gegeben.  
+In unserer Sprechstunde **am 05.06.2024 von 15:30 bis 16:00 Uhr** am Stand der Verbünde wird es um das Thema _"GOKb live - Ihr Werkzeug für Metadaten von E-Ressourcen"_ gehen. Sie finden den Stand der Verbünde in Halle H, Stand 0.81. Kommen Sie einfach vorbei! 
   
 Abseits dieser Termine können Sie uns natürlich jederzeit ansprechen. Wir freuen uns auf Sie!
   
 Mehr Infos finden Sie unter dem Punkt [Programm](https://bibliocon2024.abstractserver.com/program/) auf der offiziellen Website.
+
+## Ankündigung Infostunde im Mai 2024
+*30. April 2024*
+
+Die nächste Infostunde wird am _06. Mai_ stattfinden von 15 bis 16 Uhr. Der Schwerpunkt der Sitzung wird das Thema Anbieter sein.
+
+## Ankündigung Infostunde im April 2024
+*28. März 2024*
+
+Die nächste Infostunde wird am _08. April_ stattfinden von 15 bis 16 Uhr. Wir werden Ihnen die geplante Umfrage zu "Identifikatoren von E-Ressourcen" vorstellen.
 
 ## Anmeldung für Mailinglisten
 *05. März 2024*
