@@ -14,13 +14,13 @@ Weitere Informationen finden Sie in unserem **[Flyer](assets/Einladung_Anwendert
 
 Das Team der GOKb wird auch in diesem Jahr auf der BiblioCon in Hamburg vor Ort sein mit folgenden Veranstaltungen:
 
-• **Mittwoch, 05.06. 09:00-10:30 Uhr** Vortrag in "Transformation braucht Daten": Aktuelle Nutzungsszenarien der GOKb in der Verbundlandschaft
+• **Mittwoch, 05.06. 09:00-10:30 Uhr** Vortrag in "Transformation braucht Daten": _Aktuelle Nutzungsszenarien der GOKb in der Verbundlandschaft_ von 09:00 bis 09:30 Uhr
 
 • **Mittwoch, 05.06. 09:00-10:30 Uhr** Vorträge in "ZDB-Anwendertreffen": _Die Global Open Knowledegbase (GOKb) – Aktuelles_ von 10:00-10:15 Uhr & _Bearbeitung von Referenztiteln in GOKb und ZDB_ von 10:15-10:30 Uhr
 
-• **Donnerstag, 06.06. 15:30-16:30 Uhr** #Freiraum24: Global Open Knowledebase (GOKb): Austausch, Information, Diskussion
+• **Donnerstag, 06.06. 15:30-16:30 Uhr** #Freiraum24: _Global Open Knowledebase (GOKb): Austausch, Information, Diskussion_
 
-• **Donnerstag, 06.06. 16:30-18:30 Uhr** Hands-on Lab: Prüfanfragen und Paket-Metadaten: Datenoptimierung in der Global Open Knowledgebase (GOKb)
+• **Donnerstag, 06.06. 16:30-18:30 Uhr** Hands-on Lab: _Prüfanfragen und Paket-Metadaten: Datenoptimierung in der Global Open Knowledgebase (GOKb)_
 
 In unserer Sprechstunde **am 05.06.2024 von 15:30 bis 16:00 Uhr** am Stand der Verbünde wird es um das Thema _"GOKb live - Ihr Werkzeug für Metadaten von E-Ressourcen"_ gehen. Sie finden den Stand der Verbünde in Halle H, Stand 0.81. Kommen Sie einfach vorbei! 
   
