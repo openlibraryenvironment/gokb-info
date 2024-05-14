@@ -13,7 +13,7 @@ Would you like to be kept up to date? Then subscribe to one of the two mailing l
 All of the data provided by GOKb is made available under the 
 [CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/ "CC0 1.0 Public Domain Dedication"), 
 making it free for reuse by anyone, for any purpose, without attribution. 
-The data can be accessed via web application or API.
+The data can be accessed via [web application](http://gokb.org/gokb/ "web application") or [API](https://github.com/openlibraryenvironment/gokb/wiki/API "API").
 
 ## Enhanced
 
