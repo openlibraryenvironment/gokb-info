@@ -10,7 +10,7 @@ Sie möchten auf dem Laufenden gehalten werden? Dann tragen Sie sich gern auf de
 
 ## Offen
 
-Alle GOKb-Daten stehen unter der [CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/ "CC0 1.0 Public Domain Dedication") zur Verfügung, so dass sie von jedermann, zu jedem Zweck, ohne Namensnennung weiterverwendet werden können. Der Zugriff auf die Daten kann über eine Webanwendung oder eine API erfolgen.
+Alle GOKb-Daten stehen unter der [CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/ "CC0 1.0 Public Domain Dedication") zur Verfügung, so dass sie von jedermann, zu jedem Zweck, ohne Namensnennung weiterverwendet werden können. Der Zugriff auf die Daten kann über eine [Webanwendung](http://gokb.org/gokb/ "web application") oder eine [API](https://github.com/openlibraryenvironment/gokb/wiki/API "API")
 
 ## Erweitert
 
