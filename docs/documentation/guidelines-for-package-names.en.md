@@ -16,10 +16,8 @@ Name components are separated by a colon followed by a space.
 
 In addition, the characteristics specified in the name should be included in the package properties under the "General" tab in a structured manner, e.g. whether a package is "Regional" with an indication of the region or "Local" with an indication of the organisation.
 
-Due to the platform change of the content provider Kohlhammer from "Preselect" to "Kohlhammer eLibrary", the package sections have also changed. The packages with the old Preselect sections are still accessible. These packages can be imported or changed in the GOKb as follows:  
-For a clear distinction between the old and new packages from Kohlhammer, the name form should be _package name_ with the addition _[old Preselect package sections]_ (in square brackets) - example: [Pädagogik 2021_2 [alter Preselect-Paketzuschnitt]](https://gokb.org/gokb-ui/#/package/56333627).
 
-Examples package names:
+## Examples package names:
 
 + `Emerald: Engineering eJournal Collection`
 + `Emerald Management 120` (Emerald as provider name doesn't have to be specified as it is part of the package name)
@@ -31,5 +29,17 @@ Examples package names:
 + `Springer Medicine: Asia-Pacific` (regional restriction)
 
 
+## Special cases
 
+**Platform change Kohlhammer**
 
+Due to the platform change of the content provider Kohlhammer from "Preselect" to "Kohlhammer eLibrary", the package sections have also changed. The packages with the old Preselect sections are still accessible. These packages can be imported or changed in the GOKb as follows:  
+For a clear distinction between the old and new packages from Kohlhammer, the name form should be _package name_ with the addition _[old Preselect package sections]_ (in square brackets).
+
++ Example: [Pädagogik 2021_2 [alter Preselect-Paketzuschnitt]](https://gokb.org/gokb-ui/#/package/56333627)
+
+**Package name for national licences**
+
+For licensed packages, the addition is added to the package title: _Provider: Package name: National licence_
+
++ Example: ProQuest: African Writers Series: National licence
