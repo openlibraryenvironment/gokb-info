@@ -1,5 +1,10 @@
 # News
 
+## Infostunde im Juni 2024
+*24. Mai 2024*
+
+Aufgrund der BiblioCon in Hamburg entfällt die Infostunde im Juni.
+
 ## Save the date - GOKB Anwendertreffen im November 2024 in Göttingen
 *06. Mai 2024*
 
