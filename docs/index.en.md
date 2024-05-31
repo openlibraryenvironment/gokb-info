@@ -6,6 +6,8 @@ to register and explore the service.
 
 [Go to GOKb](https://gokb.org/gokb-ui/ "GOKb")
 
+## Mailing lists
+
 Would you like to be kept up to date? Then subscribe to one of the two mailing lists on this page [ole-lists.openlibraryfoundation.org](https://ole-lists.openlibraryfoundation.org/) for updates and news about the GOKb. There are two mailing lists to choose from - _gokb-updates-dach (German-speaking)_ and _gokb-updates (international)_.
 
 ## Open
