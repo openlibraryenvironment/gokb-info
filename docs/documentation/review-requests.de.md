@@ -93,7 +93,7 @@ passenden Eintrag springen.
 * [Idendifikatoren-Konflikt beim KBART-Import](#identifikatoren-konflikt-beim-kbart-import)
 * [Referenztitelkonflikt](#referenztitelkonflikt)
 * [Uneindeutige Titelübereinstimmung](#uneindeutige-titelübereinstimmung)
-* [Identifikatoren-Konflikt (ID ergänzt)](#identifikatoren-konflikt-id-ergänzt)
+* [Identifikatoren-Konflikt ID ergänzt](#identifikatoren-konflikt-id-ergänzt)
 
 
 ## Anleitung zur Bearbeitung von Prüfanfragen
@@ -180,7 +180,7 @@ Schritt 2:
 **Hinweis:** Anstelle von Dubletten kann es sich bei ähnlichen Titeln auch um Vor- und Nachfolgetitel handeln, die dann nicht zusammengeführt werden dürfen. Auch können Identifikatoren falsch sein. Hier kann eine Überprüfung der Identifikatoren sowie des Erscheinungs- und Titelverlaufs helfen. Bei der Auswahl des korrekten Titels können die Abdeckung des Pakettitels und der Erscheinungsverlauf des Referenztitels hilfreich sein.
 Korrekte Identifikatoren können Sie nachtragen, wenn Sie über den Namen in die Bearbeitungssicht des Titels springen. Diese Sicht öffnet sich in einem neuen Reiter des Browsers, wenn Sie auf den Titel klicken.
 
-### Identifikatoren-Konflikt (ID ergänzt)
+### Identifikatoren-Konflikt ID ergänzt
 
 Der Konflikt ist entstanden, als beim Abgleich im Referenztitel ein Identifikator ergänzt wurde, der von den vorhandenen Identifikatoren abweicht.
 
