@@ -93,6 +93,3 @@ See [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: KBA
 |ezb_id|Title ID form ZDB journal database|S| 
 |monograph_parent_collection_title|Extension for series titles|S/M|
 |subject_area|Subject classes. DDC or choose other via namespaces|S/M|
-|listprice_eur|List price in Euro (without currency sign) as numerical value|S/M|
-|listprice_gbp|List price in British pounds (without currency sign) as numerical value|S/M|
-|listprice_usd|List price in US Dollars (without currency sign) as numerical value|S/M|
