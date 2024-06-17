@@ -93,6 +93,3 @@ Siehe [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: K
 |ezb_id|Titel-ID aus der Elektronischen Zeitschriftenbibliothek (EZB)|S| 
 |monograph_parent_collection_title|Erweiterung für Reihentitel|S/M|
 |subject_area|Vorbehalten für Themenklassen. Idealerweise DDC-Klassen.|S/M|
-|listprice_eur|Listenpreis in Euro (ohne Währungssymbol) als Zahlwert|S/M|
-|listprice_gbp|Listenpreis in Britischen Pfund (ohne Währungssymbol) als Zahlwert|S/M|
-|listprice_usd|Listenpreis in US Dollar (ohne Währungssymbol) als Zahlwert|S/M|
