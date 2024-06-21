@@ -1,5 +1,10 @@
 # News
 
+## Ankündigung Infostunde im Juli 2024
+*21. Juni 2024*
+
+Die nächste Infostunde wird am _01. Juli_ stattfinden von 15 bis 16 Uhr. Das Thema wird noch bekannt gegeben.
+
 ## Infostunde im Juni 2024
 *24. Mai 2024*
 
