@@ -271,7 +271,7 @@ Anbieternamens entspricht. Sollte der Namensraum nicht existieren, melden Sie si
 + Ein [Digital Object Identifier (DOI)](https://www.doi.org/) (Beispielhaft: _10.1093/ajae/aaq063_). 
 Dabei ist die reine DOI ohne eine komplette URL (wie `http://dx.doi.org/10.1093/ajae/aaq063`) eindeutig 
 vorzuziehen. Wenn eine komplette URL in das Feld eingetragen wird, gibt das Interface eine Warnung aus.
-+ Eine ISBN oder e-ISSN. 
++ Eine ISBN oder e-ISSN. (<b>Wichtiger Hinweis:</b> Für ISSN/ISBN ist keine Angabe bei der title_id notwendig, da diese Nummern bereits in den entsprechenden Feldern verzeichnet sind.)
 
 Für spätere korrekte Aktualisierungen des Pakets ist es wichtig, dass diese Nummer mit in die GOKb 
 übernommen wird. Daher ist es wichtig, den Namensraum korrekt anzugeben.
