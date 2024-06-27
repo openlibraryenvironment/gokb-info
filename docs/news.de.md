@@ -1,9 +1,9 @@
 # News
 
 ## Ankündigung Infostunde im Juli 2024
-*21. Juni 2024*
+*27. Juni 2024*
 
-Die nächste Infostunde wird am _01. Juli_ stattfinden von 15 bis 16 Uhr. Das Thema wird noch bekannt gegeben.
+Die nächste Infostunde wird am _01. Juli_ stattfinden von 15 bis 16 Uhr. Andrea Stei von der ZDB wird die _Bearbeitung von Referenztiteln in GOKB und ZDB_ näher vorstellen.
 
 ## Infostunde im Juni 2024
 *24. Mai 2024*
