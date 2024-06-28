@@ -1,7 +1,7 @@
 # News
 
 ## Ankündigung Infostunde im Juli 2024
-*27. Juni 2024*
+*28. Juni 2024*
 
 Die nächste Infostunde wird am _01. Juli_ stattfinden von 15 bis 16 Uhr. Es werden zwei Themen vorgestellt: **Neuerungen in der GOKb-Anbindung des FOLIO-Releases Quesnelia** und **Bearbeitung von Referenztiteln in GOKB und ZDB**.
 
