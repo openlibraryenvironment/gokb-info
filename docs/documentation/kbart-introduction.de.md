@@ -20,7 +20,7 @@ Die Abkürzung KBART steht für "Knowledge Base And Related Tools".
 
 ## Dateiformat
 
-[KBART tab-separated template file](https://service-wiki.hbz-nrw.de/download/attachments/470024321/kbart_template_gokb.txt?version=1&modificationDate=1601291143438&api=v2)
+[KBART-Datei-Vorlage (mit tabulatorgetrennten Spalten)](../assets/[provider]_[scope]_[package_name]_[year]_YYYY-MM-DD.txt)
 
 ## Dateiname
 
