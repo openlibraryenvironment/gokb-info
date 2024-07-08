@@ -140,11 +140,16 @@ In diesem Schritt können Sie weitere Paketeigenschaften sowie Identifikatoren u
 
 ![GOKb create package](../assets/create-package-2.de.png "GOKb Paket erstellen")
 
-+ **Pakettyp:** Hier können Sie festlegen, um was für ein Paket es sich handelt
++ **Pakettyp:** Hier können Sie festlegen, um was für ein Paket es sich handelt.
     * _Laufendes Paket (Front File):_ ein aktuelles Paket
     * _Archivpaket (Back File):_ ein Archivpaket
     * _Aggregator-Paket_
     * _Gesamttitelliste (Master File):_ eine Gesamtliste aller angebotenen Ressourcen eines Anbieters
++ **Inhaltstyp:** Hier können Sie angeben, um welchen Typ es sich bei den Titeln im Paket handelt.
+    * _Monographien_
+    * _Datenbank(en)_
+    * _Jourals (Zeitschriften)_
+    * _Gemischt_
 + **Eingrenzung:** Hier können Sie festlegen, ob es sich um ein global angebotenes Paket 
 (_Global_), ein regional/national angebotenes Paket (_Regional_) oder ob ein spezifisch auf ein Konsortium oder eine Einrichtung zugeschnittenes Paket handelt 
 (_Konsortial_, _Lokal_). Falls eine Eingrenzung wie Regional, Konsortial oder Lokal vorliegt, können 
