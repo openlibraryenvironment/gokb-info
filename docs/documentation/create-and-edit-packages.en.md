@@ -132,11 +132,16 @@ Add information about the package, identifiers, name and variants.
 
 ![GOKb create package](../assets/create-package-2.png "GOKb create package")
 
-+ **Package type:** specify the package type
++ **Package type (Scope):** specify the package type
     * _Front File:_ a current package
     * _Archive package (Back File):_ An archived package
     * _Aggregator package_
     * _Master File:_ A complete list of all resources offered by a provider.
++ **Content Type:** specify the type of titles in the package
+   * _Book_
+   * _Database_
+   * _Journal_
+   * _Mixed_
 + **Restriction:** Define if the package is offered worldwide (Global), regionally (Regional) 
 or is specifically tailored to a consortia (Consortial) or a single institution (Local). 
 If there is a restriction like "Regional", "Consortial" or "Local", you can specify 
