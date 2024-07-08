@@ -138,10 +138,10 @@ Add information about the package, identifiers, name and variants.
     * _Aggregator package_
     * _Master File:_ A complete list of all resources offered by a provider.
 + **Content Type:** specify the type of titles in the package
-   * _Book_
-   * _Database_
-   * _Journal_
-   * _Mixed_
+    * _Book_
+    * _Database_
+    * _Journal_
+    * _Mixed_
 + **Restriction:** Define if the package is offered worldwide (Global), regionally (Regional) 
 or is specifically tailored to a consortia (Consortial) or a single institution (Local). 
 If there is a restriction like "Regional", "Consortial" or "Local", you can specify 
