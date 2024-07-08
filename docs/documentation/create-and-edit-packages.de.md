@@ -148,7 +148,7 @@ In diesem Schritt können Sie weitere Paketeigenschaften sowie Identifikatoren u
 + **Inhaltstyp:** Hier können Sie angeben, um welchen Typ es sich bei den Titeln im Paket handelt.
     * _Monographien_
     * _Datenbank(en)_
-    * _Jourals (Zeitschriften)_
+    * _Zeitschriften (Journals)_
     * _Gemischt_
 + **Eingrenzung:** Hier können Sie festlegen, ob es sich um ein global angebotenes Paket 
 (_Global_), ein regional/national angebotenes Paket (_Regional_) oder ob ein spezifisch auf ein Konsortium oder eine Einrichtung zugeschnittenes Paket handelt 
