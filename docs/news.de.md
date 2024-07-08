@@ -1,5 +1,10 @@
 # News
 
+## Veröffentlichung der BiblioCon 2024 Vorträge
+*08. Juli 2024*
+
+Die BiblioCon 2024 ist vorbei, aber es können nun die Vorträge eingesehen werden. Die Verlinkungen dazu finden Sie unter unserer Rubrik ["Präsentationen"](https://gokb.org/de/presentations.html)
+
 ## Ankündigung Infostunde im Juli 2024
 *28. Juni 2024*
 
