@@ -54,31 +54,31 @@ Siehe [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: K
 
 |Feldbezeichnung|Beschreibung|Serial/Monograph|
 |----------|-----------|----------------|
-|publication_title|Publication title for serial or monograph. Conference proceedings series titles should be entered as serial titles, while volume titles should be entered as monograph titles.|S/M|
-|print_identifier|Print-format identifier. ISSN for serials, ISBN for monographs, etc. Conference proceedings may have serial ISSNs while each proceeding volume may have its own ISBN.|S/M|
-|online_identifier|Online identifier. eISSN for serials, eISBN for monographs, etc. Conference proceedings may have serial eISSNs while each proceeding volume many have its own eISBN.|S/M|
-|date_first_issue_online|Date of first serial issue available online. Applicable only to serials.|S|
-|num_first_vol_online|Number of first volume available online. Applicable only to serials.|S|
-|num_first_issue_online|Number of first issue available online. Applicable only to serials.|S|
-|date_last_issue_online|Date of last issue available online. Leave blank if coverage is to the present. Applicable only to serials.|S|
-|num_last_vol_online|Number of last volume available online. Leave blank if coverage is to the present. Applicable only to serials.|S|
-|num_last_issue_online|Number of last issue available online. Leave blank if coverage is to the present. Applicable only to serials.|S|
-|title_url|Title-level URL. Applicable to both serials and monograph. For conference proceedings, the `title_url` for the proceedings series and the `title_url` for each volume should be different.|S/M|
-|first_author|First author. Applicable only to monographs.|M|
-|title_id|Title identifier. Applicable to both serials and monographs. For conference proceedings, the `title_id` for the conference proceedings series and the `title_id` for each proceeding volume should be different.|S/M|
-|embargo_info|Embargo information. Describes any limitations on when resources become available online.|S/M|
-|coverage_depth|Coverage depth. For example, abstracts or full text.|S/M|
-|notesNotes|Free-text field to describe the specifics of the coverage policy.|S/M|
-|publisher_name|Publisher name. Not to be confused with third-party platform hosting name.|S/M|
-|publication_type|Serial or monograph. Use "serial" for journals and conference proceeding series. Use "monograph" for e-books and conference proceeding volumes.|S/M|
-|date_monograph_published_print|Date the monograph is first published in print|M|
-|date_monograph_published_online|Date the monograph is first published online|M|
-|monograph_volume|Number of volume for monograph. Applicable to e-books and conference proceedings. For proceedings, use the volume within the conference proceedings series.|M|
-|monograph_edition|Edition of the monograph|M|
-|first_editor|First editor, Applicable to monographs, i.e., e-books or conference proceedings volumes.|M|
-|parent_publication_title_id|Title identifier of the parent publication. For a conference proceeding volume, the `parent_publication_title_id` is the `title_id` of the conference proceedings series.||
-|preceding_publication_title_id|Title identifier of any preceding publication title. Applicable to serials and conference proceedings series.|S|
-|access_type|Access type.|S/M|
+|publication_title|Vollständiger Titel der fortlaufenden Ressource oder der Monographie. Titel von Konferenz-Schriftenreihen sollten als Reihentitel eingegeben werden, während die Titel von Bänden als Monographientitel eingegeben werden.|S/M|
+|print_identifier|Print-Identifikator. ISSN für fortlaufende Ressourcen, ISBN für Monographien etc. Konferenz-Schriftenreihen können fortlaufende ISSNs haben, während jeder Band seine eigene ISBN haben kann.|S/M|
+|online_identifier|Online-Identifikator. eISSN für fortlaufende Ressourcen, eISBN für Monographien usw. Konferenzschriften können fortlaufende eISSNs haben, während jeder Band seine eigene eISBN haben kann.|S/M|
+|date_first_issue_online|Datum des ersten online verfügbaren Heftes. Gilt nur für fortlaufende Ressourcen.|S|
+|num_first_vol_online|Nummer des ersten online verfügbaren Bandes. Gilt nur für fortlaufende Sammelwerke.|S|
+|num_first_issue_online|Nummer des ersten online verfügbaren Heftes. Gilt nur für fortlaufende Sammelwerke.|S|
+|date_last_issue_online|Datum des letzten online verfügbaren Heftes. Leer lassen, wenn es sich um das aktuelle Heft handelt. Gilt nur für fortlaufende Sammelwerke.|S|
+|num_last_vol_online|Nummer des letzten online verfügbaren Bandes. Leer lassen, wenn es sich um den aktuellen Band handelt. Gilt nur für fortlaufende Sammelwerke.|S|
+|num_last_issue_online|Nummer des letzten online verfügbaren Heftes. Leer lassen, wenn es sich um das aktuelle Heft handelt. Gilt nur für fortlaufende Sammelwerke.|S|
+|title_url|URL auf Titelebene. Gilt sowohl für fortlaufende Sammelwerke als auch für Monographien. Bei Konferenzschriften  sollten die title_url für die Konferenz-Schriftenreihe und die title_url für jeden Band unterschiedlich sein.|S/M|
+|first_author|Erster Autor/erste Autorin. Gilt nur für Monographien.|M|
+|title_id|Identifikator des Titels. Gilt sowohl für fortlaufende Sammelwerke als auch für Monographien. Bei Konferenzschriften  sollten die title_id für die Konferenz-Schriftenreihe und die title_id für jeden Band unterschiedlich sein.|S/M|
+|embargo_info|Embargo-Information. Umfasst alle Einschränkungen hinsichtlich des Zeitpunktes, wann eine Ressource online verfügbar ist.|S/M|
+|coverage_depth|Umfang der Abdeckung. Gibt zum Beispiel an, ob es sich um ein Abstract oder einen Volltext handelt.|S/M|
+|notesNotes|Freitextfeld, das beschreibt, welche Besonderheiten bezüglich der Vereinbarung zur Abdeckung bestehen.|S/M|
+|publisher_name|Name des Verlags. Nicht zu verwechseln mit dem Namen des Plattform- bzw. Inhaltsanbieters.|S/M|
+|publication_type|Fortlaufendes Sammelwerk oder Monographie. Verwenden Sie "serial" für Zeitschriften und Konferenz-Schriftenreihen. Verwenden Sie "monograph" für E-Books und Einzelbände.|S/M|
+|date_monograph_published_print|Datum, wann die Monographie erstmals in Druckform erschienen ist.|M|
+|date_monograph_published_online|Datum, wann die Monographie erstmals online erschienen ist.|M|
+|monograph_volume|Bandnummer der Monographie. Gilt für E-Books und Konferenzschriften. Für Konferenzschriften ist der Band innerhalb der Konferenz-Schriftenreihe  zu verwenden.|M|
+|monograph_edition|Auflage der Monographie|M|
+|first_editor|Erster Herausgeber. Gilt für Monographien, d. h. E-Books oder Konferenzschriften.|M|
+|parent_publication_title_id|Titelidentifikator der übergeordneten Veröffentlichung. Bei einem Konferenzschriftenband ist die parent_publication_title_id die title_id der Konferenz-Schriftenreihe.||
+|preceding_publication_title_id|Titelidentifikator eines vorangegangenen Titels. Gilt für fortlaufende Sammelwerke und Konferenz-Schriftenreihen.|S|
+|access_type|Zugriffstyp. Entweder „F“ (Free = kostenloser Inhalt) oder „P“ (Paid = kostenpflichtiger Inhalt).|S/M|
 
 ## Proprietäre GOKb-Erweiterungen
 
