@@ -77,7 +77,7 @@ Siehe [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: K
 |monograph_edition|Auflage der Monographie|M|
 |first_editor|Erster Herausgeber. Gilt für Monographien, d. h. E-Books oder Konferenzschriften.|M|
 |parent_publication_title_id|Titelidentifikator der übergeordneten Veröffentlichung. Bei einem Konferenzschriftenband ist die parent_publication_title_id die title_id der Konferenz-Schriftenreihe.||
-|preceding_publication_title_id|Titelidentifikator eines vorangegangenen Titels. Gilt für fortlaufende Sammelwerke und Konferenz-Schriftenreihen.|S|
+|preceding_publication_title_id|Titelidentifikator eines vorangegangenen Titels. Gilt für fortlaufende Ressourcen und Konferenz-Schriftenreihen.|S|
 |access_type|Zugriffstyp. Entweder „F“ (Free = kostenloser Inhalt) oder „P“ (Paid = kostenpflichtiger Inhalt).|S/M|
 
 ## Proprietäre GOKb-Erweiterungen
