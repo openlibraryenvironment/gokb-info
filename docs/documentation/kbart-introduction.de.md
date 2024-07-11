@@ -58,19 +58,19 @@ Siehe [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: K
 |print_identifier|Print-Identifikator. ISSN für fortlaufende Ressourcen, ISBN für Monographien etc. Konferenz-Schriftenreihen können fortlaufende ISSNs haben, während jeder Band seine eigene ISBN haben kann.|S/M|
 |online_identifier|Online-Identifikator. eISSN für fortlaufende Ressourcen, eISBN für Monographien usw. Konferenzschriften können fortlaufende eISSNs haben, während jeder Band seine eigene eISBN haben kann.|S/M|
 |date_first_issue_online|Datum des ersten online verfügbaren Heftes. Gilt nur für fortlaufende Ressourcen.|S|
-|num_first_vol_online|Nummer des ersten online verfügbaren Bandes. Gilt nur für fortlaufende Sammelwerke.|S|
-|num_first_issue_online|Nummer des ersten online verfügbaren Heftes. Gilt nur für fortlaufende Sammelwerke.|S|
-|date_last_issue_online|Datum des letzten online verfügbaren Heftes. Leer lassen, wenn es sich um das aktuelle Heft handelt. Gilt nur für fortlaufende Sammelwerke.|S|
-|num_last_vol_online|Nummer des letzten online verfügbaren Bandes. Leer lassen, wenn es sich um den aktuellen Band handelt. Gilt nur für fortlaufende Sammelwerke.|S|
-|num_last_issue_online|Nummer des letzten online verfügbaren Heftes. Leer lassen, wenn es sich um das aktuelle Heft handelt. Gilt nur für fortlaufende Sammelwerke.|S|
-|title_url|URL auf Titelebene. Gilt sowohl für fortlaufende Sammelwerke als auch für Monographien. Bei Konferenzschriften  sollten die title_url für die Konferenz-Schriftenreihe und die title_url für jeden Band unterschiedlich sein.|S/M|
+|num_first_vol_online|Nummer des ersten online verfügbaren Bandes. Gilt nur für fortlaufende Ressourcen.|S|
+|num_first_issue_online|Nummer des ersten online verfügbaren Heftes. Gilt nur für fortlaufende Ressourcen.|S|
+|date_last_issue_online|Datum des letzten online verfügbaren Heftes. Leer lassen, wenn es sich um das aktuelle Heft handelt. Gilt nur für fortlaufende Ressourcen.|S|
+|num_last_vol_online|Nummer des letzten online verfügbaren Bandes. Leer lassen, wenn es sich um den aktuellen Band handelt. Gilt nur für fortlaufende Ressourcen.|S|
+|num_last_issue_online|Nummer des letzten online verfügbaren Heftes. Leer lassen, wenn es sich um das aktuelle Heft handelt. Gilt nur für fortlaufende Ressourcen.|S|
+|title_url|URL auf Titelebene. Gilt sowohl für fortlaufende Ressourcen als auch für Monographien. Bei Konferenzschriften  sollten die title_url für die Konferenz-Schriftenreihe und die title_url für jeden Band unterschiedlich sein.|S/M|
 |first_author|Erster Autor/erste Autorin. Gilt nur für Monographien.|M|
-|title_id|Identifikator des Titels. Gilt sowohl für fortlaufende Sammelwerke als auch für Monographien. Bei Konferenzschriften  sollten die title_id für die Konferenz-Schriftenreihe und die title_id für jeden Band unterschiedlich sein.|S/M|
+|title_id|Identifikator des Titels. Gilt sowohl für fortlaufende Ressourcen als auch für Monographien. Bei Konferenzschriften  sollten die title_id für die Konferenz-Schriftenreihe und die title_id für jeden Band unterschiedlich sein.|S/M|
 |embargo_info|Embargo-Information. Umfasst alle Einschränkungen hinsichtlich des Zeitpunktes, wann eine Ressource online verfügbar ist.|S/M|
 |coverage_depth|Umfang der Abdeckung. Gibt zum Beispiel an, ob es sich um ein Abstract oder einen Volltext handelt.|S/M|
 |notesNotes|Freitextfeld, das beschreibt, welche Besonderheiten bezüglich der Vereinbarung zur Abdeckung bestehen.|S/M|
 |publisher_name|Name des Verlags. Nicht zu verwechseln mit dem Namen des Plattform- bzw. Inhaltsanbieters.|S/M|
-|publication_type|Fortlaufendes Sammelwerk oder Monographie. Verwenden Sie "serial" für Zeitschriften und Konferenz-Schriftenreihen. Verwenden Sie "monograph" für E-Books und Einzelbände.|S/M|
+|publication_type|Fortlaufende Ressource oder Monographie. Verwenden Sie "serial" für Zeitschriften und Konferenz-Schriftenreihen. Verwenden Sie "monograph" für E-Books und Einzelbände.|S/M|
 |date_monograph_published_print|Datum, wann die Monographie erstmals in Druckform erschienen ist.|M|
 |date_monograph_published_online|Datum, wann die Monographie erstmals online erschienen ist.|M|
 |monograph_volume|Bandnummer der Monographie. Gilt für E-Books und Konferenzschriften. Für Konferenzschriften ist der Band innerhalb der Konferenz-Schriftenreihe  zu verwenden.|M|
