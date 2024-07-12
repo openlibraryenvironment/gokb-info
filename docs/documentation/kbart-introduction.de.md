@@ -69,7 +69,7 @@ Siehe [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: K
 |embargo_info|Embargo-Information. Umfasst alle Einschränkungen hinsichtlich des Zeitpunktes, wann eine Ressource online verfügbar ist.|S/M|
 |coverage_depth|Umfang der Abdeckung. Gibt zum Beispiel an, ob es sich um ein Abstract oder einen Volltext handelt.|S/M|
 |notesNotes|Freitextfeld, das beschreibt, welche Besonderheiten bezüglich der Vereinbarung zur Abdeckung bestehen.|S/M|
-|publisher_name|Name des Verlags. Nicht zu verwechseln mit dem Namen des Plattform- bzw. Inhaltsanbieters.|S/M|
+|publisher_name|Name des Verlags/Inhaltsanbieters. Nicht zu verwechseln mit dem Namen des Plattformanbieters.|S/M|
 |publication_type|Fortlaufende Ressource oder Monographie. Verwenden Sie "serial" für Zeitschriften und Konferenz-Schriftenreihen. Verwenden Sie "monograph" für E-Books und Einzelbände.|S/M|
 |date_monograph_published_print|Datum, wann die Monographie erstmals in Druckform erschienen ist.|M|
 |date_monograph_published_online|Datum, wann die Monographie erstmals online erschienen ist.|M|
