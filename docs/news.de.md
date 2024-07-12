@@ -1,6 +1,6 @@
 # News
 
-## Ankündigung Infostunde im August 2024
+## Infostunde im August 2024
 *12. Juli 2024*
 
 Die Infostunde im August entfällt aufgrund der Sommerferien.
