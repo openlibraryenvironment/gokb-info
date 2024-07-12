@@ -1,5 +1,10 @@
 # News
 
+## Ankündigung Infostunde im August 2024
+*12. Juli 2024*
+
+Die Infostunde im August entfällt aufgrund der Sommerferien.
+
 ## Veröffentlichung der BiblioCon 2024 Vorträge
 *08. Juli 2024*
 
