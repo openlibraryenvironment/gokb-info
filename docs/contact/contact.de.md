@@ -1,7 +1,9 @@
 # Kontakt
 
-Für Anfragen zur GOKb kontaktieren Sie bitte:
+So können Sie uns erreichen:
 
-GOKb Projekt Gruppe [info\_at\_gokb.org](mailto:info@gokb.org)
+[info\_at\_gokb.org](mailto:info@gokb.org) - bei Fragen zur GOKb
 
-[Anmelden](https://gokb.org/gokb-ui/ "Anmelden")
+[support\_at\_gokb.org](mailto:support@gokb.org) - wenn Sie Unterstüzung bei der Arbeit in der GOKb brauchen
+
+[Anmelden/Registrieren](https://gokb.org/gokb-ui/ "Anmelden")
