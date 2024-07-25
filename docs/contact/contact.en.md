@@ -1,7 +1,9 @@
 # Contact
 
-For inquiries about GOKb, contact:
+How you can reach us:
 
-GOKb project group [info\_at\_gokb.org](mailto:info@gokb.org)
+[info\_at\_gokb.org](mailto:info@gokb.org) - for questions about GOKb
+
+[support\_at\_gokb.org](mailto:support@gokb.org) - if you need support
 
 [Register](https://gokb.org/gokb-ui/ "Register")
