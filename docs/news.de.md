@@ -1,5 +1,17 @@
 # News
 
+## Neue Infos - GOKB Anwendertreffen im November 2024 in Göttingen
+*20. August 2024*
+
+Wir haben neue Infos zum GOKB Anwendertreffen in Göttingen. Das Treffen wird am 06. November um 13 Uhr beginnen und endet am 07. November um 15.30 Uhr. Der Flyer ist entsprechend aktualisiert.
+
+Der Link zur Anmeldung, das Programm und weitere Informationen werden schnellstmöglich veröffentlicht.
+
+## Infostunde im September 2024
+*20. August 2024*
+
+Es geht wieder los! Die nächste Infostunde wird am 02. September von 15 bis 16 Uhr stattfinden. Das Thema werden wir noch bekanntgeben.
+
 ## Infostunde im August 2024
 *12. Juli 2024*
 
