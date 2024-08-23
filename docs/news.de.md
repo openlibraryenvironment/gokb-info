@@ -3,7 +3,7 @@
 ## ZDB-Fachtreffen im September 2024
 *23. August 2024*
 
-Das GOKB-Team wird am virtuellen ZDB-Fachtreffen am 17. September 2024 von 10 bis 11:30 Uhr dabei sein.
+Das GOKB-Team wird beim virtuellen ZDB-Fachtreffen am 17. September 2024 von 10 bis 11:30 Uhr dabei sein.
 
 ## Neue Infos - GOKB Anwendertreffen im November 2024 in Göttingen
 *20. August 2024*
