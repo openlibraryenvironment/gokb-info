@@ -1,5 +1,10 @@
 # News
 
+## Infostunde im September 2024
+*28. August 2024*
+
+In der Infostunde am 02. September werden wir uns dem Thema _Lokale Pakete und Pick&Choose-Pakete in der GOKb_ widmen.
+
 ## ZDB-Fachtreffen im September 2024
 *23. August 2024*
 
@@ -11,11 +16,6 @@ Das GOKB-Team wird beim virtuellen ZDB-Fachtreffen am 17. September 2024 von 10 
 Wir haben neue Infos zum GOKB Anwendertreffen in Göttingen. Das Treffen wird am 06. November um 13 Uhr beginnen und endet am 07. November um 15.30 Uhr. Der **[Flyer](assets/GOKB_Anwendertreffen_Einladung_Goettingen_200824.pdf)** ist entsprechend aktualisiert.
 
 Der Link zur Anmeldung, das Programm und weitere Informationen werden schnellstmöglich veröffentlicht.
-
-## Infostunde im September 2024
-*20. August 2024*
-
-Es geht wieder los! Die nächste Infostunde wird am 02. September von 15 bis 16 Uhr stattfinden. Das Thema werden wir noch bekanntgeben.
 
 ## Infostunde im August 2024
 *12. Juli 2024*
