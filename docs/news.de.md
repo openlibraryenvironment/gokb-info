@@ -1,9 +1,29 @@
 # News
 
+## Anküdigungen GOKB auf der Wolfcon 2024 & auf den FOLIO Praxistagen
+*02. September 2024*
+
+Das GOKB Team wird auf den beiden Veranstaltungen an folgenden Terminen vertreten sein:
+
+### Wolfcon 2024 in London (24. bis 26. September)
+
+• **24.09.2024 um 11:00 Uhr:** _GOKB Technical Update (M. Horn)_
+
+• **25.09.2024 um 13:00 Uhr:** _Building Bridges: GOKB and FOLIO ERM supporting e-resource workflows (D. Rupp & M. Schildt)_
+
+• **25.09.2024 um 14:00 Uhr:** _Working with and in the GOKB - what's next? (Working meeting)_
+
+• **26.09.2024 um 13:30 Uhr:** _GOKB Panel (D. Rupp & C. Seegert)_
+
+### FOLIO Praxistage in Bamberg (30. September bis 01. Oktober)
+
+• **01.10.2024 um 10:30 12:00 Uhr:** _Workshop: Von GOKB zu FOLIO - bessere Daten durch praktische Datenpflege (K. Sievers)_
+
+#
 ## Infostunde im September 2024
 *28. August 2024*
 
-In der Infostunde am 02. September werden wir uns dem Thema _Lokale Pakete und Pick&Choose-Pakete in der GOKb_ widmen.
+In der Infostunde am 02. September werden wir uns dem Thema _Lokale Pakete und Pick&Choose-Pakete in der GOKB_ widmen.
 
 ## ZDB-Fachtreffen im September 2024
 *23. August 2024*
