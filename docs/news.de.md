@@ -17,7 +17,7 @@ Das GOKB Team wird auf den beiden Veranstaltungen an folgenden Terminen vertrete
 
 ### FOLIO Praxistage in Bamberg (30. September bis 01. Oktober)
 
-• **01.10.2024 um 10:30 12:00 Uhr:** _Workshop: Von GOKB zu FOLIO - bessere Daten durch praktische Datenpflege (K. Sievers)_
+• **01.10.2024 um 10:30 12:00 Uhr:** Workshop _Von GOKB zu FOLIO - bessere Daten durch praktische Datenpflege (K. Sievers)_
 
 #
 ## Infostunde im September 2024
