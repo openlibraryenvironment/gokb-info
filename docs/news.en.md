@@ -1,5 +1,19 @@
 # News
 
+## Announcement GOKB at Wolfcon 2024
+*September 2, 2024*
+
+The GOKB team will be represented at Wolfcon September 24-26, 2024 with following presentations and a working meeting:
+
+• **Tuesday, September 24 at 11:00 am BST:** _GOKB Technical Update (M. Horn)_
+
+• **Wednesday, September 25 at 1:00 pm BST:** _Building Bridges: GOKB and FOLIO ERM supporting e-resource workflows (D. Rupp & M. Schildt)_
+
+• **Wednesday, September 25 at 2:00 pm BST:** _Working with and in the GOKB - what's next? (Working meeting)_
+
+• **Thursday, September 26 at 1:30 pm BST:** _GOKB Panel (D. Rupp & C. Seegert)_
+
+
 ## Register for mailing lists
 *March 5, 2024*
 
