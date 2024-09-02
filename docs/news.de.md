@@ -1,6 +1,6 @@
 # News
 
-## Anküdigungen GOKB auf der Wolfcon 2024 & auf den FOLIO Praxistagen
+## Anküdigungen GOKB auf der Wolfcon 2024 & bei den FOLIO Praxistagen
 *02. September 2024*
 
 Das GOKB Team wird auf den beiden Veranstaltungen an folgenden Terminen vertreten sein:
