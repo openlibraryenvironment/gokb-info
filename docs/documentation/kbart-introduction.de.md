@@ -68,7 +68,7 @@ Siehe [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: K
 |title_id|Identifikator des Titels. Gilt sowohl für fortlaufende Ressourcen als auch für Monographien. Bei Konferenzschriften  sollten die title_id für die Konferenz-Schriftenreihe und die title_id für jeden Band unterschiedlich sein.|S/M|
 |embargo_info|Embargo-Information. Umfasst alle Einschränkungen hinsichtlich des Zeitpunktes, wann eine Ressource online verfügbar ist.|S/M|
 |coverage_depth|Umfang der Abdeckung. Gibt zum Beispiel an, ob es sich um ein Abstract oder einen Volltext handelt.|S/M|
-|notesNotes|Freitextfeld, das beschreibt, welche Besonderheiten bezüglich der Vereinbarung zur Abdeckung bestehen.|S/M|
+|notes|Freitextfeld, das beschreibt, welche Besonderheiten bezüglich der Vereinbarung zur Abdeckung bestehen.|S/M|
 |publisher_name|Name des Verlags/Inhaltsanbieters. Nicht zu verwechseln mit dem Namen des Plattformanbieters.|S/M|
 |publication_type|Fortlaufende Ressource oder Monographie. Verwenden Sie "serial" für Zeitschriften und Konferenz-Schriftenreihen. Verwenden Sie "monograph" für E-Books und Einzelbände.|S/M|
 |date_monograph_published_print|Datum, wann die Monographie erstmals in Druckform erschienen ist.|M|
