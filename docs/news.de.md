@@ -3,7 +3,7 @@
 ## Infostunde im September 2024
 *18. September 2024*
 
-Das ZDB-Fachtreffen wurde auf den 22. Oktober 2024 verschoben. Es findet von 10 bis 11:30 Uhr statt. Nähere Infos erhalten Sie unter: [Online-ZDB-Fachtreffen][https://zeitschriftendatenbank.de/aktuelles?date=2024-9-16]
+Das ZDB-Fachtreffen wurde auf den 22. Oktober 2024 verschoben. Es findet von 10 bis 11:30 Uhr statt. Nähere Infos erhalten Sie unter: [Online-ZDB-Fachtreffen](https://zeitschriftendatenbank.de/aktuelles?date=2024-9-16)
 
 #
 
