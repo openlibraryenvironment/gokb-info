@@ -1,5 +1,12 @@
 # News
 
+## Ankündigung Infostunde im Oktober 2024
+*02. Oktober 2024*
+
+Die nächste Infostunde wird am **07. Oktober** stattfinden. 
+
+Dieses Mal widmen wir uns dem Rückblick auf die WOLFcon 2024 in London, bei der die GOKb ein wichtiges Thema war, außerdem sind wir an Ihren Erfahrungen bei der Bearbeitung von KBART-Dateien interessiert.
+
 ## Neuer Termin für ZDB-Fachtreffen
 *18. September 2024*
 
