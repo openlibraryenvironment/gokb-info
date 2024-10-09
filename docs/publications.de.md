@@ -1,5 +1,6 @@
 # Publikationen
 
+-   [Eine Analyse moderner Bibliothekstools – FOLIO, GOKb, KBART und MarcEdit im Einsatz an der Universitätsbibliothek Chemnitz](https://www.o-bib.de/bib/article/view/6050/9185)
 -   [Die Verwaltung elektronischer Ressourcen mit Open Source Systemen – neue Möglichkeiten und Herausforderungen](https://www.degruyter.com/document/doi/10.1515/abitech-2022-0006/html?lang=de)
 -   [Managing Serials Data as a Community: Partnering With the Global
     Open Knowledgebase (GOKb) (subscription
