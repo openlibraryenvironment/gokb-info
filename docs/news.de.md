@@ -7,7 +7,7 @@ Gute Nachrichten - es geht los! Wir laden Sie herzlich zum GOKB-Anwendertreffen 
 
 Melden Sie sich einfach bis zum **23. Oktober 2024** über die [GBV/VZG Website](https://www.gbv.de/formulare/anmeldungen/anmeldung-zum-gokb-anwendertreffen) an.
 
-Alle wichtigen Infos zur Veranstaltung finden Sie in der Agenda.
+Alle wichtigen Infos zur Veranstaltung finden Sie in der **[Agenda](assets/Agenda_Anwendertreffen.pdf)**.
 
 Am **06. November** wird es ein gemeinsames Abendessen in Form eines Buffets im Restaurant [Bullerjahn](https://www.bullerjahn.de/) geben. Die Kosten dafür sind in der Teilnahmegebühr enthalten. Die Kosten für Getränke und à la carte Gerichte müssten vor Ort selbst übernommen werden.
 
