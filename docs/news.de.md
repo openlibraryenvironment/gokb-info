@@ -1,5 +1,18 @@
 # News
 
+## GOKB-Anwendertreffen in Göttingen
+*09. Oktober 2024*
+
+Gute Nachrichten - es geht los! Wir laden Sie herzlich zum GOKB-Anwendertreffen in Göttingen vom **06. bis 07. November 2024** ein. Die Veranstaltung wird in der **Alten Mensa am Wilhelmsplatz** in der Göttinger Innenstadt stattfinden.
+
+Melden Sie sich einfach bis zum **23. Oktober 2024** über die [GBV/VZG Website](https://www.gbv.de/formulare/anmeldungen/anmeldung-zum-gokb-anwendertreffen) an.
+
+Alle wichtigen Infos zur Veranstaltung finden Sie in der Agenda.
+
+Am **06. November** wird es ein gemeinsames Abendessen in Form eines Buffets im Restaurant [Bullerjahn](https://www.bullerjahn.de/) geben. Die Kosten dafür sind in der Teilnahmegebühr enthalten. Die Kosten für Getränke und à la carte Gerichte müssten vor Ort selbst übernommen werden.
+
+Wir freuen uns auf Sie und einen spannenden Austausch mit Ihnen!
+
 ## Ankündigung Infostunde im Oktober 2024
 *02. Oktober 2024*
 
