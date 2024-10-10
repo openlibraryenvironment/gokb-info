@@ -4,7 +4,7 @@
 
 Der Verantwortliche im Sinne der Datenschutz-Grundverordnung (DSGVO) und anderer nationaler Datenschutzgesetze der Mitgliedsstaaten sowie sonstiger datenschutzrechtlicher Bestimmungen ist:
 
-Reiner Diedrichs, Direktor
+Regine Stein, Direktorin
 
 Verbundzentrale des GBV (VZG)
 
@@ -172,5 +172,3 @@ Die nutzende Person hat das Recht, ihre datenschutzrechtliche Einwilligungserkl�
 Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs steht der nutzenden Person das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat seines Aufenthaltsorts, seines Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, zu, wenn die nutzende Person der Ansicht ist, dass die Verarbeitung der personenbezogenen Daten, die die nutzende Person betreffen gegen die DSGVO verstößt.
 
 Die Aufsichtsbehörde, bei der die Beschwerde eingereicht wurde, unterrichtet den Beschwerdeführer über den Stand und die Ergebnisse der Beschwerde einschließlich der Möglichkeit eines gerichtlichen Rechtsbehelfs nach Art. 78 DSGVO.
-
-  
