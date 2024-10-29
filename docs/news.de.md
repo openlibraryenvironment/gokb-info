@@ -1,5 +1,12 @@
 # News
 
+## Ankündigung Infostunde im November 2024
+*29. Oktober 2024*
+
+Die nächste Infostunde wird am **04. November** stattfinden.
+
+Wir werden Ihnen die _Neuerungen aus dem Release 1.8_ vorstellen.
+
 ## GOKB-Anwendertreffen in Göttingen
 *09. Oktober 2024*
 
