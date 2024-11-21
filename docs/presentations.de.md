@@ -1,15 +1,16 @@
 # Präsentationen
 - GOKB Anwendertreffen in Göttingen 2024:
-   * Neues von der GOKB
-   * GOKB und FOLIO
-   * Referenztitelkonflikte - Ursachen und Lösungen
-   * Erfahrungsbericht der SLUB
-   * Erfahrungsbericht der ZBW
-   * Werkstattbericht: EZB-Kollektionen aus GOKB-Paketen befüllen
-   * Working Meeting: Community
+   * [Neues von der GOKB](assets/2024_GOKB_Anwendertreffen_Neues_von_der_GOKB.pdf)
+   * [Anbieter und KBART](assets/2024_GOKB_Anwendertreffen_KBART.pdf)
+   * [GOKB und FOLIO](assets/2024_GOKB_Anwendertreffen_GOKB_und_FOLIO.pdf)
+   * [Referenztitelkonflikte - Ursachen und Lösungen](
+   * [Erfahrungsbericht der SLUB](assets/2024_GOKB_Anwendertreffen_Erfahrungsbericht_SLUB.pdf)
+   * [Erfahrungsbericht der ZBW](assets/2024_GOKB_Anwendertreffen_ZBW_Erfahrungsbericht.pdf)
+   * [Werkstattbericht: EZB-Kollektionen aus GOKB-Paketen befüllen](assets/2024_GOKB_Anwendertreffen_ZBW_EZB.pdf)
+   * [Working Meeting: Community](assets/2024_GOKB_Anwendertreffen_Community.pdf)
 - YouTube-Videos von der WOLFcon 2024:
    *  [Technical Update](https://www.youtube.com/watch?v=6dRTP3CIWLk&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=49)
-   *  [FOLIO/GOKB](https://www.youtube.com/watch?v=6dRTP3CIWLk&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=49)
+   *  [FOLIO/GOKB](https://youtu.be/3TAdNmHxjSk?si=B7DO0NXQVJzgG4p1)
    *  [Working with and in the GOKb - whats next?](https://www.youtube.com/watch?v=urABNCJmI4E&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=55)
    *  [GOKb Community and KBART presentations](https://www.youtube.com/watch?v=T8h54PRpJrw&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=60)
 - BiblioCON 2024:
