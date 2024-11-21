@@ -1,6 +1,10 @@
 # Presentations
 
-
+- YouTube-Videos from WOLFcon 2024:
+  * [Technical Update](https://www.youtube.com/watch?v=6dRTP3CIWLk&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=49)
+  * [Building Bridges: GOKB and FOLIO ERM supporting e-resource workflows](https://youtu.be/3TAdNmHxjSk?si=B7DO0NXQVJzgG4p1)
+  * [Working with and in the GOKB - whats next?](https://www.youtube.com/watch?v=urABNCJmI4E&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=55)
+  * [GOKB Community and KBART presentations](https://www.youtube.com/watch?v=T8h54PRpJrw&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=60)
 - [GOKb - Review Requests Training](assets/GOKb-Review-Requests-Training.pdf)
 - [The GOKb as a Bridge between Provider Data and FOLIO Agreements](assets/WOLFcon-2022-Presentation-GOKb-as-a-Bridge.pdf)
 - [Closing Review Requests The Process for Cleaning up Provider Data with GOKb](assets/WOLFcon-2022-Presentation-Review-Requests.pdf)
