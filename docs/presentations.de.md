@@ -1,9 +1,17 @@
 # Präsentationen
+- GOKB Anwendertreffen in Göttingen 2024:
+   *
+
+- YouTube-Videos von der WOLFcon 2024:
+   *  [Technical Update](https://www.youtube.com/watch?v=6dRTP3CIWLk&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=49)
+   *  [FOLIO/GOKB](https://www.youtube.com/watch?v=6dRTP3CIWLk&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=49)
+   *  [Working with and in the GOKb - whats next?](https://www.youtube.com/watch?v=urABNCJmI4E&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=55)
+   *  [GOKb Community and KBART presentations](https://www.youtube.com/watch?v=T8h54PRpJrw&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=60)
 - BiblioCON 2024:
-    * [Aktuelle Nutzungsszenarien der GOKb in der Verbundlandschaft](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/searchtype/collection/id/17556/start/0/rows/20/facetNumber_author_facet/all/author_facetfq/Seegert%2C+Christin/docId/19101)
-    * [ZDB-Anwendertreffen](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/searchtype/collection/id/17556/rows/20/facetNumber_author_facet/all/start/0/author_facetfq/Sewing%2C+Silke/docId/18865) - ein Thema "Global Open Knowledge Base (GOKb) - Ist-Stand und Aussicht"
-    * [Treffpunkt GOKb - Die kooperative Basis für E-Ressourcen](assets/Praesentation_Stand_GOKb_20240605.pdf)
-    * [Global Open Knowledgebase (GOKb): Austausch, Information, Diskussion](assets/Freiraum24_GOKb_20240606.pdf) (#Freiraum24)
+   * [Aktuelle Nutzungsszenarien der GOKb in der Verbundlandschaft](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/searchtype/collection/id/17556/start/0/rows/20/facetNumber_author_facet/all/author_facetfq/Seegert%2C+Christin/docId/19101)
+   * [ZDB-Anwendertreffen](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/searchtype/collection/id/17556/rows/20/facetNumber_author_facet/all/start/0/author_facetfq/Sewing%2C+Silke/docId/18865) - ein Thema "Global Open Knowledge Base (GOKb) - Ist-Stand und Aussicht"
+   * [Treffpunkt GOKb - Die kooperative Basis für E-Ressourcen](assets/Praesentation_Stand_GOKb_20240605.pdf)
+   * [Global Open Knowledgebase (GOKb): Austausch, Information, Diskussion](assets/Freiraum24_GOKb_20240606.pdf) (#Freiraum24)
 - [GOKb kurzgefasst](assets/GOKb_kurzgefasst.pdf.pdf)
 - [GOKb Prüfanfragen Schulung](assets/GOKb_Schulung_Prüfanfragen_Mai_2024.pdf)
 - [Die Global Open Knowledgebase (GOKb) - Aktuelles (im Rahmen des ZDB-Anwendertreffens 2023)](https://zeitschriftendatenbank.de/fileadmin/user_upload/ZDB/pdf/anwendertreffen/ZDB-Anwendertreffen_Virtuell_2023.pdf)
