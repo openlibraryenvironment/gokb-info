@@ -1,7 +1,12 @@
 # Präsentationen
 - GOKB Anwendertreffen in Göttingen 2024:
-   *
-
+   * Neues von der GOKB
+   * GOKB und FOLIO
+   * Referenztitelkonflikte - Ursachen und Lösungen
+   * Erfahrungsbericht der SLUB
+   * Erfahrungsbericht der ZBW
+   * Werkstattbericht: EZB-Kollektionen aus GOKB-Paketen befüllen
+   * Working Meeting: Community
 - YouTube-Videos von der WOLFcon 2024:
    *  [Technical Update](https://www.youtube.com/watch?v=6dRTP3CIWLk&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=49)
    *  [FOLIO/GOKB](https://www.youtube.com/watch?v=6dRTP3CIWLk&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=49)
