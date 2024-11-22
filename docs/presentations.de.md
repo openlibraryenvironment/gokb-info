@@ -8,11 +8,13 @@
    * [Erfahrungsbericht der ZBW](assets/2024_GOKB_Anwendertreffen_ZBW_Erfahrungsbericht.pdf)
    * [Werkstattbericht: EZB-Kollektionen aus GOKB-Paketen befüllen](assets/2024_GOKB_Anwendertreffen_ZBW_EZB.pdf)
    * [Working Meeting: GOKB Community](assets/2024_GOKB_Anwendertreffen_Community.pdf)
-## YouTube-Videos von der WOLFcon 2024:
-   *  [Technical Update](https://www.youtube.com/watch?v=6dRTP3CIWLk&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=49)
-   *  [Building Bridges: GOKB and FOLIO ERM supporting e-resource workflows](https://youtu.be/3TAdNmHxjSk?si=B7DO0NXQVJzgG4p1)
-   *  [Working with and in the GOKB - whats next?](https://www.youtube.com/watch?v=urABNCJmI4E&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=55)
-   *  [GOKB Community and KBART presentations](https://www.youtube.com/watch?v=T8h54PRpJrw&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=60)
+## WOLFcon 2024:
+   *  Technical Update - [PDF-Version](assets/WOLFCon2024_GOKb_Technical_Update.pdf) / [Audio-Version](https://www.youtube.com/watch?v=6dRTP3CIWLk&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=49)
+   *  Building Bridges: GOKB and FOLIO ERM supporting e-resource workflows - [PDF-Version]() / [Audio-Version](https://youtu.be/3TAdNmHxjSk?si=B7DO0NXQVJzgG4p1)
+   *  Working with and in the GOKB - whats next? - [PDF-Version](assets/WOLFCon2024_Working_with_and_in_the_GOKb -_whats_next.pdf) / [Audio-Version](https://www.youtube.com/watch?v=urABNCJmI4E&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=55)
+   *  [GOKB Community and KBART presentations] - [PDF-Version](assets/WOLFCon2024_GOKb_Community.pdf) / [Audio-Version](https://www.youtube.com/watch?v=T8h54PRpJrw&list=PLMocoPoiGkwcTpaUIZLK-42AQprz_6yNK&index=60)
+   *  [GOKB Pitfalls of KBART Editing](assets/WOLFCon2024_GOKb_Pitfalls_of_KBART_Editing.pdf)
+   *  [Introduction](assets/WOLFCon_2024_GOKb_Introduction.pdf)
 ## BiblioCON 2024:
    * [Aktuelle Nutzungsszenarien der GOKb in der Verbundlandschaft](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/searchtype/collection/id/17556/start/0/rows/20/facetNumber_author_facet/all/author_facetfq/Seegert%2C+Christin/docId/19101)
    * [ZDB-Anwendertreffen](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/searchtype/collection/id/17556/rows/20/facetNumber_author_facet/all/start/0/author_facetfq/Sewing%2C+Silke/docId/18865) - ein Thema "Global Open Knowledge Base (GOKb) - Ist-Stand und Aussicht"
