@@ -1,13 +1,13 @@
 # Release 1.7
 _Veröffentlicht am 26. Januar 2024_
 
-Die zentralen Neuerungen der Version 1.7 sind zum einen die Integration der DDC-Klassifikation auf Titel- und Paketebene und zum anderen sind mehr Sichten der GOKb durch eindeutige URLs ansteuerbar.
+Die zentralen Neuerungen der Version 1.7 sind zum einen die Integration der DDC-Klassifikation auf Titel- und Paketebene und zum anderen sind mehr Sichten der GOKB durch eindeutige URLs ansteuerbar.
 
 ## Implementierung DDC-Sachgruppen
-Als innovative und wichtige Neuerung werden nun die DDC-Sachgruppen in der GOKb eingebunden. Möglich ist dies zum einen durch eine automatisierte Anreichung der Referenztitel von Journals und Periodika über die ZDB. Zum anderen können die DDC-Notationen auf Paket- und Pakettitelebene wie auch bei den Referenztiteln manuell über ein Dropdown Menü ergänzt werden. Für diese Daten wurden zwei neue Felder integriert. Über die Optionen "Sacherschließung" (System) und "Wert" kann in der Suche nach den DDC-Sachgruppen gefiltert werden. Im Bearbeitungsmodus können unter dem gleichnamigen Reiter die Sachgruppen hinzugefügt werden. Bei der Option "Pakettitel bearbeiten" werden über den Button "Hinzufügen" in dem Feld die Daten ausgewählt und gespeichert. Mehrfachbelegungen werden akzeptiert.
+Als innovative und wichtige Neuerung werden nun die DDC-Sachgruppen in der GOKB eingebunden. Möglich ist dies zum einen durch eine automatisierte Anreichung der Referenztitel von Journals und Periodika über die ZDB. Zum anderen können die DDC-Notationen auf Paket- und Pakettitelebene wie auch bei den Referenztiteln manuell über ein Dropdown Menü ergänzt werden. Für diese Daten wurden zwei neue Felder integriert. Über die Optionen "Sacherschließung" (System) und "Wert" kann in der Suche nach den DDC-Sachgruppen gefiltert werden. Im Bearbeitungsmodus können unter dem gleichnamigen Reiter die Sachgruppen hinzugefügt werden. Bei der Option "Pakettitel bearbeiten" werden über den Button "Hinzufügen" in dem Feld die Daten ausgewählt und gespeichert. Mehrfachbelegungen werden akzeptiert.
 
 ## Eindeutige URLs 
-Als weitere unterstützende Neuerung sind mehr Sichten der GOKb durch eindeutige URLs ansteuerbar, sodass Sie die Links zu konkreten Suchen, Reiter der Detailsichten und Pakettiteln als Lesezeichen speichern oder kopieren und weitergeben können.
+Als weitere unterstützende Neuerung sind mehr Sichten der GOKB durch eindeutige URLs ansteuerbar, sodass Sie die Links zu konkreten Suchen, Reiter der Detailsichten und Pakettiteln als Lesezeichen speichern oder kopieren und weitergeben können.
 Beim Wechsel zwischen den Reitern einer Detailansicht wird für jeden Reiter eine eigene URL erzeugt, damit Nutzende direkt auf einen Reiter geleitet werden können. In der Paket-, Referenztitel- und Anbieterdetailansicht wird für die einzelnen Reiteransichten ein Code in der URL ergänzt. Die Detailansicht eines Pakettitels wird über den Button "Vollansicht öffnen" angezeigt. Es öffnet sich ein neuer Tab im Browserfenster. Diese generierte URL führt nun ebenfalls direkt zu dem aufgerufenen Titel. Auch Suchanfragen in den Komponenten Pakete, Referenztitel, Prüfanfragen, Anbieter und Benutzer generieren eine eindeutige URL. Die angegebenen Parameter werden in der URL während der Suchanfrage angehängt.
 
 ## Vollständige Übersicht der Änderungen
