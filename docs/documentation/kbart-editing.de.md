@@ -131,7 +131,7 @@ Einstellungen vor:
 Sie bestätigen die Auswahl über "OK". 
 
 ## Zeichenkodierung erkennen und korrigieren
-Zum Erkennen und Bearbeiten der Zeichenkodierung empfiehlt das GOKb-Team das freie Tool
+Zum Erkennen und Bearbeiten der Zeichenkodierung empfiehlt das GOKB-Team das freie Tool
 [Notepad++](https://notepad-plus-plus.org/). Da KBART-Dateien Textdateien sind, können sie mit 
 dem Texteditor Notepad++ bearbeitet werden. 
 
