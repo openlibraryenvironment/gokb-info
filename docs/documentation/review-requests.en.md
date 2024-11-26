@@ -1,16 +1,16 @@
 # Working with Review Requests
 
-Review requests are central workflow components of the GOKb. Review requests inform you whether errors occurred during processing or import of components or whether possible inconsistencies were discovered. Simple information and feedback is also reported back to you in the form of review requests.
+Review requests are central workflow components of the GOKB. Review requests inform you whether errors occurred during processing or import of components or whether possible inconsistencies were discovered. Simple information and feedback is also reported back to you in the form of review requests.
 
 The aim of each curatory group should be to view, edit if necessary, and close all review requests related to a package submission. In doing so, it should be noted:
 
 * Processing a review request requires - depending on the type - processing of the respective component. The review request must then be closed manually.
 * Many review requests are for information only and can be closed without processing.
-* The GOKb reacts very sensitively to possible inconsistencies in the data. If necessary, review requests can be opened by the system, which only supposedly describe an error, although everything is correct. These can be closed after checking.
+* The GOKB reacts very sensitively to possible inconsistencies in the data. If necessary, review requests can be opened by the system, which only supposedly describe an error, although everything is correct. These can be closed after checking.
 
 ## Find review requests
 
-There are three ways to find review requests in the GOKb.
+There are three ways to find review requests in the GOKB.
 
 * In the Dashboard
 * In the Package view
@@ -58,7 +58,7 @@ In the detail view you get various information and options:
 * **Date Created:** The field shows the date when the review request was created.
 * **Status:** The status ("Open" or "Closed") indicates the status of the review request. When a review request is processed, i.e. the reviewed component is considered correct by you (after a correction or because the review request does not require further processing), you can set the status to "Closed".
 * **Curatory Groups:** The responsible curatory groups are displayed in this field.
-* **Action Taken:** This field indicates how the GOKb has automatically dealt with the identified problem. If the entry is empty, the GOKb was unable to take any action.
+* **Action Taken:** This field indicates how the GOKB has automatically dealt with the identified problem. If the entry is empty, the GOKB was unable to take any action.
 * **Cause:** This field specifies the cause that resulted the review request being opened.
 * **Blue Info Box (To Do):** If an action is required from you as a user, you will receive instructions here. If the entry is empty, the review request was for your information only. You can then close it by clicking "Mark Finished".
 * **Component to review:** This field specifies the exact component, i.e., which package, platform, or provider is the cause of the review request.
@@ -114,7 +114,7 @@ The conflict arose because the name of the title contains incorrect characters.
 
 ### Import Identifier Mismatch
 
-The conflict arose because although the GOKb was able to match the KBART record to an existing package title, one or more other identifiers differed.
+The conflict arose because although the GOKB was able to match the KBART record to an existing package title, one or more other identifiers differed.
 
 ![Screenshot_import_identifier_mismatch_en_62023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/2796d68e-ef99-4288-be72-7e29e6b3baff)
 
@@ -141,7 +141,7 @@ The conflict arose because a new reference title was created due to an identifie
 
 ### Ambiguous Title Matches
 
-The conflict arose because the GOKb could not link a reference title based on the available identifiers.
+The conflict arose because the GOKB could not link a reference title based on the available identifiers.
 
 Step 1:
 
