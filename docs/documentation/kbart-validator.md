@@ -12,7 +12,7 @@ Click in the grayed out "File" field, select a file from your saved files and up
 
 ## Validate file
 
-Use the slider to select whether you want to have the data validated in strict or non-strict mode. In strict mode, the validation process strictly follows the NISO standard. Non-strict mode corresponds to validation during package upload – this means that this mode accepts also non-standard values that are accepted and (if necessary) automatically adjusted by the GOKb
+Use the slider to select whether you want to have the data validated in strict or non-strict mode. In strict mode, the validation process strictly follows the NISO standard. Non-strict mode corresponds to validation during package upload – this means that this mode accepts also non-standard values that are accepted and (if necessary) automatically adjusted by the GOKB.
 
 ![GOKB kbart validator mode](../assets/KBART-Validator-mode.png "GOKB KBART Validator mode")
 
@@ -33,6 +33,6 @@ If you click on the cross behind the line specification, the view changes and yo
 
 ## Errors and warnings
 
-An error differs from a warning by the severity of the occurrence. In strict mode there is no warning, because any deviation from the KBART standard is marked as an error. In non-strict mode, deviations from the standard, but accepted by the GOKb or not corrupting the data, are marked as warnings.
+An error differs from a warning by the severity of the occurrence. In strict mode there is no warning, because any deviation from the KBART standard is marked as an error. In non-strict mode, deviations from the standard, but accepted by the GOKB or not corrupting the data, are marked as warnings.
 
 ![GOKB kbart validator ergebnisse](../assets/KBART-Validator-results-view2.png "GOKB KBART Validator results")
