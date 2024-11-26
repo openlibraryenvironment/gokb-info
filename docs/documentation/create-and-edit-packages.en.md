@@ -2,10 +2,10 @@
 
 ## Get and check KBART files
 
-Package and title data are imported into GOKb from KBART files.
+Package and title data are imported into GOKB from KBART files.
 
 KBART is a NISO standard for representing titles in a package of e-resources. 
-A corresponding example KBART file, which also contains GOKb-relevant extensions 
+A corresponding example KBART file, which also contains GOKB-relevant extensions 
 of the standard as well as explanations of the individual KBART fields, 
 can be found here: [KBART Introduction](./kbart-introduction.md)
 
@@ -14,7 +14,7 @@ can be found here: [KBART Introduction](./kbart-introduction.md)
 KBART files must comply with the KBART standard:
 
 + The field names and contents must comply with the KBART standard or the enhanced 
-GOkb format. A list of all fields can be found [here](./kbart-introduction.md).
+GOKB format. A list of all fields can be found [here](./kbart-introduction.md).
     * All column headers must exist - even if a column has no values.
     * The character encoding must be UTF-8.
     * Tab as separator.
@@ -68,9 +68,9 @@ GOkb format. A list of all fields can be found [here](./kbart-introduction.md).
 |Title level URL|title_url|Mandatory||                 
 |Media type (journal, book, database) |medium|Optional||
 
-GOKb supports the enhancement of KBART with some proprietary fields:
+GOKB supports the enhancement of KBART with some proprietary fields:
 
-+ For serial publications, the ZDBID can be added to field `zdb_id`.
++ For serial publications, the ZDB id can be added to field `zdb_id`.
 + Dates when a title is added or removed for a package can be added to `access_start_date` 
 and `access_end_date` fields. These dates are useful for obtaining the historical status 
 of a package at a particular time.
@@ -79,10 +79,10 @@ of a package at a particular time.
 
 ### 4. Notes
 
-* Make sure to import generic title lists into GOKb for each package. 
+* Make sure to import generic title lists into GOKB for each package. 
 Special, locally tailored packages (e.g. different access URL via proxy) 
 from these generic packages, should only be used in local ERM systems.
-* For journal lists, make sure that each title has either a ZDBID, an 
+* For journal lists, make sure that each title has either a ZDB id, an 
 e-ISSNs, or at least a corresponding print ISSN.
 * All titles, especially from e-book packages, should have an internal, 
 provider specific title ID (`title_id`), as other identifiers such as 
