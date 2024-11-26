@@ -1,6 +1,6 @@
 # Guidelines for package names
 
-Package names in GOKb should be unique and distinguishable from other package names. 
+Package names in GOKB should be unique and distinguishable from other package names. 
 For this purpose, the naming scheme is based on the KBART file naming scheme.
 
 The package name should contain:
@@ -33,7 +33,7 @@ In addition, the characteristics specified in the name should be included in the
 
 **Platform change Kohlhammer**
 
-Due to the platform change of the content provider Kohlhammer from "Preselect" to "Kohlhammer eLibrary", the package sections have also changed. The packages with the old Preselect sections are still accessible. These packages can be imported or changed in the GOKb as follows:  
+Due to the platform change of the content provider Kohlhammer from "Preselect" to "Kohlhammer eLibrary", the package sections have also changed. The packages with the old Preselect sections are still accessible. These packages can be imported or changed in the GOKB as follows:  
 For a clear distinction between the old and new packages from Kohlhammer, the name form should be _package name_ with the addition _[old Preselect package sections]_ (in square brackets).
 
 + Example: [Pädagogik 2021_2 [alter Preselect-Paketzuschnitt]](https://gokb.org/gokb-ui/#/package/56333627)
