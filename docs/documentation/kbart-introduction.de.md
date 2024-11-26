@@ -80,7 +80,7 @@ Siehe [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: K
 |preceding_publication_title_id|Titelidentifikator eines vorangegangenen Titels. Gilt für fortlaufende Ressourcen und Konferenz-Schriftenreihen.|S|
 |access_type|Zugriffstyp. Entweder „F“ (Free = kostenloser Inhalt) oder „P“ (Paid = kostenpflichtiger Inhalt).|S/M|
 
-## Proprietäre GOKb-Erweiterungen
+## Proprietäre GOKB-Erweiterungen
 
 |Feldbezeichnung|Beschreibung|Serial/Monograph|
 |----------|-----------|----------------|
