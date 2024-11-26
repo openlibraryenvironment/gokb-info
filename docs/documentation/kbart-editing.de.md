@@ -106,7 +106,7 @@ die [hier](./kbart-introduction.md) zusammengefasst sind.
 ### Speichern der KBART-Datei
 Speichern sie die KBART-Datei über _Datei_ > _Speichern unter_. Hier müssen Sie folgende Einstellungen auswählen:
 
-  * _Dateiname_: Geben Sie den Dateiname mit dem Suffix ".txt" oder ".tsv" an. Die GOKb akzeptiert
+  * _Dateiname_: Geben Sie den Dateiname mit dem Suffix ".txt" oder ".tsv" an. Die GOKB akzeptiert
     beide Endungen.
   * _Dateityp_: "CSV (*.csv)"
   * _Automatische Dateiendung_: Entfernen Sie den Haken an dieser Option.
