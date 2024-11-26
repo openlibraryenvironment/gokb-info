@@ -80,7 +80,7 @@ See [Knowledge Bases and Related Tools (KBART)Recommended Practice, Table 5: KBA
 |preceding_publication_title_id|Title identifier of any preceding publication title. Applicable to serials and conference proceedings series.|S|
 |access_type|Access type.|S/M|
 
-## Proprietary GOKb fields
+## Proprietary GOKB fields
 
 |Field Name|Description|Serial/Monograph|
 |----------|-----------|----------------|
