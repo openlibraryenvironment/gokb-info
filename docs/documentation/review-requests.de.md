@@ -1,6 +1,6 @@
 # Arbeiten mit Prüfanfragen
 
-Prüfanfragen sind zentrale Workflow-Komponenten der GOKb. Über Prüfanfragen wird Ihnen 
+Prüfanfragen sind zentrale Workflow-Komponenten der GOKB. Über Prüfanfragen wird Ihnen 
 mitgeteilt, ob bei der Bearbeitung oder dem Einspielen von Komponenten Fehler aufgetreten sind oder 
 mögliche Ungereimtheiten entdeckt wurden. Auch einfache Informationen und Rückmeldungen werden 
 Ihnen in Form von Prüfanfragen zurückgemeldet. 
@@ -11,13 +11,13 @@ ggf. zu bearbeiten und zu schließen. Dabei ist zu beachten:
   * Die Bearbeitung einer Prüfanfrage erfordert - abhängig von der Art der Prüfanfrage - eine 
   Bearbeitung der jeweiligen Komponente. Die Prüfanfrage muss danach manuell geschlossen werden.
   * Viele Prüfanfragen dienen nur zur Information und können ohne Bearbeitung geschlossen werden.
-  * Die GOKb reagiert sehr sensibel auf mögliche Ungereimtheiten in den Daten. Gegebenenfalls 
+  * Die GOKB reagiert sehr sensibel auf mögliche Ungereimtheiten in den Daten. Gegebenenfalls 
   können so von dem System Prüfanfragen geöffnet werden, die nur vermeintlich einen Fehler 
   beschreiben, obwohl alles korrekt ist. Diese können nach Prüfung geschlossen werden. 
 
 ## Prüfanfragen finden
 
-In der GOKb gibt es drei Wege, um Prüfanfragen zu finden.
+In der GOKB gibt es drei Wege, um Prüfanfragen zu finden.
 
   * Im Dashboard
   * In der Paketsicht
@@ -41,7 +41,7 @@ Durch die Bearbeitung der verknüpften Referenztitel können Sie direkt erkennen
 
 ### In der Prüfanfragen-Sicht
 
-Zur Prüfanfragen-Sicht gelangen Sie über das Menü. Hier können Sie alle Prüfanfragen der GOKb
+Zur Prüfanfragen-Sicht gelangen Sie über das Menü. Hier können Sie alle Prüfanfragen der GOKB
 finden und nach folgenden Kriterien filtern:
 
   * **Ursache** - Ein Freitextfeld
@@ -72,7 +72,7 @@ In der Detailsicht erhalten Sie verschiedene Informationen und Optionen:
   einer Korrektur oder weil die Prüfanfrage keine weitere Bearbeitung erfordert), können Sie den Status 
   auf "Geschlossen" setzen.
   * **Kuratorengruppe:** Es wird die verantwortliche Kuratorengruppe in diesem Feld angezeigt.
-  * **Durchgeführte Aktion:** Dieses Feld gibt an, wie die GOKb automatisiert mit dem festgestellten Problem verfahren ist. Ist der Eintrag leer, hat die GOKb nichts unternehmen können.
+  * **Durchgeführte Aktion:** Dieses Feld gibt an, wie die GOKB automatisiert mit dem festgestellten Problem verfahren ist. Ist der Eintrag leer, hat die GOKB nichts unternehmen können.
   * **Ursache:** Dieses Feld gibt die Ursache an, die zum Öffnen der Prüfanfrage geführt hat.
   * **Info-Box (To Do):** Falls eine Handlung von Ihnen als Nutzer*in erforderlich ist, erhalten Sie hier eine Anleitung. Ist der Eintrag leer, diente die Prüfanfrage lediglich zu Ihrer Information. Sie können sie dann über "Anfrage abschließen" beenden.
   * **Betroffene Komponente:** Dieses Feld gibt die genaue Komponente an, d. h. welches Paket, welche Plattform oder welcher Anbieter für die Prüfanfrage ursächlich ist. 
@@ -120,7 +120,7 @@ Der Konflikt ist entstanden, weil der Name des Titels fehlerhafte Zeichen enthä
 
 ![Screenshot_invalid_name3_052023](https://user-images.githubusercontent.com/127318583/236760551-481b36d7-b309-40f6-ab86-56dfb827c092.png)
 
-1. Klicken Sie auf das Stift-Icon in der Kachel, das hinter dem zu prüfenden Titel angezeigt wird. Sie können so direkt im Feld die fehlerhaften Zeichen im Titelnamen anpassen. Die Korrektur wird übernommen, indem Sie den Haken am Ende des Feldes             aktivieren.
+1. Klicken Sie auf das Stift-Icon in der Kachel, das hinter dem zu prüfenden Titel angezeigt wird. Sie können so direkt im Feld die fehlerhaften Zeichen im Titelnamen anpassen. Die Korrektur wird übernommen, indem Sie den Haken am Ende des Feldes aktivieren.
 2. Speichern Sie die Änderung des Titels über den Button "Titeländerungen abschicken".
 3. Überprüfen Sie ebenfalls die in der Kachel angezeigten Paket- bzw. Referenztitel. Mit einem Klick auf den Namen öffnet sich die Detailansicht in einem neuen Fenster. 
 4. Die Prüfanfrage beenden Sie über den Button "Prüfunanfrage abschließen".
@@ -129,13 +129,13 @@ Der Konflikt ist entstanden, weil der Name des Titels fehlerhafte Zeichen enthä
 
 ### Identifikatoren-Konflikt beim KBART-Import
 
-Der Konflikt ist entstanden, weil die GOKb zwar den KBART-Datensatz einem bestehenden Pakettitel zuordnen konnte, aber sich ein oder mehrere andere Identifikatoren unterscheiden.
+Der Konflikt ist entstanden, weil die GOKB zwar den KBART-Datensatz einem bestehenden Pakettitel zuordnen konnte, aber sich ein oder mehrere andere Identifikatoren unterscheiden.
 
 ![Screenshot_import_identifier_mismatch11052023](https://github.com/openlibraryenvironment/gokb-info/assets/127318583/f8f4d43d-d33d-4213-b1c7-8225221c85dc)
 
 1. Neben dem zu prüfenden Pakettitel werden Ihnen bereits bestehende Pakettitel angezeigt, die anhand übereinstimmender Identifikatoren zugeordnet werden konnten. Gleichen Sie die Pakettitel miteinander ab und achten Sie dabei auf mögliche Titel-Splits.
 2. Prüfen Sie anschließend, welcher Identifikator fehlerhaft ist und korrigieren Sie diesen im entsprechenden Datensatz in der KBART-Datei. Löschen Sie den fehlerhaften Pakettitel in der Detailansicht.
-3. Importieren Sie anschließend die korrigierte KBART-Datei neu im angelegten Paket, um den Fehler zu beheben. Alternativ markieren Sie den falschen Identifikator in der betreffenden Kachel und löschen ihn mit "Titeländerung abschicken". Bitte beachten       Sie, dass die Anreicherungsdaten aus der ZDB die Daten aus der KBART-Datei überschreiben. Deshalb ist es wichtig vor einem neuen KBART-Import, die ZDB auf Konflikte hinzuweisen und korrigieren zu lassen.
+3. Importieren Sie anschließend die korrigierte KBART-Datei neu im angelegten Paket, um den Fehler zu beheben. Alternativ markieren Sie den falschen Identifikator in der betreffenden Kachel und löschen ihn mit "Titeländerung abschicken". Bitte beachten Sie, dass die Anreicherungsdaten aus der ZDB die Daten aus der KBART-Datei überschreiben. Deshalb ist es wichtig vor einem neuen KBART-Import, die ZDB auf Konflikte hinzuweisen und korrigieren zu lassen.
 4. Klicken Sie dann den Referenztitel an, um in die Detailansicht zu gelangen und dort den korrekten Identifikator zu ergänzen.
 5. Schließen Sie die Prüfanfrage über den Button "Prüfanfrage abschließen".
 
@@ -149,7 +149,7 @@ Der Konflikt ist entstanden, weil aufgrund eines Identifikatorenkonflikts ein ne
 
 1. Gleichen Sie die Daten der beiden Referenztitel ab, um festzustellen, ob es sich um Dubletten handelt.
 2. Liegt eine Dublette vor, klicken Sie auf den Button "Ziel auswählen", um die beiden übereinstimmenden Titel zusammenzuführen.
-3. Der verbleibende Titel wird grün angezeigt, die Dublette in Rot. Ihnen wird in der rot markierten Kachel angezeigt, welche Identifikatoren "bereits verknüpft" sind (grüner Haken) und welche "nicht verknüpft" sind (rotes X). Sie können die nicht            verknüpften Identifikatoren hinzufügen, indem Sie diese anklicken.
+3. Der verbleibende Titel wird grün angezeigt, die Dublette in Rot. Ihnen wird in der rot markierten Kachel angezeigt, welche Identifikatoren "bereits verknüpft" sind (grüner Haken) und welche "nicht verknüpft" sind (rotes X). Sie können die nicht verknüpften Identifikatoren hinzufügen, indem Sie diese anklicken.
 4. Über den Button "Dublette zusammenführen" schließen Sie die Prüfanfrage ab.
 
 **Hinweis:** Anstelle von Dubletten kann es sich bei ähnlichen Titeln auch um Vor- und Nachfolgetitel handeln, die dann nicht zusammengeführt werden dürfen. Auch können Identifikatoren falsch sein. Hier kann eine Überprüfung der Identifikatoren sowie des Erscheinungs- und Titelverlaufs helfen. Bei der Auswahl des korrekten Titels können die Abdeckung des Pakettitels und der Erscheinungsverlauf des Referenztitels hilfreich sein.
@@ -157,7 +157,7 @@ Korrekte Identifikatoren können Sie nachtragen, wenn Sie über den Namen in die
 
 ### Uneindeutige Titelübereinstimmung
 
-Der Konflikt ist entstanden, weil die GOKb anhand der vorliegenden Identifikatoren keinen Referenztitel verknüpfen konnte.
+Der Konflikt ist entstanden, weil die GOKB anhand der vorliegenden Identifikatoren keinen Referenztitel verknüpfen konnte.
 
 Schritt 1:
 
