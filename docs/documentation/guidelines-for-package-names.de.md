@@ -1,6 +1,6 @@
 # Richtlinien für Paketnamen
 
-Paketnamen in der GOKb sollen einen eindeutigen Hinweis auf das Paket geben, sodass dieses von anderen oder ähnlichen Paketen unterschieden werden kann. 
+Paketnamen in der GOKB sollen einen eindeutigen Hinweis auf das Paket geben, sodass dieses von anderen oder ähnlichen Paketen unterschieden werden kann. 
 Dazu orientiert sich das Namensschema am Schema für die Benennung von KBART-Dateien, das im Zweifelsfall übernommen 
 werden kann.
 
@@ -33,7 +33,7 @@ Zusätzlich sollten die im Namen angegebenen Merkmale bei den Paketeigenschaften
 
 **Plattformwechsel Kohlhammer**
 
-Durch den Plattformwechsel des Inhaltsanbieters Kohlhammer von "Preselect" zu "Kohlhammer eLibrary" haben sich auch die Paketzuschnitte geändert. Die Pakete mit den alten Preselect-Zuschnitten sind nach wie vor zugänglich. Diese Pakete können in der GOKb wie folgt eingespielt oder geändert werden:  
+Durch den Plattformwechsel des Inhaltsanbieters Kohlhammer von "Preselect" zu "Kohlhammer eLibrary" haben sich auch die Paketzuschnitte geändert. Die Pakete mit den alten Preselect-Zuschnitten sind nach wie vor zugänglich. Diese Pakete können in der GOKB wie folgt eingespielt oder geändert werden:  
 Für eine eindeutige Unterscheidung der alten und neuen Pakete von Kohlhammer gilt die Namensform _Paketname_ mit Zusatz _[alter Preselect-Paketzuschnitt]_ (in eckigen Klammern).
 
 + Beispiel: Kohlhammer: [Pädagogik 2021_2 [alter Preselect-Paketzuschnitt]](https://gokb.org/gokb-ui/#/package/56333627)
