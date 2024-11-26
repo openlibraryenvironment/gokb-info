@@ -2,10 +2,10 @@
 
 ## KBART-Listen besorgen und prüfen
 
-Paket- und Titeldaten werden in Form von KBART-Dateien in die GOKb eingespielt.
+Paket- und Titeldaten werden in Form von KBART-Dateien in die GOKB eingespielt.
 
 KBART ist ein [NISO-Standard](https://groups.niso.org/apps/group_public/download.php/16900/RP-9-2014_KBART.pdf) zur Darstellung von Titeln in einem Paket. Eine entsprechende Beispiel-KBART-Datei, 
-die auch GOKb-relevante Erweiterungen des Standards sowie Erklärungen zu den einzelnen 
+die auch GOKB-relevante Erweiterungen des Standards sowie Erklärungen zu den einzelnen 
 KBART-Felder beinhaltet, findet sich hier:  [Einführung in KBART](./kbart-introduction.md)
 
 
@@ -15,7 +15,7 @@ Dabei ist darauf zu achten, dass die KBART-Datei korrekt ist, d. h.
 
 +   Die Datei muss formal korrekt sein.
     +   Die Feldbezeichnungen und -inhalte müssen dem KBART-Standard sowie dem 
-    Format der proprietären Erweiterungen der GOkb entsprechen. Eine Liste der Felder 
+    Format der proprietären Erweiterungen der GOKB entsprechen. Eine Liste der Felder 
     finden Sie [hier](./kbart-introduction.md).
     +   Alle Spaltenüberschriften müssen existieren - auch, wenn sie in der Tabelle keine Werte haben.
     +   Die Zeichenkodierung der Datei muss UTF-8 sein.
@@ -71,7 +71,7 @@ Dabei ist darauf zu achten, dass die KBART-Datei korrekt ist, d. h.
 |Direkte Zugriffs-URL|title_url|Pflicht||                 
 |Medienart des Titels|medium|Fakultativ||    
 
-Es werden von der GOKb u.a. nicht offizielle KBART-Felder unterstützt:
+Es werden von der GOKB u.a. nicht offizielle KBART-Felder unterstützt:
 
 +  Für Serienpublikationen wird die ZDB-ID (siehe Abschnitt "Korrekte Aufnahme von 
 Journals in der ZDB") im Feld `zdb_id` verwendet.
@@ -85,8 +85,8 @@ ein Titel innerhalb eines Pakets hinzugekommen ist bzw. wann dieser das Paket ve
 ### 4. Hinweise
 
 * Achten Sie darauf, pro Paket möglichst globale Gesamttitellisten via KBART-Format in die 
-GOKb einzuspielen. Spezielle Titelzuschnitte, die sich ggf. für verschiedene Bibliotheken 
-aus diesem Gesamtpaket ergeben, werden erst in von der GOKb abhängigen Systemen wie z. B. 
+GOKB einzuspielen. Spezielle Titelzuschnitte, die sich ggf. für verschiedene Bibliotheken 
+aus diesem Gesamtpaket ergeben, werden erst in von der GOKB abhängigen Systemen wie z. B. 
 in ERM-Systemen definiert. 
 * Achten Sie bei Journal-Listen darauf, dass jeder Titel über entweder eine ZDB-ID, eine 
 e-ISSN oder zumindest eine korrespondierende Print-ISSN verfügt.
@@ -120,7 +120,7 @@ Hier können Sie die allgemeinen Daten zum Paket wie den Namen, Anbieter und die
 
 + **Name:** Der offizielle Name des Pakets, unter dem es laut Anbieter angeboten wird. Falls 
 Sie Daten auf ein schon existierendes Paket spielen wollen, müssen Sie hier den genauen Namen 
-des Pakets in der GOKb eingeben (idealerweise mit Copy & Paste). Die Richtlinien zur Benennung 
+des Pakets in der GOKB eingeben (idealerweise mit Copy & Paste). Die Richtlinien zur Benennung 
 von Paketen finden Sie [hier](./guidelines-for-package-names.md).
 + **URL:** Hier können Sie eine Informations-URL zum Paket hinterlegen, die auf die entsprechende 
 Website des Anbieters verweist.
@@ -278,7 +278,7 @@ Dabei ist die reine DOI ohne eine komplette URL (wie `http://dx.doi.org/10.1093/
 vorzuziehen. Wenn eine komplette URL in das Feld eingetragen wird, gibt das Interface eine Warnung aus.
 + Eine ISBN oder e-ISSN. (<b>Wichtiger Hinweis:</b> Für ISSN/ISBN ist keine Angabe bei der title_id notwendig, da diese Nummern bereits in den entsprechenden Feldern verzeichnet sind.)
 
-Für spätere korrekte Aktualisierungen des Pakets ist es wichtig, dass diese Nummer mit in die GOKb 
+Für spätere korrekte Aktualisierungen des Pakets ist es wichtig, dass diese Nummer mit in die GOKB 
 übernommen wird. Daher ist es wichtig, den Namensraum korrekt anzugeben.
 
 ## Schritt 4: Zusammenfassung
