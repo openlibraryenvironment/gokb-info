@@ -93,7 +93,7 @@ Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, u
 
 ### 1. Beschreibung und Umfang der Datenverarbeitung
 
-Im Falle der Kontaktaufnahme über die E-Mail-Adressen, Kontakt-, Antrags- und Anmeldeformulare der GOKb werden die mit der E-Mail übermittelten personenbezogenen Daten der nutzenden Person gespeichert. Die Daten werden ausschließlich für die Verarbeitung der Konversation verwendet. Bei Antrags- und Anmeldeformularen werden die Daten so lange gespeichert, wie sie zur Bearbeitung des Vorgangs bzw. der Veranstaltung notwendig sind. Durch Setzten eines Häkchens willigt man ein, dass die angegebenen und übermittelten Daten zur Erbringung aller verbundenen Dienstleistungen gespeichert und verarbeitet werden dürfen.
+Im Falle der Kontaktaufnahme über die E-Mail-Adressen, Kontakt-, Antrags- und Anmeldeformulare der GOKB werden die mit der E-Mail übermittelten personenbezogenen Daten der nutzenden Person gespeichert. Die Daten werden ausschließlich für die Verarbeitung der Konversation verwendet. Bei Antrags- und Anmeldeformularen werden die Daten so lange gespeichert, wie sie zur Bearbeitung des Vorgangs bzw. der Veranstaltung notwendig sind. Durch Setzten eines Häkchens willigt man ein, dass die angegebenen und übermittelten Daten zur Erbringung aller verbundenen Dienstleistungen gespeichert und verarbeitet werden dürfen.
 
 ## VII. Rechte der betroffenen Person
 
