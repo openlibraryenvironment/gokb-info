@@ -72,7 +72,7 @@ You can now edit the file as you wish. Please note the standards of the KBART fo
 
 Save the KBART file via _File_ > _Save as_. Please select the following settings here:
 
-  * _File name:_ Specify the file name with the suffix ".txt" or ".tsv". The GOKb accepts both extension.
+  * _File name:_ Specify the file name with the suffix ".txt" or ".tsv". The GOKB accepts both extension.
   * _File type:_ CSV (*.csv)
   * _Automatic file name extension:_ Remove the check mark from this option
   * _Edit filter settings:_ Select this option
@@ -95,7 +95,7 @@ You confirm the selection via "OK".
 
 ## Recognize and correct character encoding
 
-To recognize and edit the character encoding, the GOKb team recommends the free tool [Notepad++](https://notepad-plus-plus.org/). Since KBART files are text files, they can be edited with the text editor Notepad++.
+To recognize and edit the character encoding, the GOKB team recommends the free tool [Notepad++](https://notepad-plus-plus.org/). Since KBART files are text files, they can be edited with the text editor Notepad++.
 
 Open the KBART file in Notepad++. Normally Notepad++ recognizes the character encoding of the file and displays it in the footer of the window. If the encoding has not been recognized correctly, you will recognize this by incorrect characters that are displayed by Notepad++ with a black background:
 
