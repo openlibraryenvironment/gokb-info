@@ -1,5 +1,5 @@
-site_name: GOKb - Global Open Knowledgebase
-copyright: Copyright &copy; GOKb 2014 -
+site_name: GOKB - Global Open Knowledge Base
+copyright: Copyright &copy; GOKB 2014 -
 use_directory_urls: false
 theme:
   name: material
@@ -8,7 +8,7 @@ theme:
     - navigation.tabs
     - navigation.top
   favicon: assets/favicon-16x16.png
-  logo: assets/favicon-32x32.png
+  logo: assets/gokb_logo_white_250px.png
   custom_dir: theme/
   font: false
 extra_css:
