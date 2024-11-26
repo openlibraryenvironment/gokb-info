@@ -11,7 +11,7 @@ Als weitere unterstützende Neuerung sind mehr Sichten der GOKB durch eindeutige
 Beim Wechsel zwischen den Reitern einer Detailansicht wird für jeden Reiter eine eigene URL erzeugt, damit Nutzende direkt auf einen Reiter geleitet werden können. In der Paket-, Referenztitel- und Anbieterdetailansicht wird für die einzelnen Reiteransichten ein Code in der URL ergänzt. Die Detailansicht eines Pakettitels wird über den Button "Vollansicht öffnen" angezeigt. Es öffnet sich ein neuer Tab im Browserfenster. Diese generierte URL führt nun ebenfalls direkt zu dem aufgerufenen Titel. Auch Suchanfragen in den Komponenten Pakete, Referenztitel, Prüfanfragen, Anbieter und Benutzer generieren eine eindeutige URL. Die angegebenen Parameter werden in der URL während der Suchanfrage angehängt.
 
 ## Vollständige Übersicht der Änderungen
-Eine Gesamtübersicht aller Neuerungen finden Sie im [Github-Repo der GOKb](https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v1.7.0).
+Eine Gesamtübersicht aller Neuerungen finden Sie im [Github-Repo der GOKB](https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v1.7.0).
 
 # Release 1.6
 _Veröffentlicht am 26. Juli 2023_
@@ -38,7 +38,7 @@ Für den KBART-Import wurden neue Optionen hinzugefügt. Zum einen können Paket
 Das Login-Verfahren wurde überarbeitet. Sie bleiben innerhalb eines Browsers eingeloggt. Dies gilt auch für das Öffnen neuer Tabs. Nicht-dauerhafte Anmeldungen werden automatisch nach einer bestimmten Zeit abgemeldet und nicht mehr beim Schließen des Browser-Tabs.
 
 ## Vollständige Übersicht der Änderungen
-Eine Gesamtübersicht aller Neuerungen finden Sie im [Github-Repo der GOKb](https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v1.6.0).
+Eine Gesamtübersicht aller Neuerungen finden Sie im [Github-Repo der GOKB](https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v1.6.0).
 
 # Release 1.5
 _Veröffentlicht am 17. April 2023_
@@ -49,10 +49,10 @@ Die zentralen Neuerungen der Version 1.5 sind eine verbesserte Darstellung der P
 Im Sinne einer besseren Usability steht eine neue Workflow-Oberfläche zur Bearbeitung der Prüfanfragen zur Verfügung. Die Darstellung ist nun übersichtlicher, wodurch sich Titel- und Identifikator-Inkonsistenzen sowie Dubletten intuitiver bereinigen lassen. Aussagekräftige Anweisungen und Hinweistexte sowie farbliche Hervorhebungen wichtiger Informationen sorgen ebenfalls für eine bessere Bedienbarkeit. Auch die einzelnen Aktionsbuttons, über die sich unter anderem Titeländerungen vornehmen, Titel auswählen und Dubletten zusammenführen lassen, sind nun aussagekräftiger gestaltet und tragen somit dazu bei, dass Prüfanfragen einfacher bearbeitet werden können.
 
 ## Optimierungen bei Validierung und Import von KBART-Dateien
-Bei der Validierung von KBART-Dateien erscheint nun eine Warnung bei fehlender title_id. Außerdem werden Konflikte in der Abdeckung von Journals identifiziert und es finden mehr Überprüfungen auf fehlerhafte Zeichensätze statt. Auch beim Import von KBART-Dateien erfolgt eine detailreichere Rückmeldung seitens des Systems, sodass Nutzer*innen die Fehlerquellen besser nachvollziehen können. Eine weitere Neuerung ist schließlich, dass fehlerhafte Zeilen in einer KBART-Datei zur Ablehnung dieser Datei und somit zum Scheitern des Imports führen. Hierdurch wird sichergestellt, dass Pakete kontrolliert in ihrer Gesamtheit in die GOKb eingespielt werden können (und nicht ungewollt ohne wichtige Pakettitel).
+Bei der Validierung von KBART-Dateien erscheint nun eine Warnung bei fehlender title_id. Außerdem werden Konflikte in der Abdeckung von Journals identifiziert und es finden mehr Überprüfungen auf fehlerhafte Zeichensätze statt. Auch beim Import von KBART-Dateien erfolgt eine detailreichere Rückmeldung seitens des Systems, sodass Nutzer*innen die Fehlerquellen besser nachvollziehen können. Eine weitere Neuerung ist schließlich, dass fehlerhafte Zeilen in einer KBART-Datei zur Ablehnung dieser Datei und somit zum Scheitern des Imports führen. Hierdurch wird sichergestellt, dass Pakete kontrolliert in ihrer Gesamtheit in die GOKB eingespielt werden können (und nicht ungewollt ohne wichtige Pakettitel).
 
 ## Vollständige Übersicht der Änderungen
-Eine Gesamtübersicht aller Neuerungen finden Sie im [Github-Repo der GOKb](https://github.com/openlibraryenvironment/gokb/releases).
+Eine Gesamtübersicht aller Neuerungen finden Sie im [Github-Repo der GOKB](https://github.com/openlibraryenvironment/gokb/releases).
 
 # Release 1.4
 _Veröffentlicht am 15. Dezember 2022_
@@ -66,11 +66,11 @@ KBART-Werte deutlich erleichtert.
 
 ## Öffentlicher KBART-Validator
 Auf der Basis der verbesserten KBART-Validierung gibt es nun einen [öffentlichen KBART-Validator](https://gokb.org/gokb-ui/#/kbart-validator).
-Der KBART-Validator kann auch ohne Einloggen in die GOKb genutzt werden und bietet die Möglichkeit, beliebige
+Der KBART-Validator kann auch ohne Einloggen in die GOKB genutzt werden und bietet die Möglichkeit, beliebige
 KBART-Dateien auf ihre Korrektheit zu überprüfen und sich Fehler ausgeben zu lassen. Damit stellt er ein Tool sowohl
 für Bibliotheken wie für Anbieter dar, die ihre eigenen Dateien überprüfen wollen. Dabei ist der Validator
 strenger als die Validierung während des Paket-Uploads, da er sich strikt an den KBART-Standard der NISO hält.
-Somit wirft er Fehler bei Werten aus, die von der GOKb akzeptiert werden aber
+Somit wirft er Fehler bei Werten aus, die von der GOKB akzeptiert werden aber
 nicht im KBART-Standard enthalten sind (wie *publication_type* "Database").
 
 ## Paketliste auf Anbietersicht
@@ -86,7 +86,7 @@ hat. "Angereichert" bedeutet, dass zusätzlich Informationen der Referenztitel a
 angesetzte Titel oder weitere Identifikatoren wie die ZDB-ID).
 
 ## Verlinkung von externen Ressourcen
-Die GOKb zeichnet sich dadurch aus, dass die enthaltenenen Daten mit Identifikatoren aus verschiedensten Quellen
+Die GOKB zeichnet sich dadurch aus, dass die enthaltenenen Daten mit Identifikatoren aus verschiedensten Quellen
 angereichert werden. Im neuen Release ist es über ein Linksymbol neben den Identifikatoren möglich, direkt zur
 Ressource im Drittsystem zu springen, so z. B. zum ZDB-Opac, zur ISIL-Agentur oder zum Portal der ISSN-Agentur.
 Dadurch wird die Recherche und ggf. Korrektur von Daten deutlich erleichtert. Voraussetzung für eine erfolgreiche
@@ -94,7 +94,7 @@ Verlinkung ist, dass das Drittsystem eine direkte Verlinkung über den Identifik
 
 ## Vollständige Übersicht über Änderungen
 Eine Gesamtübersicht über alle Neuerungen finden Sie im
-[Github-Repo der GOKb](https://github.com/openlibraryenvironment/gokb/releases/tag/v8.24.0).
+[Github-Repo der GOKB](https://github.com/openlibraryenvironment/gokb/releases/tag/v8.24.0).
 
 # Release 1.3
 _Veröffentlicht am 04. August 2022_
@@ -105,7 +105,7 @@ der Suchfunktionen.
 ## Neuer Importprozess 
 Der Importprozess wurde intern deutlich überarbeitet. So wird im Hintergrund nicht mehr das Import-Tool YGOR 
 aufgerufen, das - verborgen vor den Nutzer*innen - bisher den Import übernahm. Dadurch, dass der Importprozess 
-komplett innerhalb des GOKb-Systems stattfindet, ist er nun deutlich schneller und liefert früher bessere 
+komplett innerhalb des GOKB-Systems stattfindet, ist er nun deutlich schneller und liefert früher bessere 
 Rückmeldungen. Darüber hinaus gibt es mehrere Verbesserungen des Imports:
 
 ### Importfortschritt in der Paketsicht
@@ -153,10 +153,10 @@ neue Plattformen erstellen, sondern auch existierende Plattformen suchen und hin
 mit einem anderen Anbieter verknüpft sind. Dadurch wird das Anlegen von Plattformdubletten deutlich unwahrscheinlicher.
 
 ## "Cool URI" für Komponenten
-Jede Komponente wie Anbieter, Pakete, Plattformen, Titel etc. ist jetzt anhand der GOKb-UUID über eine feste URI 
+Jede Komponente wie Anbieter, Pakete, Plattformen, Titel etc. ist jetzt anhand der GOKB-UUID über eine feste URI 
 erreichbar. Die URI findet sich in der Oberfläche im Kopffeld jeder Ressource neben der UUID und kann über einen 
 Button in die Zwischenablage kopiert werden. Über die APIs wird die URI ebenfalls ausgegeben. Dadurch ist es 
-möglich, von jedem System, das die URI berücksichtigt, eindeutig auf den GOKb-Datensatz zurückzuspringen. 
+möglich, von jedem System, das die URI berücksichtigt, eindeutig auf den GOKB-Datensatz zurückzuspringen. 
 
 ## OpenSearch statt Elastic Search
 Aufgrund von Änderungen der Lizenzbestimmungen wurde ElasticSearch als Suchmaschine vollständig durch [OpenSearch](https://opensearch.org/)
@@ -164,19 +164,19 @@ ersetzt, eine Abspaltung, die die Software unter der freien Apache-Lizenz weiter
 
 ## Vollständige Übersicht über Änderungen
 Eine Gesamtübersicht über alle Neuerungen finden Sie im
-[Github-Repo der GOKb](https://github.com/openlibraryenvironment/gokb/releases/tag/v8.23.0).
+[Github-Repo der GOKB](https://github.com/openlibraryenvironment/gokb/releases/tag/v8.23.0).
 
 # Release 1.2
 _Veröffentlicht am 18. März 2022_
 
 ## Differenzierung von Paketkuratierung und Titelredaktion
-Die GOkb schafft Mehrwerte für verschiedene Nutzungsszenarien: Für die Erwerbung einerseits und den Datenfluss in 
+Die GOKB schafft Mehrwerte für verschiedene Nutzungsszenarien: Für die Erwerbung einerseits und den Datenfluss in 
 Nachweissysteme andererseits. Um diesen unterschiedlichen Szenarien gerecht zu werden, sind Paket- und 
-Referenztitelebene in der GOKb getrennt, aber verknüpft. Um die Verwaltung der beiden Ebenen zu erleichtern, 
+Referenztitelebene in der GOKB getrennt, aber verknüpft. Um die Verwaltung der beiden Ebenen zu erleichtern, 
 können Kuratierungsgruppen jetzt entsprechend ihrer Möglichkeiten und Interessen als Paketkuratierung, als 
 Titelredaktion oder, wie bisher, beiden Bereichen zugeordnet werden. Beispielsweise kann die Erwerbungsabteilung 
 einer Einrichtung die Paketkuratierung übernehmen, während die Katalogisierungsabteilung die Titelredaktion 
-übernimmt. Eine Zuordnung erfolgt durch das GOKb-Team und kann über _info_at_gokb.org_ oder _gokb_at_hbz-nrw.de_ 
+übernimmt. Eine Zuordnung erfolgt durch das GOKB-Team und kann über _info_at_gokb.org_ oder _gokb_at_hbz-nrw.de_ 
 angefragt werden. Es sollte zudem eine zugehörige Titelredaktionsgruppe genannt werden, da ansonsten eine Lücke 
 in der Korrektur und Verwaltung der zugehörigen Titel entsteht.
 
@@ -190,7 +190,7 @@ von Prüfanfragen zu Zeitschriften an die ZDB möglich.
 
 Zeitschriften als Referenztitel werden nun automatisiert dem Titelidentifikator EZB-ID der EZB (Elektronische 
 Zeitschriftenbibliothek) angereichert. Dadurch kann eine Referenzierung von Zeitschriftentiteln in anderen Systemen, 
-die mit der EZB arbeiten, eindeutiger und eiffizienter erfolgen. Sobald in der GOKb ein neuer 
+die mit der EZB arbeiten, eindeutiger und eiffizienter erfolgen. Sobald in der GOKB ein neuer 
 Zeitschriftentitel angelegt wird, beispielsweise durch die Einspielung eines Pakets, wird im 
 Hintergrund eine Anfrage an die EZB gesendet. Kann ein Zeitschriftentitel eindeutig gefunden werden, 
 wird die entsprechende ID aus der EZB angehängt. Die bisherige Anreicherung über das Anhaken von "EZB" 
@@ -215,7 +215,7 @@ nachträglich hinzugefügt werden können, ohne dass eine falsche Zuordnung stat
 
 ## Vollständige Übersicht über Änderungen
 Eine Gesamtübersicht über alle Neuerungen finden Sie im
-[Github-Repo der GOKb](https://github.com/openlibraryenvironment/gokb/releases/tag/v8.21.0).
+[Github-Repo der GOKB](https://github.com/openlibraryenvironment/gokb/releases/tag/v8.21.0).
 
 
 # Release 1.1.1
@@ -230,8 +230,8 @@ _Veröffentlicht am 09. November 2021_
 
 ## Neue Webseiten und Dokumentation
 
-Die Webseiten der GOKb unter [https://gokb.org](https://gokb.org) wurden neu gestaltet und aktualisiert. 
-Hier finden Sie neben News, Präsentationen und Publikationen auch die Dokumentation der GOKb. 
+Die Webseiten der GOKB unter [https://gokb.org](https://gokb.org) wurden neu gestaltet und aktualisiert. 
+Hier finden Sie neben News, Präsentationen und Publikationen auch die Dokumentation der GOKB. 
 Außerdem werden dort künftig auch die Protokolle der Infostunden sowie die Release Notes 
 zu neuen Versionen hinterlegt werden. Die Dokumentation im service-Wiki des hbz' wird daher 
 nicht mehr aktualisiert.
@@ -239,8 +239,8 @@ nicht mehr aktualisiert.
 ## Neue Farbgestaltung
 
 Die Farbgestaltung der Oberfläche wurde überarbeitet. Verschwunden sind die 
-Brauntöne und haben, im Zuge eines einheitlichen Layouts, dem GOKb-Rot Raum 
-gegeben, das über die Website der GOKb bekannt ist. In diesem Zuge werden auch 
+Brauntöne und haben, im Zuge eines einheitlichen Layouts, dem GOKB-Rot Raum 
+gegeben, das über die Website der GOKB bekannt ist. In diesem Zuge werden auch 
 Test- und Produktivsystem farblich differenziert: Das [Produktivsystem](https://gokb.org/gokb-ui/) 
 besitzt eine rote Kopfzeile, das [Testsystem](https://gokbt.gbv.de/gokb-ui/) eine blaue. 
 Damit wird eine Unterscheidung beider Systeme erleichtert.
@@ -249,7 +249,7 @@ Damit wird eine Unterscheidung beider Systeme erleichtert.
 
 Der Einspielprozess wurde überarbeitet und läuft nun deutlich fehlertoleranter. 
 Auf der Oberfläche macht sich die Umstellung kaum bemerkbar, im Hintergrund 
-arbeitet die GOKb jedoch jetzt in einem mehrstufigen Einspielprozess:
+arbeitet die GOKB jedoch jetzt in einem mehrstufigen Einspielprozess:
 
 1. KBART-Datei wird eingelesen und Pakettitel importiert bzw. aktualisiert
 1. Die Pakettitel werden mit den Referenztiteln verknüpft
@@ -274,7 +274,7 @@ Genauere Informationen dazu werden zurzeit in der Dokumentation aufbereitet.
 ## Auswahl der aktiven Kuratorengruppe
 
 Wenn Sie Mitglied mehrerer Kuratierungsgruppen sind (z.B. weil Sie in der 
-GOKb mit mehreren Hüten unterwegs sind, z.B. als Einrichtung sowie Verbund), 
+GOKB mit mehreren Hüten unterwegs sind, z.B. als Einrichtung sowie Verbund), 
 können Sie oben rechts in der Kopfzeile Ihre momentan aktive Kuratierungsgruppe 
 auswählen. Diese wird dann beispielsweise automatisch im Paket vermerkt, 
 wenn Sie dieses neu erstellen.
@@ -290,7 +290,7 @@ historisch gewandelt hat. So kann zum Beispiel der Bestand eines Pakets
 zu einem bestimmten Datum in der Vergangenheit ausgegeben werden.
 
 Diese Daten können über die KBART-Datei bereitgestellt werden, was 
-allerdings Anbieter noch nicht tun. Stattdessen interpretiert die GOKb 
+allerdings Anbieter noch nicht tun. Stattdessen interpretiert die GOKB 
 die Daten der KBART-Datei nun dahingehend, dass diese Daten automatisiert 
 anhand des KBART-Dateinamens gesetzt werden, der laut Standard ein Datum enthalten muss.
 
