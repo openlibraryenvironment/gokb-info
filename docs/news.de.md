@@ -5,7 +5,7 @@
 
 Die nächste Infostunde wird am **02. Dezember** stattfinden.
 
-Wir werden vom Anwendertreffen im November berichten und noch auf einzelne Neuerungen eingehen.
+Wir werden vom Anwendertreffen in Göttingen berichten und noch auf einzelne Neuerungen eingehen.
 
 ## Ankündigung Infostunde im November 2024
 *29. Oktober 2024*
