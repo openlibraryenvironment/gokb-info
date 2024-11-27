@@ -7,7 +7,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.top
-  favicon: assets/favicon-16x16.png
+  favicon: assets/favicon-48x48.png
   logo: assets/gokb_logo_white_250px.png
   custom_dir: theme/
   font: false
