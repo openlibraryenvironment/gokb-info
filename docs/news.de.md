@@ -5,7 +5,7 @@
 
 Die nächste Infostunde wird am **02. Dezember** stattfinden.
 
-Wir werden vom Anwendertreffen in Göttingen berichten und noch auf einzelne Neuerungen eingehen.
+Wir werden uns dem Rückblick auf das Anwendertreffen in Göttingen, der neuen Mailingliste, Änderungen in der Linkstruktur bei GOKB-Komponenten sowie dem Thema Title-IDs widmen.
 
 ## Ankündigung Infostunde im November 2024
 *29. Oktober 2024*
