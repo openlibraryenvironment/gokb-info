@@ -1,5 +1,12 @@
 # News
 
+## Ankündigung Infostunde im Dezember 2024
+*27. November 2024*
+
+Die nächste Infostunde wird am **02. Dezember** stattfinden.
+
+Wir werden vom Anwendertreffen im November berichten und noch auf einzelne Neuerungen eingehen.
+
 ## Ankündigung Infostunde im November 2024
 *29. Oktober 2024*
 
