@@ -1,3 +1,40 @@
+# Release 1.8 (mit Updates 1.8.1 und 1.8.2)
+_Veröffentlicht am 28. November 2024_
+
+## GUI Framework Vue Version 3
+Mit dem Update des GUI Frameworks auf die neueste Version wurde das Frontend zukunftssicher gemacht und zudem verschiedenste Optimierungen vorgenommen. Diese Änderungen sind nicht direkt ersichtlich, haben aber einen großen Teil der Arbeit des Releases ausgemacht.
+
+## Erweiterung von Registrierung/Anmeldung
+Die Registrierung wurde komplett überarbeitet und nutzerfreundlicher gestaltet. Zum einen gibt es ein Drop-down mit einer Auwahl der Kuratorengruppe. Diese kann nun, soweit bereits vorhanden, eigenständig ausgewählt werden. Für den Fall, dass das vergebene Passwort vergessen wurde, kann zukünftig im Anmeldefenster über den angegebenen Link "Passwort vergessen" direkt eine Anfrage für das Zurücksetzen des Passworts abgeschickt werden.
+
+## Neue Filterfunktion bei Prüfanfragen und eindeutige URL
+Neu hinzugekommen ist der zusätzliche Suchfilter bei den Prüfanfragen. Ergänzt wurde der Filter "Komponententyp". Diese Anforderung kam aus der Praxis und zielt darauf ab, dass sich unterschiedliche Bibliotheksbereiche die für sie zu bearbeitenden Prüfanfragen explizit anzeigen lassen können. Es gibt die Möglichkeit, nach Referenztiteln, Journal, Monographien usw. zu filtern. Eine weitere nützliche Erweiterung ist, dass die Prüfanfragen, die in der Vergangenheit nur als modaler Dialog geöffnet konnten, nun in einer Detailsicht über den Button "Vollansicht" für eine optimale Bearbeitung geöffnet werden können. Diese Ansicht wird in einem separaten Tab im Browserfenster geladen. Die URL ist eindeutig und kann weitergegeben werden.
+
+## Überarbeitung der Prüfanfrage _Identifikatorenkonflikt beim KBART-Import_
+Bei einem Update eines Pakets, bei dem ein Identifikator eines Titels korrigiert wird, wird diese Prüfanfrage ausgelöst, da die GOKB fälschlich davon ausgehen muss, dass ein Titel aus dem Paket entfernt und ein neuer aufgenommen wird. Gleichzeitig wird die Prüfanfrage geöffnet, um zu entscheiden, ob es sich lediglich um eine Titelaktualisierung handelt oder tatsächlich um einen neuen Titel. Für den ersten Fall gibt es eine neue Funktion, mit der der ehemalige Titel korrigiert werden kann.
+
+## Neupositionierung der Kuratorengruppe in den Paketdetails
+Bei der Paketbearbeitung ist das Panel der Kuratorengruppen unter dem Reiter "Paketeigenschaften" neu positioniert worden. Auf diese Weise wurde in der Zusammenfassung Platz geschaffen, um die Prüfanfragenleiste prominenter und in der vollen Breite darstellen zu können. Dafür ist es in der Ansicht "Zusammenfassung" nun möglich, sich die Kontaktdaten der angegebenen Kuratorengruppe per Mausklick auf den Namen aufzurufen. Auch erwähnenswert ist die Erweiterung der Anzeige der Ergebnisliste um die Spalte "Erstellt am". Die Liste lässt sich dadurch nach den neuesten Paketen sortieren.
+
+## Dialogfenster für den KBART-Import
+Beim manuellen KBART-Import sind die beiden Optionen "Teil-Update" und "Fehlende Titel als gelöscht markieren" unter dem neuen Punkt _Weitere Optionen_ ausklappbar. Diese visuelle Reduzierung im Dialogfenster, wurde vorgenommen, um Irritationen der Nutzenden beim Import zu verhindern. In der Pakettitelebene ist neu, dass der bisherige Bereich der Preisinformationen weggefallen ist. Dieser wurde in der Vergangenheit nicht genutzt.
+
+## Automatisches Setzen des Zugriffsanfangs für Erstimport deaktiviert
+Bisher wurde für jeden Pakettitel, der erstmalig im Rahmen einer Paketeinspielung in die GOKB aufgenommen wurde, das Einspieldatum als "Zugriffsanfang" gewertet, sofern kein explizites Datum vorliegt. Das ist für die Pakethistorie eine häufig korrekte Schätzung, aber meistens falsch für die Ersteinspielung eines Pakets. Daher wird das Datum bei einer Ersteinspielung nicht mehr automatisch gesetzt.
+
+## Hinweis zur Änderung der URL-Struktur
+Mit dem Release wurde auch die URL-Struktur für Komponenten angepasst. Das _#-Zeichen_ in der ursprünglichen URL z. B. https://gokb.org/gokb-ui/#/package/[komponente] ist nicht mehr korrekt. Die korrekte Verlinkung für Komponenten ist nun https://gokb.org/gokb-ui/[komponente]. Die UUID-URLs sind davon nicht betroffen. Daher empfehlen wir, bei der Anpassung gespeicherter Links grundsätzlich die persistenten UUID-URLs zu verwenden.
+
+## Neue Schnittstelle für den Datenimport externer Quellen (we:kb) und deren Auszeichnung
+Ein neues Feature ist die we:kb-GOKB Schnittstelle. Dadurch können Daten aus der Knowledge Base we:kb automatisiert per Mausklick in die GOKB übertragen werden. Bei der Anlage eines Pakets wird über den neuen Button "Aus externer Datenquelle importieren" der Datenimport gestartet. Es öffnet sich ein modaler Dialog, in dem die zu übertragenen Daten angezeigt und ggf. angepasst werden, um den Prozess zu aktivieren.
+
+## Auszeichnung der Herkunft von Paketen aus fremden Repositorien
+Pakete aus anderen Repositorien wie der we:kb und der EZB werden durch die Angabe der "Importquelle" in den Paketinformationen kenntlich gemacht. Diese Information wird auch über die APIs ausgegeben, sodass in Drittsystemen danach gefiltert werden kann.
+
+## Vollständige Liste der Neuerungen
+Eine Gesamtübersicht aller Neuerungen finden Sie im [Github-Repo der GOKB](https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v.1.8.0).
+
+
 # Release 1.7
 _Veröffentlicht am 26. Januar 2024_
 
