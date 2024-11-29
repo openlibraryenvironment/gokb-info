@@ -32,7 +32,7 @@ A new feature is the we:kb-GOKB interface. This allows data from the we:kb knowl
 Packages from other repositories such as we:kb and the EZB are identified by specifying the ‘Import source' in the package information. This information is also output via the APIs so that it can be filtered in third-party systems.
 
 ## Complete overview of changes
-A complete overview of all changes can be found in the [Github repo of GOKB](https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v1.8.2).
+A complete overview of all changes can be found in the [Github repo of GOKB](https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v.1.8.0).
 
 # Release 1.7
 _Published on 26 January 2024_
