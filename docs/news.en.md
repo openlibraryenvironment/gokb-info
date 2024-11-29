@@ -1,5 +1,15 @@
 # News
 
+## Release 1.8 published
+*November 29, 2024*
+
+The current release 1.8, which has been finalised with this update 1.8.2, updates the user interface to the latest version 3 of the Vue framework. Further improvements can be found in the registration, the review requests, the KBART import and the display of curatory groups.
+
+An important new feature is the labelling of the source origin of packages so that it is immediately clear whether a package was imported from the EZB or another repository. In addition, an interface to we:kb has been created to transfer packages from there to the GOKB.
+
+You can find out more about Release 1.8 [here](https://gokb.org/releases.html).
+
+
 ## Announcement GOKB at Wolfcon 2024
 *September 2, 2024*
 
