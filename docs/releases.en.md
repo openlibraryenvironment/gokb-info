@@ -1,3 +1,39 @@
+# Release 1.8 (with updates 1.8.1 and 1.8.2)
+_Published on 29 November 2024_
+
+## GUI framework Vue version 3
+With the update of the GUI framework to the latest version, the front end has been made future-proof and various optimisations have also been made. These changes are not immediately obvious, but have accounted for a large part of the work on the release.
+
+## Extension of registration/login
+Registration has been completely revised and made more user-friendly. Firstly, there is a drop-down with a selection of the curatory group. This can now be selected independently if it already exists. In the event that the assigned password has been forgotten, a request to reset the password can now be sent directly in the login window via the "Forgot password" link.
+
+## New filter function for test requests and unique URL
+The additional search filter for reviews is a new addition. The "Component type" filter has been added. This requirement came from practice and is aimed at enabling different library areas to explicitly display the review requests to be processed for them. It is possible to filter by reference titles, journals, monographs, etc. Another useful enhancement is that the review requests, which in the past could only be opened as a modal dialogue, can now be opened in a detailed view via the "Open Full view" button for optimal processing. This view is loaded in a separate tab in the browser window. The URL is unique and can be passed on.
+
+## Revision of the review request _Import identifier mismatch_
+When a package is updated and a title identifier is corrected, this review request is triggered, as the GOKB must incorrectly assume that a title has been removed from the package and a new one added. At the same time, the review request is opened to decide whether it is merely a title update or actually a new title. In the first case, there is a new function with which the former title can be corrected.
+
+## Repositioning of the curatory group in the package details
+In package editing, the curatory groups panel has been repositioned under the "Package properties" tab. In this way, space has been created in the summary in order to display the review request bar more prominently and in its full width. In the "Summary" view, it is now possible to call up the contact details of the specified curatory group by clicking on the name. Also worth mentioning is the addition of the "Date created" column to the results list display. This allows the list to be sorted according to the most recent packages.
+
+## Dialogue window for KBART import
+When importing KBART manually, the two options "Partial update" and "Delete removed titles" can be folded out under the new item _More options_. This visual reduction in the dialogue window was made to prevent confusion for users during import. At the package title level, the previous price information area has been removed. This was not used in the past.
+
+## Automatic setting of the access start date for initial import deactivated
+Previously, for each package title that was included in the GOKB for the first time as part of a package recording, the recording date was counted as the "access start date" if no explicit date was available. This is often a correct estimate for the package history, but is usually incorrect for the first import of a package. For this reason, the date is no longer set automatically when a package is imported for the first time.
+
+## Note on changing the URL structure
+The URL structure for components has also been adapted with the release. The _# character_ in the original URL, e.g. https://gokb.org/gokb-ui/#/package/[component], is no longer correct. The correct link for components is now https://gokb.org/gokb-ui/[component]. The UUID URLs are not affected by this. We therefore recommend that you always use the persistent UUID URLs when customising saved links.
+
+## New interface for importing data from external sources (we:kb) and labelling them
+A new feature is the we:kb-GOKB interface. This allows data from the we:kb knowledge base to be automatically transferred to the GOKB at the click of a mouse. When creating a package, the data import is started via the new button "Import from external source". A modal dialogue opens in which the data to be transferred is displayed and, if necessary, adjusted to activate the process.
+
+## Labelling the origin of packages from external repositories
+Packages from other repositories such as we:kb and the EZB are identified by specifying the ‘Import source' in the package information. This information is also output via the APIs so that it can be filtered in third-party systems.
+
+## Complete overview of changes
+A complete overview of all changes can be found in the [Github repo of GOKB](https://gokb.org/releases.html).
+
 # Release 1.7
 _Published on 26 January 2024_
 
