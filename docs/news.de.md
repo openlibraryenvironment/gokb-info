@@ -7,7 +7,7 @@ Das aktuelle Release 1.8, das mit dem vorliegenden Update 1.8.2 final veröffent
 
 Eine wichtige Neuerung ist die Auszeichnung der Quellenherkunft von Paketen, sodass direkt ersichtlich ist, ob ein Paket aus der EZB oder einem anderen Repositorium eingespielt wurde. Zudem wurde eine Schnittstelle zur we:kb geschaffen, um Pakete von dort in die GOKB zu übernehmen.
 
-Näheres zum Release 1.8 finden Sie [hier](https://gokb.org/releases.html).
+Näheres zum Release 1.8 finden Sie [hier](https://gokb.org/de/releases.html).
 
 
 ## Ankündigung Infostunde im Dezember 2024
