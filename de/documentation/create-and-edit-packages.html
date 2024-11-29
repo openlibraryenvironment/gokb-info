@@ -1,0 +1,1718 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="create-and-edit-provider.html">
+      
+      
+        <link rel="next" href="review-requests.html">
+      
+      
+      <link rel="icon" href="../../assets/favicon-48x48.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Anlegen und Pflege von Paketen - GOKB - Global Open Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#anlegen-und-pflege-von-paketen" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../index.html" title="GOKB - Global Open Knowledge Base" class="md-header__button md-logo" aria-label="GOKB - Global Open Knowledge Base" data-md-component="logo">
+      
+  <img src="../../assets/gokb_logo_white_250px.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GOKB - Global Open Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Anlegen und Pflege von Paketen
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sprache wechseln">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../documentation/create-and-edit-packages.html" hreflang="en" class="md-select__link">
+              EN
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="create-and-edit-packages.html" hreflang="de" class="md-select__link">
+              DE
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Hauptnavigation" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../news.html" class="md-tabs__link">
+        
+  
+    
+  
+  News
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="kbart-introduction.html" class="md-tabs__link">
+          
+  
+  Dokumentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../presentations.html" class="md-tabs__link">
+        
+  
+    
+  
+  Präsentationen
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../publications.html" class="md-tabs__link">
+        
+  
+    
+  
+  Publikationen
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../releases.html" class="md-tabs__link">
+        
+  
+    
+  
+  Releases
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../get-involved.html" class="md-tabs__link">
+        
+  
+    
+  
+  Beteiligen Sie sich
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contact/contact.html" class="md-tabs__link">
+          
+  
+  Kontakt
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="GOKB - Global Open Knowledge Base" class="md-nav__button md-logo" aria-label="GOKB - Global Open Knowledge Base" data-md-component="logo">
+      
+  <img src="../../assets/gokb_logo_white_250px.png" alt="logo">
+
+    </a>
+    GOKB - Global Open Knowledge Base
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../news.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    News
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Dokumentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Dokumentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-introduction.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Einführung in KBART
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="registration-and-login.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registrierung und Anmeldung
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="create-and-edit-provider.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anlegen und Pflege von Anbietern
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Anlegen und Pflege von Paketen
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="create-and-edit-packages.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Anlegen und Pflege von Paketen
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#kbart-listen-besorgen-und-prufen" class="md-nav__link">
+    <span class="md-ellipsis">
+      KBART-Listen besorgen und prüfen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="KBART-Listen besorgen und prüfen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-korrektheit-der-kbart-datei" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Korrektheit der KBART-Datei
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-pflichtfelder-fur-fortlaufende-ressourcen-e-journals-serienstucke" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Pflichtfelder für fortlaufende Ressourcen (E-Journals, Serienstücke)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-pflichtfelder-fur-monographien-e-books-audiovisuelle-medien" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Pflichtfelder für Monographien (E-Books, audiovisuelle Medien)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-hinweise" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Hinweise
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suchen-eines-pakets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suchen eines Pakets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anlegen-eines-pakets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anlegen eines Pakets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schritt-1-allgemeine-daten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schritt 1: Allgemeine Daten
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schritt-2-paketeigenschaften" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schritt 2: Paketeigenschaften
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schritt-3-titel-im-paket" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schritt 3: Titel im Paket
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schritt 3: Titel im Paket">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hochladen-einer-kbart-datei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hochladen einer KBART-Datei
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hochladen einer KBART-Datei">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-manuelles-laden-einer-kbart-datei" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Manuelles Laden einer KBART Datei
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-automatisches-laden-einer-kbart-datei-per-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Automatisches Laden einer KBART-Datei per URL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#namensraum-fur-title_id" class="md-nav__link">
+    <span class="md-ellipsis">
+      Namensraum für title_id
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schritt-4-zusammenfassung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schritt 4: Zusammenfassung
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="review-requests.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arbeiten mit Prüfanfragen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="guidelines-for-package-names.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Richtlinien für Paketnamen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-validator.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KBART-Validator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-editing.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bearbeitung von KBART-Dateien
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../presentations.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Präsentationen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../publications.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publikationen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../releases.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Releases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../get-involved.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Beteiligen Sie sich
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Kontakt
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Kontakt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/contact.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kontakt
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/imprint.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Impressum
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/privacypolicy.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Datenschutzerklärung
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#kbart-listen-besorgen-und-prufen" class="md-nav__link">
+    <span class="md-ellipsis">
+      KBART-Listen besorgen und prüfen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="KBART-Listen besorgen und prüfen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-korrektheit-der-kbart-datei" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Korrektheit der KBART-Datei
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-pflichtfelder-fur-fortlaufende-ressourcen-e-journals-serienstucke" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Pflichtfelder für fortlaufende Ressourcen (E-Journals, Serienstücke)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-pflichtfelder-fur-monographien-e-books-audiovisuelle-medien" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Pflichtfelder für Monographien (E-Books, audiovisuelle Medien)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-hinweise" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Hinweise
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suchen-eines-pakets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suchen eines Pakets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anlegen-eines-pakets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anlegen eines Pakets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schritt-1-allgemeine-daten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schritt 1: Allgemeine Daten
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schritt-2-paketeigenschaften" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schritt 2: Paketeigenschaften
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schritt-3-titel-im-paket" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schritt 3: Titel im Paket
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schritt 3: Titel im Paket">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hochladen-einer-kbart-datei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hochladen einer KBART-Datei
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hochladen einer KBART-Datei">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-manuelles-laden-einer-kbart-datei" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Manuelles Laden einer KBART Datei
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-automatisches-laden-einer-kbart-datei-per-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Automatisches Laden einer KBART-Datei per URL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#namensraum-fur-title_id" class="md-nav__link">
+    <span class="md-ellipsis">
+      Namensraum für title_id
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schritt-4-zusammenfassung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schritt 4: Zusammenfassung
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="anlegen-und-pflege-von-paketen">Anlegen und Pflege von Paketen</h1>
+<h2 id="kbart-listen-besorgen-und-prufen">KBART-Listen besorgen und prüfen</h2>
+<p>Paket- und Titeldaten werden in Form von KBART-Dateien in die GOKB eingespielt.</p>
+<p>KBART ist ein <a href="https://groups.niso.org/apps/group_public/download.php/16900/RP-9-2014_KBART.pdf">NISO-Standard</a> zur Darstellung von Titeln in einem Paket. Eine entsprechende Beispiel-KBART-Datei, 
+die auch GOKB-relevante Erweiterungen des Standards sowie Erklärungen zu den einzelnen 
+KBART-Felder beinhaltet, findet sich hier:  <a href="kbart-introduction.html">Einführung in KBART</a></p>
+<h3 id="1-korrektheit-der-kbart-datei">1. Korrektheit der KBART-Datei</h3>
+<p>Dabei ist darauf zu achten, dass die KBART-Datei korrekt ist, d. h.</p>
+<ul>
+<li>Die Datei muss formal korrekt sein.<ul>
+<li>Die Feldbezeichnungen und -inhalte müssen dem KBART-Standard sowie dem 
+Format der proprietären Erweiterungen der GOKB entsprechen. Eine Liste der Felder 
+finden Sie <a href="kbart-introduction.html">hier</a>.</li>
+<li>Alle Spaltenüberschriften müssen existieren - auch, wenn sie in der Tabelle keine Werte haben.</li>
+<li>Die Zeichenkodierung der Datei muss UTF-8 sein.</li>
+<li>Tabulator als Trennzeichen</li>
+<li>Vorzugsweise alphabetische Reihenfolge der Titel</li>
+<li>Der Dateiname muss dem Standard entsprechen.</li>
+</ul>
+</li>
+<li>Die Datei muss hinsichtlich ihres Inhalts dem tatsächlich vom Anbieter angebotenen Pakets entsprechen. d. h.<ul>
+<li>Der Titelumfang und -inhalt muss dem verhandelten Paket entsprechen.</li>
+<li>Die Zugangs-URLs für einzelne Titel müssen korrekt sein. Es müssen außerdem allgemeingültige 
+URLs sein, keine einrichtungsspezifischen URLs.</li>
+<li>Die Einzelressourcen müssen mit Identifikatoren versehen sein.</li>
+<li>Bei Serienpublikationen wie Journals müssen die Abdeckungsinformationen (Jahrgänge) der tatsächlich 
+im angebotenen Paket enthaltenen Jahrgängen korrekt sein. Werden beispielsweise in einem Paket 
+nur die Jahrgänge ab 1996 angeboten, muss sich das in den entsprechenden Spalten der 
+KBART-Liste wiederfinden.</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-pflichtfelder-fur-fortlaufende-ressourcen-e-journals-serienstucke">2. Pflichtfelder für fortlaufende Ressourcen (E-Journals, Serienstücke)</h3>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>KBART-Feld</th>
+<th>Pflicht/Fakultativ</th>
+<th>Bemerkung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pubikationstyp der Ressource</td>
+<td>publication_type</td>
+<td>Pflicht</td>
+<td>Essentiell zur Unterscheidung E-Journal / E-Book</td>
+</tr>
+<tr>
+<td>Name der Publikation</td>
+<td>publication_title</td>
+<td>Pflicht</td>
+<td></td>
+</tr>
+<tr>
+<td>ZDBID</td>
+<td>zdb_id</td>
+<td>Fakultativ*</td>
+<td>Mindestens einer der vier Identifikatoren muss vorhanden sein</td>
+</tr>
+<tr>
+<td>Elektronische ISSN</td>
+<td>online_identifier</td>
+<td>Fakultativ*</td>
+<td>Mindestens einer der vier Identifikatoren muss vorhanden sein</td>
+</tr>
+<tr>
+<td>Print ISSN</td>
+<td>print_identifier</td>
+<td>Fakultativ*</td>
+<td>Mindestens einer der vier Identifikatoren muss vorhanden sein</td>
+</tr>
+<tr>
+<td>Proprietäre Anbieter-ID</td>
+<td>title_id</td>
+<td>Fakultativ*</td>
+<td>Mindestens einer der vier Identifikatoren muss vorhanden sein</td>
+</tr>
+<tr>
+<td>Abdeckungsbeginn</td>
+<td>date_first_issue_online</td>
+<td>Pflicht</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>num_first_vol_online</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>num_first_issue_online</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+<tr>
+<td>Abdeckungsende</td>
+<td>date_last_issue_online</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>num_last_vol_online</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>num_last_issue_online</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+<tr>
+<td>Abdeckungstiefe (fulltext, abstracts)</td>
+<td>coverage_depth</td>
+<td>Pflicht</td>
+<td></td>
+</tr>
+<tr>
+<td>Direkte Zugriffs-URL</td>
+<td>title_url</td>
+<td>Pflicht</td>
+<td></td>
+</tr>
+<tr>
+<td>Medienart des Titels</td>
+<td>medium</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-pflichtfelder-fur-monographien-e-books-audiovisuelle-medien">3. Pflichtfelder für Monographien (E-Books, audiovisuelle Medien)</h3>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>KBART-Feld</th>
+<th>Pflicht/Fakultativ</th>
+<th>Bemerkung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pubikationstyp der Ressource</td>
+<td>publication_type</td>
+<td>Pflicht</td>
+<td>Essentiell zur Unterscheidung E-Journal / E-Book</td>
+</tr>
+<tr>
+<td>Name der Publikation</td>
+<td>publication_title</td>
+<td>Pflicht</td>
+<td></td>
+</tr>
+<tr>
+<td>Elektronische ISBN</td>
+<td>online_identifier</td>
+<td>Fakultativ*</td>
+<td>Mindestens einer der drei Identifikatoren muss vorhanden sein</td>
+</tr>
+<tr>
+<td>Digital Object Identifier (DOI)</td>
+<td>doi_identifier</td>
+<td>Fakultativ*</td>
+<td>Mindestens einer der drei Identifikatoren muss vorhanden sein</td>
+</tr>
+<tr>
+<td>Proprietäre Anbieter-ID</td>
+<td>title_id</td>
+<td>Fakultativ*</td>
+<td>Mindestens einer der drei Identifikatoren muss vorhanden sein</td>
+</tr>
+<tr>
+<td>Print ISBN</td>
+<td>print_identifier</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+<tr>
+<td>Veröffentlichungsdatum der Publikation online</td>
+<td>date_monograph_published_online</td>
+<td>Pflicht</td>
+<td></td>
+</tr>
+<tr>
+<td>Bandnummer</td>
+<td>monograph_volume</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+<tr>
+<td>Auflage</td>
+<td>monograph_edition</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+<tr>
+<td>Reihentitel</td>
+<td>monograph_parent_collection_title</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+<tr>
+<td>Autor*in</td>
+<td>first_author</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+<tr>
+<td>Herausgeber*in</td>
+<td>first_editor</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+<tr>
+<td>Direkte Zugriffs-URL</td>
+<td>title_url</td>
+<td>Pflicht</td>
+<td></td>
+</tr>
+<tr>
+<td>Medienart des Titels</td>
+<td>medium</td>
+<td>Fakultativ</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Es werden von der GOKB u.a. nicht offizielle KBART-Felder unterstützt:</p>
+<ul>
+<li>Für Serienpublikationen wird die ZDB-ID (siehe Abschnitt "Korrekte Aufnahme von 
+Journals in der ZDB") im Feld <code>zdb_id</code> verwendet.</li>
+<li>Die Paketbeitritts- und -austrittsdaten für einzelne Titel werden in den 
+Datumsfeldern <code>access_start_date</code> und  <code>access_end_date</code> festgehalten. Diese sind hilfreich, 
+um den historischen Stand eines Pakets zu einem bestimmten Zeitpunkt zu erhalten, also wann 
+ein Titel innerhalb eines Pakets hinzugekommen ist bzw. wann dieser das Paket verlassen hat.</li>
+<li>Für Monographien der Reihentitel: <code>monograph_parent_collection_title</code>.</li>
+<li>Für verschiedene Medienarten das Feld: <code>medium</code>.</li>
+</ul>
+<h3 id="4-hinweise">4. Hinweise</h3>
+<ul>
+<li>Achten Sie darauf, pro Paket möglichst globale Gesamttitellisten via KBART-Format in die 
+GOKB einzuspielen. Spezielle Titelzuschnitte, die sich ggf. für verschiedene Bibliotheken 
+aus diesem Gesamtpaket ergeben, werden erst in von der GOKB abhängigen Systemen wie z. B. 
+in ERM-Systemen definiert. </li>
+<li>Achten Sie bei Journal-Listen darauf, dass jeder Titel über entweder eine ZDB-ID, eine 
+e-ISSN oder zumindest eine korrespondierende Print-ISSN verfügt.</li>
+<li>Insbesondere bei Titeln aus E-Book-Paketen muss für jedes E-Book eine interne Titel-ID 
+(<code>title_id</code>) des Anbieters in der KBART-Liste angefügt sein, da andere Identifikatoren 
+wie ISBN häufig nicht eindeutig sind.</li>
+</ul>
+<h2 id="suchen-eines-pakets">Suchen eines Pakets</h2>
+<p>Suchen Sie ein Paket über den Menüpunkt "Pakete" auf der linken Menüleiste. Sie können in 
+der Maske über den Namen des Pakets, über den Anbieter des Pakets, über einen Identifikator, 
+über den Status des Pakets oder über eine Kuratorengruppe suchen bzw. filtern.</p>
+<p><img alt="GOKb search package" src="../assets/search-package.png" title="GOKb Paketsuche" /></p>
+<h2 id="anlegen-eines-pakets">Anlegen eines Pakets</h2>
+<p>Das Anlegen und das Bearbeiten eines Pakets wird über ähnliche Eingabemasken gesteuert. </p>
+<ul>
+<li>Sie legen ein Paket an über den Menüpunkt "Paket anlegen".</li>
+<li>Sie bearbeiten ein bestehendes Paket, indem sie über "Suchen eines Pakets" nach dem Paket suchen und auswählen.</li>
+</ul>
+<p>Beide Masken bestehen aus weitgehend identischen Schritten. Lediglich der Schritt "Zusammenfassung" 
+erscheint bei "Paket bearbeiten" als Schritt 1, bei "Paket anlegen" als letzter Schritt 4.</p>
+<h2 id="schritt-1-allgemeine-daten">Schritt 1: Allgemeine Daten</h2>
+<p>Hier können Sie die allgemeinen Daten zum Paket wie den Namen, Anbieter und die Plattform eintragen.</p>
+<p><img alt="GOKb create package" src="../assets/create-package-1.png" title="GOKb Paket erstellen" /></p>
+<ul>
+<li><strong>Name:</strong> Der offizielle Name des Pakets, unter dem es laut Anbieter angeboten wird. Falls 
+Sie Daten auf ein schon existierendes Paket spielen wollen, müssen Sie hier den genauen Namen 
+des Pakets in der GOKB eingeben (idealerweise mit Copy &amp; Paste). Die Richtlinien zur Benennung 
+von Paketen finden Sie <a href="guidelines-for-package-names.html">hier</a>.</li>
+<li><strong>URL:</strong> Hier können Sie eine Informations-URL zum Paket hinterlegen, die auf die entsprechende 
+Website des Anbieters verweist.</li>
+<li><strong>Anbieter:</strong> Wählen Sie hier den Anbieter des Pakets aus. Sie finden den Anbieter über eine 
+Vorschlagsliste, wenn Sie in das Textfeld den Namen oder einen Teil des Anbieternamens eingeben. 
+Eine Anleitung zum Anlegen des Anbieters finden Sie <a href="create-and-edit-provider.html">hier</a>.</li>
+<li><strong>Plattform:</strong> Wählen Sie hier die Plattform des Pakets aus. Sie finden die Plattform über eine 
+Vorschlagsliste, wenn Sie in das Textfeld den Namen oder einen Teil des Plattformnames oder 
+der Plattform-URL eingeben. Eine Anleitung zum Anlegen der Plattform finden Sie 
+<a href="create-and-edit-provider.html">hier</a>.</li>
+</ul>
+<p>Beenden Sie die Eingabe mit Anwahl des Buttons "Weiter".</p>
+<h2 id="schritt-2-paketeigenschaften">Schritt 2: Paketeigenschaften</h2>
+<p>In diesem Schritt können Sie weitere Paketeigenschaften sowie Identifikatoren und Namensvarianten festhalten.</p>
+<p><img alt="GOKb create package" src="../assets/create-package-2.png" title="GOKb Paket erstellen" /></p>
+<ul>
+<li><strong>Pakettyp:</strong> Hier können Sie festlegen, um was für ein Paket es sich handelt.<ul>
+<li><em>Laufendes Paket (Front File):</em> ein aktuelles Paket</li>
+<li><em>Archivpaket (Back File):</em> ein Archivpaket</li>
+<li><em>Aggregator-Paket</em></li>
+<li><em>Gesamttitelliste (Master File):</em> eine Gesamtliste aller angebotenen Ressourcen eines Anbieters</li>
+</ul>
+</li>
+<li><strong>Inhaltstyp:</strong> Hier können Sie angeben, um welchen Typ es sich bei den Titeln im Paket handelt.<ul>
+<li><em>Monographien</em></li>
+<li><em>Datenbank(en)</em></li>
+<li><em>Zeitschriften (Journals)</em></li>
+<li><em>Gemischt</em></li>
+</ul>
+</li>
+<li><strong>Eingrenzung:</strong> Hier können Sie festlegen, ob es sich um ein global angebotenes Paket 
+(<em>Global</em>), ein regional/national angebotenes Paket (<em>Regional</em>) oder ob ein spezifisch auf ein Konsortium oder eine Einrichtung zugeschnittenes Paket handelt 
+(<em>Konsortial</em>, <em>Lokal</em>). Falls eine Eingrenzung wie Regional, Konsortial oder Lokal vorliegt, können 
+Sie diese Eingrenzung im Textfeld spezifizieren.</li>
+<li><strong>Paketmerkmale:</strong> Hier können Sie Merkmale des Pakets angeben.<ul>
+<li><em>Paketinhalt ist einheitlich:</em> Besitzt das Paket für alle lizenzierenden Bibliotheken den gleichen Inhalt? –
+  <em>Ja</em>, wenn der Inhalt für alle gleich ist. <em>Nein</em> (Standardwert), wenn sich der Inhalt von Bibliothek zu Bibliothek unterscheidet.</li>
+<li><em>Einzeltitelauswahl möglich:</em> Kann aus dem Paket eine Einzeltitelauswahl getroffen werden z. B. auf Basis von Pick and Choose? –
+  <em>Ja</em>, wenn Einzeltitelauswahl möglich ist. <em>Nein</em> (Standardwert), wenn Einzeltitelauswahl nicht möglich ist.</li>
+<li><em>Paket ist unveränderbar:</em> Kann sich der Inhalt des Pakets verändern, d. h. können im Laufe der Zeit Titel hinzukommen bzw. wegfallen? –
+  <em>Ja</em>, wenn der Inhalt unverändert bleibt. <em>Nein</em> (Standardwert), wenn sich der Inhalt ändert. </li>
+</ul>
+</li>
+<li><strong>Identifikatoren:</strong> Hier können Sie die Identifikatoren für das Paket hinterlegen. Diese dienen 
+dazu, das Paket eindeutig aufzufinden. Wählen Sie hier unter <em><strong>Namensraum</strong></em> den Typ des Identifikators 
+(z. B. das ISIL oder den Namensraum des internen Identifikators) und tragen Sie im folgenden Feld den 
+entsprechenden Wert ein.  <ul>
+<li><em>Interner Identifikator:</em>  Wenn das Paket einen Identifikator des Anbieters selbst besitzt, 
+wählen Sie im Dropdown bitte den Namensraum des Anbieters aus, z. B. <em>emerald</em>. Im zweiten Feld 
+geben Sie den internen Paketidentifikator ein, z. B. <em>EMX120</em>. Dieser ist für spätere Referenzierung wichtig. </li>
+<li><em>ISIL/Paketsigel:</em> Falls Ihr Paket ein offizielles Produktkennzeichen der 
+"<a href="https://sigel.staatsbibliothek-berlin.de/startseite/">ISIL-Agentur</a>" besitzt, geben Sie dieses 
+hier an. Sie finden es ggf. unter 
+<a href="https://sigel.staatsbibliothek-berlin.de/nc/suche/">https://sigel.staatsbibliothek-berlin.de/nc/suche/.</a> 
+Bitte achten Sie darauf, dass Sie das korrekte Anbieter-Paketsigel einspielen. Die Sigelstelle 
+vergibt Sigel auch für lizenzierte Pakete von Allianz-, National- oder Konsortiallizenzen. Das 
+Sigel eines dieser Pakete sollten Sie nur dann übernehmen, wenn Sie das entsprechende Allianz-,<br />
+National- oder Konsortiallizenzpaket einspielen.</li>
+</ul>
+</li>
+<li><strong>Weitere Namensformen:</strong> Hier können Sie Abkürzungen oder alternative Namensformen eintragen. 
+Das empfiehlt sich, um gängige und bekannte Varianten aufzunehmen, die nicht in der offiziellen 
+Namensform enthalten sind. Namensvarianten, die hier eingetragen werden, können bei der Paketsuche gefunden werden. Bitte beachten Sie, dass die alternative Namensform eine Variante des Paketnamens ist und keine Variante des Anbieternamens.</li>
+<li><strong>Bearbeitungs- und Listenstatus:</strong> Wenn Sie das Paket bearbeiten (und nicht anlegen), haben Sie außerdem die Möglichkeit, den Bearbeitungs- und 
+Listenstatus des Pakets zu ändern.  <ul>
+<li><em>Bearbeitungsstatus:</em> Hier bestätigen Sie, dass Sie die Metadaten des Pakets vollständig erfasst haben. 
+Voreingestellt ist hier der Status <em>In Arbeit</em>. Wenn das Paket fertig bearbeitet ist, setzen Sie den Status 
+auf <em>Bestätigt</em>.</li>
+<li><em>Listenstatus:</em> Hier prüfen Sie, ob die Titelliste fertig bearbeitet wurde. Voreingestellt ist der Status 
+<em>In Bearbeitung</em>. Ändern Sie diesen in <em>Geprüft</em>, sobald alle Pakettitel korrekt sind. Sie können den Status 
+nicht ändern, wenn noch Prüfanfragen für das Paket offen sind. Der Listenstatus ist wichtig für den Import in Drittsysteme wie FOLIO, denn Pakete ohne den Status       <em>Geprüft</em> werden nicht übernommen. Ferner wird, wenn Sie den Listenstatus auf <em>Geprüft</em> gesetzt haben, das jeweilige Datum automatisch im Feld "Zuletzt                 verifiziert am" angezeigt. Dadurch können Nutzende des Pakets erkennen, wann es zuletzt intellektuell bearbeitet wurde.</li>
+</ul>
+</li>
+</ul>
+<p>Beenden Sie die Eingabe mit Anwahl des Buttons "Weiter".</p>
+<h2 id="schritt-3-titel-im-paket">Schritt 3: Titel im Paket</h2>
+<p>Hier können Sie eine KBART-Datei importieren (siehe „Hochladen einer KBART-Datei“) und einzelne Pakettitel hinzufügen. Dabei entspricht diese Ansicht der Ansicht von Schritt 4 bei "Paket bearbeiten".</p>
+<p><img alt="GOKb create package" src="../assets/create-package-3.png" title="GOKb Paket erstellen" /></p>
+<p>Falls Sie bereits Pakettitel hochgeladen haben (sich also im Schritt 4 von "Paket bearbeiten" befinden), sehen Sie an dieser Stelle eine Übersicht aller im Paket enthaltenen Titel mit dem Datum der letzten Änderung.</p>
+<p><img alt="GOKb create package" src="../assets/create-package-5.png" title="GOKb Paket erstellen" /></p>
+<ul>
+<li>Sie können über das Suchfeld im Tabellenkopf nach einzelnen Titeln suchen.</li>
+<li>Sie können Pakettitel über die Auswahl "Status" filtern und sich beispielsweise nur 
+aktuelle, ehemalige (<em>archiviert</em>) oder künftig erwartete Titel anzeigen lassen.</li>
+</ul>
+<p>Über eine Anwahl eines Titels gelangen Sie in eine Detailsicht.</p>
+<p>In der Titelübersicht sowie auf jedem Schritt im Modus "Paket bearbeiten" werden Ihnen am Fuß der Seite jeweils das Datum der Erstellung des Paketes und der letzten Änderung an den Paketdaten angezeigt. Das Datum der Änderung ist für Drittsysteme wichtig, die Daten anhand der letzten Änderung abrufen (wie z. B. über die OAI-PMH-Schnittstelle).</p>
+<h3 id="hochladen-einer-kbart-datei">Hochladen einer KBART-Datei</h3>
+<p>Über diese Sicht können Sie Pakettitel aus einer KBART-Datei in das Paket laden. Der Prozess 
+des Hochladens von Pakettiteln kann sehr zeitaufwändig sein. Daher werden Sie das Ergebnis hier 
+nicht in Echtzeit sehen. Schließen Sie nach Auswahl der KBART-Datei bzw. der Einstellung des 
+automatischen Imports die Bearbeitung des Pakets ab. Sie werden über das Dashboard über den 
+Stand des Einspielens der Titel informiert.</p>
+<h4 id="1-manuelles-laden-einer-kbart-datei">1. Manuelles Laden einer KBART Datei</h4>
+<p>Über den Button "KBART-Import" können Sie eine KBART-Datei laden. Es öffnet sich ein modaler 
+Dialog. Geben Sie hier bitte folgende Daten an:</p>
+<p><img alt="KBART_Import_Dialog_Box_de" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/59ed58f5-72b2-4036-9224-4724b6337860" /></p>
+<ul>
+<li><strong>Datei:</strong> Wählen Sie eine KBART-Datei von Ihrer Festplatte.</li>
+<li><strong>Namensraum für <code>title_id</code>:</strong> Wählen Sie bitte den Namensraum des Identifikators, der sich in 
+der Datei unter der Spalte <code>title_id</code> befindet.</li>
+</ul>
+<p>Ergänzend können Sie zwischen verschiedenen Import-Optionen wählen:</p>
+<ul>
+<li><strong>Teil-Update:</strong> Wählen Sie dieses Feld an, wird der Inhalt der hochzuladenden KBART-Datei nicht 
+komplett aktualisiert, sondern nur um die hochzuladenden Titel ergänzt.</li>
+<li><strong>Fehlende Titel als gelöscht markieren:</strong> Wählen Sie dieses Feld an, wird der Status der aktuell vorhandenen Pakettitel, die nicht in der KBART-Datei enthalten sind, auf "gelöscht" gesetzt.</li>
+<li><strong>Testdurchlauf:</strong> Wählen Sie dieses Feld an, wird die KBART-Datei lediglich als Testdurchlauf verarbeitet.</li>
+</ul>
+<p>Die beiden Optionen <strong>Teil-Update</strong> und <strong>Fehlende Titel als gelöscht markieren</strong> stehen wie folgt zueinander in Beziehung:</p>
+<ul>
+<li><strong>Teil-Update</strong> = <em>nein</em>, <strong>Fehlende Titel als gelöscht markieren</strong> = <em>nein</em> &gt; Der Status der aktuell vorhandenen Pakettitel, die nicht in der KBART-Datei enthalten sind, wird auf <em>archiviert</em> gesetzt.</li>
+<li><strong>Teil-Update</strong> = <em>nein</em>, <strong>Fehlende Titel als gelöscht markieren</strong> = <em>ja</em> &gt; Der Status der aktuell vorhandenen Pakettitel, die nicht in der KBART-Datei enthalten sind, wird auf <em>gelöscht</em> gesetzt.</li>
+</ul>
+<p>Wenn Sie <strong>Teil-Update</strong> auswählen, wird die Option <strong>Fehlende Titel als gelöscht markieren</strong> ignoriert. Daher ist eine Verknüpfung beider Optionen nicht sinnvoll:</p>
+<ul>
+<li><strong>Teil-Update</strong> = <em>ja</em>, <strong>Fehlende Titel als gelöscht markieren</strong> = <em>nein</em> &gt; Der Status der aktuell vorhandenen Pakettitel wird nicht verändert. Es werden nur die Titel aus der KBART-Datei hinzugefügt.</li>
+<li><strong>Teil-Update</strong> = <em>ja</em>, <strong>Fehlende Titel als gelöscht markieren</strong> = <em>ja</em> &gt; Der Status der aktuell vorhandenen Pakettitel wird nicht verändert. Es werden nur die Titel aus der KBART-Datei hinzugefügt.</li>
+</ul>
+<p>Sie bekommen nach dem Hochladen eine Übersicht über mögliche Fehler in der KBART-Datei. In dem Fall 
+muss die KBART-Datei überarbeitet und erneut hochgeladen werden.</p>
+<h4 id="2-automatisches-laden-einer-kbart-datei-per-url">2. Automatisches Laden einer KBART-Datei per URL</h4>
+<ul>
+<li><strong>URL:</strong> Geben Sie unter "Automatischer Import und Update" die URL ein, unter der die KBART-Datei zu finden ist. Die URL muss direkt 
+auf die KBART-Datei verlinken, nicht ggf. auf eine vorgelagerte Auswahlseite. Ist die KBART-Datei 
+unter einer zeitlich veränderbaren URL zu finden (z. B. das fiktive Beispiel 
+<em>http://kbart/MeinPaket_2020-10-01.txt</em>, müssen Sie die zeitlich variablen Felder in 
+folgender Form codieren (In unserem Beispiel: <em>http://kbart/MeinPaket_{YYYY-MM-DD}.txt</em>). Achten Sie
+dabei darauf, die Platzhalter in Großbuchstaben zu setzen:<ul>
+<li>Runde Klammern {} für den zeitlich variablen Teil</li>
+<li>Y für die Stellen der Jahreszahl</li>
+<li>M für die Stellen der Monatszahl</li>
+<li>D für die Stellen der Tageszahl</li>
+</ul>
+</li>
+<li><strong>Update-Zyklus:</strong> Sie können hier wählen, wie häufig das Paket per URL aktualisiert werden soll: täglich, wöchentlich, monatlich, quartalsweise oder jährlich.</li>
+<li><strong>Namensraum für <code>title_id</code>:</strong> Wählen Sie bitte den Namensraum des Identifikators, der sich in 
+der Datei unter der Spalte <code>title_id</code> befindet.  </li>
+</ul>
+<h4 id="namensraum-fur-title_id">Namensraum für <code>title_id</code></h4>
+<p>KBART-Dateien erlauben unterschiedliche Namensräume in der KBART-Spalte <code>title_id</code>. 
+Typischerweise kommen vor: </p>
+<ul>
+<li>Eine interne Nummer des Anbieters (Beispielhaft kann hier eine Zahl oder eine Buchstabenkombination 
+vorkommen). Wählen Sie bitte den Namensraum des Anbieters, der in der Regel der Kurzform des 
+Anbieternamens entspricht. Sollte der Namensraum nicht existieren, melden Sie sich bitte bei 
+<a href="mailto:info@gokb.org">info_at_gokb.org</a>. </li>
+<li>Ein <a href="https://www.doi.org/">Digital Object Identifier (DOI)</a> (Beispielhaft: <em>10.1093/ajae/aaq063</em>). 
+Dabei ist die reine DOI ohne eine komplette URL (wie <code>http://dx.doi.org/10.1093/ajae/aaq063</code>) eindeutig 
+vorzuziehen. Wenn eine komplette URL in das Feld eingetragen wird, gibt das Interface eine Warnung aus.</li>
+<li>Eine ISBN oder e-ISSN. (<b>Wichtiger Hinweis:</b> Für ISSN/ISBN ist keine Angabe bei der title_id notwendig, da diese Nummern bereits in den entsprechenden Feldern verzeichnet sind.)</li>
+</ul>
+<p>Für spätere korrekte Aktualisierungen des Pakets ist es wichtig, dass diese Nummer mit in die GOKB 
+übernommen wird. Daher ist es wichtig, den Namensraum korrekt anzugeben.</p>
+<h2 id="schritt-4-zusammenfassung">Schritt 4: Zusammenfassung</h2>
+<p>Hier finden Sie eine Zusammenfassung der gewählten Einstellungen. Ihre präferierte Kuratorengruppe 
+wird automatisch hinzugefügt. </p>
+<p><img alt="GOKb create package" src="../assets/create-package-4.png" title="GOKb Paket erstellen" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Zurück zum Seitenanfang
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <ul class="footer-list md-copyright">
+  <li class="md-copyright__highlight">Copyright &copy; GOKB 2014 -</li>
+
+
+
+<li>
+  <a href="../../de/contact/imprint.html">Impressum</a>
+</li>
+<li>
+  <a href="../../de/contact/privacypolicy.html">Datenschutzerklärung</a>
+</li>
+<li>
+  <a href="../../de/accessibility.html">Barrierfreiheit</a>
+</li>
+
+
+</ul>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/GOKb1" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/openlibraryenvironment/gokb" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
