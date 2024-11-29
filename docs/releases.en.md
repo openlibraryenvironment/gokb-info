@@ -13,8 +13,8 @@ The additional search filter for reviews is a new addition. The "Component type"
 ## Revision of the review request _Import identifier mismatch_
 When a package is updated and a title identifier is corrected, this review request is triggered, as the GOKB must incorrectly assume that a title has been removed from the package and a new one added. At the same time, the review request is opened to decide whether it is merely a title update or actually a new title. In the first case, there is a new function with which the former title can be corrected.
 
-## Repositioning of the curatory group in the package details
-In package editing, the curatory groups panel has been repositioned under the "Package properties" tab. In this way, space has been created in the summary in order to display the review request bar more prominently and in its full width. In the "Summary" view, it is now possible to call up the contact details of the specified curatory group by clicking on the name. Also worth mentioning is the addition of the "Date created" column to the results list display. This allows the list to be sorted according to the most recent packages.
+## Repositioning of the curatory group
+When editing packages, the curator groups are no longer displayed as a separate panel in the "Package properties" tab. Instead, there is now a label with the curatory group in the "Summary" tab. The contact details can be called up by clicking on the name of the curatory group. Also worth mentioning is the addition of the "Created on" column to the results list display. This allows the list to be sorted according to the most recent packages.
 
 ## Dialogue window for KBART import
 When importing KBART manually, the two options "Partial update" and "Delete removed titles" can be folded out under the new item _More options_. This visual reduction in the dialogue window was made to prevent confusion for users during import. At the package title level, the previous price information area has been removed. This was not used in the past.
