@@ -1,0 +1,1332 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="kbart-validator.html">
+      
+      
+        <link rel="next" href="../presentations.html">
+      
+      
+      <link rel="icon" href="../../assets/favicon-48x48.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Bearbeitung von KBART-Dateien - GOKB - Global Open Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bearbeitung-von-kbart-dateien" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../index.html" title="GOKB - Global Open Knowledge Base" class="md-header__button md-logo" aria-label="GOKB - Global Open Knowledge Base" data-md-component="logo">
+      
+  <img src="../../assets/gokb_logo_white_250px.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GOKB - Global Open Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Bearbeitung von KBART-Dateien
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sprache wechseln">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../documentation/kbart-editing.html" hreflang="en" class="md-select__link">
+              EN
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="kbart-editing.html" hreflang="de" class="md-select__link">
+              DE
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Hauptnavigation" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../news.html" class="md-tabs__link">
+        
+  
+    
+  
+  News
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="kbart-introduction.html" class="md-tabs__link">
+          
+  
+  Dokumentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../presentations.html" class="md-tabs__link">
+        
+  
+    
+  
+  Präsentationen
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../publications.html" class="md-tabs__link">
+        
+  
+    
+  
+  Publikationen
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../releases.html" class="md-tabs__link">
+        
+  
+    
+  
+  Releases
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../get-involved.html" class="md-tabs__link">
+        
+  
+    
+  
+  Beteiligen Sie sich
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contact/contact.html" class="md-tabs__link">
+          
+  
+  Kontakt
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="GOKB - Global Open Knowledge Base" class="md-nav__button md-logo" aria-label="GOKB - Global Open Knowledge Base" data-md-component="logo">
+      
+  <img src="../../assets/gokb_logo_white_250px.png" alt="logo">
+
+    </a>
+    GOKB - Global Open Knowledge Base
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../news.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    News
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Dokumentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Dokumentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-introduction.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Einführung in KBART
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="registration-and-login.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registrierung und Anmeldung
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="create-and-edit-provider.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anlegen und Pflege von Anbietern
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="create-and-edit-packages.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anlegen und Pflege von Paketen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="review-requests.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arbeiten mit Prüfanfragen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="guidelines-for-package-names.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Richtlinien für Paketnamen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-validator.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KBART-Validator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Bearbeitung von KBART-Dateien
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="kbart-editing.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Bearbeitung von KBART-Dateien
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#haufige-fehler" class="md-nav__link">
+    <span class="md-ellipsis">
+      Häufige Fehler
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsoft-excel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Microsoft Excel
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Microsoft Excel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#importeinstellungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importeinstellungen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#korrektur-der-header-zeile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Korrektur der Header-Zeile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bearbeitung-der-kbart-datei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bearbeitung der KBART-Datei
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speichern-der-kbart-datei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Speichern der KBART-Datei
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libreoffice-calc" class="md-nav__link">
+    <span class="md-ellipsis">
+      LibreOffice Calc
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LibreOffice Calc">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#importeinstellungen_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importeinstellungen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bearbeitung-der-kbart-datei_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bearbeitung der KBART-Datei
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speichern-der-kbart-datei_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Speichern der KBART-Datei
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zeichenkodierung-erkennen-und-korrigieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zeichenkodierung erkennen und korrigieren
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../presentations.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Präsentationen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../publications.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publikationen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../releases.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Releases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../get-involved.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Beteiligen Sie sich
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Kontakt
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Kontakt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/contact.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kontakt
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/imprint.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Impressum
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/privacypolicy.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Datenschutzerklärung
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#haufige-fehler" class="md-nav__link">
+    <span class="md-ellipsis">
+      Häufige Fehler
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsoft-excel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Microsoft Excel
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Microsoft Excel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#importeinstellungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importeinstellungen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#korrektur-der-header-zeile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Korrektur der Header-Zeile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bearbeitung-der-kbart-datei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bearbeitung der KBART-Datei
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speichern-der-kbart-datei" class="md-nav__link">
+    <span class="md-ellipsis">
+      Speichern der KBART-Datei
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libreoffice-calc" class="md-nav__link">
+    <span class="md-ellipsis">
+      LibreOffice Calc
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LibreOffice Calc">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#importeinstellungen_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importeinstellungen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bearbeitung-der-kbart-datei_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bearbeitung der KBART-Datei
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speichern-der-kbart-datei_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Speichern der KBART-Datei
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zeichenkodierung-erkennen-und-korrigieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zeichenkodierung erkennen und korrigieren
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="bearbeitung-von-kbart-dateien">Bearbeitung von KBART-Dateien</h1>
+<h2 id="haufige-fehler">Häufige Fehler</h2>
+<p>Bei der Bearbeitung von KBART-Dateien treten manche Fehler gehäuft auf, die unbedingt vermieden
+werden müssen.</p>
+<ul>
+<li><strong>Falscher Zeichensatz:</strong> KBART-Dateien müssen im Zeichensatz UTF-8 vorliegen. Manche Anbieter
+    weichen von dieser Norm ab, aber der Zeichensatz kann sich auch unbeabsichtigt im Rahmen 
+    der Bearbeitung von KBART-Dateien ändern. Daher muss der Zeichensatz immer überprüft werden.</li>
+<li><strong>Umformatierung von Datumsangaben:</strong> Datumsangaben wie Veröffentlichungsdatum, Abdeckungsdaten
+    etc. müssen im Format YYYY-MM-DD vorliegen. Tabellenkalkulationsprogramme ändern dieses Format 
+    manchmal automatisiert in andere Formatierungen wie DD.MM.YYYY. Diese Umformatierungen müssen
+    vermieden werden.</li>
+<li><strong>Umformatierung von ISBNs:</strong> Manchmal liegt insbesondere die ISBN-13 ohne Bindestriche vor. 
+    Tabellenkalkulationsprogramme deuten sie dann fälschlicherweise als numerischen Wert und 
+    stellen sie in exponentieller Schreibweise dar (z.B. 9,78179E+12). Dadurch gehen die letzten 
+    Stellen verloren. Die ISBN wird dadurch unbrauchbar.</li>
+</ul>
+<h2 id="microsoft-excel">Microsoft Excel</h2>
+<p>KBART-Dateien können mit Excel nicht über das "Öffnen"-Menü geladen werden.
+Sie müssen in einer leeren Arbeitsmappe über den Menüpunkt <em>Datei</em> &gt; <em>Aus Text/CSV</em> 
+importiert werden.</p>
+<p><img alt="Excel Import " src="../assets/excel_import_1.png" title="Excel Import aus CSV" /></p>
+<h3 id="importeinstellungen">Importeinstellungen</h3>
+<p>Es öffnet sich ein Importfenster. In diesem Fenster ist es äußerst wichtig, folgende
+Einstellungen korrekt vorzunehmen:</p>
+<p><img alt="Excel Import Settings" src="../assets/excel_import_2_correct.png" title="Excel Import aus CSV - Einstellungen" /></p>
+<ul>
+<li><em>Dateiursprung:</em> Hier können Sie die Zeichenkodierung auswählen, in der die KBART-Datei 
+    vorliegt. Diese wird nicht automatisch von Excel erkannt. Excel schlägt die Kodierung
+    "1252: Westeuropäisch (Windows)" vor, die in den meisten Fällen falsch ist. Laut NISO-
+    Standard muss eine Kodierung als "65001: Unicode (UTF-8)" vorliegen. Wählen Sie diese 
+    Kodierung aus dem Dropdown aus. <em>Hinweis:</em> Es kann sein, dass Anbieter sich nicht an den NISO-
+    Standard halten und eine andere Kodierung wählen. Wählen Sie dann hier die vom Anbieter 
+    genutzte Kodierung aus. Zum Erkennen der Kodierung lesen Sie den Abschnitt "Zeichenkodierung
+    erkennen und korrigieren".</li>
+<li><em>Trennzeichen:</em> Für KBART-Dateien sind Tabstopps als Trennzeichen vorgegeben. Wählen Sie 
+    daher Tabstopps aus. In der Regel ist diese Auswahl schon vorab eingestellt.</li>
+<li><em>Datentypenerkennung:</em> Wählen Sie hier "Datentyp nicht ermitteln" aus, da Excel durch eine 
+    fehlerhafte Datentyperkennung die Daten korrumpieren kann.</li>
+</ul>
+<h3 id="korrektur-der-header-zeile">Korrektur der Header-Zeile</h3>
+<p>Excel erkennt die Spaltenüberschriften-Zeile der KBART-Datei nicht als Überschriften an und fügt eine weitere Zeile hinzu. </p>
+<p><img alt="Excel Editing" src="../assets/excel_import_3.png" title="Excel Entfernen der Spaltenüberschriften" /></p>
+<ul>
+<li>Entfernen Sie die Markierung dieser Zeile als Überschriftenzeile. Entfernen Sie dazu den<br />
+    Haken unter <em>Entwurf</em> &gt; <em>Kopfzeile</em>.</li>
+<li>Löschen Sie die nun leere Zeile mit Rechtsklick auf die Zeilennummer "1" und Auswahl von 
+    <em>Zellen löschen</em> aus dem Kontextmenü.</li>
+</ul>
+<h3 id="bearbeitung-der-kbart-datei">Bearbeitung der KBART-Datei</h3>
+<p>Sie können die Datei nun beliebig bearbeiten. Beachten Sie bitte die Standards des KBART-Formats,
+die <a href="kbart-introduction.html">hier</a> zusammengefasst sind.</p>
+<h3 id="speichern-der-kbart-datei">Speichern der KBART-Datei</h3>
+<p>Speichern sie die KBART-Datei über <em>Datei</em> &gt; <em>Speichern unter</em>. Nachdem Sie einen Speicherort
+ausgewählt haben, erscheint ein Fenster. Hier müssen Sie folgende Einstellungen auswählen: </p>
+<ul>
+<li><em>Dateityp</em>: "Text (Tabstopp-getrennt) (*.txt)</li>
+<li><em>Tools</em> &gt; <em>Weboptionen</em> &gt; Reiter <em>Codierung</em> &gt; <em>Dokument speichern als</em>: "Unicode (UTF-8)"</li>
+</ul>
+<p>Sie bestätigen die Auswahl über "OK". Den nachfolgenden Hinweis, dass der Dateityp keine Arbeitsmappen
+mit mehreren Blättern unterstützt, bestätigen Sie ebenfalls mit "OK".</p>
+<p><em>Wichtiger Hinweis:</em> Excel speichert trotz korrekten Vorgehens häufig in einer falschen 
+Zeichenkodierung. Überprüfen Sie daher die Datei hinsichtlich ihrer Zeichenkodierung wie 
+im Abschnitt "Zeichenkodierung erkennen und korrigieren" angegeben.</p>
+<h2 id="libreoffice-calc">LibreOffice Calc</h2>
+<p><a href="https://de.libreoffice.org/discover/calc/">LibreOffice Calc</a> ist ein freies 
+Tabellenkalkulationsprogramm, das sich zur Bearbeitung von KBART-Dateien eignet. KBART-Dateien 
+können einfch über <em>Datei</em> &gt; <em>Öffnen</em> geöffnet werden.</p>
+<h3 id="importeinstellungen_1">Importeinstellungen</h3>
+<p>Es öffnet sich ein Importfenster. In diesem Fenster ist es äußerst wichtig, folgende
+Einstellungen korrekt vorzunehmen:</p>
+<p><img alt="Libreoffice Import Settings" src="../assets/libreofficecalc_import_2.png" title="LibreOffice Calc Import aus CSV - Einstellungen" /></p>
+<ul>
+<li><em>Importieren:</em> Hier können Sie die Zeichenkodierung auswählen, in der die KBART-Datei
+    vorliegt. Diese wird nicht automatisch von LibreOffice Calc erkannt. LibreOffice Calc 
+    schlägt die Kodierung "Unicode (UTF-8)" vor, die in den meisten Fällen korrekt ist. Laut NISO-
+    Standard muss eine Kodierung als "Unicode (UTF-8)" vorliegen. <em>Hinweis:</em> Es kann sein, 
+    dass Anbieter sich nicht an den NISO-Standard halten und eine andere Kodierung wählen. 
+    Wählen Sie dann hier die vom Anbieter genutzte Kodierung aus. Zum Erkennen der Kodierung 
+    lesen Sie den Abschnitt "Zeichenkodierung erkennen und korrigieren".</li>
+<li><em>Trennoptionen:</em> Für KBART-Dateien sind Tabstopps als Trennzeichen vorgegeben. Wählen Sie
+    daher Tabstopps aus. In der Regel ist diese Auswahl schon vorab eingestellt.</li>
+<li><em>Weitere Optionen:</em> Wählen Sie hier alle Optionen ab. Insbesondere die "Erweiterte 
+    Zahlenerkennung" muss ausgeschaltet sein, da eine fehlerhafte Zahlenerkennung 
+    die Daten korrumpieren kann.</li>
+</ul>
+<h3 id="bearbeitung-der-kbart-datei_1">Bearbeitung der KBART-Datei</h3>
+<p>Sie können die Datei nun beliebig bearbeiten. Beachten Sie bitte die Standards des KBART-Formats,
+die <a href="kbart-introduction.html">hier</a> zusammengefasst sind.</p>
+<h3 id="speichern-der-kbart-datei_1">Speichern der KBART-Datei</h3>
+<p>Speichern sie die KBART-Datei über <em>Datei</em> &gt; <em>Speichern unter</em>. Hier müssen Sie folgende Einstellungen auswählen:</p>
+<ul>
+<li><em>Dateiname</em>: Geben Sie den Dateiname mit dem Suffix ".txt" oder ".tsv" an. Die GOKB akzeptiert
+    beide Endungen.</li>
+<li><em>Dateityp</em>: "CSV (*.csv)"</li>
+<li><em>Automatische Dateiendung</em>: Entfernen Sie den Haken an dieser Option.</li>
+<li><em>Filtereinstellungen bearbeiten</em>: Wählen Sie diese Option an.</li>
+</ul>
+<p><img alt="Libreoffice Export" src="../assets/libreofficecalc_export_2.png" title="LibreOffice Calc Export" /></p>
+<p>Nach der Auswahl des Buttons "Speichern" bittet das Programm sie um eine Bestätigung, dass die 
+Datei im CSV-Format abgespeichert werden soll. Bestätigen Sie den Dialog.</p>
+<p>Anschließend öffnet sich ein neuer Dialog <em>Textdatei exportieren</em>. Nehmen Sie hier folgende
+Einstellungen vor:</p>
+<ul>
+<li><em>Zeichensatz</em>: "Unicode (UTF-8)"</li>
+<li><em>Feldtrennzeichen</em>: "{Tabulator}"</li>
+<li>Texttrennzeichen: " " " (Hochgestellte doppelte Anführungszeichen)</li>
+<li><em>Zellinhalte wie angezeigt speichern</em>: Anwählen bzw. Haken setzen</li>
+<li>Alle anderen Optionen: Abwählen bzw. Haken entfernen</li>
+</ul>
+<p><img alt="Libreoffice Export Settings" src="../assets/libreofficecalc_export_2.png" title="LibreOffice Calc Export aus CSV - Filtereinstellungen" /></p>
+<p>Sie bestätigen die Auswahl über "OK". </p>
+<h2 id="zeichenkodierung-erkennen-und-korrigieren">Zeichenkodierung erkennen und korrigieren</h2>
+<p>Zum Erkennen und Bearbeiten der Zeichenkodierung empfiehlt das GOKB-Team das freie Tool
+<a href="https://notepad-plus-plus.org/">Notepad++</a>. Da KBART-Dateien Textdateien sind, können sie mit 
+dem Texteditor Notepad++ bearbeitet werden. </p>
+<p>Öffnen Sie die KBART-Datei in Notepad++. Im Regelfall erkennt Notepad++ die Zeichenkodierung der 
+Datei und stellt sie in der Fußzeile des Fensters dar. Sollte die Kodierung nicht korrekt erkannt 
+worden sein, erkennen Sie das an falschen Zeichen, die von Notepad++ schwarz unterlegt dargestellt
+werden: </p>
+<ul>
+<li>Satzzeichen wie Apostrophe</li>
+<li>Umlaute wie ä, ö, ü</li>
+<li>Weitere Buchstaben und Zeichen außerhalb des lateinischen Standardalphabets (Akzente etc.)</li>
+</ul>
+<p><img alt="Notepad++ Kodierung" src="../../assets/notepad_code.png" title="Kodierungsanzeige in Notepad++" /></p>
+<p>Sie können über den Menüpunkt <em>Codierung</em> die korrekte Zeichenkodierung der Datei auswählen, sodass
+die genannten Zeichen korrekt dargestellt werden. Über denselben Menüpunkt <em>Codierung</em> &gt; <em>Konvertiere
+zu UTF-8</em> können Sie die Kodierung auf die korrekte, vom KBART-Standard empfohlene Zeichenkodierung
+UTF-8 umstellen und anschließend abspeichern.</p>
+<p><img alt="Notepad++ Kodierungsänderung" src="../../assets/notepad_code_change.png" title="Kodierungsänderung in Notepad++" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Zurück zum Seitenanfang
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <ul class="footer-list md-copyright">
+  <li class="md-copyright__highlight">Copyright &copy; GOKB 2014 -</li>
+
+
+
+<li>
+  <a href="../../de/contact/imprint.html">Impressum</a>
+</li>
+<li>
+  <a href="../../de/contact/privacypolicy.html">Datenschutzerklärung</a>
+</li>
+<li>
+  <a href="../../de/accessibility.html">Barrierfreiheit</a>
+</li>
+
+
+</ul>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/GOKb1" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/openlibraryenvironment/gokb" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>

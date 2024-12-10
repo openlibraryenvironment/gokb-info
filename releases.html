@@ -1,0 +1,1422 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="publications.html">
+      
+      
+        <link rel="next" href="get-involved.html">
+      
+      
+      <link rel="icon" href="assets/favicon-48x48.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Releases - GOKB - Global Open Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#release-18-with-updates-181-and-182" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="GOKB - Global Open Knowledge Base" class="md-header__button md-logo" aria-label="GOKB - Global Open Knowledge Base" data-md-component="logo">
+      
+  <img src="assets/gokb_logo_white_250px.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GOKB - Global Open Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Releases
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="releases.html" hreflang="en" class="md-select__link">
+              EN
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="de/releases.html" hreflang="de" class="md-select__link">
+              DE
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="index.html" class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="news.html" class="md-tabs__link">
+        
+  
+    
+  
+  News
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="documentation/kbart-introduction.html" class="md-tabs__link">
+          
+  
+  Documentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="presentations.html" class="md-tabs__link">
+        
+  
+    
+  
+  Presentations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="publications.html" class="md-tabs__link">
+        
+  
+    
+  
+  Publications
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="releases.html" class="md-tabs__link">
+        
+  
+    
+  
+  Releases
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="get-involved.html" class="md-tabs__link">
+        
+  
+    
+  
+  Get involved
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="contact/contact.html" class="md-tabs__link">
+          
+  
+  Contact
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="GOKB - Global Open Knowledge Base" class="md-nav__button md-logo" aria-label="GOKB - Global Open Knowledge Base" data-md-component="logo">
+      
+  <img src="assets/gokb_logo_white_250px.png" alt="logo">
+
+    </a>
+    GOKB - Global Open Knowledge Base
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="news.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    News
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="documentation/kbart-introduction.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KBART introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="documentation/registration-and-login.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registration and login
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="documentation/create-and-edit-provider.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create and edit provider
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="documentation/create-and-edit-packages.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create and edit packages
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="documentation/review-requests.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with review requests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="documentation/guidelines-for-package-names.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guidelines for package names
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="documentation/kbart-validator.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KBART validator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="documentation/kbart-editing.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KBART editing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="presentations.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Presentations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="publications.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Releases
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="releases.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Releases
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#gui-framework-vue-version-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      GUI framework Vue version 3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extension-of-registrationlogin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extension of registration/login
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-filter-function-for-test-requests-and-unique-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      New filter function for test requests and unique URL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revision-of-the-review-request-import-identifier-mismatch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revision of the review request Import identifier mismatch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repositioning-of-the-curatory-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      Repositioning of the curatory group
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dialogue-window-for-kbart-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dialogue window for KBART import
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automatic-setting-of-the-access-start-date-for-initial-import-deactivated" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automatic setting of the access start date for initial import deactivated
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#note-on-changing-the-url-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Note on changing the URL structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-interface-for-importing-data-from-external-sources-wekb-and-labelling-them" class="md-nav__link">
+    <span class="md-ellipsis">
+      New interface for importing data from external sources (we:kb) and labelling them
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#labelling-the-origin-of-packages-from-external-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Labelling the origin of packages from external repositories
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#complete-overview-of-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complete overview of changes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="get-involved.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get involved
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Contact
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contact/contact.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contact/imprint.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imprint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contact/privacypolicy.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy Policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#gui-framework-vue-version-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      GUI framework Vue version 3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extension-of-registrationlogin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extension of registration/login
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-filter-function-for-test-requests-and-unique-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      New filter function for test requests and unique URL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revision-of-the-review-request-import-identifier-mismatch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revision of the review request Import identifier mismatch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repositioning-of-the-curatory-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      Repositioning of the curatory group
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dialogue-window-for-kbart-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dialogue window for KBART import
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automatic-setting-of-the-access-start-date-for-initial-import-deactivated" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automatic setting of the access start date for initial import deactivated
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#note-on-changing-the-url-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Note on changing the URL structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-interface-for-importing-data-from-external-sources-wekb-and-labelling-them" class="md-nav__link">
+    <span class="md-ellipsis">
+      New interface for importing data from external sources (we:kb) and labelling them
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#labelling-the-origin-of-packages-from-external-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Labelling the origin of packages from external repositories
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#complete-overview-of-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complete overview of changes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="release-18-with-updates-181-and-182">Release 1.8 (with updates 1.8.1 and 1.8.2)</h1>
+<p><em>Published on 29 November 2024</em></p>
+<h2 id="gui-framework-vue-version-3">GUI framework Vue version 3</h2>
+<p>With the update of the GUI framework to the latest version, the front end has been made future-proof and various optimisations have also been made. These changes are not immediately obvious, but have accounted for a large part of the work on the release.</p>
+<h2 id="extension-of-registrationlogin">Extension of registration/login</h2>
+<p>Registration has been completely revised and made more user-friendly. Firstly, there is a drop-down with a selection of the curatory group. This can now be selected independently if it already exists. In the event that the assigned password has been forgotten, a request to reset the password can now be sent directly in the login window via the "Forgot password" link.</p>
+<h2 id="new-filter-function-for-test-requests-and-unique-url">New filter function for test requests and unique URL</h2>
+<p>The additional search filter for reviews is a new addition. The "Component type" filter has been added. This requirement came from practice and is aimed at enabling different library areas to explicitly display the review requests to be processed for them. It is possible to filter by reference titles, journals, monographs, etc. Another useful enhancement is that the review requests, which in the past could only be opened as a modal dialogue, can now be opened in a detailed view via the "Open Full view" button for optimal processing. This view is loaded in a separate tab in the browser window. The URL is unique and can be passed on.</p>
+<h2 id="revision-of-the-review-request-import-identifier-mismatch">Revision of the review request <em>Import identifier mismatch</em></h2>
+<p>When a package is updated and a title identifier is corrected, this review request is triggered, as the GOKB must incorrectly assume that a title has been removed from the package and a new one added. At the same time, the review request is opened to decide whether it is merely a title update or actually a new title. In the first case, there is a new function with which the former title can be corrected.</p>
+<h2 id="repositioning-of-the-curatory-group">Repositioning of the curatory group</h2>
+<p>When editing packages, the curator groups are no longer displayed as a separate panel in the "Package properties" tab. Instead, there is now a label with the curatory group in the "Summary" tab. The contact details can be called up by clicking on the name of the curatory group. Also worth mentioning is the addition of the "Created on" column to the results list display. This allows the list to be sorted according to the most recent packages.</p>
+<h2 id="dialogue-window-for-kbart-import">Dialogue window for KBART import</h2>
+<p>When importing KBART manually, the two options "Partial update" and "Delete removed titles" can be folded out under the new item <em>More options</em>. This visual reduction in the dialogue window was made to prevent confusion for users during import. At the package title level, the previous price information area has been removed. This was not used in the past.</p>
+<h2 id="automatic-setting-of-the-access-start-date-for-initial-import-deactivated">Automatic setting of the access start date for initial import deactivated</h2>
+<p>Previously, for each package title that was included in the GOKB for the first time as part of a package recording, the recording date was counted as the "access start date" if no explicit date was available. This is often a correct estimate for the package history, but is usually incorrect for the first import of a package. For this reason, the date is no longer set automatically when a package is imported for the first time.</p>
+<h2 id="note-on-changing-the-url-structure">Note on changing the URL structure</h2>
+<p>The URL structure for components has also been adapted with the release. The <em># character</em> in the original URL, e.g. https://gokb.org/gokb-ui/#/package/[component], is no longer correct. The correct link for components is now https://gokb.org/gokb-ui/[component]. The UUID URLs are not affected by this. We therefore recommend that you always use the persistent UUID URLs when customising saved links.</p>
+<h2 id="new-interface-for-importing-data-from-external-sources-wekb-and-labelling-them">New interface for importing data from external sources (we:kb) and labelling them</h2>
+<p>A new feature is the we:kb-GOKB interface. This allows data from the we:kb knowledge base to be automatically transferred to the GOKB at the click of a mouse. When creating a package, the data import is started via the new button "Import from external source". A modal dialogue opens in which the data to be transferred is displayed and, if necessary, adjusted to activate the process.</p>
+<h2 id="labelling-the-origin-of-packages-from-external-repositories">Labelling the origin of packages from external repositories</h2>
+<p>Packages from other repositories such as we:kb and the EZB are identified by specifying the ‘Import source' in the package information. This information is also output via the APIs so that it can be filtered in third-party systems.</p>
+<h2 id="complete-overview-of-changes">Complete overview of changes</h2>
+<p>A complete overview of all changes can be found in the <a href="https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v.1.8.0">Github repo of GOKB</a>.</p>
+<h1 id="release-17">Release 1.7</h1>
+<p><em>Published on 26 January 2024</em></p>
+<p>The central innovations of version 1.7 are the integration of the DDC classification at title and package level and the fact that more views of the GOKB can now be accessed via unique URLs.</p>
+<h2 id="implementation-of-ddc-subject-categories">Implementation of DDC subject categories</h2>
+<p>As an innovative and important new feature, the DDC subject categories are now integrated into the GOKB. On the one hand, this is made possible by an automated enrichment of the reference titles of journals and periodicals via the ZDB. On the other hand, the DDC notations can be added manually via a drop-down menu at the package and package title level as well as for the reference titles. Two new fields have been integrated for this data. The options "Subject" (Type) and "Value" can be used to filter the search for DDC subject categories. In edit mode, the subject categories can be added under the tab of the same name. With the "Edit package title" option, the data is selected and saved via the "Add" button in the field. Multiple assignments are accepted.</p>
+<h2 id="unique-urls">Unique URLs</h2>
+<p>As a further supporting innovation, more views of the GOKB can be accessed via unique URLs, so that you can save the links to specific searches, tabs of the detailed views and package titles as bookmarks or copy and share them. When switching between the tabs of a detailed view, a separate URL is generated for each tab so that users can be taken directly to a tab. In the package, reference title and provider detail view, a code is added to the URL for the individual tab views. The detailed view of a package title is displayed via the "Open full view" button. A new tab opens in the browser window. This generated URL also leads directly to the title called up. Search queries in the packages, reference titles, review requests, providers and users components also generate a unique URL. The specified parameters are appended in the URL during the search query.</p>
+<h2 id="complete-overview-of-changes_1">Complete overview of changes</h2>
+<p>A complete overview of all changes can be found in the <a href="https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v1.7.0">Github repo of GOKB</a>.</p>
+<h1 id="release-16">Release 1.6</h1>
+<p><em>Published on 26 July 2023</em></p>
+<p>The central innovations of version 1.6 are the extension of the search and filter functionality as well as the visual division of the edit view for adding platforms.</p>
+<h2 id="new-search-and-filter-functionality">New search and filter functionality</h2>
+<p>In the search views, the "Namespace" filter function has been added for the identifiers. It is now possible to filter specifically for these.</p>
+<p>As a further feature, the search results can be exported as CSV.</p>
+<h2 id="createedit-providers-and-platforms">Create/edit providers and platforms</h2>
+<p>A recommended short form can now be stored for providers. This is possible both when creating and in the editing view.</p>
+<p>The view under the "Platforms" tab for adding platforms have been visually split to make it easier to create or edit an existing platform. On the one hand, there is now the option "Select" to search for and edit an existing platform. If no platform can be found, there is the option to create a new platform via the "Add new" item.</p>
+<h2 id="create-and-edit-packages-and-package-title">Create and edit packages and package title</h2>
+<p>Incorrect identifiers are now marked if they cause a validation error. A manually created reference title cannot be saved until a title <em>type</em> has been selected. Another new feature is that when manually creating a new package title, the existing name and IDs are taken as default when selecting the reference title.</p>
+<h2 id="kbart-import">KBART import</h2>
+<p>New options have been added for the KBART import. Firstly, package titles that are no longer included in an updated list can optionally be marked as "deleted" instead of "archived". Moreover, monographs with a future date in the column "date_monograph_published_online" are displayed with the status "expected" in the title list.</p>
+<h2 id="new-login-process">New Login process</h2>
+<p>The login process has been revised. You remain logged in within a browser. This also applies to opening new tabs. Non-permanent logins are automatically logged out after a certain time and no longer when closing the browser tab.</p>
+<h2 id="complete-overview-of-changes_2">Complete overview of changes</h2>
+<p>A complete overview of all changes can be found in the <a href="https://github.com/openlibraryenvironment/gokb-ui/releases/tag/v1.6.0">Github repo of GOKB</a>.</p>
+<h1 id="release-15">Release 1.5</h1>
+<p><em>Published on 17 April 2023</em></p>
+<p>The central innovations of version 1.5 are an improved display of the review requests as well as optimizations in the validation and the import of KBART files.</p>
+<h2 id="improved-display-of-review-requests">Improved display of review requests</h2>
+<p>In order to improve usability, a new workflow interface is available for processing review requests. The display is now clearer, allowing title and identifier inconsistencies as well as duplicates to be cleaned up more intuitively. Meaningful instructions and hint texts, as well as color highlighting of important information, also ensure better usability. The buttons, which can be used to make title changes, select titles, and merge duplicates, among other things, are now also more informative and thus help to make it easier to process review requests.</p>
+<h2 id="optimizations-for-validation-and-import-of-kbart-files">Optimizations for validation and import of KBART files</h2>
+<p>When validating KBART files, a warning now appears if title_id is missing. In addition, conflicts regarding the coverage of journals are identified. Also, more checks are made for incorrect character sets. The system also provides more detailed feedback when importing KBART files, so that users can better understand the sources of errors. Finally, another new feature is that incorrect lines in a KBART file will cause that file to be rejected and thus cause the import to fail. This ensures that packages can be imported into the GOKB in a controlled manner in their entirety (and not unintentionally without important package titles).</p>
+<h2 id="complete-overview-of-changes_3">Complete overview of changes</h2>
+<p>A complete overview of all changes can be found in the <a href="https://github.com/openlibraryenvironment/gokb/releases">Github repo of GOKB</a>.</p>
+<h1 id="release-14">Release 1.4</h1>
+<p><em>Published on 15 December 2022</em></p>
+<p>The main innovations of the version 1.4 are better KBART validation and a public KBART Validator</p>
+<h2 id="improved-kbart-validation">Improved KBART validation</h2>
+<p>The validation of KBART files has been revised and is significantly more expressive. Errors in the KBART file
+are given out with the line number and the erroneous value. This makes it much easier to correct corrupt
+KBART values.</p>
+<h2 id="public-kbart-validator">Public KBART validator</h2>
+<p>Based on the improved KBART validation, a <a href="https://gokb.org/gokb-ui/#/kbart-validator">public KBART validator</a> has
+been added. The KBART validator can be used without logging into the GOKB and offers the possibility
+to validate arbitrary KBART files regarding their correctness and to display errors. Thus it represents a tool both
+for libraries as well as for providers who want to check their own files. Thereby the Validator validates the KBART
+records in a stricter way than the validation during the package upload, since it strictly adheres to the KBART
+standard of the NISO. Thus it throws out errors for values which are accepted by the GOKB but are not included
+in the KBART standard (like <em>publication_type</em> "Database").</p>
+<h2 id="package-list-on-provider-view">Package list on provider view</h2>
+<p>On the provider detail view there is now a new tab for the packages of this particular provider. This
+gives a faster overview of the portfolio of a provider. Furthermore, the package search can still be used to
+filter for a provider to get an identical overview.</p>
+<h2 id="kbart-export-in-the-package-view">KBART export in the package view</h2>
+<p>Until now, packages could only be exported as KBART files via the package search. In the new release you will find
+an export button in the package title view of each package. As usual, you can choose the options "Raw" or "Processed". "Raw" outputs the KBART file based on the package titles - just as the curator has imported the file. "Processed" exports additional information of the reference titles in its output (e.g. the biblographical correct title version by the ZDB or further identifiers like the ZDB-ID).</p>
+<h2 id="linking-of-external-resources">Linking of external resources</h2>
+<p>One primary goal of the GOKB is that it provides identifiers from different sources. Via a link symbol next to the #
+identifiers of a resource, it is now possible to jump directly to the corresponding resource in the third-party system,
+e.g. to the ZDB Opac, to the ISIL agency or to the portal of the ISSN agency. This makes it much easier to search for
+and, if necessary, correct data. A prerequisite for successful linking is that the third-party system supports direct
+linking via the identifier.</p>
+<h2 id="complete-overview-of-changes_4">Complete overview of changes</h2>
+<p>A complete overview of all changes can be found in the
+<a href="https://github.com/openlibraryenvironment/gokb/releases/tag/v8.24.0">Github repo of GOKB</a>.</p>
+<h1 id="release-13">Release 1.3</h1>
+<p><em>Published on 04 August 2022</em></p>
+<p>The core features of release 1.3 are a significant improvement of the import behavior and an optimization of the 
+search functionality.</p>
+<h2 id="new-import-process">New import process</h2>
+<p>The import process has been significantly revised internally. The import tool YGOR has been removed. 
+Since the import process now takes place entirely within the GOKB system, it is much faster and provides
+better feedback. In addition, there are several improvements to the import:</p>
+<h3 id="import-progress-bar-in-the-package-view">Import progress bar in the package view.</h3>
+<p>The progress of the import as well as the result report can now be viewed within the  package view so that
+you no longer need to return to the dashboard. After submitting a new import, the progress bar is displayed 
+in the views head section. After completion, the result can be viewed via a snack bar message at the bottom 
+of the view.</p>
+<h3 id="revision-of-the-job-overview">Revision of the job overview</h3>
+<p>The new import list on the dashboard replaces the former job overview. Here, running and completed imports 
+are shown with the result (<code>Success' or</code>Failed`). The links take you to a detailed import report respectively 
+to the package itself. Clickable icons above the list allow you to switch between imports of your own curator 
+group or between personally initiated imports, as well as to switch on/off the automatic update of the view.</p>
+<h3 id="test-run-for-package-import">Test run for package import</h3>
+<p>When uploading a KBART file, the <code>Test run</code> option can now be selected. If a KBART file is imported with the 
+'Test run' option, an import report is shown in the same way as in the productive import, but no changes to the 
+data have been done. Thus, the new function offers the possibility to check in advance in case of unsafe KBART 
+files whether the import is acceptable or the file should be edited beforehand.</p>
+<h2 id="new-search-and-filter-functionality_1">New search and filter functionality</h2>
+<p>The search and filter views for packages, reference titles, etc. have been revised. The search for the name of 
+a component now supports boolean operators like <code>AND</code>, <code>OR</code>, <code>NOT</code> (watch out for capitalization!). The default 
+search setting has been changed so that all search terms must occur (<code>AND</code> operator). To filter the data by one 
+of several search terms, these must be explicitly linked with <code>OR</code>. In addition, the search supports right and
+left truncation with asterisk (<code>*</code>).</p>
+<h2 id="system-messages-as-snackbar">System messages as snackbar</h2>
+<p>System messages such as "Failed Import" or "Successful Import" now appear with a green or red background as a 
+snackbar, i.e. as an overlaying UI element at the bottom of the vuew. This makes it possible to perceive the 
+respective message without scrolling, even in extensive views.</p>
+<h2 id="review-requests-of-linked-reference-titles-are-visible-in-the-package-view">Review requests of linked reference titles are visible in the package view</h2>
+<p>In the package view, the "Review Requests" tab previously showed all review requests related to the package
+itself or individual package titles. This gives curator groups the ability to edit all open review requests. 
+As new addition a button allow to switch to the review requests of all reference titles associated with the 
+package titles. This allows users to see whether there are duplicates or unsuccessful enrichments for the 
+linked reference titles, for example, and to rectify these themselves or report them to the responsible curator group.</p>
+<h2 id="creating-and-linking-new-platforms">Creating and linking new platforms</h2>
+<p>In the view for editing a provider, creating a platform has become much more powerful. Not only can you 
+create new platforms, but you can also search and add existing platforms if they are not already linked to 
+another provider. This makes creating platform duplicates much less likely.</p>
+<h2 id="cool-uri-for-components">"Cool URI" for components</h2>
+<p>Each component such as providers, packages, platforms, titles, etc. is now accessible by a fixed URI based
+on the GOKB UUID. The URI can be found in the header field of each resource next to the UUID in the interface
+and can be copied to the clipboard via the corresponding button. The URI is also output via the APIs. This makes 
+it possible to jump back to the specific GOKB dataset from any system that makes use of the URI.</p>
+<h2 id="opensearch-instead-of-elastic-search">OpenSearch instead of Elastic Search</h2>
+<p>Due to changes in licensing terms, ElasticSearch has been completely replaced by
+<a href="https://opensearch.org/">OpenSearch</a>, a fork that continues the software under the free Apache license.</p>
+<h2 id="complete-overview-of-changes_5">Complete overview of changes</h2>
+<p>For a complete overview of all changes, see the <a href="https://github.com/openlibraryenvironment/gokb/releases/tag/v8.23.0">Github repo of GOKB</a>.</p>
+<h1 id="release-12">Release 1.2</h1>
+<p><em>Veröffentlicht am 18. März 2022</em></p>
+<h2 id="differenzierung-von-paketkuratierung-und-titelredaktion">Differenzierung von Paketkuratierung und Titelredaktion</h2>
+<p>Die GOKB schafft Mehrwerte für verschiedene Nutzungsszenarien: Für die Erwerbung einerseits und den Datenfluss in
+Nachweissysteme andererseits. Um diesen unterschiedlichen Szenarien gerecht zu werden, sind Paket- und
+Referenztitelebene in der GOKB getrennt, aber verknüpft. Um die Verwaltung der beiden Ebenen zu erleichtern,
+können Kuratierungsgruppen jetzt entsprechend ihrer Möglichkeiten und Interessen als Paketkuratierung, als
+Titelredaktion oder, wie bisher, beiden Bereichen zugeordnet werden. Beispielsweise kann die Erwerbungsabteilung
+einer Einrichtung die Paketkuratierung übernehmen, während die Katalogisierungsabteilung die Titelredaktion
+übernimmt. Eine Zuordnung erfolgt durch das GOKB-Team und kann über <em>info_at_gokb.org</em> oder <em>gokb_at_hbz-nrw.de</em>
+angefragt werden. Es sollte zudem eine zugehörige Titelredaktionsgruppe genannt werden, da ansonsten eine Lücke
+in der Korrektur und Verwaltung der zugehörigen Titel entsteht.</p>
+<h2 id="eskalationsmoglichkeit-fur-prufanfragen">Eskalationsmöglichkeit für Prüfanfragen</h2>
+<p>Die Kuratorengruppen für Paketkuratierung erhalten die Möglichkeit, Prüfanfragen über einen Buttonan eine ihnen zugeordnete
+Titelredaktionsgruppe zu eskalieren. So kann eine Frage, die über das Arbeitsgebiet von z.B. Erwerbungsabteilungen
+hinausreicht, die zuständige Titelredaktion diese klären. Für Titelredaktionen ist dieselbe Funktion für die Eskalation
+von Prüfanfragen zu Zeitschriften an die ZDB möglich.</p>
+<h2 id="ezb-anreicherung">EZB-Anreicherung</h2>
+<p>Zeitschriften als Referenztitel werden nun automatisiert dem Titelidentifikator EZB-ID der EZB (Elektronische
+Zeitschriftenbibliothek) angereichert. Dadurch kann eine Referenzierung von Zeitschriftentiteln in anderen Systemen,
+die mit der EZB arbeiten, eindeutiger und eiffizienter erfolgen. Sobald in der GOKb ein neuer
+Zeitschriftentitel angelegt wird, beispielsweise durch die Einspielung eines Pakets, wird im
+Hintergrund eine Anfrage an die EZB gesendet. Kann ein Zeitschriftentitel eindeutig gefunden werden,
+wird die entsprechende ID aus der EZB angehängt. Die bisherige Anreicherung über das Anhaken von "EZB"
+während der Paketeinspielung entfällt.</p>
+<h2 id="verbesserte-kbart-validierung">Verbesserte KBART-Validierung</h2>
+<p>Die Validierung hochgeladener KBART-Dateien wurde verbessert, sodass jetzt mehr Fehler der Datei abgefangen
+werden und die Rückmeldung an die Nutzer*innen klarer verständlich ist.</p>
+<h2 id="entfernung-der-globalen-suche">Entfernung der globalen Suche</h2>
+<p>Die Kopfleiste für die globale Suche wurde entfernt. Es hat sich herausgestellt, dass bei zu vielen Treffern
+auf eine Suche die Darstellung zu verkürzt und nutzerunfreundlich ist. Die Überarbeitung der globalen Suche ist
+ein Ziel des nächsten Releases 1.3.</p>
+<h2 id="update-verhalten-von-kbart-datensatzen-in-paketen">Update-Verhalten von KBART-Datensätzen in Paketen</h2>
+<p>Damit Paket-Updates durch KBART-Dateien sauberer und fehlerfreien durchlaufen, ist das Verfahren zum Abgleich
+mit schon vorhandenen Pakettiteln verbessert worden. Wenn sich nur ein relevanter Identifikator unterscheidet,
+wird ein neuer Pakettitel angelegt (Bei Zeitschriften: proprietäre Titel-ID im Feld <em>title_id</em>, ZDB-ID, eISSN,
+DOI, Print-ISSN; bei Monographien: proprietäre Titel-ID im Feld <em>title_id</em>, ISBN der Online-Ausgabe, , ISBN der Print-Ausgabe, DOI).
+Damit ist eine falsche Zuordnung praktisch ausgeschlossen. Leere Identifikatoren werden ignoriert, sodass diese
+nachträglich hinzugefügt werden können, ohne dass eine falsche Zuordnung stattfindet.</p>
+<h2 id="vollstandige-ubersicht-uber-anderungen">Vollständige Übersicht über Änderungen</h2>
+<p>Eine Gesamtübersicht über alle Neuerungen finden Sie im
+<a href="https://github.com/openlibraryenvironment/gokb/releases/tag/v8.21.0">Github-Repo der GOKB</a>.</p>
+<h1 id="release-111">Release 1.1.1</h1>
+<p><em>Veröffentlicht am 12. Januar 2022</em></p>
+<p>Prüfanfragen können jetzt als Bulk geschlossen werden. Dadurch vereinfacht sich das Schließen rein
+informativer Prüfanfragen.</p>
+<h1 id="release-11">Release 1.1</h1>
+<p>Released on <em>2021 November 11</em></p>
+<h2 id="neue-webseiten-und-dokumentation">Neue Webseiten und Dokumentation</h2>
+<p>Die Webseiten der GOKB unter <a href="https://gokb.org">https://gokb.org</a> wurden neu gestaltet und aktualisiert. 
+Hier finden Sie neben News, Präsentationen und Publikationen auch die Dokumentation der GOKB. 
+Außerdem werden dort künftig auch die Protokolle der Infostunden sowie die Release Notes 
+zu neuen Versionen hinterlegt werden. Die Dokumentation im service-Wiki des hbz' wird daher 
+nicht mehr aktualisiert.</p>
+<h2 id="neue-farbgestaltung">Neue Farbgestaltung</h2>
+<p>Die Farbgestaltung der Oberfläche wurde überarbeitet. Verschwunden sind die 
+Brauntöne und haben, im Zuge eines einheitlichen Layouts, dem GOKB-Rot Raum 
+gegeben, das über die Website der GOKB bekannt ist. In diesem Zuge werden auch 
+Test- und Produktivsystem farblich differenziert: Das <a href="https://gokb.org/gokb-ui/">Produktivsystem</a> 
+besitzt eine rote Kopfzeile, das <a href="https://gokbt.gbv.de/gokb-ui/">Testsystem</a> eine blaue. 
+Damit wird eine Unterscheidung beider Systeme erleichtert.</p>
+<h2 id="umstellung-des-einspielprozesses">Umstellung des Einspielprozesses</h2>
+<p>Der Einspielprozess wurde überarbeitet und läuft nun deutlich fehlertoleranter. 
+Auf der Oberfläche macht sich die Umstellung kaum bemerkbar, im Hintergrund 
+arbeitet die GOKB jedoch jetzt in einem mehrstufigen Einspielprozess:</p>
+<ol>
+<li>KBART-Datei wird eingelesen und Pakettitel importiert bzw. aktualisiert</li>
+<li>Die Pakettitel werden mit den Referenztiteln verknüpft</li>
+<li>Die Referenztitel (Journals) werden mit der ZDB-ID angereichert.</li>
+</ol>
+<p>Damit ist der alte Prozess, bei dem schon während der Einspielung 
+eine Referenztitelverknüpfung und eine ZDB-Anreicherung versucht wurde, 
+hinfällig. Die Vorteile des neuen Prozesses sind:</p>
+<ol>
+<li>Der Einspielprozess scheitert nicht mehr durch eine 
+fehlgeschlagene Verknüpfung oder Anreicherung</li>
+<li>Pakettitel werden immer angelegt oder aktualisiert, 
+sofern der KBART-Datensatz dem Standard entspricht</li>
+<li>Fehlende Verknüpfungen oder Anreicherungsprobleme werden als 
+Prüfanfragen ausgegeben, ohne dass der Pakettitel selbst falsch ist</li>
+</ol>
+<h2 id="neue-typen-von-prufanfragen">Neue Typen von Prüfanfragen</h2>
+<p>Die Umgestaltung des Einspielprozesses füjrt auch zu neuen Prüfanfragen. 
+Genauere Informationen dazu werden zurzeit in der Dokumentation aufbereitet.</p>
+<h2 id="auswahl-der-aktiven-kuratorengruppe">Auswahl der aktiven Kuratorengruppe</h2>
+<p>Wenn Sie Mitglied mehrerer Kuratierungsgruppen sind (z.B. weil Sie in der 
+GOKB mit mehreren Hüten unterwegs sind, z.B. als Einrichtung sowie Verbund), 
+können Sie oben rechts in der Kopfzeile Ihre momentan aktive Kuratierungsgruppe 
+auswählen. Diese wird dann beispielsweise automatisch im Paket vermerkt, 
+wenn Sie dieses neu erstellen.</p>
+<h2 id="automatisiertes-daten-von-zugriffsanfang-und-zugriffsende">Automatisiertes Daten von "Zugriffsanfang" und "Zugriffsende"</h2>
+<p>"Zugriffsanfang" und "Zugriffsende" sind Datumsfelder von Pakettiteln, 
+die den Zeitpunkt bestimmen, wann ein Titel neu im Rahmen eines bestehendes 
+Paket erscheint bzw. wann der Titel aus dem Paket fällt (z.B. bei einem Titeltransfer). 
+Diese Daten sind keine Pflichtfelder, bietet aber langfristig über mehrere 
+Paketaktualisierungen hinweg die hilfreiche Information, wie sich ein Paket 
+historisch gewandelt hat. So kann zum Beispiel der Bestand eines Pakets 
+zu einem bestimmten Datum in der Vergangenheit ausgegeben werden.</p>
+<p>Diese Daten können über die KBART-Datei bereitgestellt werden, was 
+allerdings Anbieter noch nicht tun. Stattdessen interpretiert die GOKB 
+die Daten der KBART-Datei nun dahingehend, dass diese Daten automatisiert 
+anhand des KBART-Dateinamens gesetzt werden, der laut Standard ein Datum enthalten muss.</p>
+<h1 id="detaillierte-ubersicht">Detaillierte Übersicht</h1>
+<p>Eine detaillierte Übersicht über die Änderungen finden Sie im Github-Repo. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <ul class="footer-list md-copyright">
+  <li class="md-copyright__highlight">Copyright &copy; GOKB 2014 -</li>
+
+
+
+<li>
+  <a href="./contact/imprint.html">Imprint</a>
+</li>
+<li>
+  <a href="./contact/privacypolicy.html">Privacy Policy</a>
+</li>
+<li>
+  <a href="./accessibility.html">Accessibility</a>
+</li>
+
+
+</ul>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/GOKb1" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/openlibraryenvironment/gokb" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.top"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
