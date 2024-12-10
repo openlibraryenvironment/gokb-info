@@ -1,7 +1,7 @@
 # News
 
 ## Release 1.8 erschienen
-*28. Februar 2024*
+*28. November 2024*
 
 Das aktuelle Release 1.8, das mit dem vorliegenden Update 1.8.2 final veröffentlicht ist, aktualisiert die Benutzeroberfläche auf die neueste Version 3 des Frameworks Vue. Weitere Verbesserungen finden sich in der Registrierung, den Prüfanfragen, dem KBART-Import und der Anzeige der Kuratorengruppen. 
 
