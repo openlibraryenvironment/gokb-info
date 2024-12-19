@@ -3,7 +3,9 @@
 ## O du fröhliche
 *20. Dezember 2024*
 
-Wir wünschen allen frohe und erholsame Weihnachtstage und einen guten Rutsch ins Jahr 2025!
+**Das GOKB-Team wünscht allen frohe und erholsame Weihnachtstage und einen guten Rutsch ins Jahr 2025!**
+
+![Christmas](assets/2024_GOKB_christmas_image_news.png)
 
 ## Ankündigung Infostunde im Januar 2025
 *20. Dezember 2024*
