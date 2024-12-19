@@ -1,5 +1,12 @@
 # News
 
+## O Holy Night
+*December 20, 2024*
+
+**The GOKB team wishes everyone a Merry Christmas and a Happy New Year 2025!**
+
+![Weihnachtsbild_V4](assets/2024_GOKB_christmas_image_news.png)
+
 ## Release 1.8 published
 *November 29, 2024*
 
