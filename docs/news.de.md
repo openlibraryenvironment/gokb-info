@@ -1,5 +1,10 @@
 # News
 
+## Ankündigung Infostunde im Januar 2025
+*20. Dezember 2024*
+
+Die Infostunde im Januar enfällt. Im Februar geht es dann weiter. Infos dazu folgen.
+
 ## Release 1.8 erschienen
 *28. November 2024*
 
