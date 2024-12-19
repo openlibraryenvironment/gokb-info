@@ -1,0 +1,1412 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="create-and-edit-packages.html">
+      
+      
+        <link rel="next" href="guidelines-for-package-names.html">
+      
+      
+      <link rel="icon" href="../../assets/favicon-48x48.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Arbeiten mit Prüfanfragen - GOKB - Global Open Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#arbeiten-mit-prufanfragen" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../index.html" title="GOKB - Global Open Knowledge Base" class="md-header__button md-logo" aria-label="GOKB - Global Open Knowledge Base" data-md-component="logo">
+      
+  <img src="../../assets/gokb_logo_white_250px.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GOKB - Global Open Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Arbeiten mit Prüfanfragen
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sprache wechseln">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../documentation/review-requests.html" hreflang="en" class="md-select__link">
+              EN
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="review-requests.html" hreflang="de" class="md-select__link">
+              DE
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Hauptnavigation" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../news.html" class="md-tabs__link">
+        
+  
+    
+  
+  News
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="kbart-introduction.html" class="md-tabs__link">
+          
+  
+  Dokumentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../presentations.html" class="md-tabs__link">
+        
+  
+    
+  
+  Präsentationen
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../publications.html" class="md-tabs__link">
+        
+  
+    
+  
+  Publikationen
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../releases.html" class="md-tabs__link">
+        
+  
+    
+  
+  Releases
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../get-involved.html" class="md-tabs__link">
+        
+  
+    
+  
+  Beteiligen Sie sich
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contact/contact.html" class="md-tabs__link">
+          
+  
+  Kontakt
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="GOKB - Global Open Knowledge Base" class="md-nav__button md-logo" aria-label="GOKB - Global Open Knowledge Base" data-md-component="logo">
+      
+  <img src="../../assets/gokb_logo_white_250px.png" alt="logo">
+
+    </a>
+    GOKB - Global Open Knowledge Base
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../news.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    News
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Dokumentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Dokumentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-introduction.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Einführung in KBART
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="registration-and-login.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registrierung und Anmeldung
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="create-and-edit-provider.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anlegen und Pflege von Anbietern
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="create-and-edit-packages.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anlegen und Pflege von Paketen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Arbeiten mit Prüfanfragen
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="review-requests.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Arbeiten mit Prüfanfragen
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prufanfragen-finden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prüfanfragen finden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prüfanfragen finden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dashboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-der-paketsicht" class="md-nav__link">
+    <span class="md-ellipsis">
+      In der Paketsicht
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-der-prufanfragen-sicht" class="md-nav__link">
+    <span class="md-ellipsis">
+      In der Prüfanfragen-Sicht
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prufanfragen-einsehen-und-bearbeiten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prüfanfragen einsehen und bearbeiten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prüfanfragen einsehen und bearbeiten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detailsicht" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detailsicht
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#typen-von-prufanfragen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Typen von Prüfanfragen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anleitung-zur-bearbeitung-von-prufanfragen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anleitung zur Bearbeitung von Prüfanfragen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Anleitung zur Bearbeitung von Prüfanfragen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#namensraumkonflikt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Namensraumkonflikt
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fehlerhafter-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fehlerhafter Name
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identifikatoren-konflikt-beim-kbart-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      Identifikatoren-Konflikt beim KBART-Import
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referenztitelkonflikt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referenztitelkonflikt
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uneindeutige-titelubereinstimmung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uneindeutige Titelübereinstimmung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identifikatoren-konflikt-id-erganzt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Identifikatoren-Konflikt (ID ergänzt)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="guidelines-for-package-names.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Richtlinien für Paketnamen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-validator.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KBART-Validator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-editing.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bearbeitung von KBART-Dateien
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../presentations.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Präsentationen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../publications.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publikationen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../releases.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Releases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../get-involved.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Beteiligen Sie sich
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Kontakt
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Kontakt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/contact.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kontakt
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/imprint.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Impressum
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/privacypolicy.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Datenschutzerklärung
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prufanfragen-finden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prüfanfragen finden
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prüfanfragen finden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dashboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-der-paketsicht" class="md-nav__link">
+    <span class="md-ellipsis">
+      In der Paketsicht
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-der-prufanfragen-sicht" class="md-nav__link">
+    <span class="md-ellipsis">
+      In der Prüfanfragen-Sicht
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prufanfragen-einsehen-und-bearbeiten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prüfanfragen einsehen und bearbeiten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prüfanfragen einsehen und bearbeiten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detailsicht" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detailsicht
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#typen-von-prufanfragen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Typen von Prüfanfragen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anleitung-zur-bearbeitung-von-prufanfragen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anleitung zur Bearbeitung von Prüfanfragen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Anleitung zur Bearbeitung von Prüfanfragen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#namensraumkonflikt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Namensraumkonflikt
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fehlerhafter-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fehlerhafter Name
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identifikatoren-konflikt-beim-kbart-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      Identifikatoren-Konflikt beim KBART-Import
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referenztitelkonflikt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referenztitelkonflikt
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uneindeutige-titelubereinstimmung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uneindeutige Titelübereinstimmung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identifikatoren-konflikt-id-erganzt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Identifikatoren-Konflikt (ID ergänzt)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="arbeiten-mit-prufanfragen">Arbeiten mit Prüfanfragen</h1>
+<p>Prüfanfragen sind zentrale Workflow-Komponenten der GOKB. Über Prüfanfragen wird Ihnen 
+mitgeteilt, ob bei der Bearbeitung oder dem Einspielen von Komponenten Fehler aufgetreten sind oder 
+mögliche Ungereimtheiten entdeckt wurden. Auch einfache Informationen und Rückmeldungen werden 
+Ihnen in Form von Prüfanfragen zurückgemeldet. </p>
+<p>Das Ziel jeder Kuratorengruppe sollte sein, alle Prüfanfragen zu einer Paketeinspielung anzusehen, 
+ggf. zu bearbeiten und zu schließen. Dabei ist zu beachten:</p>
+<ul>
+<li>Die Bearbeitung einer Prüfanfrage erfordert - abhängig von der Art der Prüfanfrage - eine 
+  Bearbeitung der jeweiligen Komponente. Die Prüfanfrage muss danach manuell geschlossen werden.</li>
+<li>Viele Prüfanfragen dienen nur zur Information und können ohne Bearbeitung geschlossen werden.</li>
+<li>Die GOKB reagiert sehr sensibel auf mögliche Ungereimtheiten in den Daten. Gegebenenfalls 
+  können so von dem System Prüfanfragen geöffnet werden, die nur vermeintlich einen Fehler 
+  beschreiben, obwohl alles korrekt ist. Diese können nach Prüfung geschlossen werden. </li>
+</ul>
+<h2 id="prufanfragen-finden">Prüfanfragen finden</h2>
+<p>In der GOKB gibt es drei Wege, um Prüfanfragen zu finden.</p>
+<ul>
+<li>Im Dashboard</li>
+<li>In der Paketsicht</li>
+<li>In der Prüfanfragen-Sicht</li>
+</ul>
+<h3 id="dashboard">Dashboard</h3>
+<p>Im Dashboard werden alle Prüfanfragen angezeigt, die der ausgewählten Kuratorengruppe zugeordnet sind. </p>
+<p><img alt="GOKb review requests dashboard" src="../assets/dashboard.png" title="GOKb Prüfanfragen im Dashboard" /></p>
+<h3 id="in-der-paketsicht">In der Paketsicht</h3>
+<p>Im Reiter "Zusammenfassung" in der Paketsicht sind alle Prüfanfragen aufgeführt, die zum augenblicklich ausgewählten Paket gehören. Das umfasst einerseits Prüfanfragen, die das Paket insgesamt oder einzelne Pakettitel betreffen, andererseits Prüfanfragen der verknüpften Referenztitel. Die Anzeige der jeweiligen Prüfanfragen können Sie durch den Schalter wechseln. Es erscheint dann eine Ergebnisliste, von der aus Sie in die Vollansicht zur Bearbeitung gelangen oder auch ausgewählte Anfragen direkt schließen können.</p>
+<p><img alt="Screenshot_package_view_review_quest_referencetitles_2024_de" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/6dfa2505-01bf-40c8-80fc-fc636d78ee77" /></p>
+<p>Durch die Bearbeitung der verknüpften Referenztitel können Sie direkt erkennen, ob bei diesen Titeln beispielsweise Dubletten oder fehlerhafte Identifikatoren vorliegen und diese selbst beheben bzw. der zuständigen Kuratorengruppe melden. Das hat den Vorteil, dass neben den korrigierten Paketdaten auch korrekte Referenzdaten in den ERM-Systemen verarbeitet werden.</p>
+<h3 id="in-der-prufanfragen-sicht">In der Prüfanfragen-Sicht</h3>
+<p>Zur Prüfanfragen-Sicht gelangen Sie über das Menü. Hier können Sie alle Prüfanfragen der GOKB
+finden und nach folgenden Kriterien filtern:</p>
+<ul>
+<li><strong>Ursache</strong> - Ein Freitextfeld</li>
+<li><strong>Kuratorengruppe</strong> - Auswahl der Kuratorengruppe, der die Prüfanfrage zugeordnet ist.</li>
+<li><strong>Betroffene Komponente</strong> - Ein Auswahlfeld, in dem alle Komponenten (Anbieter, Pakete, Titel etc.) suchbar sind.</li>
+<li><strong>Kategorie</strong> - Eine Auswahl der Kategorien der Prüfanfragen. Eine Übersicht der Kategorien finden Sie weiter unten.</li>
+<li><strong>Status</strong> - Eine Auswahl des Status der Prüfanfrage (Offen, Geschlossen, Gelöscht). </li>
+</ul>
+<p><img alt="Screenshot_review_request_view" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/54787ea9-f41d-456e-b6a2-7e3ca75f4729" /></p>
+<h2 id="prufanfragen-einsehen-und-bearbeiten">Prüfanfragen einsehen und bearbeiten</h2>
+<p>In der jeweiligen Ergebnisliste finden Sie eine Übersicht über die Komponente, den Komponententyp (wie 
+Journal, Paket etc.), die Kategorie der Prüfanfragen und das Erstellungsdatum. </p>
+<p>Über die Checkbox zu Beginn jeder Zeile können Sie eine oder mehrere Prüfanfragen anwählen und über den Button 
+"Schließen" den Status auf "Geschlossen" setzen. </p>
+<p>Für eine Detailsicht der Prüfanfrage wählen Sie den Link unter der Spalte "Betroffene Komponente" an.</p>
+<h3 id="detailsicht">Detailsicht</h3>
+<p>In der Detailsicht erhalten Sie verschiedene Informationen und Optionen:</p>
+<ul>
+<li><strong>Erstellt am:</strong> Das Feld zeigt das Datum der Erstellung der Prüfanfrage.</li>
+<li><strong>Status:</strong> Der Status ("Offen" oder "Geschlossen") gibt den Status der Prüfanfrage an. Wenn eine 
+  Prüfanfrage bearbeitet ist, d. h. die geprüfte Komponente von Ihnen als korrekt angesehen wird (nach 
+  einer Korrektur oder weil die Prüfanfrage keine weitere Bearbeitung erfordert), können Sie den Status 
+  auf "Geschlossen" setzen.</li>
+<li><strong>Kuratorengruppe:</strong> Es wird die verantwortliche Kuratorengruppe in diesem Feld angezeigt.</li>
+<li><strong>Durchgeführte Aktion:</strong> Dieses Feld gibt an, wie die GOKB automatisiert mit dem festgestellten Problem verfahren ist. Ist der Eintrag leer, hat die GOKB nichts unternehmen können.</li>
+<li><strong>Ursache:</strong> Dieses Feld gibt die Ursache an, die zum Öffnen der Prüfanfrage geführt hat.</li>
+<li><strong>Info-Box (To Do):</strong> Falls eine Handlung von Ihnen als Nutzer*in erforderlich ist, erhalten Sie hier eine Anleitung. Ist der Eintrag leer, diente die Prüfanfrage lediglich zu Ihrer Information. Sie können sie dann über "Anfrage abschließen" beenden.</li>
+<li><strong>Betroffene Komponente:</strong> Dieses Feld gibt die genaue Komponente an, d. h. welches Paket, welche Plattform oder welcher Anbieter für die Prüfanfrage ursächlich ist. </li>
+<li><strong>Weitere betroffene Komponenten:</strong> Gibt es weitere Komponenten neben der zuvor angegebenen, die für die Prüfanfrage ursächlich ist, so werden diese hier angezeigt. Sie können weitere Komponenten selbständig verknüpfen.</li>
+</ul>
+<p>Sie können die Prüfanfragen an dieser Stelle schließen und die Detailsicht über den Button "Aktualisieren" wieder verlassen. </p>
+<p><img alt="Detail_view_Pruefanfragen_2024_de" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/beb162ee-ae7d-407a-be09-519e401e28a9" /></p>
+<h2 id="typen-von-prufanfragen">Typen von Prüfanfragen</h2>
+<p>Hier finden Sie eine Auflistung von aktuellen Prüfanfragen. Sie können über den Titel der Prüfanfrage direkt zum 
+passenden Eintrag springen.</p>
+<ul>
+<li><a href="#namensraumkonflikt">Namensraumkonflikt</a></li>
+<li><a href="#fehlerhafter-name">Fehlerhafter Name</a></li>
+<li><a href="#identifikatoren-konflikt-beim-kbart-import">Idendifikatoren-Konflikt beim KBART-Import</a></li>
+<li><a href="#referenztitelkonflikt">Referenztitelkonflikt</a></li>
+<li><a href="#uneindeutige-titelübereinstimmung">Uneindeutige Titelübereinstimmung</a></li>
+<li><a href="#identifikatoren-konflikt-id-ergänzt">Identifikatoren-Konflikt (ID ergänzt)</a></li>
+</ul>
+<h2 id="anleitung-zur-bearbeitung-von-prufanfragen">Anleitung zur Bearbeitung von Prüfanfragen</h2>
+<p>Im Folgenden erklären wir Ihnen in einzelnen Schritten, wie Sie bestimmte Typen von Prüfanfragen bearbeiten können.</p>
+<h3 id="namensraumkonflikt">Namensraumkonflikt</h3>
+<p>Der Konflikt ist entstanden, weil der Pakettitel eine e-ISSN enthält, die einer bestehenden p-ISSN des Referenztitels entspricht, oder umgekehrt.</p>
+<p><img alt="Namensraumkonflikt_Pruefanfrage_2024_de" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/a966e8c5-326a-4fab-9ee7-d673a3059759" /></p>
+<ol>
+<li>In der Kachel wird der zu korrigierende Titel mit den enthaltenen Identifikatoren angezeigt. Durch anklicken des Kästchens in der Tabelle wählen Sie die zu löschende(n) ISSN(s) aus.</li>
+<li>Die Löschung aktivieren Sie über den Button "Titeländerungen abschicken".</li>
+<li>Um einen neuen Identifikator hinzuzufügen, klicken Sie auf den Titel. Es öffnet sich dann in einem neuen Fenster die Detailansicht.</li>
+<li>Im Anschluss klicken Sie auf den Button "Prüfanfrage abschließen".</li>
+</ol>
+<p><strong>Hinweis:</strong> Print- und Onlineversion einer Zeitschrift müssen mit eigenen ISSNs ausgezeichnet werden. Verschiedene Nachweissysteme benutzen jedoch eine ISSN fälschlich für beide Versionen. Die autorisierten ISSNs finden Sie unter <a href="https://portal.issn.org/">https://portal.issn.org/</a>.</p>
+<h3 id="fehlerhafter-name">Fehlerhafter Name</h3>
+<p>Der Konflikt ist entstanden, weil der Name des Titels fehlerhafte Zeichen enthält.</p>
+<p><img alt="Screenshot_invalid_name3_052023" src="https://user-images.githubusercontent.com/127318583/236760551-481b36d7-b309-40f6-ab86-56dfb827c092.png" /></p>
+<ol>
+<li>Klicken Sie auf das Stift-Icon in der Kachel, das hinter dem zu prüfenden Titel angezeigt wird. Sie können so direkt im Feld die fehlerhaften Zeichen im Titelnamen anpassen. Die Korrektur wird übernommen, indem Sie den Haken am Ende des Feldes aktivieren.</li>
+<li>Speichern Sie die Änderung des Titels über den Button "Titeländerungen abschicken".</li>
+<li>Überprüfen Sie ebenfalls die in der Kachel angezeigten Paket- bzw. Referenztitel. Mit einem Klick auf den Namen öffnet sich die Detailansicht in einem neuen Fenster. </li>
+<li>Die Prüfanfrage beenden Sie über den Button "Prüfunanfrage abschließen".</li>
+</ol>
+<p><strong>Hinweis:</strong> Fehlerhafte Zeichen im Titel tauchen immer dann auf, wenn KBART-Dateien eingespielt werden, die nicht UTF-8-konform sind. In der Dokumentation finden Sie eine <a href="https://gokb.org/de/documentation/kbart-editing.html">Anleitung</a>, wie man mit einem Tabellenkalkulationsprogramm Dateien in UTF-8 umwandelt und speichert. Für die korrekte Titelaufnahme kann die Verzeichnung in externen Quellen helfen.</p>
+<h3 id="identifikatoren-konflikt-beim-kbart-import">Identifikatoren-Konflikt beim KBART-Import</h3>
+<p>Der Konflikt ist entstanden, weil die GOKB zwar den KBART-Datensatz einem bestehenden Pakettitel zuordnen konnte, aber sich ein oder mehrere andere Identifikatoren unterscheiden.</p>
+<p><img alt="Screenshot_import_identifier_mismatch11052023" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/f8f4d43d-d33d-4213-b1c7-8225221c85dc" /></p>
+<ol>
+<li>Neben dem zu prüfenden Pakettitel werden Ihnen bereits bestehende Pakettitel angezeigt, die anhand übereinstimmender Identifikatoren zugeordnet werden konnten. Gleichen Sie die Pakettitel miteinander ab und achten Sie dabei auf mögliche Titel-Splits.</li>
+<li>Prüfen Sie anschließend, welcher Identifikator fehlerhaft ist und korrigieren Sie diesen im entsprechenden Datensatz in der KBART-Datei. Löschen Sie den fehlerhaften Pakettitel in der Detailansicht.</li>
+<li>Importieren Sie anschließend die korrigierte KBART-Datei neu im angelegten Paket, um den Fehler zu beheben. Alternativ markieren Sie den falschen Identifikator in der betreffenden Kachel und löschen ihn mit "Titeländerung abschicken". Bitte beachten Sie, dass die Anreicherungsdaten aus der ZDB die Daten aus der KBART-Datei überschreiben. Deshalb ist es wichtig vor einem neuen KBART-Import, die ZDB auf Konflikte hinzuweisen und korrigieren zu lassen.</li>
+<li>Klicken Sie dann den Referenztitel an, um in die Detailansicht zu gelangen und dort den korrekten Identifikator zu ergänzen.</li>
+<li>Schließen Sie die Prüfanfrage über den Button "Prüfanfrage abschließen".</li>
+</ol>
+<h3 id="referenztitelkonflikt">Referenztitelkonflikt</h3>
+<p>Der Konflikt ist entstanden, weil aufgrund eines Identifikatorenkonflikts ein neuer Referenztitel erzeugt wurde.</p>
+<p><img alt="Screenshot_identifier_conflict_1_20230515" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/0d8b3523-ba55-4e50-b6e5-6bd48d3dc549" /></p>
+<p><img alt="Screenshot_identifier_conflict_2_20230515" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/cd3c9eb6-8be6-46b4-bd9a-31bbb9543e25" /></p>
+<ol>
+<li>Gleichen Sie die Daten der beiden Referenztitel ab, um festzustellen, ob es sich um Dubletten handelt.</li>
+<li>Liegt eine Dublette vor, klicken Sie auf den Button "Ziel auswählen", um die beiden übereinstimmenden Titel zusammenzuführen.</li>
+<li>Der verbleibende Titel wird grün angezeigt, die Dublette in Rot. Ihnen wird in der rot markierten Kachel angezeigt, welche Identifikatoren "bereits verknüpft" sind (grüner Haken) und welche "nicht verknüpft" sind (rotes X). Sie können die nicht verknüpften Identifikatoren hinzufügen, indem Sie diese anklicken.</li>
+<li>Über den Button "Dublette zusammenführen" schließen Sie die Prüfanfrage ab.</li>
+</ol>
+<p><strong>Hinweis:</strong> Anstelle von Dubletten kann es sich bei ähnlichen Titeln auch um Vor- und Nachfolgetitel handeln, die dann nicht zusammengeführt werden dürfen. Auch können Identifikatoren falsch sein. Hier kann eine Überprüfung der Identifikatoren sowie des Erscheinungs- und Titelverlaufs helfen. Bei der Auswahl des korrekten Titels können die Abdeckung des Pakettitels und der Erscheinungsverlauf des Referenztitels hilfreich sein.
+Korrekte Identifikatoren können Sie nachtragen, wenn Sie über den Namen in die Bearbeitungssicht des Titels springen.</p>
+<h3 id="uneindeutige-titelubereinstimmung">Uneindeutige Titelübereinstimmung</h3>
+<p>Der Konflikt ist entstanden, weil die GOKB anhand der vorliegenden Identifikatoren keinen Referenztitel verknüpfen konnte.</p>
+<p>Schritt 1:</p>
+<p><img alt="Screenshot_ambiguous_title_matches_1_20230515" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/e109b5f7-cffc-4513-bb79-6e4fb81a0210" /></p>
+<ol>
+<li>Überprüfen Sie zunächst, ob es sich bei den beiden Titeln um Dubletten handelt. Achten Sie dabei auf mögliche Titel-Splits.</li>
+<li>Falls es sich um eine Dublette handelt, wählen Sie den Referenztitel aus, der übernommen werden soll über "Ziel auswählen" und klicken dann auf "Dublette zusammenführen", um die Titel zu verknüpfen.</li>
+<li>Handelt es sich nicht um eine Dublette, bereinigen Sie eventuelle fehlerhafte Identifikatoren, indem Sie einen Haken in der jeweiligen Kachel setzen und die Titeländerung abschicken.</li>
+<li>Über den Button "Weiter" gelangen Sie zum 2. Schritt.</li>
+</ol>
+<p>Schritt 2:</p>
+<p><img alt="Screenshot_ambiguous_title_matches_2_20230515" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/90fa3d7e-44f1-4507-9154-f7afe4ee5f48" /></p>
+<ol>
+<li>Gleichen Sie den zu prüfenden Titel mit den angezeigten Referenztiteln ab. Markieren Sie anschließend denjenigen Titel über "Ziel auswählen", den Sie verknüpfen wollen und bestätigen das. Fehlerhafte Identifikatoren können Sie auch nachträglich im Titel noch korrigieren.</li>
+<li>Gibt es mit keinem der aufgeführten Referenztitel eine Übereinstimmung, können Sie über die letzte Kachel nach einem bestehenden Titel suchen oder einen neuen erzeugen.</li>
+<li>Über den Button "Prüfanfrage abschliessen" beenden Sie die Bearbeitung.</li>
+</ol>
+<p><strong>Hinweis:</strong> Anstelle von Dubletten kann es sich bei ähnlichen Titeln auch um Vor- und Nachfolgetitel handeln, die dann nicht zusammengeführt werden dürfen. Auch können Identifikatoren falsch sein. Hier kann eine Überprüfung der Identifikatoren sowie des Erscheinungs- und Titelverlaufs helfen. Bei der Auswahl des korrekten Titels können die Abdeckung des Pakettitels und der Erscheinungsverlauf des Referenztitels hilfreich sein.
+Korrekte Identifikatoren können Sie nachtragen, wenn Sie über den Namen in die Bearbeitungssicht des Titels springen. Diese Sicht öffnet sich in einem neuen Reiter des Browsers, wenn Sie auf den Titel klicken.</p>
+<h3 id="identifikatoren-konflikt-id-erganzt">Identifikatoren-Konflikt (ID ergänzt)</h3>
+<p>Der Konflikt ist entstanden, als beim Abgleich im Referenztitel ein Identifikator ergänzt wurde, der von den vorhandenen Identifikatoren abweicht.</p>
+<ol>
+<li>Prüfen Sie die angezeigten Identifikatoren des Referenztitels auf ihre Richtigkeit.</li>
+<li>Löschen Sie falsche Identifikatoren, indem Sie die Stelle mit einem Haken markieren und dann den Button "Titeländerungen abschicken" klicken.</li>
+<li>Schließen Sie die Prüfanfrage ab.</li>
+</ol>
+<p><strong>Hinweis:</strong> Bei einem Identifikatorenkonflikt wird in der Regel ein neuer Titel angelegt. Dass wie hier lediglich eine ID ergänzt wird, tritt bei Identifikatoren auf, die nicht bei der eindeutigen Identifizierung der Ressource helfen, z. B. bei ISBNs der parallelen Druckausgabe.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Zurück zum Seitenanfang
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <ul class="footer-list md-copyright">
+  <li class="md-copyright__highlight">Copyright &copy; GOKB 2014 -</li>
+
+
+
+<li>
+  <a href="../../de/contact/imprint.html">Impressum</a>
+</li>
+<li>
+  <a href="../../de/contact/privacypolicy.html">Datenschutzerklärung</a>
+</li>
+<li>
+  <a href="../../de/accessibility.html">Barrierfreiheit</a>
+</li>
+
+
+</ul>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/GOKb1" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/openlibraryenvironment/gokb" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
