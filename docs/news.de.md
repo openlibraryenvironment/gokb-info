@@ -1,6 +1,6 @@
 # News
 
-## Ankündigung Infostunde im Januar 2025
+## Ankündigung Infostunde im Februar 2025
 *24. Januar 2025*
 
 Es geht wieder los - die nächste Infostunde wird am **03. Februar** stattfinden.
