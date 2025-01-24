@@ -5,7 +5,7 @@
 
 Es geht wieder los - die nächste Infostunde wird am **03. Februar** stattfinden.
 
-Wir werden Sie über das Paket mit den einzelnen Subskriptionszeitschriften der EZB informieren.
+Wir werden über das EZB Paket mit den einzelnen Subskriptionszeitschriften informieren.
 
 ## O du fröhliche
 *20. Dezember 2024*
