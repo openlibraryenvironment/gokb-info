@@ -1,0 +1,1683 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="create-and-edit-provider.html">
+      
+      
+        <link rel="next" href="review-requests.html">
+      
+      
+      <link rel="icon" href="../assets/favicon-48x48.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Create and edit packages - GOKB - Global Open Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#create-and-edit-packages" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="GOKB - Global Open Knowledge Base" class="md-header__button md-logo" aria-label="GOKB - Global Open Knowledge Base" data-md-component="logo">
+      
+  <img src="../assets/gokb_logo_white_250px.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GOKB - Global Open Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Create and edit packages
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="create-and-edit-packages.html" hreflang="en" class="md-select__link">
+              EN
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../de/documentation/create-and-edit-packages.html" hreflang="de" class="md-select__link">
+              DE
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../news.html" class="md-tabs__link">
+        
+  
+    
+  
+  News
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="kbart-introduction.html" class="md-tabs__link">
+          
+  
+  Documentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../presentations.html" class="md-tabs__link">
+        
+  
+    
+  
+  Presentations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../publications.html" class="md-tabs__link">
+        
+  
+    
+  
+  Publications
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../releases.html" class="md-tabs__link">
+        
+  
+    
+  
+  Releases
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../get-involved.html" class="md-tabs__link">
+        
+  
+    
+  
+  Get involved
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contact/contact.html" class="md-tabs__link">
+          
+  
+  Contact
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="GOKB - Global Open Knowledge Base" class="md-nav__button md-logo" aria-label="GOKB - Global Open Knowledge Base" data-md-component="logo">
+      
+  <img src="../assets/gokb_logo_white_250px.png" alt="logo">
+
+    </a>
+    GOKB - Global Open Knowledge Base
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../news.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    News
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-introduction.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KBART introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="registration-and-login.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registration and login
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="create-and-edit-provider.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create and edit provider
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Create and edit packages
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="create-and-edit-packages.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Create and edit packages
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#get-and-check-kbart-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Get and check KBART files
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Get and check KBART files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-validation-of-the-kbart-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Validation of the KBART file
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mandatory-fields-for-serials-e-journals-serials" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Mandatory fields for serials (e-journals, serials)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-mandatory-fields-for-monographs-e-booksaudio-and-video-streams" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Mandatory fields for monographs (e-books,audio and video streams)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Notes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searching-a-package" class="md-nav__link">
+    <span class="md-ellipsis">
+      Searching a package
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-a-package" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a package
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-general-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: General information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-package-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Package properties
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-package-titles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Package titles
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Package titles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uploading-a-kbart-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uploading a KBART file
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Uploading a KBART file">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-manual-loading-of-a-kbart-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Manual loading of a KBART file
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-automatic-loading-of-a-kbart-file-via-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Automatic loading of a KBART file via URL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#namespace-for-title_id-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Namespace for title_id values
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="review-requests.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with review requests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="guidelines-for-package-names.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guidelines for package names
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-validator.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KBART validator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-editing.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KBART editing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../presentations.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Presentations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../publications.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../releases.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Releases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../get-involved.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get involved
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Contact
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/contact.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/imprint.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imprint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/privacypolicy.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy Policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#get-and-check-kbart-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Get and check KBART files
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Get and check KBART files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-validation-of-the-kbart-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Validation of the KBART file
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mandatory-fields-for-serials-e-journals-serials" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Mandatory fields for serials (e-journals, serials)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-mandatory-fields-for-monographs-e-booksaudio-and-video-streams" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Mandatory fields for monographs (e-books,audio and video streams)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Notes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searching-a-package" class="md-nav__link">
+    <span class="md-ellipsis">
+      Searching a package
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-a-package" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a package
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-general-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: General information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-package-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Package properties
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-package-titles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Package titles
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Package titles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uploading-a-kbart-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uploading a KBART file
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Uploading a KBART file">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-manual-loading-of-a-kbart-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Manual loading of a KBART file
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-automatic-loading-of-a-kbart-file-via-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Automatic loading of a KBART file via URL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#namespace-for-title_id-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Namespace for title_id values
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="create-and-edit-packages">Create and edit packages</h1>
+<h2 id="get-and-check-kbart-files">Get and check KBART files</h2>
+<p>Package and title data are imported into GOKB from KBART files.</p>
+<p>KBART is a NISO standard for representing titles in a package of e-resources. 
+A corresponding example KBART file, which also contains GOKB-relevant extensions 
+of the standard as well as explanations of the individual KBART fields, 
+can be found here: <a href="kbart-introduction.html">KBART Introduction</a></p>
+<h3 id="1-validation-of-the-kbart-file">1. Validation of the KBART file</h3>
+<p>KBART files must comply with the KBART standard:</p>
+<ul>
+<li>The field names and contents must comply with the KBART standard or the enhanced 
+GOKB format. A list of all fields can be found <a href="kbart-introduction.html">here</a>.<ul>
+<li>All column headers must exist - even if a column has no values.</li>
+<li>The character encoding must be UTF-8.</li>
+<li>Tab as separator.</li>
+<li>Preferably alphabetical order of the titles.</li>
+<li>The file name must correspond to the standard.</li>
+</ul>
+</li>
+<li>The file must contain all current titles of the package offered by the provider, i.e.<ul>
+<li>The title scope and content must correspond to the negotiated package.</li>
+<li>The access URLs for individual titles must be correct. 
+They must also be universally valid URLs, not institution-specific URLs like proxy URLs.</li>
+<li>Each resource must be tagged with identifiers.</li>
+<li>For serial publications like journals, the coverage information (years) 
+must be correct. For example, if only volumes from 1996 onward are offered 
+in a package, this must be reflected in the appropriate columns of the KBART list.</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-mandatory-fields-for-serials-e-journals-serials">2. Mandatory fields for serials (e-journals, serials)</h3>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>KBART field</th>
+<th>Mandatory/Optional</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Publication type</td>
+<td>publication_type</td>
+<td>Mandatory</td>
+<td>Essential for distinction of E-Book and E-Journal</td>
+</tr>
+<tr>
+<td>Publication title</td>
+<td>publication_title</td>
+<td>Mandatory</td>
+<td></td>
+</tr>
+<tr>
+<td>ZDB identifier</td>
+<td>zdb_id</td>
+<td>Optional*</td>
+<td>At least one identifier must be provided</td>
+</tr>
+<tr>
+<td>Electronic ISSN</td>
+<td>online_identifier</td>
+<td>Optional*</td>
+<td>At least one identifier must be provided</td>
+</tr>
+<tr>
+<td>Print ISSN</td>
+<td>print_identifier</td>
+<td>Optional*</td>
+<td>At least one identifier must be provided</td>
+</tr>
+<tr>
+<td>Proprietary identifier used by the content provider</td>
+<td>title_id</td>
+<td>Optional*</td>
+<td>At least one identifier must be provided</td>
+</tr>
+<tr>
+<td>Coverage start</td>
+<td>date_first_issue_online</td>
+<td>Mandatory</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>num_first_vol_online</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>num_first_issue_online</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td>Coverage end</td>
+<td>date_last_issue_online</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>num_last_vol_online</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>num_last_issue_online</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td>Coverage depth (fulltext, abstracts)</td>
+<td>coverage_depth</td>
+<td>Mandatory</td>
+<td></td>
+</tr>
+<tr>
+<td>Title level URL</td>
+<td>title_url</td>
+<td>Mandatory</td>
+<td></td>
+</tr>
+<tr>
+<td>Media type</td>
+<td>medium</td>
+<td>Optional</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-mandatory-fields-for-monographs-e-booksaudio-and-video-streams">3. Mandatory fields for monographs (e-books,audio and video streams)</h3>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>KBART field</th>
+<th>Mandatory/Optional</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Publication type</td>
+<td>publication_type</td>
+<td>Mandatory</td>
+<td>Essential for distinction of E-Book and E-Journal</td>
+</tr>
+<tr>
+<td>Publication title</td>
+<td>publication_title</td>
+<td>Mandatory</td>
+<td></td>
+</tr>
+<tr>
+<td>Electronic ISBN</td>
+<td>online_identifier</td>
+<td>Optional*</td>
+<td>At least one identifier must be provided</td>
+</tr>
+<tr>
+<td>Digital Object Identifier (DOI)</td>
+<td>doi_identifier</td>
+<td>Optional*</td>
+<td>At least one identifier must be provided</td>
+</tr>
+<tr>
+<td>Proprietary identifier used by the content provider</td>
+<td>title_id</td>
+<td>Optional*</td>
+<td>At least one identifier must be provided</td>
+</tr>
+<tr>
+<td>Print ISBN</td>
+<td>print_identifier</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td>Date when monograph was published online</td>
+<td>date_monograph_published_online</td>
+<td>Mandatory</td>
+<td></td>
+</tr>
+<tr>
+<td>Volume number</td>
+<td>monograph_volume</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td>Edition number</td>
+<td>monograph_edition</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td>Series statement for a series title</td>
+<td>monograph_parent_collection_title</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td>Author</td>
+<td>first_author</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td>Editor</td>
+<td>first_editor</td>
+<td>Optional</td>
+<td></td>
+</tr>
+<tr>
+<td>Title level URL</td>
+<td>title_url</td>
+<td>Mandatory</td>
+<td></td>
+</tr>
+<tr>
+<td>Media type (journal, book, database)</td>
+<td>medium</td>
+<td>Optional</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>GOKB supports the enhancement of KBART with some proprietary fields:</p>
+<ul>
+<li>For serial publications, the ZDB id can be added to field <code>zdb_id</code>.</li>
+<li>Dates when a title is added or removed for a package can be added to <code>access_start_date</code> 
+and <code>access_end_date</code> fields. These dates are useful for obtaining the historical status 
+of a package at a particular time.</li>
+<li>For series of monographs the series statement can be added to <code>monograph_parent_collection_title</code> field.</li>
+<li>Use field <code>medium</code> for different media type.</li>
+</ul>
+<h3 id="4-notes">4. Notes</h3>
+<ul>
+<li>Make sure to import generic title lists into GOKB for each package. 
+Special, locally tailored packages (e.g. different access URL via proxy) 
+from these generic packages, should only be used in local ERM systems.</li>
+<li>For journal lists, make sure that each title has either a ZDB id, an 
+e-ISSNs, or at least a corresponding print ISSN.</li>
+<li>All titles, especially from e-book packages, should have an internal, 
+provider specific title ID (<code>title_id</code>), as other identifiers such as 
+ISBNs are often ambiguous.</li>
+</ul>
+<h2 id="searching-a-package">Searching a package</h2>
+<p>Use the "Packages" menu item on the left menu bar for the search of 
+packages. You can search or filter curatory groups, names of the packages, 
+provider identifier and status of the package. Select a package from the result 
+list and you will get a detailed view of the package. If the package is assigned to 
+your curatory group, you can edit it.</p>
+<p><img alt="GOKb search package" src="../assets/search-package.png" title="GOKb search package" /></p>
+<h2 id="create-a-package">Create a package</h2>
+<p>The creation and editing of packages is done via web forms.</p>
+<ul>
+<li>Create a new package via "Create Package".</li>
+<li>To edit an existing package, search for it via "Packages" and select the package from the result list.</li>
+</ul>
+<h2 id="step-1-general-information">Step 1: General information</h2>
+<p>Add some general information for the package like name, provider and platform.</p>
+<p><img alt="GOKb create package" src="../assets/create-package-1.png" title="GOKb create package" /></p>
+<ul>
+<li><strong>Name:</strong> The official name of the package under which it is offered according to 
+the provider. If you want to add data to an existing package, enter the exact name 
+of the package in "Search" field. See <a href="guidelines-for-package-names.html">guidelines</a> 
+for naming packages.</li>
+<li><strong>URL:</strong> Add the URL of the website of the package provider.</li>
+<li><strong>Provider:</strong> Select the provider of the package here. You can find the provider via 
+a suggestion list if you enter the name or part of the provider name in the text field. 
+See <a href="create-and-edit-provider.html">instructions</a> for creating the provider.</li>
+<li><strong>Platform:</strong> Select the platform of the package here. You can find the platform via 
+a suggestion list by entering the name or a part of the platform name or the platform 
+URL into the search fields. See <a href="create-and-edit-provider.html">instructions</a> for 
+creating a platform.</li>
+</ul>
+<p>Finish this step by selecting the "Next" button.</p>
+<h2 id="step-2-package-properties">Step 2: Package properties</h2>
+<p>Add information about the package, identifiers, name and variants.</p>
+<p><img alt="GOKb create package" src="../assets/create-package-2.png" title="GOKb create package" /></p>
+<ul>
+<li><strong>Package type (Scope):</strong> specify the package type<ul>
+<li><em>Front File:</em> a current package</li>
+<li><em>Archive package (Back File):</em> An archived package</li>
+<li><em>Aggregator package</em></li>
+<li><em>Master File:</em> A complete list of all resources offered by a provider.</li>
+</ul>
+</li>
+<li><strong>Content Type:</strong> specify the type of titles in the package<ul>
+<li><em>Book</em></li>
+<li><em>Database</em></li>
+<li><em>Journal</em></li>
+<li><em>Mixed</em></li>
+</ul>
+</li>
+<li><strong>Restriction:</strong> Define if the package is offered worldwide (Global), regionally (Regional) 
+or is specifically tailored to a consortia (Consortial) or a single institution (Local). 
+If there is a restriction like "Regional", "Consortial" or "Local", you can specify 
+this restriction in the text field. Please follow the <a href="guidelines-for-package-names.html">guidelines</a> 
+for package titles. </li>
+<li><strong>Package characteristics:</strong> Here you can specify characteristics of a package.</li>
+<li><em>Content is consistent:</em> Does the package have the same content for all licensing libraries? – <em>Yes</em> if the content is the same for every library.
+     <em>No</em> (default) if the content differs from library to library.</li>
+<li><em>Content may be split:</em> Can an individual title selection be made from the package, e.g. on the basis of pick and choose? – 
+     <em>Yes</em> if single title selection is possible. <em>No</em> (default) if single title selection is not possible.</li>
+<li><em>Content is fixed:</em> Can the content of the package change, i.e. can titles be added or removed over time? – 
+     <em>Yes</em> if the content remains fixed. <em>No</em> (default) if the content changes.</li>
+<li><strong>Identifiers:</strong> Add unique identifiers for the package. Select a "Namespace" for the 
+identifier and enter the corresponding identifier.<ul>
+<li><em>Internal identifier:</em> If the package has an identifier of the provider itself, 
+please select the namespace of the provider in the drop-down and enter the internal 
+package identifier. This is important for later referencing.</li>
+<li><em>ISIL/Package Label:</em> Official product label from the German 
+"<a href="https://sigel.staatsbibliothek-berlin.de/startseite/">ISIL agency</a>". You may find 
+it at https://sigel.staatsbibliothek-berlin.de/nc/suche/. Please be sure to include 
+the correct vendor package ISIL. The German ISIL Agency also issues ISIL for packages 
+of alliance, national or consortia licenses. You should only add one ISIL referencing the packages.</li>
+</ul>
+</li>
+<li><strong>Name variants:</strong> Abbreviations or alternative name variants. This is recommended for common 
+and well-known name variants that are not included in the official name. Name variants can be searched. Please note that the alternative name is a variant of the package name and not a variant of the provider name.</li>
+<li><strong>Editing and List Statuss:</strong> In editing mode (not in creating mode) you can change the editing and list 
+  status of the package. </li>
+<li><em>Editing Status:</em> Here you can set the status to <em>Approved</em> as soon as you have entered all necessary 
+    metadata of the package. The default value is <em>In progress</em>.</li>
+<li><em>List  Status:</em> Here you can set the status to <em>Checked</em> as soon as the package title list is correct and checked.
+    The default value is <em>In progress</em>. You can't change the list status as long as there are open review 
+    requests appending to the package. The list status is important for importing into third-party systems such as FOLIO, because packages without the status <em>Checked</em>     will not be taken over. Furthermore, after the status is changed to <em>Checked</em>, the respective date is automatically displayed in "Last list verification". This           allows users of the package to see when it was last intellectually processed.</li>
+</ul>
+<p>Finish this step by selecting the "Next" button.</p>
+<h2 id="step-3-package-titles">Step 3: Package titles</h2>
+<p>You can import a KBART file (see "Uploading a KBART file") here and add individual package titles. This view corresponds to the view of step 4 in "Edit package".</p>
+<p><img alt="GOKb create package" src="../assets/create-package-3.png" title="GOKb create package" /></p>
+<p>If you have already uploaded package titles (so if you are now in step 4 of "Edit package"), you will see an overview of all titles included in the package with the date of the last update at this point.</p>
+<p><img alt="GOKb create package" src="../assets/create-package-5.png" title="GOKb create package" /></p>
+<ul>
+<li>You can search for titles using the search field in header.</li>
+<li>You can filter titles using the "Status" selection drop-down menu, 
+e.g. only current, retired or deleted titles.</li>
+</ul>
+<p>Select a title from the list to get detailed information for it.</p>
+<p>In the title overview as well as on each step in the "Edit package" mode, the date of the creation of the package and the date of the last update to the package data are displayed at the bottom of the page. The date of the update is important for third-party systems that retrieve data based on the last update (such as via the OAI-PMH interface).</p>
+<h3 id="uploading-a-kbart-file">Uploading a KBART file</h3>
+<p>Uploading package title via KBART files can be very time consuming. Therefore, 
+you will not see the result in real time. After selecting the KBART file or setting 
+the automatic import, finish editing the package. You will be informed about the titles 
+import status via the "Dashboard".</p>
+<h4 id="1-manual-loading-of-a-kbart-file">1. Manual loading of a KBART file</h4>
+<p>You can load a KBART file by selecting the "KBART Import" button. A pop-up window opens, 
+please enter:</p>
+<p><img alt="KBART_Import_Dialogue_Box_EN" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/0cd7e688-dcce-43c8-bc4e-fd6a3c637f34" /></p>
+<ul>
+<li><strong>File:</strong> Select a KBART file from your hard disk.</li>
+<li><strong>Namespace for <code>title_id</code>:</strong> Please select the namespace of the identifier, see <a href="create-and-edit-packages.html">instruction</a>.</li>
+</ul>
+<p>In addition, you can choose between various import options:</p>
+<ul>
+<li><strong>Partial Update:</strong> If you check this box only titles from the new KBART file will be added to the existing package.</li>
+<li><strong>Delete removed titles:</strong> If you check this box package titles that are no longer included in the new KBART file will be marked as
+  "deleted" in the existing package.</li>
+<li><strong>Dry Run:</strong> If you check this box, the KBART file will only be processed as a test run.</li>
+</ul>
+<p>The two options Partial Update and Delete removed titles are related to each other as follows:</p>
+<ul>
+<li><strong>Partial Update</strong> = <em>no</em>, <strong>Delete removed titles</strong> = <em>no</em> &gt; The status of the currently available package titles that are not contained in the KBART file is set to "retired".</li>
+<li><strong>Partial Update</strong> = <em>no</em>, <strong>Delete removed titles</strong> = <em>yes</em> &gt; The status of the currently existing package titles that are not contained in the KBART file is set to "deleted".</li>
+</ul>
+<p>If you select <strong>Partial Update</strong>, the option <strong>Delete removed titles</strong> is ignored. It therefore makes no sense to link the two options:</p>
+<ul>
+<li><strong>Partial Update</strong> = <em>yes</em>, <strong>Delete removed titles</strong> = <em>no</em> &gt; The status of the currently existing package titles is not changed. Only the titles from the KBART file are added.</li>
+<li><strong>Partial Update</strong> = <em>yes</em>, <strong>Delete removed titles</strong> = <em>yes</em> &gt; The status of the currently existing package titles is not changed. Only the titles from the KBART file are added.</li>
+</ul>
+<p>After uploading the file you will get statistics on validation errors. If necessary the KBART file has to be 
+corrected manually and reloaded.</p>
+<h4 id="2-automatic-loading-of-a-kbart-file-via-url">2. Automatic loading of a KBART file via URL</h4>
+<ul>
+<li><strong>URL:</strong> URL of the KBART file. The URL must link directly to the KBART file. If the 
+URL contains dates (e.g., http://example.org/kbart/examplepackage_2020-10-01.txt), 
+you must add the path parameter as variables (http://example.org/kbart/examplepackage_{YYYY-MM-DD}.txt). The variables 
+have to be capitals, lower case letters won't work:<ul>
+<li>"Y" for the digits of the year</li>
+<li>"M" for the digits of the month number</li>
+<li>"D" for the digits of the day number</li>
+</ul>
+</li>
+<li><strong>Namespace:</strong> Please select the namespace of the identifier, see <a href="create-and-edit-packages.html">instruction</a>.</li>
+<li><strong>Update cycle:</strong> The timespan package for updates.</li>
+</ul>
+<h4 id="namespace-for-title_id-values">Namespace for <code>title_id</code> values</h4>
+<p>KBART allows different identifiers for <code>title_id</code> column. Select the corresponding namespace for the KBART 
+file. For updates of the package this is important, please specify the correct namespace.</p>
+<h2 id="step-4-summary">Step 4: Summary</h2>
+<p>Summary of the selected settings. Your selected curatory group will be added automatically. </p>
+<p><img alt="GOKb create package" src="../assets/create-package-4.png" title="GOKb create package" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <ul class="footer-list md-copyright">
+  <li class="md-copyright__highlight">Copyright &copy; GOKB 2014 -</li>
+
+
+
+<li>
+  <a href="../contact/imprint.html">Imprint</a>
+</li>
+<li>
+  <a href="../contact/privacypolicy.html">Privacy Policy</a>
+</li>
+<li>
+  <a href="../accessibility.html">Accessibility</a>
+</li>
+
+
+</ul>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/GOKb1" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/openlibraryenvironment/gokb" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>

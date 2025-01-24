@@ -1,0 +1,1396 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="create-and-edit-packages.html">
+      
+      
+        <link rel="next" href="guidelines-for-package-names.html">
+      
+      
+      <link rel="icon" href="../assets/favicon-48x48.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Working with review requests - GOKB - Global Open Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#working-with-review-requests" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="GOKB - Global Open Knowledge Base" class="md-header__button md-logo" aria-label="GOKB - Global Open Knowledge Base" data-md-component="logo">
+      
+  <img src="../assets/gokb_logo_white_250px.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GOKB - Global Open Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Working with review requests
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="review-requests.html" hreflang="en" class="md-select__link">
+              EN
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../de/documentation/review-requests.html" hreflang="de" class="md-select__link">
+              DE
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../news.html" class="md-tabs__link">
+        
+  
+    
+  
+  News
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="kbart-introduction.html" class="md-tabs__link">
+          
+  
+  Documentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../presentations.html" class="md-tabs__link">
+        
+  
+    
+  
+  Presentations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../publications.html" class="md-tabs__link">
+        
+  
+    
+  
+  Publications
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../releases.html" class="md-tabs__link">
+        
+  
+    
+  
+  Releases
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../get-involved.html" class="md-tabs__link">
+        
+  
+    
+  
+  Get involved
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../contact/contact.html" class="md-tabs__link">
+          
+  
+  Contact
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="GOKB - Global Open Knowledge Base" class="md-nav__button md-logo" aria-label="GOKB - Global Open Knowledge Base" data-md-component="logo">
+      
+  <img src="../assets/gokb_logo_white_250px.png" alt="logo">
+
+    </a>
+    GOKB - Global Open Knowledge Base
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../news.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    News
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-introduction.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KBART introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="registration-and-login.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registration and login
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="create-and-edit-provider.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create and edit provider
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="create-and-edit-packages.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create and edit packages
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Working with review requests
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="review-requests.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Working with review requests
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#find-review-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find review requests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Find review requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dashboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#package-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Package view
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#review-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review view
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view-and-edit-review-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      View and edit review requests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="View and edit review requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detail-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detail view
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-review-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Types of review requests
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#handling-guide-for-review-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Handling guide for review requests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Handling guide for review requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#issn-conflict" class="md-nav__link">
+    <span class="md-ellipsis">
+      ISSN Conflict
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invalid-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      Invalid Name
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-identifier-mismatch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import Identifier Mismatch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reference-title-conflict" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference Title Conflict
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambiguous-title-matches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ambiguous Title Matches
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secondary-identifier-conflict" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secondary Identifier Conflict
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="guidelines-for-package-names.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guidelines for package names
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-validator.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KBART validator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kbart-editing.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KBART editing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../presentations.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Presentations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../publications.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../releases.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Releases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../get-involved.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get involved
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Contact
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/contact.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/imprint.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imprint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/privacypolicy.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy Policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#find-review-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find review requests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Find review requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dashboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#package-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Package view
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#review-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review view
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view-and-edit-review-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      View and edit review requests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="View and edit review requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detail-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detail view
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-review-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Types of review requests
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#handling-guide-for-review-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Handling guide for review requests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Handling guide for review requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#issn-conflict" class="md-nav__link">
+    <span class="md-ellipsis">
+      ISSN Conflict
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invalid-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      Invalid Name
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-identifier-mismatch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import Identifier Mismatch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reference-title-conflict" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference Title Conflict
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ambiguous-title-matches" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ambiguous Title Matches
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secondary-identifier-conflict" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secondary Identifier Conflict
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="working-with-review-requests">Working with Review Requests</h1>
+<p>Review requests are central workflow components of the GOKB. Review requests inform you whether errors occurred during processing or import of components or whether possible inconsistencies were discovered. Simple information and feedback is also reported back to you in the form of review requests.</p>
+<p>The aim of each curatory group should be to view, edit if necessary, and close all review requests related to a package submission. In doing so, it should be noted:</p>
+<ul>
+<li>Processing a review request requires - depending on the type - processing of the respective component. The review request must then be closed manually.</li>
+<li>Many review requests are for information only and can be closed without processing.</li>
+<li>The GOKB reacts very sensitively to possible inconsistencies in the data. If necessary, review requests can be opened by the system, which only supposedly describe an error, although everything is correct. These can be closed after checking.</li>
+</ul>
+<h2 id="find-review-requests">Find review requests</h2>
+<p>There are three ways to find review requests in the GOKB.</p>
+<ul>
+<li>In the Dashboard</li>
+<li>In the Package view</li>
+<li>In the Review view</li>
+</ul>
+<h3 id="dashboard">Dashboard</h3>
+<p>The dashboard displays all review requests associated with the selected curatory group.</p>
+<p><img alt="Screenshot_view_dashboard_en_062023" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/b0aa713c-9c56-4983-89a3-78d33507660f" /></p>
+<h3 id="package-view">Package view</h3>
+<p>The "Summary" tab in the package view lists all reviews that belong to the currently selected package. This includes reviews that relate to the package as a whole or individual package titles, as well as reviews for the linked reference titles. You can switch the display of the respective reviews using the button. A list of results then appears, from which you can access the full view for processing or close selected reviews directly.</p>
+<p><img alt="Screenshot_package_view_review_quest_referencetitles_2024_en" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/9985cfd1-0cfb-4f93-8114-96b5e1cc17e8" /></p>
+<p>By processing the linked reference titles, you can directly recognize whether these titles contain duplicates or incorrect identifiers, for example, and correct them yourself or report them to the relevant curatory group. This has the advantage that correct reference data is processed in the ERM systems in addition to the corrected package data.</p>
+<h3 id="review-view">Review view</h3>
+<p>You can access the review request view via the menu. Here you can find all review requests and filter them by the following criteria:</p>
+<ul>
+<li><strong>Cause</strong> - A free text field</li>
+<li><strong>Curatory Group</strong> - Selection of the curatory group to which the review request is assigned.</li>
+<li><strong>Component to review</strong> - A selection field in which all components (providers, packages, titles, etc.) are searchable.</li>
+<li><strong>Category</strong> - A selection of review request categories. An overview of the categories can be found below.</li>
+<li><strong>Status</strong> - A selection of the review request status (Open, Closed, Deleted).</li>
+</ul>
+<p><img alt="Screenshot_view_reviews_en_062023" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/0d348480-b4fc-4bae-8338-0b0e475e98ed" /></p>
+<h2 id="view-and-edit-review-requests">View and edit review requests</h2>
+<p>In the respective result list you will find an overview of the component to review, the component type (such as journal, package, etc.), the category and the creation date.</p>
+<p>You can use the checkbox at the beginning of each line to select one or more review requests and use the "Close" button to set the status to "Closed".</p>
+<p>For a detail view of the review request, select the link under the column „Component to review“.</p>
+<h3 id="detail-view">Detail view</h3>
+<p>In the detail view you get various information and options:</p>
+<ul>
+<li><strong>Date Created:</strong> The field shows the date when the review request was created.</li>
+<li><strong>Status:</strong> The status ("Open" or "Closed") indicates the status of the review request. When a review request is processed, i.e. the reviewed component is considered correct by you (after a correction or because the review request does not require further processing), you can set the status to "Closed".</li>
+<li><strong>Curatory Groups:</strong> The responsible curatory groups are displayed in this field.</li>
+<li><strong>Action Taken:</strong> This field indicates how the GOKB has automatically dealt with the identified problem. If the entry is empty, the GOKB was unable to take any action.</li>
+<li><strong>Cause:</strong> This field specifies the cause that resulted the review request being opened.</li>
+<li><strong>Blue Info Box (To Do):</strong> If an action is required from you as a user, you will receive instructions here. If the entry is empty, the review request was for your information only. You can then close it by clicking "Mark Finished".</li>
+<li><strong>Component to review:</strong> This field specifies the exact component, i.e., which package, platform, or provider is the cause of the review request.</li>
+<li><strong>Other Components to review:</strong> If there are other components besides the one previously specified that are causal for the review request, they are displayed here. You can link further components independently.</li>
+</ul>
+<p>You can close the review requests at this point and exit the detail view by clicking the "Refresh" button.</p>
+<p><img alt="Screenshot_reviews_detail_view_refresh_en_062023" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/291db63c-07d7-4fe5-a034-6449424b7e82" /></p>
+<h2 id="types-of-review-requests">Types of review requests</h2>
+<p>Here you will find a list of current review requests. You can jump directly to the appropriate entry via the review request type.</p>
+<ul>
+<li><a href="#issn-conflict">ISSN Conflict</a></li>
+<li><a href="#invalid-name">Invalid Name</a></li>
+<li><a href="#import-identifier-mismatch">Import Identifier Mismatch</a></li>
+<li><a href="#reference-title-conflict">Reference Title Conflict</a></li>
+<li><a href="#ambiguous-title-matches">Ambiguous Title Matches</a></li>
+<li><a href="#secondary-identifier-conflict">Secondary Identifier Conflict</a></li>
+</ul>
+<h2 id="handling-guide-for-review-requests">Handling guide for review requests</h2>
+<p>In the following, we explain in individual steps how to process certain types of review requests.</p>
+<h3 id="issn-conflict">ISSN Conflict</h3>
+<p>The conflict has arisen because the package title contains an e-ISSN that corresponds to an existing p-ISSN of the reference title, or the other way.</p>
+<p><img alt="Screenshot_ISSN_Konflikt_en_062023" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/495a950b-6fa6-43da-9537-ba2f3f5ab33a" /></p>
+<ol>
+<li>The tiles display the components to be corrected with the identifiers they contain. By clicking on the box in the table, you select the ISSN(s) to be deleted.</li>
+<li>You activate the deletion via the button "Confirm Title Changes".</li>
+<li>To add a new identifier, click on the relevant title. The detailed view will then open in a new window.</li>
+<li>Afterwards, click on the button "Mark Finished".</li>
+</ol>
+<p><strong>Notes:</strong> Print and online versions of a journal must be labelled with their own ISSNs. However, various reference systems use one ISSN incorrectly for both versions. The authorised ISSNs can be found at <a href="https://portal.issn.org/">https://portal.issn.org/</a>.</p>
+<h3 id="invalid-name">Invalid Name</h3>
+<p>The conflict arose because the name of the title contains incorrect characters.</p>
+<p><img alt="Screenshot_invalid_name_en_062023" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/13998e40-c440-4fc2-87e5-bea15a408130" /></p>
+<ol>
+<li>Click on the pencil icon in the tile that is displayed behind the title to be checked. This allows you to adjust the incorrect characters in the title name directly in the field. The correction is applied by activating the check mark at the end of the field.</li>
+<li>Save the change of the title via the button "Confirm title changes".</li>
+<li>Also check the package or reference titles displayed in the tile. Click on the name to open the detailed view in a new window.</li>
+<li>You can end the check request by clicking on the button "Mark Finished".</li>
+</ol>
+<p><strong>Notes:</strong> Incorrect characters in the title always appear when KBART files are imported that are not UTF-8 compliant. For correct title recording, indexing in external sources can help.</p>
+<h3 id="import-identifier-mismatch">Import Identifier Mismatch</h3>
+<p>The conflict arose because although the GOKB was able to match the KBART record to an existing package title, one or more other identifiers differed.</p>
+<p><img alt="Screenshot_import_identifier_mismatch_en_62023" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/2796d68e-ef99-4288-be72-7e29e6b3baff" /></p>
+<ol>
+<li>Next to the package title to be checked, you will see existing package titles that could be assigned on the basis of matching identifiers. Match the package titles with each other and pay attention to possible title splits.</li>
+<li>Then check which identifier is incorrect and correct it in the corresponding record in the KBART file. Delete the incorrect package title in the detail view.</li>
+<li>Then re-import the corrected KBART file in the created package to correct the error. Alternatively, mark the wrong identifier in the relevant tile and delete it with "Confirm title change". Please note that the data from the KBART file will be overwritten by the data enrichment from the ZDB. It is therefore important to inform the ZDB about conflicts before a new KBART import and to have them corrected.</li>
+<li>Then click on the reference title to go to the detail view and add the correct identifier there.</li>
+<li>Close the check request via the button "Mark Finished".</li>
+</ol>
+<h3 id="reference-title-conflict">Reference Title Conflict</h3>
+<p>The conflict arose because a new reference title was created due to an identifier conflict.</p>
+<p><img alt="Screenshot_reference_title_conflict_1_en_20230515" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/15cd91e6-9f25-4748-8574-1cce625d7746" /></p>
+<p><img alt="Screenshot_reference_title_conflict_2_en_062023" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/4610c39a-c5a9-44ca-8bb9-9cba313d540e" /></p>
+<ol>
+<li>Match the data of the two reference titles to see if they are duplicates.</li>
+<li>If there is a duplicate, click the "Select Target" button to merge the two matching titles.</li>
+<li>The remaining title is displayed in green, the duplicate in red. You are shown in the tile marked in red which identifiers are "already linked" (green tick) and which are "not linked" (red x). You can add the unlinked identifiers by clicking on them.</li>
+<li>Use the "Merge duplicate" button to complete the check request.</li>
+</ol>
+<p><strong>Notes:</strong> Instead of duplicates, similar titles may also be previous and subsequent titles, which may then not be merged. Identifiers can also be incorrect. In this case, a check of the identifiers as well as the publication and title history can help. When selecting the correct title, the coverage of the package title and the publication history of the reference title can be helpful. Correct identifiers can be added if you jump to the editing view of the title via the name.</p>
+<h3 id="ambiguous-title-matches">Ambiguous Title Matches</h3>
+<p>The conflict arose because the GOKB could not link a reference title based on the available identifiers.</p>
+<p>Step 1:</p>
+<p><img alt="Screenshot_ambiguous_title_matches_1_en_062023" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/643517be-52c8-4a29-b53a-24b79f2bfe08" /></p>
+<ol>
+<li>First check whether the two titles are duplicates. Pay attention to possible title splits.</li>
+<li>If it is a duplicate, select the reference title to be transferred via "Select target" and then click "Merge duplicate" to link the titles.</li>
+<li>If it is not a duplicate, clean up any incorrect identifiers by placing a check mark in the relevant tile and submitting the title change.</li>
+<li>The "Next" button takes you to the 2nd step.</li>
+</ol>
+<p>Step 2:</p>
+<p><img alt="Screenshot_ambiguous_title_matches_2_en_062023" src="https://github.com/openlibraryenvironment/gokb-info/assets/127318583/d3c9de2f-eef9-4487-a4cf-5aa9a73f77d5" /></p>
+<ol>
+<li>Match the title to be checked with the displayed reference titles. Then select the title you want to link via "Select target" and confirm this. Incorrect identifiers can also be corrected later in the title.</li>
+<li>If there is no match with any of the listed reference titles, you can search for an existing title or create a new one via the last tile.</li>
+<li>Use the "Close check request" button to end the processing.</li>
+</ol>
+<p><strong>Notes:</strong> Instead of duplicates, similar titles may also be previous and subsequent titles, which may then not be merged. Identifiers can also be incorrect. In this case, a check of the identifiers as well as the publication and title history can help. When selecting the correct title, the coverage of the package title and the publication history of the reference title can be helpful. Correct identifiers can be added if you jump to the editing view of the title via the name. This view opens in a new tab of the browser when you click on the title.</p>
+<h3 id="secondary-identifier-conflict">Secondary Identifier Conflict</h3>
+<p>The conflict arose when an identifier was added to the reference title during matching that differed from the existing identifiers.</p>
+<ol>
+<li>Check the displayed identifiers of the reference title for correctness.</li>
+<li>Delete incorrect identifiers by marking them with a check mark and then clicking the "Confirm title changes" button.</li>
+<li>Then close the review request.</li>
+</ol>
+<p><strong>Notes:</strong> In case of an identifier conflict, a new title is usually created. The fact that only an ID is added, as is the case here, occurs with identifiers that do not help to uniquely identify the resource, e.g. ISBNs of the parallel print edition.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <ul class="footer-list md-copyright">
+  <li class="md-copyright__highlight">Copyright &copy; GOKB 2014 -</li>
+
+
+
+<li>
+  <a href="../contact/imprint.html">Imprint</a>
+</li>
+<li>
+  <a href="../contact/privacypolicy.html">Privacy Policy</a>
+</li>
+<li>
+  <a href="../accessibility.html">Accessibility</a>
+</li>
+
+
+</ul>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/GOKb1" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/openlibraryenvironment/gokb" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
